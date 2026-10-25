@@ -1,0 +1,14 @@
+{
+ "epoch": 1792491973.459754,
+ "python": "3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:11:29) [Clang 20.1.8 ]",
+ "executable": "/opt/anaconda3/bin/python3",
+ "files": {
+  "netguard.py": "26268f84acf4eca2dc623c803e9b02242a35751e127d2f73b95f274092af1164",
+  "common.py": "ca08dd61339c9999e1ba48759a99af35db1833b5cb85130b26ac2d79aa007b2c",
+  "lg_adapter.py": "8ad76454137addac17a9f1d4bbd19df26f4dd2deb9529b0c6615886ace13df2b",
+  "backends.py": "4a7f11d2d36fbdaff05d8c796bc7a97c86d5d70152a75a1b7bfb2fc0f9a90c23",
+  "binding.py": "b4c2a3b7dc91bc45346ca254027956c54e258b06489fb6238145cbecbd018fe1",
+  "tests/test_v3_adapter.py": "9c32b577aa242b1b098ffdd3399939b8c57c2ae9a60777aed53c1cbf5fd1fdd4",
+  "run_v3e.py": "c064593099d41fea9e530093b348582e4f330653cfc28ee7142897aae489b2a2"
+ }
+}

@@ -1,0 +1,49 @@
+2026-10-20 12:24:10.855 | ERROR    | swarm.graph.node:execute:141 - Node DemoNode failed to execute due to: ArmModelFailure: length
+2026-10-20 12:24:10.856 | ERROR    | swarm.graph.node:execute:141 - Node DemoNode failed to execute due to: RuntimeError: arm stopped after earlier failure; node blocked before sender
+2026-10-20 12:24:10.856 | ERROR    | swarm.graph.node:execute:141 - Node DemoNode failed to execute due to: RuntimeError: arm stopped after earlier failure; node blocked before sender
+2026-10-20 12:24:10.856 | ERROR    | swarm.graph.node:execute:141 - Node DemoNode failed to execute due to: RuntimeError: arm stopped after earlier failure; node blocked before sender
+2026-10-20 12:24:10.861 | ERROR    | swarm.graph.node:execute:141 - Node DemoNode failed to execute due to: ArmModelFailure: length
+2026-10-20 12:24:10.861 | ERROR    | swarm.graph.node:execute:141 - Node DemoNode failed to execute due to: RuntimeError: arm stopped after earlier failure; node blocked before sender
+2026-10-20 12:24:10.861 | ERROR    | swarm.graph.node:execute:141 - Node DemoNode failed to execute due to: RuntimeError: arm stopped after earlier failure; node blocked before sender
+2026-10-20 12:24:10.861 | ERROR    | swarm.graph.node:execute:141 - Node DemoNode failed to execute due to: RuntimeError: arm stopped after earlier failure; node blocked before sender
+2026-10-20 12:24:10.861 | ERROR    | swarm.graph.node:execute:141 - Node DemoNode failed to execute due to: RuntimeError: arm stopped after earlier failure; node blocked before sender
+2026-10-20 12:24:10.861 | ERROR    | swarm.graph.node:execute:141 - Node DemoNode failed to execute due to: RuntimeError: arm stopped after earlier failure; node blocked before sender
+2026-10-20 12:24:10.862 | ERROR    | swarm.graph.node:execute:141 - Node DemoNode failed to execute due to: RuntimeError: arm stopped after earlier failure; node blocked before sender
+2026-10-20 12:24:10.862 | ERROR    | swarm.graph.node:execute:141 - Node DemoNode failed to execute due to: RuntimeError: arm stopped after earlier failure; node blocked before sender
+2026-10-20 12:24:12.996 | ERROR    | swarm.graph.node:execute:141 - Node DemoNode failed to execute due to: ArmModelFailure: length
+2026-10-20 12:24:12.996 | ERROR    | swarm.graph.node:execute:141 - Node DemoNode failed to execute due to: RuntimeError: arm stopped after earlier failure; node blocked before sender
+2026-10-20 12:24:12.996 | ERROR    | swarm.graph.node:execute:141 - Node DemoNode failed to execute due to: RuntimeError: arm stopped after earlier failure; node blocked before sender
+2026-10-20 12:24:12.996 | ERROR    | swarm.graph.node:execute:141 - Node DemoNode failed to execute due to: RuntimeError: arm stopped after earlier failure; node blocked before sender
+2026-10-20 12:24:13.100 | ERROR    | swarm.graph.node:execute:141 - Node DemoNode failed to execute due to: ArmModelFailure: length
+2026-10-20 12:24:13.100 | ERROR    | swarm.graph.node:execute:141 - Node DemoNode failed to execute due to: RuntimeError: arm stopped after earlier failure; node blocked before sender
+2026-10-20 12:24:13.100 | ERROR    | swarm.graph.node:execute:141 - Node DemoNode failed to execute due to: RuntimeError: arm stopped after earlier failure; node blocked before sender
+2026-10-20 12:24:13.100 | ERROR    | swarm.graph.node:execute:141 - Node DemoNode failed to execute due to: RuntimeError: arm stopped after earlier failure; node blocked before sender
+2026-10-20 12:24:13.105 | ERROR    | swarm.graph.node:execute:141 - Node DemoNode failed to execute due to: ArmModelFailure: length
+2026-10-20 12:24:13.105 | ERROR    | swarm.graph.node:execute:141 - Node DemoNode failed to execute due to: RuntimeError: arm stopped after earlier failure; node blocked before sender
+2026-10-20 12:24:13.106 | ERROR    | swarm.graph.node:execute:141 - Node DemoNode failed to execute due to: RuntimeError: arm stopped after earlier failure; node blocked before sender
+2026-10-20 12:24:13.106 | ERROR    | swarm.graph.node:execute:141 - Node DemoNode failed to execute due to: RuntimeError: arm stopped after earlier failure; node blocked before sender
+2026-10-20 12:24:13.106 | ERROR    | swarm.graph.node:execute:141 - Node DemoNode failed to execute due to: RuntimeError: arm stopped after earlier failure; node blocked before sender
+2026-10-20 12:24:13.106 | ERROR    | swarm.graph.node:execute:141 - Node DemoNode failed to execute due to: RuntimeError: arm stopped after earlier failure; node blocked before sender
+2026-10-20 12:24:13.106 | ERROR    | swarm.graph.node:execute:141 - Node DemoNode failed to execute due to: RuntimeError: arm stopped after earlier failure; node blocked before sender
+2026-10-20 12:24:13.106 | ERROR    | swarm.graph.node:execute:141 - Node DemoNode failed to execute due to: RuntimeError: arm stopped after earlier failure; node blocked before sender
+2026-10-20 12:24:13.316 | ERROR    | swarm.graph.node:execute:141 - Node DemoNode failed to execute due to: ArmModelFailure: length
+2026-10-20 12:24:13.316 | ERROR    | swarm.graph.node:execute:141 - Node DemoNode failed to execute due to: RuntimeError: arm stopped after earlier failure; node blocked before sender
+2026-10-20 12:24:13.317 | ERROR    | swarm.graph.node:execute:141 - Node DemoNode failed to execute due to: RuntimeError: arm stopped after earlier failure; node blocked before sender
+2026-10-20 12:24:13.317 | ERROR    | swarm.graph.node:execute:141 - Node DemoNode failed to execute due to: RuntimeError: arm stopped after earlier failure; node blocked before sender
+2026-10-20 12:24:13.322 | ERROR    | swarm.graph.node:execute:141 - Node DemoNode failed to execute due to: ArmModelFailure: length
+2026-10-20 12:24:13.322 | ERROR    | swarm.graph.node:execute:141 - Node DemoNode failed to execute due to: RuntimeError: arm stopped after earlier failure; node blocked before sender
+2026-10-20 12:24:13.322 | ERROR    | swarm.graph.node:execute:141 - Node DemoNode failed to execute due to: RuntimeError: arm stopped after earlier failure; node blocked before sender
+2026-10-20 12:24:13.322 | ERROR    | swarm.graph.node:execute:141 - Node DemoNode failed to execute due to: RuntimeError: arm stopped after earlier failure; node blocked before sender
+2026-10-20 12:24:13.322 | ERROR    | swarm.graph.node:execute:141 - Node DemoNode failed to execute due to: RuntimeError: arm stopped after earlier failure; node blocked before sender
+2026-10-20 12:24:13.323 | ERROR    | swarm.graph.node:execute:141 - Node DemoNode failed to execute due to: RuntimeError: arm stopped after earlier failure; node blocked before sender
+2026-10-20 12:24:13.323 | ERROR    | swarm.graph.node:execute:141 - Node DemoNode failed to execute due to: RuntimeError: arm stopped after earlier failure; node blocked before sender
+2026-10-20 12:24:13.323 | ERROR    | swarm.graph.node:execute:141 - Node DemoNode failed to execute due to: RuntimeError: arm stopped after earlier failure; node blocked before sender
+2026-10-20 12:24:14.140 | ERROR    | swarm.graph.node:execute:141 - Node DemoNode failed to execute due to: ArmModelFailure: length
+2026-10-20 12:24:14.140 | ERROR    | swarm.graph.node:execute:141 - Node DemoNode failed to execute due to: RuntimeError: arm stopped after earlier failure; node blocked before sender
+2026-10-20 12:24:14.140 | ERROR    | swarm.graph.node:execute:141 - Node DemoNode failed to execute due to: RuntimeError: arm stopped after earlier failure; node blocked before sender
+2026-10-20 12:24:14.140 | ERROR    | swarm.graph.node:execute:141 - Node DemoNode failed to execute due to: RuntimeError: arm stopped after earlier failure; node blocked before sender
+2026-10-20 12:24:14.141 | ERROR    | swarm.graph.node:execute:141 - Node DemoNode failed to execute due to: RuntimeError: arm stopped after earlier failure; node blocked before sender
+2026-10-20 12:24:14.141 | ERROR    | swarm.graph.node:execute:141 - Node DemoNode failed to execute due to: RuntimeError: arm stopped after earlier failure; node blocked before sender
+2026-10-20 12:24:14.141 | ERROR    | swarm.graph.node:execute:141 - Node DemoNode failed to execute due to: RuntimeError: arm stopped after earlier failure; node blocked before sender
+2026-10-20 12:24:14.141 | ERROR    | swarm.graph.node:execute:141 - Node DemoNode failed to execute due to: RuntimeError: arm stopped after earlier failure; node blocked before sender
+{"blocks": 100, "fully_identical": 100, "errors": 0, "not_identical": 0, "network_calls": 0}

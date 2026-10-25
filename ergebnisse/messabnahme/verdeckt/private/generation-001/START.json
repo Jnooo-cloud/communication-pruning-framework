@@ -1,0 +1,8 @@
+{
+  "source_manifest_sha256": "c272222f91bdbf85e27f45f49ef1977f9bbe75e281e261dd0777940e6ef5bce5",
+  "seed": 3709202613,
+  "cases": 12,
+  "overhead_pairs": 20,
+  "network_disabled_in_process": true,
+  "role": "informed creator, not blind reviewer"
+}

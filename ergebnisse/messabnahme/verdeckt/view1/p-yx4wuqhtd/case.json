@@ -1,0 +1,41 @@
+{
+  "case_id": "p-yx4wuqhtd",
+  "expected_config": {
+    "config_id": "bank-p-yx4wuqhtd",
+    "roles": [
+      "evidence",
+      "linking",
+      "draft"
+    ],
+    "edges": [
+      [
+        "evidence",
+        "linking"
+      ],
+      [
+        "linking",
+        "draft"
+      ],
+      [
+        "draft",
+        "evidence"
+      ]
+    ]
+  },
+  "rounds": 2,
+  "failed_role": null,
+  "output_limits": {
+    "producer": 1024,
+    "aggregator": 128
+  },
+  "failure_policy": "F-01/v1",
+  "claimed": {
+    "status": "completed",
+    "answer": "p-yx4wuqhtd|aggregator|3|amber",
+    "measurement_complete": true,
+    "started_attempts": 3,
+    "calls": 2,
+    "known_cost_subtotal_usd": "0.0003274",
+    "total_cost_usd": "0.0003274"
+  }
+}

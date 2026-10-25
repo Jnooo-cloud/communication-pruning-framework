@@ -1,0 +1,39 @@
+[
+  {
+    "id": "r01",
+    "status": "supported_known",
+    "cost_usd": "0.0001701"
+  },
+  {
+    "id": "r02",
+    "status": "supported_known",
+    "cost_usd": "0.0001747"
+  },
+  {
+    "id": "r03",
+    "status": "supported_known",
+    "cost_usd": "0.0001701"
+  },
+  {
+    "id": "r04",
+    "status": "supported_known",
+    "cost_usd": "0"
+  },
+  {
+    "id": "r05",
+    "status": "no_model_call",
+    "cost_usd": "0",
+    "limit": "Local CPU time is not monetized as model USD."
+  },
+  {
+    "id": "r06",
+    "status": "known_aggregate_preserved",
+    "cost_usd": "0.00009",
+    "limit": "No separate cache field or independently checked cache tariff. No real provider evidence."
+  },
+  {
+    "id": "r07",
+    "status": "not_separately_supported",
+    "cost_usd": null
+  }
+]

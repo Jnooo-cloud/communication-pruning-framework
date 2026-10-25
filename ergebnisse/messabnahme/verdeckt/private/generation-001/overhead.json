@@ -1,0 +1,371 @@
+{
+  "paired_repetitions": 20,
+  "results": [
+    {
+      "pair": 1,
+      "order": [
+        "without",
+        "with"
+      ],
+      "measurements": {
+        "without": {
+          "wall_ns": 241375,
+          "journal_bytes": 0
+        },
+        "with": {
+          "wall_ns": 1351834,
+          "journal_bytes": 9154
+        }
+      },
+      "difference_ns": 1110459
+    },
+    {
+      "pair": 2,
+      "order": [
+        "with",
+        "without"
+      ],
+      "measurements": {
+        "with": {
+          "wall_ns": 1355708,
+          "journal_bytes": 9154
+        },
+        "without": {
+          "wall_ns": 236958,
+          "journal_bytes": 0
+        }
+      },
+      "difference_ns": 1118750
+    },
+    {
+      "pair": 3,
+      "order": [
+        "without",
+        "with"
+      ],
+      "measurements": {
+        "without": {
+          "wall_ns": 215000,
+          "journal_bytes": 0
+        },
+        "with": {
+          "wall_ns": 1274792,
+          "journal_bytes": 9154
+        }
+      },
+      "difference_ns": 1059792
+    },
+    {
+      "pair": 4,
+      "order": [
+        "with",
+        "without"
+      ],
+      "measurements": {
+        "with": {
+          "wall_ns": 1480750,
+          "journal_bytes": 9154
+        },
+        "without": {
+          "wall_ns": 243375,
+          "journal_bytes": 0
+        }
+      },
+      "difference_ns": 1237375
+    },
+    {
+      "pair": 5,
+      "order": [
+        "without",
+        "with"
+      ],
+      "measurements": {
+        "without": {
+          "wall_ns": 241500,
+          "journal_bytes": 0
+        },
+        "with": {
+          "wall_ns": 1292167,
+          "journal_bytes": 9154
+        }
+      },
+      "difference_ns": 1050667
+    },
+    {
+      "pair": 6,
+      "order": [
+        "with",
+        "without"
+      ],
+      "measurements": {
+        "with": {
+          "wall_ns": 1312084,
+          "journal_bytes": 9154
+        },
+        "without": {
+          "wall_ns": 211500,
+          "journal_bytes": 0
+        }
+      },
+      "difference_ns": 1100584
+    },
+    {
+      "pair": 7,
+      "order": [
+        "without",
+        "with"
+      ],
+      "measurements": {
+        "without": {
+          "wall_ns": 286542,
+          "journal_bytes": 0
+        },
+        "with": {
+          "wall_ns": 1461834,
+          "journal_bytes": 9154
+        }
+      },
+      "difference_ns": 1175292
+    },
+    {
+      "pair": 8,
+      "order": [
+        "with",
+        "without"
+      ],
+      "measurements": {
+        "with": {
+          "wall_ns": 1397417,
+          "journal_bytes": 9154
+        },
+        "without": {
+          "wall_ns": 253292,
+          "journal_bytes": 0
+        }
+      },
+      "difference_ns": 1144125
+    },
+    {
+      "pair": 9,
+      "order": [
+        "without",
+        "with"
+      ],
+      "measurements": {
+        "without": {
+          "wall_ns": 243917,
+          "journal_bytes": 0
+        },
+        "with": {
+          "wall_ns": 1458000,
+          "journal_bytes": 9154
+        }
+      },
+      "difference_ns": 1214083
+    },
+    {
+      "pair": 10,
+      "order": [
+        "with",
+        "without"
+      ],
+      "measurements": {
+        "with": {
+          "wall_ns": 1327334,
+          "journal_bytes": 9154
+        },
+        "without": {
+          "wall_ns": 215833,
+          "journal_bytes": 0
+        }
+      },
+      "difference_ns": 1111501
+    },
+    {
+      "pair": 11,
+      "order": [
+        "without",
+        "with"
+      ],
+      "measurements": {
+        "without": {
+          "wall_ns": 240916,
+          "journal_bytes": 0
+        },
+        "with": {
+          "wall_ns": 1300000,
+          "journal_bytes": 9154
+        }
+      },
+      "difference_ns": 1059084
+    },
+    {
+      "pair": 12,
+      "order": [
+        "with",
+        "without"
+      ],
+      "measurements": {
+        "with": {
+          "wall_ns": 1365917,
+          "journal_bytes": 9154
+        },
+        "without": {
+          "wall_ns": 239833,
+          "journal_bytes": 0
+        }
+      },
+      "difference_ns": 1126084
+    },
+    {
+      "pair": 13,
+      "order": [
+        "without",
+        "with"
+      ],
+      "measurements": {
+        "without": {
+          "wall_ns": 237625,
+          "journal_bytes": 0
+        },
+        "with": {
+          "wall_ns": 1333291,
+          "journal_bytes": 9154
+        }
+      },
+      "difference_ns": 1095666
+    },
+    {
+      "pair": 14,
+      "order": [
+        "with",
+        "without"
+      ],
+      "measurements": {
+        "with": {
+          "wall_ns": 1364416,
+          "journal_bytes": 9154
+        },
+        "without": {
+          "wall_ns": 220208,
+          "journal_bytes": 0
+        }
+      },
+      "difference_ns": 1144208
+    },
+    {
+      "pair": 15,
+      "order": [
+        "without",
+        "with"
+      ],
+      "measurements": {
+        "without": {
+          "wall_ns": 234792,
+          "journal_bytes": 0
+        },
+        "with": {
+          "wall_ns": 1328833,
+          "journal_bytes": 9154
+        }
+      },
+      "difference_ns": 1094041
+    },
+    {
+      "pair": 16,
+      "order": [
+        "with",
+        "without"
+      ],
+      "measurements": {
+        "with": {
+          "wall_ns": 1323208,
+          "journal_bytes": 9154
+        },
+        "without": {
+          "wall_ns": 240291,
+          "journal_bytes": 0
+        }
+      },
+      "difference_ns": 1082917
+    },
+    {
+      "pair": 17,
+      "order": [
+        "without",
+        "with"
+      ],
+      "measurements": {
+        "without": {
+          "wall_ns": 237042,
+          "journal_bytes": 0
+        },
+        "with": {
+          "wall_ns": 1336041,
+          "journal_bytes": 9154
+        }
+      },
+      "difference_ns": 1098999
+    },
+    {
+      "pair": 18,
+      "order": [
+        "with",
+        "without"
+      ],
+      "measurements": {
+        "with": {
+          "wall_ns": 1216000,
+          "journal_bytes": 9154
+        },
+        "without": {
+          "wall_ns": 238625,
+          "journal_bytes": 0
+        }
+      },
+      "difference_ns": 977375
+    },
+    {
+      "pair": 19,
+      "order": [
+        "without",
+        "with"
+      ],
+      "measurements": {
+        "without": {
+          "wall_ns": 241708,
+          "journal_bytes": 0
+        },
+        "with": {
+          "wall_ns": 1245375,
+          "journal_bytes": 9154
+        }
+      },
+      "difference_ns": 1003667
+    },
+    {
+      "pair": 20,
+      "order": [
+        "with",
+        "without"
+      ],
+      "measurements": {
+        "with": {
+          "wall_ns": 1294125,
+          "journal_bytes": 9154
+        },
+        "without": {
+          "wall_ns": 238250,
+          "journal_bytes": 0
+        }
+      },
+      "difference_ns": 1055875
+    }
+  ],
+  "difference_ns": {
+    "median": 1099791.5,
+    "minimum": 977375,
+    "maximum": 1237375
+  },
+  "interpretation": "Local synthetic journal/fsync plus repeated contract-check overhead in this runtime only. No provider latency, power claim, target or repeated timing selection."
+}

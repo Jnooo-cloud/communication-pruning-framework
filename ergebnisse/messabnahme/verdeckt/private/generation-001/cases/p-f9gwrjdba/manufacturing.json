@@ -1,0 +1,171 @@
+{
+  "case_id": "p-f9gwrjdba",
+  "class": "V1",
+  "rounds": 2,
+  "failed_role": null,
+  "independent_schedule": [
+    {
+      "attempt_id": "run-p-f9gwrjdba:1:evidence:1",
+      "role": "evidence",
+      "round": 1,
+      "message_attempt_ids": []
+    },
+    {
+      "attempt_id": "run-p-f9gwrjdba:1:linking:1",
+      "role": "linking",
+      "round": 1,
+      "message_attempt_ids": []
+    },
+    {
+      "attempt_id": "run-p-f9gwrjdba:1:draft:1",
+      "role": "draft",
+      "round": 1,
+      "message_attempt_ids": []
+    },
+    {
+      "attempt_id": "run-p-f9gwrjdba:2:evidence:1",
+      "role": "evidence",
+      "round": 2,
+      "message_attempt_ids": [
+        "run-p-f9gwrjdba:1:evidence:1",
+        "run-p-f9gwrjdba:1:draft:1"
+      ]
+    },
+    {
+      "attempt_id": "run-p-f9gwrjdba:2:linking:1",
+      "role": "linking",
+      "round": 2,
+      "message_attempt_ids": [
+        "run-p-f9gwrjdba:1:evidence:1",
+        "run-p-f9gwrjdba:1:linking:1"
+      ]
+    },
+    {
+      "attempt_id": "run-p-f9gwrjdba:2:draft:1",
+      "role": "draft",
+      "round": 2,
+      "message_attempt_ids": [
+        "run-p-f9gwrjdba:1:linking:1",
+        "run-p-f9gwrjdba:1:draft:1"
+      ]
+    },
+    {
+      "attempt_id": "run-p-f9gwrjdba:3:aggregator:1",
+      "role": "aggregator",
+      "round": 3,
+      "message_attempt_ids": [
+        "run-p-f9gwrjdba:2:evidence:1",
+        "run-p-f9gwrjdba:2:linking:1",
+        "run-p-f9gwrjdba:2:draft:1"
+      ]
+    }
+  ],
+  "observed_request_count": 7,
+  "actual_transferred_prior_messages": [
+    [],
+    [],
+    [],
+    [
+      {
+        "attempt_id": "run-p-f9gwrjdba:1:evidence:1",
+        "role": "evidence",
+        "round": 1,
+        "text": "p-f9gwrjdba|evidence|1|amber"
+      },
+      {
+        "attempt_id": "run-p-f9gwrjdba:1:draft:1",
+        "role": "draft",
+        "round": 1,
+        "text": "p-f9gwrjdba|draft|1|amber"
+      }
+    ],
+    [
+      {
+        "attempt_id": "run-p-f9gwrjdba:1:evidence:1",
+        "role": "evidence",
+        "round": 1,
+        "text": "p-f9gwrjdba|evidence|1|amber"
+      },
+      {
+        "attempt_id": "run-p-f9gwrjdba:1:linking:1",
+        "role": "linking",
+        "round": 1,
+        "text": "p-f9gwrjdba|linking|1|amber"
+      },
+      {
+        "attempt_id": "run-p-f9gwrjdba:1:draft:1",
+        "role": "draft",
+        "round": 1,
+        "text": "p-f9gwrjdba|draft|1|amber"
+      }
+    ],
+    [
+      {
+        "attempt_id": "run-p-f9gwrjdba:1:linking:1",
+        "role": "linking",
+        "round": 1,
+        "text": "p-f9gwrjdba|linking|1|amber"
+      },
+      {
+        "attempt_id": "run-p-f9gwrjdba:1:draft:1",
+        "role": "draft",
+        "round": 1,
+        "text": "p-f9gwrjdba|draft|1|amber"
+      }
+    ],
+    [
+      {
+        "attempt_id": "run-p-f9gwrjdba:2:evidence:1",
+        "role": "evidence",
+        "round": 2,
+        "text": "p-f9gwrjdba|evidence|2|amber"
+      },
+      {
+        "attempt_id": "run-p-f9gwrjdba:2:linking:1",
+        "role": "linking",
+        "round": 2,
+        "text": "p-f9gwrjdba|linking|2|amber"
+      },
+      {
+        "attempt_id": "run-p-f9gwrjdba:2:draft:1",
+        "role": "draft",
+        "round": 2,
+        "text": "p-f9gwrjdba|draft|2|amber"
+      }
+    ]
+  ],
+  "native_truth": {
+    "started_inner_calls": 7,
+    "known_inner_calls": 7,
+    "unresolved_inner_calls": 0,
+    "known_cost_subtotal_usd": "0.0025697",
+    "total_cost_usd": "0.0025697"
+  },
+  "true_status": "completed",
+  "true_answer": "p-f9gwrjdba|aggregator|3|amber",
+  "measurement_complete": true,
+  "expected_instrument": {
+    "trace_accepted": false,
+    "journal_accepted": false,
+    "partial": false,
+    "provenance": "Contract-derived expectation only; not instrument execution."
+  },
+  "message_violations": [
+    {
+      "attempt_id": "run-p-f9gwrjdba:2:linking:1",
+      "observed": [
+        "run-p-f9gwrjdba:1:evidence:1",
+        "run-p-f9gwrjdba:1:linking:1",
+        "run-p-f9gwrjdba:1:draft:1"
+      ],
+      "allowed": [
+        "run-p-f9gwrjdba:1:evidence:1",
+        "run-p-f9gwrjdba:1:linking:1"
+      ]
+    }
+  ],
+  "manufacturing_notes": [
+    "The outer wrapper actually injected the forbidden prior message. Started messages were then coherently made to describe that real request; all envelope hashes rebuilt. Responses are role/round constants, so no additional downstream text mutation."
+  ],
+  "read_depth": "Current production execution with injected synthetic client; independent schedule and Decimal tariff reconstruction. No main-auditor result used as truth."
+}

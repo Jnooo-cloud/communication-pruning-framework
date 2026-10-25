@@ -1,0 +1,3 @@
+{"actor":"A","input":{"context":"A supplies ALPHA; B supplies BETA.","question":"Combine the available synthetic markers."}}
+{"actor":"B","input":{"context":"A supplies ALPHA; B supplies BETA.","question":"Combine the available synthetic markers."}}
+{"actor":"C","input":[{"actor":"A","output":"ALPHA"}]}

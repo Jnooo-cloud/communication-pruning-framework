@@ -1,0 +1,622 @@
+{
+  "cases": {
+    "dense": {
+      "actors": [
+        "A",
+        "B",
+        "C"
+      ],
+      "edges": [
+        [
+          "A",
+          "C"
+        ],
+        [
+          "B",
+          "C"
+        ]
+      ],
+      "known_synthetic_cost_usd": "0.003",
+      "status": "completed"
+    },
+    "pruned": {
+      "actors": [
+        "A",
+        "C"
+      ],
+      "edges": [
+        [
+          "A",
+          "C"
+        ]
+      ],
+      "known_synthetic_cost_usd": "0.002",
+      "status": "completed"
+    },
+    "failed_b": {
+      "actors": [
+        "A",
+        "B"
+      ],
+      "edges": [
+        [
+          "A",
+          "C"
+        ],
+        [
+          "B",
+          "C"
+        ]
+      ],
+      "known_synthetic_cost_usd": "0.003",
+      "status": "rejected"
+    }
+  },
+  "checks": [
+    {
+      "name": "dense starts with an unconnected candidate graph",
+      "passed": true
+    },
+    {
+      "name": "dense exact selected edges",
+      "passed": true
+    },
+    {
+      "name": "dense no training claim",
+      "passed": true
+    },
+    {
+      "name": "dense native source inside pinned original: Graph.run",
+      "passed": true
+    },
+    {
+      "name": "dense native source hash: Graph.run",
+      "passed": true
+    },
+    {
+      "name": "dense native source inside pinned original: Node.execute",
+      "passed": true
+    },
+    {
+      "name": "dense native source hash: Node.execute",
+      "passed": true
+    },
+    {
+      "name": "dense native source inside pinned original: CompositeGraph.check_cycle",
+      "passed": true
+    },
+    {
+      "name": "dense native source hash: CompositeGraph.check_cycle",
+      "passed": true
+    },
+    {
+      "name": "dense native source inside pinned original: EdgeWiseDistribution.realize",
+      "passed": true
+    },
+    {
+      "name": "dense native source hash: EdgeWiseDistribution.realize",
+      "passed": true
+    },
+    {
+      "name": "dense native source inside pinned original: EdgeWiseDistribution.realize_full",
+      "passed": true
+    },
+    {
+      "name": "dense native source hash: EdgeWiseDistribution.realize_full",
+      "passed": true
+    },
+    {
+      "name": "dense exact framework identity",
+      "passed": true
+    },
+    {
+      "name": "dense journal chain order 0",
+      "passed": true
+    },
+    {
+      "name": "dense journal chain hash 0",
+      "passed": true
+    },
+    {
+      "name": "dense journal chain order 1",
+      "passed": true
+    },
+    {
+      "name": "dense journal chain hash 1",
+      "passed": true
+    },
+    {
+      "name": "dense journal chain order 2",
+      "passed": true
+    },
+    {
+      "name": "dense journal chain hash 2",
+      "passed": true
+    },
+    {
+      "name": "dense journal chain order 3",
+      "passed": true
+    },
+    {
+      "name": "dense journal chain hash 3",
+      "passed": true
+    },
+    {
+      "name": "dense journal chain order 4",
+      "passed": true
+    },
+    {
+      "name": "dense journal chain hash 4",
+      "passed": true
+    },
+    {
+      "name": "dense journal chain order 5",
+      "passed": true
+    },
+    {
+      "name": "dense journal chain hash 5",
+      "passed": true
+    },
+    {
+      "name": "dense journal chain order 6",
+      "passed": true
+    },
+    {
+      "name": "dense journal chain hash 6",
+      "passed": true
+    },
+    {
+      "name": "dense ledger actors",
+      "passed": true
+    },
+    {
+      "name": "dense inner client actors",
+      "passed": true
+    },
+    {
+      "name": "dense complete attempt accounting",
+      "passed": true
+    },
+    {
+      "name": "dense attempt identity A",
+      "passed": true
+    },
+    {
+      "name": "dense exact inner input A",
+      "passed": true
+    },
+    {
+      "name": "dense request checksum",
+      "passed": true
+    },
+    {
+      "name": "dense raw vs observed usage A",
+      "passed": true
+    },
+    {
+      "name": "dense separate synthetic tariff A",
+      "passed": true
+    },
+    {
+      "name": "dense synthetic status",
+      "passed": true
+    },
+    {
+      "name": "dense attempt identity B",
+      "passed": true
+    },
+    {
+      "name": "dense exact inner input B",
+      "passed": true
+    },
+    {
+      "name": "dense request checksum",
+      "passed": true
+    },
+    {
+      "name": "dense raw vs observed usage B",
+      "passed": true
+    },
+    {
+      "name": "dense separate synthetic tariff B",
+      "passed": true
+    },
+    {
+      "name": "dense synthetic status",
+      "passed": true
+    },
+    {
+      "name": "dense attempt identity C",
+      "passed": true
+    },
+    {
+      "name": "dense exact inner input C",
+      "passed": true
+    },
+    {
+      "name": "dense request checksum",
+      "passed": true
+    },
+    {
+      "name": "dense raw vs observed usage C",
+      "passed": true
+    },
+    {
+      "name": "dense separate synthetic tariff C",
+      "passed": true
+    },
+    {
+      "name": "dense synthetic status",
+      "passed": true
+    },
+    {
+      "name": "dense exact aggregator messages",
+      "passed": true
+    },
+    {
+      "name": "dense complete known sum",
+      "passed": true
+    },
+    {
+      "name": "dense exact synthetic answer",
+      "passed": true
+    },
+    {
+      "name": "dense native node path",
+      "passed": true
+    },
+    {
+      "name": "dense healthy completion",
+      "passed": true
+    },
+    {
+      "name": "pruned starts with an unconnected candidate graph",
+      "passed": true
+    },
+    {
+      "name": "pruned exact selected edges",
+      "passed": true
+    },
+    {
+      "name": "pruned no training claim",
+      "passed": true
+    },
+    {
+      "name": "pruned native source inside pinned original: Graph.run",
+      "passed": true
+    },
+    {
+      "name": "pruned native source hash: Graph.run",
+      "passed": true
+    },
+    {
+      "name": "pruned native source inside pinned original: Node.execute",
+      "passed": true
+    },
+    {
+      "name": "pruned native source hash: Node.execute",
+      "passed": true
+    },
+    {
+      "name": "pruned native source inside pinned original: CompositeGraph.check_cycle",
+      "passed": true
+    },
+    {
+      "name": "pruned native source hash: CompositeGraph.check_cycle",
+      "passed": true
+    },
+    {
+      "name": "pruned native source inside pinned original: EdgeWiseDistribution.realize",
+      "passed": true
+    },
+    {
+      "name": "pruned native source hash: EdgeWiseDistribution.realize",
+      "passed": true
+    },
+    {
+      "name": "pruned native source inside pinned original: EdgeWiseDistribution.realize_full",
+      "passed": true
+    },
+    {
+      "name": "pruned native source hash: EdgeWiseDistribution.realize_full",
+      "passed": true
+    },
+    {
+      "name": "pruned exact framework identity",
+      "passed": true
+    },
+    {
+      "name": "pruned journal chain order 0",
+      "passed": true
+    },
+    {
+      "name": "pruned journal chain hash 0",
+      "passed": true
+    },
+    {
+      "name": "pruned journal chain order 1",
+      "passed": true
+    },
+    {
+      "name": "pruned journal chain hash 1",
+      "passed": true
+    },
+    {
+      "name": "pruned journal chain order 2",
+      "passed": true
+    },
+    {
+      "name": "pruned journal chain hash 2",
+      "passed": true
+    },
+    {
+      "name": "pruned journal chain order 3",
+      "passed": true
+    },
+    {
+      "name": "pruned journal chain hash 3",
+      "passed": true
+    },
+    {
+      "name": "pruned journal chain order 4",
+      "passed": true
+    },
+    {
+      "name": "pruned journal chain hash 4",
+      "passed": true
+    },
+    {
+      "name": "pruned ledger actors",
+      "passed": true
+    },
+    {
+      "name": "pruned inner client actors",
+      "passed": true
+    },
+    {
+      "name": "pruned complete attempt accounting",
+      "passed": true
+    },
+    {
+      "name": "pruned attempt identity A",
+      "passed": true
+    },
+    {
+      "name": "pruned exact inner input A",
+      "passed": true
+    },
+    {
+      "name": "pruned request checksum",
+      "passed": true
+    },
+    {
+      "name": "pruned raw vs observed usage A",
+      "passed": true
+    },
+    {
+      "name": "pruned separate synthetic tariff A",
+      "passed": true
+    },
+    {
+      "name": "pruned synthetic status",
+      "passed": true
+    },
+    {
+      "name": "pruned attempt identity C",
+      "passed": true
+    },
+    {
+      "name": "pruned exact inner input C",
+      "passed": true
+    },
+    {
+      "name": "pruned request checksum",
+      "passed": true
+    },
+    {
+      "name": "pruned raw vs observed usage C",
+      "passed": true
+    },
+    {
+      "name": "pruned separate synthetic tariff C",
+      "passed": true
+    },
+    {
+      "name": "pruned synthetic status",
+      "passed": true
+    },
+    {
+      "name": "pruned exact aggregator messages",
+      "passed": true
+    },
+    {
+      "name": "pruned complete known sum",
+      "passed": true
+    },
+    {
+      "name": "pruned exact synthetic answer",
+      "passed": true
+    },
+    {
+      "name": "pruned native node path",
+      "passed": true
+    },
+    {
+      "name": "pruned healthy completion",
+      "passed": true
+    },
+    {
+      "name": "failed_b starts with an unconnected candidate graph",
+      "passed": true
+    },
+    {
+      "name": "failed_b exact selected edges",
+      "passed": true
+    },
+    {
+      "name": "failed_b no training claim",
+      "passed": true
+    },
+    {
+      "name": "failed_b native source inside pinned original: Graph.run",
+      "passed": true
+    },
+    {
+      "name": "failed_b native source hash: Graph.run",
+      "passed": true
+    },
+    {
+      "name": "failed_b native source inside pinned original: Node.execute",
+      "passed": true
+    },
+    {
+      "name": "failed_b native source hash: Node.execute",
+      "passed": true
+    },
+    {
+      "name": "failed_b native source inside pinned original: CompositeGraph.check_cycle",
+      "passed": true
+    },
+    {
+      "name": "failed_b native source hash: CompositeGraph.check_cycle",
+      "passed": true
+    },
+    {
+      "name": "failed_b native source inside pinned original: EdgeWiseDistribution.realize",
+      "passed": true
+    },
+    {
+      "name": "failed_b native source hash: EdgeWiseDistribution.realize",
+      "passed": true
+    },
+    {
+      "name": "failed_b native source inside pinned original: EdgeWiseDistribution.realize_full",
+      "passed": true
+    },
+    {
+      "name": "failed_b native source hash: EdgeWiseDistribution.realize_full",
+      "passed": true
+    },
+    {
+      "name": "failed_b exact framework identity",
+      "passed": true
+    },
+    {
+      "name": "failed_b journal chain order 0",
+      "passed": true
+    },
+    {
+      "name": "failed_b journal chain hash 0",
+      "passed": true
+    },
+    {
+      "name": "failed_b journal chain order 1",
+      "passed": true
+    },
+    {
+      "name": "failed_b journal chain hash 1",
+      "passed": true
+    },
+    {
+      "name": "failed_b journal chain order 2",
+      "passed": true
+    },
+    {
+      "name": "failed_b journal chain hash 2",
+      "passed": true
+    },
+    {
+      "name": "failed_b journal chain order 3",
+      "passed": true
+    },
+    {
+      "name": "failed_b journal chain hash 3",
+      "passed": true
+    },
+    {
+      "name": "failed_b journal chain order 4",
+      "passed": true
+    },
+    {
+      "name": "failed_b journal chain hash 4",
+      "passed": true
+    },
+    {
+      "name": "failed_b ledger actors",
+      "passed": true
+    },
+    {
+      "name": "failed_b inner client actors",
+      "passed": true
+    },
+    {
+      "name": "failed_b complete attempt accounting",
+      "passed": true
+    },
+    {
+      "name": "failed_b attempt identity A",
+      "passed": true
+    },
+    {
+      "name": "failed_b exact inner input A",
+      "passed": true
+    },
+    {
+      "name": "failed_b request checksum",
+      "passed": true
+    },
+    {
+      "name": "failed_b raw vs observed usage A",
+      "passed": true
+    },
+    {
+      "name": "failed_b separate synthetic tariff A",
+      "passed": true
+    },
+    {
+      "name": "failed_b synthetic status",
+      "passed": true
+    },
+    {
+      "name": "failed_b attempt identity B",
+      "passed": true
+    },
+    {
+      "name": "failed_b exact inner input B",
+      "passed": true
+    },
+    {
+      "name": "failed_b request checksum",
+      "passed": true
+    },
+    {
+      "name": "failed_b raw vs observed usage B",
+      "passed": true
+    },
+    {
+      "name": "failed_b separate synthetic tariff B",
+      "passed": true
+    },
+    {
+      "name": "failed_b synthetic status",
+      "passed": true
+    },
+    {
+      "name": "failed_b complete known sum",
+      "passed": true
+    },
+    {
+      "name": "failed_b no false success",
+      "passed": true
+    },
+    {
+      "name": "failed_b native continuation separated from inner client",
+      "passed": true
+    },
+    {
+      "name": "failed_b failed attempt retained",
+      "passed": true
+    }
+  ],
+  "role": "separate stdlib verifier by the same author; not blinded"
+}

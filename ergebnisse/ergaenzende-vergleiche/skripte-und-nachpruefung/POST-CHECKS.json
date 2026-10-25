@@ -1,0 +1,146 @@
+{
+ "reverified_blocks": 6673,
+ "reverify_failures": [],
+ "R_drift": {
+  "pre_Z53": {
+   "D": {
+    "n": 2183,
+    "failure_rate": 0.0357,
+    "em": 0.2776,
+    "f1": 0.4041,
+    "mean_cost_usd": 0.0023723
+   },
+   "F": {
+    "n": 2183,
+    "failure_rate": 0.0257,
+    "em": 0.3381,
+    "f1": 0.4603,
+    "mean_cost_usd": 0.0012621
+   },
+   "Q": {
+    "n": 2183,
+    "failure_rate": 0.0188,
+    "em": 0.29,
+    "f1": 0.4138,
+    "mean_cost_usd": 0.001472
+   },
+   "S": {
+    "n": 2183,
+    "failure_rate": 0.0,
+    "em": 0.3417,
+    "f1": 0.4517,
+    "mean_cost_usd": 0.0001896
+   },
+   "S-k": {
+    "n": 2183,
+    "failure_rate": 0.0,
+    "em": 0.3417,
+    "f1": 0.4517,
+    "mean_cost_usd": 0.0007458
+   },
+   "Z": {
+    "n": 2183,
+    "failure_rate": 0.0298,
+    "em": 0.29,
+    "f1": 0.4194,
+    "mean_cost_usd": 0.0015439
+   }
+  },
+  "Z53": {
+   "D": {
+    "n": 769,
+    "failure_rate": 0.0442,
+    "em": 0.2731,
+    "f1": 0.4012,
+    "mean_cost_usd": 0.002342
+   },
+   "F": {
+    "n": 769,
+    "failure_rate": 0.0221,
+    "em": 0.3589,
+    "f1": 0.4816,
+    "mean_cost_usd": 0.0012522
+   },
+   "Q": {
+    "n": 769,
+    "failure_rate": 0.0234,
+    "em": 0.303,
+    "f1": 0.4312,
+    "mean_cost_usd": 0.0014433
+   },
+   "S": {
+    "n": 769,
+    "failure_rate": 0.0,
+    "em": 0.3381,
+    "f1": 0.4427,
+    "mean_cost_usd": 0.0001879
+   },
+   "S-k": {
+    "n": 769,
+    "failure_rate": 0.0,
+    "em": 0.3381,
+    "f1": 0.4427,
+    "mean_cost_usd": 0.0007218
+   },
+   "Z": {
+    "n": 769,
+    "failure_rate": 0.0351,
+    "em": 0.29,
+    "f1": 0.419,
+    "mean_cost_usd": 0.0015077
+   }
+  }
+ },
+ "R_cached_token_share": {
+  "pre_Z53_R1589_2182": 0.1952,
+  "Z53": 0.2097
+ },
+ "T_levels": {
+  "Q-ST": {
+   "n": 2952,
+   "failure_rate": 0.0241,
+   "em": 0.3377,
+   "f1": 0.4468,
+   "mean_cost_usd": 0.0011259
+  },
+  "Q-TF": {
+   "n": 2952,
+   "failure_rate": 0.023,
+   "em": 0.3394,
+   "f1": 0.4487,
+   "mean_cost_usd": 0.0008057
+  }
+ },
+ "F_levels": {
+  "Fc": {
+   "n": 2952,
+   "failure_rate": 0.0247,
+   "em": 0.3723,
+   "f1": 0.4865,
+   "mean_cost_usd": 0.0012998
+  },
+  "Ff": {
+   "n": 2952,
+   "failure_rate": 0.022,
+   "em": 0.3577,
+   "f1": 0.4652,
+   "mean_cost_usd": 0.0007497
+  },
+  "Qc": {
+   "n": 2952,
+   "failure_rate": 0.0241,
+   "em": 0.3299,
+   "f1": 0.4454,
+   "mean_cost_usd": 0.0015075
+  },
+  "Qf": {
+   "n": 2952,
+   "failure_rate": 0.0196,
+   "em": 0.3266,
+   "f1": 0.4411,
+   "mean_cost_usd": 0.0009524
+  }
+ },
+ "T_cached_token_share": 0.1801,
+ "F_cached_token_share": 0.1545
+}

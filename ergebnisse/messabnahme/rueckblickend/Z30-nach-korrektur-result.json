@@ -1,0 +1,18 @@
+{
+  "mode": "after",
+  "status": "passed",
+  "direct_metadata_invariance": true,
+  "paired_request_identity": [
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "full_calls_per_arm": 5,
+  "provenance_retained": true,
+  "content_positive_controls": "passed",
+  "cost_each_synthetic_usd": "0.005",
+  "real_model_calls": 0,
+  "scope": "Deterministic local client. No proof of provider distribution equality or quality gains."
+}

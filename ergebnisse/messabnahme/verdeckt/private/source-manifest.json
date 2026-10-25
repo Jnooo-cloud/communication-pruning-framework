@@ -1,0 +1,100 @@
+{
+  "archive": "source-001.zip",
+  "archive_sha256": "f29956025c188febddc32003f4bdd4d98fb0641028ce9256e37900b1ff8613a4",
+  "files": [
+    {
+      "path": "eval-harness/eval/communication_pruning/__init__.py",
+      "sha256": "8edf0eb6c2ad4a03ea1bcd967ce72d103ab0f36571f504a5f927aa698e984f26",
+      "bytes": 89
+    },
+    {
+      "path": "eval-harness/eval/communication_pruning/contracts.py",
+      "sha256": "63da89facc64642b92bb6742a3f988dbb84d0263240b89469065e50e70bbfb5f",
+      "bytes": 4848
+    },
+    {
+      "path": "eval-harness/eval/communication_pruning/execution.py",
+      "sha256": "288b1094d0dbff7cf55a597d8e3037e990062ec91930b1c47a52e0b02c484e96",
+      "bytes": 5311
+    },
+    {
+      "path": "eval-harness/eval/communication_pruning/journal.py",
+      "sha256": "a7687270b1a24ada7a5e74f5211a25da0b4d418fbc11ff2216c45a730bcb7509",
+      "bytes": 6345
+    },
+    {
+      "path": "eval-harness/eval/communication_pruning/audit.py",
+      "sha256": "d4aebc769df3c0607a25b944dc7fb0307b01b31811df12dc07a91962e082c7da",
+      "bytes": 8947
+    },
+    {
+      "path": "eval-harness/eval/communication_pruning/failure_policy.py",
+      "sha256": "8d3a7ed10a16519d5a728e057d2acc5b849b4d6406f34a58f110081948706608",
+      "bytes": 2813
+    },
+    {
+      "path": "eval-harness/eval/communication_pruning/openrouter.py",
+      "sha256": "e9f376fd85faf76d3dd513b91d6c50b29dd2538f96b7f7df759fbb78519f596e",
+      "bytes": 11265
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/package.py",
+      "sha256": "69a6283faf3ffeb2a5c0cf33ae7da94f2d5a3d762bbbcc0788e6e0e0afbd17e4",
+      "bytes": 3815
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generate.py",
+      "sha256": "dc7e118991d3482201518b370726b8d9a237f832c37782f05f12eb7c3222f6a2",
+      "bytes": 30612
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/contract.md",
+      "sha256": "3f96117f930839c25afc33bafa0b98bfb1e1e73984ab47fad170f36fff7674e9",
+      "bytes": 7691
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/runtime.json",
+      "sha256": "2f1ce4f471ade584993f8bd1114ba76f78c0b93cb6fbbad04bede10e4b88cc2a",
+      "bytes": 898
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/runtime-manifest.json",
+      "sha256": "9b1899fbc1102e04f0aaa8c3fb20276219eae90d1f292889fcb95472766268d2",
+      "bytes": 969401
+    },
+    {
+      "path": "project/dsr/Z37-MESSABNAHME-PLAN.md",
+      "sha256": "494f52e7718bf680002e17f500c70c4a20b0f49b921c7a4340e7179604c72219",
+      "bytes": 11365
+    },
+    {
+      "path": "project/DSR-ENTWICKLUNGSRAHMEN.md",
+      "sha256": "1d40467ea4b9734778e759b58f889a2e9bea6ba6503d95641f4cb610ba4be05e",
+      "bytes": 13642
+    },
+    {
+      "path": "project/ENTWICKLUNGSSTEUERUNG.md",
+      "sha256": "63927d9b8f992003c4ce67a9df0434c09f3dbf9f2b6fcae139ff919e554a9fc6",
+      "bytes": 7860
+    },
+    {
+      "path": "project/ENTWICKLUNGSSTEUERUNG.json",
+      "sha256": "c30b4e2b3d9001ca6a8af42b84c75dbbf9227423857db943e1246d83d295dcbe",
+      "bytes": 2672
+    },
+    {
+      "path": "project/dsr/ZYKLENREGISTER.md",
+      "sha256": "a730490428ee6a0ab9ba65054ea89611e38e01f13e25d96ffd98ea82c0aa74a0",
+      "bytes": 37613
+    },
+    {
+      "path": "project/history/state/active.json",
+      "sha256": "b7fc6aa7d8803598989b9ac90201057f04c54f2d294179c4eff846906952e6d7",
+      "bytes": 4838
+    }
+  ],
+  "runtime_archive_sha256": "d47d4030fec5922f3da67ebdc504fd3ad1f851580f30cf26072f0a0243f4160b",
+  "package": "A-20260913T083542Z-d276aa",
+  "plan_commit": "a8d09f569a9a",
+  "stage": "Before all decisive case generation and overhead measurement"
+}

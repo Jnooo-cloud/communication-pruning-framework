@@ -1,0 +1,54 @@
+{
+  "role": "Separater informierter Fallersteller; kein blinder Prüfer",
+  "package": "A-20260913T083542Z-d276aa",
+  "plan_commit": "a8d09f569a9a",
+  "status": "Fallerstellung abgeschlossen; unabhängige Drei-Sichten-Prüfung ausstehend",
+  "case_count": 12,
+  "manufacturing_attempts": 1,
+  "unexpected_manufacturing_failures": 0,
+  "planned_technical_stops_preserved": true,
+  "source_archive": "source-001.zip",
+  "source_archive_sha256": "f29956025c188febddc32003f4bdd4d98fb0641028ce9256e37900b1ff8613a4",
+  "source_manifest_sha256": "c272222f91bdbf85e27f45f49ef1977f9bbe75e281e261dd0777940e6ef5bce5",
+  "answer_key_sha256": "32ff0a79d298c97359aa18e6f39689a6499e293e55605d5420e420293a879e0e",
+  "truth_archive_sha256": "95dbb2b23d16bc7806a3013a6e5b2f6fdb60efeaef2ff9ed62acb3d44286b93e",
+  "public_manifest_sha256": "de520277be747eb8ccd7cbf73066ed07162d6ce7518e8d2fdf48e6b8fd3a05d5",
+  "public_handoff_check": {
+    "files": 86,
+    "all_manifest_hashes_match": true,
+    "case_directories_per_view": 12,
+    "mapping_or_truth_disclosed_to_coordinator": false
+  },
+  "M7": {
+    "paired_repetitions": 20,
+    "order": "alternierend ohne/mit und mit/ohne Journal",
+    "same_input_within_pair": true,
+    "paired_returned_traces_equal": true,
+    "raw_and_summary": "generation-001/overhead.json",
+    "individual_execution_evidence": "generation-001/overhead/",
+    "scope": "Lokaler künstlicher Ablauf mit fsync und den wiederholten Vertragsprüfungen des Journals; keine Anbieterleistung und kein vorgegebenes Leistungsziel"
+  },
+  "cost_sheet": {
+    "count": 1,
+    "production_observations": "generation-001/cost-sheet-production.json",
+    "independent_expected_values": "generation-001/cost-sheet-truth.json",
+    "scope": "Dezimalbeträge in Usage erhalten; künstlicher bekannter Anbieter-Gesamtbetrag durch decode_billing erhalten. Keine separate Cache-Tarifzurechnung oder reale Cacheabrechnung nachgewiesen. Frische Wiederholung ist keine automatische Retry-Fähigkeit. Lokale Controllerzeit ist keine Modell-USD-Position."
+  },
+  "independence": {
+    "main_auditor_used_as_truth_generator": false,
+    "production_journal_calls_its_regular_internal_auditor": true,
+    "truth_basis": "Separat formulierte Vertragsschedule, tatsächlich gespeicherte innere künstliche Aufrufe, Usage und unabhängige Decimal-Tarifrechnung",
+    "new_reconstruction_is_existing_instrument_capability": false,
+    "technical_access_barrier_claimed": false
+  },
+  "external_model_calls": 0,
+  "benchmark_contents_used": false,
+  "production_files_changed": false,
+  "plan_deviations": [],
+  "criteria_status": {
+    "M1": "Fallerstellerteil und vorab gesicherte Quellen/Sollbindung vorbereitet; tatsächliche Prüferdisziplin noch zu bestätigen",
+    "M2_to_M6": "Unabhängige Prüfung und Instrumentvergleich stehen aus; Herstellung ist keine Abnahme",
+    "M7": "Einmalig wie vorab gebunden gemessen; begrenzte Rohwerte und Zusammenfassung erhalten",
+    "M8": "Gesamtabschluss durch Koordination nach getrenntem Review und Offenlegung"
+  }
+}

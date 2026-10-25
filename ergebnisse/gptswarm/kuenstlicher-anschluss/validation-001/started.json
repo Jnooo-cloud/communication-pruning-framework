@@ -1,0 +1,9 @@
+{
+  "utc": "2026-09-11T08:26:23.698956+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "executable": "/Users/jannikhiller/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+  "source_archive_sha256": "66ad708ca01de339c4c3085eb892fe54bb7332bb57f9d03cea2c22bba88a8d1a",
+  "original_archive_sha256": "23f846b77b1ab34047e8eb649d8162d55fd6b920cc4c0f05a147c1324dd9c6bf",
+  "wheel_manifest_sha256": "3241a361b16b270ecbdde1c91441afc9aec091b098bc8596a292d76ac30b8947",
+  "run_scope": "three synthetic original-framework cases; separate stdlib verification; regression tests"
+}

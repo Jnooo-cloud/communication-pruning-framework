@@ -1,0 +1,37 @@
+{
+ "z53_r_blocks_R-02183_R-02282": {
+  "files": 15338,
+  "identical": true,
+  "changed": [],
+  "missing": [],
+  "new": []
+ },
+ "z55_gptswarm_demo": {
+  "files": 6622,
+  "identical": true,
+  "changed": [],
+  "missing": [],
+  "new": []
+ },
+ "z31_gptswarm_original": {
+  "files": 29,
+  "identical": true,
+  "changed": [],
+  "missing": [],
+  "new": []
+ },
+ "z37_messabnahme": {
+  "files": 405,
+  "identical": true,
+  "changed": [],
+  "missing": [],
+  "new": []
+ },
+ "z53_fake_transport": {
+  "files": 1,
+  "identical": true,
+  "changed": [],
+  "missing": [],
+  "new": []
+ }
+}

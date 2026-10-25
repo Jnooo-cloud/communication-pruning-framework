@@ -1,0 +1,25 @@
+Copyright (c) 2026 Jannik Hiller
+
+Die Ergebnisdateien und die Dokumentation in diesem Repository stehen unter der
+Lizenz Creative Commons Namensnennung 4.0 International (CC BY 4.0):
+https://creativecommons.org/licenses/by/4.0/
+
+Results and documentation in this repository are licensed under the
+Creative Commons Attribution 4.0 International License (CC BY 4.0):
+https://creativecommons.org/licenses/by/4.0/
+
+Geltungsbereich: alle Dateien, die keine Quelltextdateien sind (u. a. .json,
+.jsonl, .jsonl.gz, .npz, .tsv, .txt, .log, .md, .sha256), in auswertungsplan/,
+ergebnisse/, nachpruefungen-nach-studienabschluss/ und daten/ sowie README.md
+und HERKUNFT.tsv. Quelltextdateien (.py, .mjs, .sh) stehen unter der MIT-Lizenz
+in LICENSE.
+
+Ausnahme: Aufgabentexte aus MuSiQue (Datei
+ergebnisse/entwicklung/runden/INPUT.json und die sechs Beispielfragen in
+ergebnisse/textueberlappung/inspect_input_structure.mjs, Zeilen 8 bis 15)
+bleiben Material der MuSiQue-Autoren:
+Trivedi, H., Balasubramanian, N., Khot, T., & Sabharwal, A. (2022). MuSiQue:
+Multihop questions via single-hop question composition. Transactions of the
+Association for Computational Linguistics, 10, 539-554.
+https://doi.org/10.1162/tacl_a_00475
+Quelle: https://github.com/StonyBrookNLP/musique, Lizenz CC BY 4.0.

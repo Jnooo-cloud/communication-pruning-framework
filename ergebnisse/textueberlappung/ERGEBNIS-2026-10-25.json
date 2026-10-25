@@ -1,0 +1,58 @@
+{
+  "structuralOnly": true,
+  "tokenCountsNotMeasured": true,
+  "publicPaperTable1ExactQuestionMatches": [
+    {
+      "split": "train",
+      "id": "3hop1__145491_5960_90069"
+    },
+    {
+      "split": "train",
+      "id": "4hop2__724536_810753_75897_19700"
+    },
+    {
+      "split": "train",
+      "id": "4hop3__853503_419859_22784_86234"
+    }
+  ],
+  "scope": "All official train/dev records, before exposure exclusion. Public-example check is exact normalized text, not semantic equivalence.",
+  "inventory": {
+    "train": {
+      "tasks": 19938,
+      "paragraphCounts": {
+        "16": 1,
+        "17": 2,
+        "18": 8,
+        "19": 10,
+        "20": 19917
+      },
+      "contextCharactersIncludingTitles": {
+        "min": 3490,
+        "p50": 9789,
+        "p90": 13090,
+        "p95": 14054,
+        "max": 18826
+      }
+    },
+    "dev": {
+      "tasks": 2417,
+      "paragraphCounts": {
+        "17": 2,
+        "18": 5,
+        "19": 9,
+        "20": 2401
+      },
+      "contextCharactersIncludingTitles": {
+        "min": 3847,
+        "p50": 10230,
+        "p90": 13797,
+        "p95": 14871,
+        "max": 20861
+      },
+      "tasksWithExactWhitespaceNormalizedParagraphInTrain": 2250,
+      "sharedParagraphOccurrences": 9977,
+      "devSupportingParagraphOccurrencesAlsoInTrainAny": 2061,
+      "devSupportingParagraphOccurrencesAlsoInTrainSupport": 0
+    }
+  }
+}

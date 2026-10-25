@@ -1,0 +1,1613 @@
+{
+  "kind": "pre-review creator key",
+  "seed": 3709202613,
+  "cases": [
+    {
+      "case_id": "p-kbqchj34v",
+      "class": "K3",
+      "rounds": 2,
+      "failed_role": null,
+      "independent_schedule": [
+        {
+          "attempt_id": "run-p-kbqchj34v:1:evidence:1",
+          "role": "evidence",
+          "round": 1,
+          "message_attempt_ids": []
+        },
+        {
+          "attempt_id": "run-p-kbqchj34v:1:linking:1",
+          "role": "linking",
+          "round": 1,
+          "message_attempt_ids": []
+        },
+        {
+          "attempt_id": "run-p-kbqchj34v:1:draft:1",
+          "role": "draft",
+          "round": 1,
+          "message_attempt_ids": []
+        },
+        {
+          "attempt_id": "run-p-kbqchj34v:2:evidence:1",
+          "role": "evidence",
+          "round": 2,
+          "message_attempt_ids": [
+            "run-p-kbqchj34v:1:evidence:1",
+            "run-p-kbqchj34v:1:draft:1"
+          ]
+        },
+        {
+          "attempt_id": "run-p-kbqchj34v:2:linking:1",
+          "role": "linking",
+          "round": 2,
+          "message_attempt_ids": [
+            "run-p-kbqchj34v:1:evidence:1",
+            "run-p-kbqchj34v:1:linking:1"
+          ]
+        },
+        {
+          "attempt_id": "run-p-kbqchj34v:2:draft:1",
+          "role": "draft",
+          "round": 2,
+          "message_attempt_ids": [
+            "run-p-kbqchj34v:1:linking:1",
+            "run-p-kbqchj34v:1:draft:1"
+          ]
+        },
+        {
+          "attempt_id": "run-p-kbqchj34v:3:aggregator:1",
+          "role": "aggregator",
+          "round": 3,
+          "message_attempt_ids": [
+            "run-p-kbqchj34v:2:evidence:1",
+            "run-p-kbqchj34v:2:linking:1",
+            "run-p-kbqchj34v:2:draft:1"
+          ]
+        }
+      ],
+      "observed_request_count": 3,
+      "actual_transferred_prior_messages": [
+        [],
+        [],
+        []
+      ],
+      "native_truth": {
+        "started_inner_calls": 3,
+        "known_inner_calls": 3,
+        "unresolved_inner_calls": 0,
+        "known_cost_subtotal_usd": "0.0006930",
+        "total_cost_usd": "0.0006930"
+      },
+      "true_status": "model_failed",
+      "true_answer": null,
+      "measurement_complete": true,
+      "expected_instrument": {
+        "trace_accepted": true,
+        "journal_accepted": true,
+        "partial": false,
+        "provenance": "Contract-derived expectation only; not instrument execution."
+      },
+      "message_violations": [],
+      "manufacturing_notes": [],
+      "read_depth": "Current production execution with injected synthetic client; independent schedule and Decimal tariff reconstruction. No main-auditor result used as truth."
+    },
+    {
+      "case_id": "p-83xhvpk79",
+      "class": "V2",
+      "rounds": 2,
+      "failed_role": null,
+      "independent_schedule": [
+        {
+          "attempt_id": "run-p-83xhvpk79:1:evidence:1",
+          "role": "evidence",
+          "round": 1,
+          "message_attempt_ids": []
+        },
+        {
+          "attempt_id": "run-p-83xhvpk79:1:linking:1",
+          "role": "linking",
+          "round": 1,
+          "message_attempt_ids": []
+        },
+        {
+          "attempt_id": "run-p-83xhvpk79:1:draft:1",
+          "role": "draft",
+          "round": 1,
+          "message_attempt_ids": []
+        },
+        {
+          "attempt_id": "run-p-83xhvpk79:2:evidence:1",
+          "role": "evidence",
+          "round": 2,
+          "message_attempt_ids": [
+            "run-p-83xhvpk79:1:evidence:1",
+            "run-p-83xhvpk79:1:draft:1"
+          ]
+        },
+        {
+          "attempt_id": "run-p-83xhvpk79:2:linking:1",
+          "role": "linking",
+          "round": 2,
+          "message_attempt_ids": [
+            "run-p-83xhvpk79:1:evidence:1",
+            "run-p-83xhvpk79:1:linking:1"
+          ]
+        },
+        {
+          "attempt_id": "run-p-83xhvpk79:2:draft:1",
+          "role": "draft",
+          "round": 2,
+          "message_attempt_ids": [
+            "run-p-83xhvpk79:1:linking:1",
+            "run-p-83xhvpk79:1:draft:1"
+          ]
+        },
+        {
+          "attempt_id": "run-p-83xhvpk79:3:aggregator:1",
+          "role": "aggregator",
+          "round": 3,
+          "message_attempt_ids": [
+            "run-p-83xhvpk79:2:evidence:1",
+            "run-p-83xhvpk79:2:linking:1",
+            "run-p-83xhvpk79:2:draft:1"
+          ]
+        }
+      ],
+      "observed_request_count": 7,
+      "actual_transferred_prior_messages": [
+        [],
+        [],
+        [],
+        [
+          {
+            "attempt_id": "run-p-83xhvpk79:1:evidence:1",
+            "role": "evidence",
+            "round": 1,
+            "text": "p-83xhvpk79|evidence|1|amber"
+          },
+          {
+            "attempt_id": "run-p-83xhvpk79:1:draft:1",
+            "role": "draft",
+            "round": 1,
+            "text": "p-83xhvpk79|draft|1|amber"
+          }
+        ],
+        [
+          {
+            "attempt_id": "run-p-83xhvpk79:1:evidence:1",
+            "role": "evidence",
+            "round": 1,
+            "text": "p-83xhvpk79|evidence|1|amber"
+          },
+          {
+            "attempt_id": "run-p-83xhvpk79:1:linking:1",
+            "role": "linking",
+            "round": 1,
+            "text": "p-83xhvpk79|linking|1|amber"
+          }
+        ],
+        [
+          {
+            "attempt_id": "run-p-83xhvpk79:1:linking:1",
+            "role": "linking",
+            "round": 1,
+            "text": "p-83xhvpk79|linking|1|amber"
+          },
+          {
+            "attempt_id": "run-p-83xhvpk79:1:draft:1",
+            "role": "draft",
+            "round": 1,
+            "text": "p-83xhvpk79|draft|1|amber"
+          }
+        ],
+        [
+          {
+            "attempt_id": "run-p-83xhvpk79:2:evidence:1",
+            "role": "evidence",
+            "round": 2,
+            "text": "p-83xhvpk79|evidence|2|amber"
+          },
+          {
+            "attempt_id": "run-p-83xhvpk79:2:linking:1",
+            "role": "linking",
+            "round": 2,
+            "text": "p-83xhvpk79|linking|2|amber"
+          },
+          {
+            "attempt_id": "run-p-83xhvpk79:2:draft:1",
+            "role": "draft",
+            "round": 2,
+            "text": "p-83xhvpk79|draft|2|amber"
+          }
+        ]
+      ],
+      "native_truth": {
+        "started_inner_calls": 8,
+        "known_inner_calls": 8,
+        "unresolved_inner_calls": 0,
+        "known_cost_subtotal_usd": "0.0031085",
+        "total_cost_usd": "0.0031085"
+      },
+      "true_status": "completed",
+      "true_answer": "p-83xhvpk79|aggregator|3|amber",
+      "measurement_complete": true,
+      "expected_instrument": {
+        "trace_accepted": true,
+        "journal_accepted": true,
+        "partial": false,
+        "provenance": "Contract-derived expectation only; not instrument execution."
+      },
+      "message_violations": [],
+      "manufacturing_notes": [
+        "An extra inner call occurs after outer call 2; it is missing at the outer request/journal boundary. No journal forgery is needed. Native counts and native tariff sum retain the extra call."
+      ],
+      "read_depth": "Current production execution with injected synthetic client; independent schedule and Decimal tariff reconstruction. No main-auditor result used as truth."
+    },
+    {
+      "case_id": "p-vz3eq4smw",
+      "class": "V7",
+      "rounds": 2,
+      "failed_role": null,
+      "independent_schedule": [
+        {
+          "attempt_id": "run-p-vz3eq4smw:1:evidence:1",
+          "role": "evidence",
+          "round": 1,
+          "message_attempt_ids": []
+        },
+        {
+          "attempt_id": "run-p-vz3eq4smw:1:linking:1",
+          "role": "linking",
+          "round": 1,
+          "message_attempt_ids": []
+        },
+        {
+          "attempt_id": "run-p-vz3eq4smw:1:draft:1",
+          "role": "draft",
+          "round": 1,
+          "message_attempt_ids": []
+        },
+        {
+          "attempt_id": "run-p-vz3eq4smw:2:evidence:1",
+          "role": "evidence",
+          "round": 2,
+          "message_attempt_ids": [
+            "run-p-vz3eq4smw:1:evidence:1",
+            "run-p-vz3eq4smw:1:draft:1"
+          ]
+        },
+        {
+          "attempt_id": "run-p-vz3eq4smw:2:linking:1",
+          "role": "linking",
+          "round": 2,
+          "message_attempt_ids": [
+            "run-p-vz3eq4smw:1:evidence:1",
+            "run-p-vz3eq4smw:1:linking:1"
+          ]
+        },
+        {
+          "attempt_id": "run-p-vz3eq4smw:2:draft:1",
+          "role": "draft",
+          "round": 2,
+          "message_attempt_ids": [
+            "run-p-vz3eq4smw:1:linking:1",
+            "run-p-vz3eq4smw:1:draft:1"
+          ]
+        },
+        {
+          "attempt_id": "run-p-vz3eq4smw:3:aggregator:1",
+          "role": "aggregator",
+          "round": 3,
+          "message_attempt_ids": [
+            "run-p-vz3eq4smw:2:evidence:1",
+            "run-p-vz3eq4smw:2:linking:1",
+            "run-p-vz3eq4smw:2:draft:1"
+          ]
+        }
+      ],
+      "observed_request_count": 7,
+      "actual_transferred_prior_messages": [
+        [],
+        [],
+        [],
+        [
+          {
+            "attempt_id": "run-p-vz3eq4smw:1:evidence:1",
+            "role": "evidence",
+            "round": 1,
+            "text": "p-vz3eq4smw|evidence|1|amber"
+          },
+          {
+            "attempt_id": "run-p-vz3eq4smw:1:draft:1",
+            "role": "draft",
+            "round": 1,
+            "text": "p-vz3eq4smw|draft|1|amber"
+          }
+        ],
+        [
+          {
+            "attempt_id": "run-p-vz3eq4smw:1:evidence:1",
+            "role": "evidence",
+            "round": 1,
+            "text": "p-vz3eq4smw|evidence|1|amber"
+          },
+          {
+            "attempt_id": "run-p-vz3eq4smw:1:linking:1",
+            "role": "linking",
+            "round": 1,
+            "text": "p-vz3eq4smw|linking|1|amber"
+          }
+        ],
+        [
+          {
+            "attempt_id": "run-p-vz3eq4smw:1:linking:1",
+            "role": "linking",
+            "round": 1,
+            "text": "p-vz3eq4smw|linking|1|amber"
+          },
+          {
+            "attempt_id": "run-p-vz3eq4smw:1:draft:1",
+            "role": "draft",
+            "round": 1,
+            "text": "p-vz3eq4smw|draft|1|amber"
+          }
+        ],
+        [
+          {
+            "attempt_id": "run-p-vz3eq4smw:2:evidence:1",
+            "role": "evidence",
+            "round": 2,
+            "text": "p-vz3eq4smw|evidence|2|amber"
+          },
+          {
+            "attempt_id": "run-p-vz3eq4smw:2:linking:1",
+            "role": "linking",
+            "round": 2,
+            "text": "p-vz3eq4smw|linking|2|amber"
+          },
+          {
+            "attempt_id": "run-p-vz3eq4smw:2:draft:1",
+            "role": "draft",
+            "round": 2,
+            "text": "p-vz3eq4smw|draft|2|amber"
+          }
+        ]
+      ],
+      "native_truth": {
+        "started_inner_calls": 7,
+        "known_inner_calls": 7,
+        "unresolved_inner_calls": 0,
+        "known_cost_subtotal_usd": "0.0025612",
+        "total_cost_usd": "0.0025612"
+      },
+      "true_status": "completed",
+      "true_answer": "p-vz3eq4smw|aggregator|3|amber",
+      "measurement_complete": true,
+      "expected_instrument": {
+        "trace_accepted": false,
+        "journal_accepted": false,
+        "partial": false,
+        "provenance": "Contract-derived expectation only; not instrument execution."
+      },
+      "message_violations": [],
+      "manufacturing_notes": [
+        "One terminal attempt ID assigned to a different role. Envelope hashes rebuilt; native evidence unchanged."
+      ],
+      "read_depth": "Current production execution with injected synthetic client; independent schedule and Decimal tariff reconstruction. No main-auditor result used as truth."
+    },
+    {
+      "case_id": "p-p73vgcqax",
+      "class": "K4",
+      "rounds": 2,
+      "failed_role": null,
+      "independent_schedule": [
+        {
+          "attempt_id": "run-p-p73vgcqax:1:evidence:1",
+          "role": "evidence",
+          "round": 1,
+          "message_attempt_ids": []
+        },
+        {
+          "attempt_id": "run-p-p73vgcqax:1:linking:1",
+          "role": "linking",
+          "round": 1,
+          "message_attempt_ids": []
+        },
+        {
+          "attempt_id": "run-p-p73vgcqax:1:draft:1",
+          "role": "draft",
+          "round": 1,
+          "message_attempt_ids": []
+        },
+        {
+          "attempt_id": "run-p-p73vgcqax:2:evidence:1",
+          "role": "evidence",
+          "round": 2,
+          "message_attempt_ids": [
+            "run-p-p73vgcqax:1:evidence:1",
+            "run-p-p73vgcqax:1:draft:1"
+          ]
+        },
+        {
+          "attempt_id": "run-p-p73vgcqax:2:linking:1",
+          "role": "linking",
+          "round": 2,
+          "message_attempt_ids": [
+            "run-p-p73vgcqax:1:evidence:1",
+            "run-p-p73vgcqax:1:linking:1"
+          ]
+        },
+        {
+          "attempt_id": "run-p-p73vgcqax:2:draft:1",
+          "role": "draft",
+          "round": 2,
+          "message_attempt_ids": [
+            "run-p-p73vgcqax:1:linking:1",
+            "run-p-p73vgcqax:1:draft:1"
+          ]
+        },
+        {
+          "attempt_id": "run-p-p73vgcqax:3:aggregator:1",
+          "role": "aggregator",
+          "round": 3,
+          "message_attempt_ids": [
+            "run-p-p73vgcqax:2:evidence:1",
+            "run-p-p73vgcqax:2:linking:1",
+            "run-p-p73vgcqax:2:draft:1"
+          ]
+        }
+      ],
+      "observed_request_count": 3,
+      "actual_transferred_prior_messages": [
+        [],
+        [],
+        []
+      ],
+      "native_truth": {
+        "started_inner_calls": 3,
+        "known_inner_calls": 2,
+        "unresolved_inner_calls": 1,
+        "known_cost_subtotal_usd": "0.0003274",
+        "total_cost_usd": null
+      },
+      "true_status": "technical_stop",
+      "true_answer": null,
+      "measurement_complete": false,
+      "expected_instrument": {
+        "trace_accepted": true,
+        "journal_accepted": true,
+        "partial": true,
+        "provenance": "Contract-derived expectation only; not instrument execution."
+      },
+      "message_violations": [],
+      "manufacturing_notes": [],
+      "read_depth": "Current production execution with injected synthetic client; independent schedule and Decimal tariff reconstruction. No main-auditor result used as truth."
+    },
+    {
+      "case_id": "p-r82sckbw4",
+      "class": "V6",
+      "rounds": 2,
+      "failed_role": null,
+      "independent_schedule": [
+        {
+          "attempt_id": "run-p-r82sckbw4:1:evidence:1",
+          "role": "evidence",
+          "round": 1,
+          "message_attempt_ids": []
+        },
+        {
+          "attempt_id": "run-p-r82sckbw4:1:linking:1",
+          "role": "linking",
+          "round": 1,
+          "message_attempt_ids": []
+        },
+        {
+          "attempt_id": "run-p-r82sckbw4:1:draft:1",
+          "role": "draft",
+          "round": 1,
+          "message_attempt_ids": []
+        },
+        {
+          "attempt_id": "run-p-r82sckbw4:2:evidence:1",
+          "role": "evidence",
+          "round": 2,
+          "message_attempt_ids": [
+            "run-p-r82sckbw4:1:evidence:1",
+            "run-p-r82sckbw4:1:draft:1"
+          ]
+        },
+        {
+          "attempt_id": "run-p-r82sckbw4:2:linking:1",
+          "role": "linking",
+          "round": 2,
+          "message_attempt_ids": [
+            "run-p-r82sckbw4:1:evidence:1",
+            "run-p-r82sckbw4:1:linking:1"
+          ]
+        },
+        {
+          "attempt_id": "run-p-r82sckbw4:2:draft:1",
+          "role": "draft",
+          "round": 2,
+          "message_attempt_ids": [
+            "run-p-r82sckbw4:1:linking:1",
+            "run-p-r82sckbw4:1:draft:1"
+          ]
+        },
+        {
+          "attempt_id": "run-p-r82sckbw4:3:aggregator:1",
+          "role": "aggregator",
+          "round": 3,
+          "message_attempt_ids": [
+            "run-p-r82sckbw4:2:evidence:1",
+            "run-p-r82sckbw4:2:linking:1",
+            "run-p-r82sckbw4:2:draft:1"
+          ]
+        }
+      ],
+      "observed_request_count": 7,
+      "actual_transferred_prior_messages": [
+        [],
+        [],
+        [],
+        [
+          {
+            "attempt_id": "run-p-r82sckbw4:1:evidence:1",
+            "role": "evidence",
+            "round": 1,
+            "text": "p-r82sckbw4|evidence|1|amber"
+          },
+          {
+            "attempt_id": "run-p-r82sckbw4:1:draft:1",
+            "role": "draft",
+            "round": 1,
+            "text": "p-r82sckbw4|draft|1|amber"
+          }
+        ],
+        [
+          {
+            "attempt_id": "run-p-r82sckbw4:1:evidence:1",
+            "role": "evidence",
+            "round": 1,
+            "text": "p-r82sckbw4|evidence|1|amber"
+          },
+          {
+            "attempt_id": "run-p-r82sckbw4:1:linking:1",
+            "role": "linking",
+            "round": 1,
+            "text": "p-r82sckbw4|linking|1|amber"
+          }
+        ],
+        [
+          {
+            "attempt_id": "run-p-r82sckbw4:1:linking:1",
+            "role": "linking",
+            "round": 1,
+            "text": "p-r82sckbw4|linking|1|amber"
+          },
+          {
+            "attempt_id": "run-p-r82sckbw4:1:draft:1",
+            "role": "draft",
+            "round": 1,
+            "text": "p-r82sckbw4|draft|1|amber"
+          }
+        ],
+        [
+          {
+            "attempt_id": "run-p-r82sckbw4:2:evidence:1",
+            "role": "evidence",
+            "round": 2,
+            "text": "p-r82sckbw4|evidence|2|amber"
+          },
+          {
+            "attempt_id": "run-p-r82sckbw4:2:linking:1",
+            "role": "linking",
+            "round": 2,
+            "text": "p-r82sckbw4|linking|2|amber"
+          },
+          {
+            "attempt_id": "run-p-r82sckbw4:2:draft:1",
+            "role": "draft",
+            "round": 2,
+            "text": "p-r82sckbw4|draft|2|amber"
+          }
+        ]
+      ],
+      "native_truth": {
+        "started_inner_calls": 7,
+        "known_inner_calls": 7,
+        "unresolved_inner_calls": 0,
+        "known_cost_subtotal_usd": "0.0025612",
+        "total_cost_usd": "0.0025612"
+      },
+      "true_status": "completed",
+      "true_answer": "p-r82sckbw4|aggregator|3|amber",
+      "measurement_complete": true,
+      "expected_instrument": {
+        "trace_accepted": false,
+        "journal_accepted": false,
+        "partial": false,
+        "provenance": "Contract-derived expectation only; not instrument execution."
+      },
+      "message_violations": [],
+      "manufacturing_notes": [
+        "One completed event duplicated; envelope sequence and hashes rebuilt."
+      ],
+      "read_depth": "Current production execution with injected synthetic client; independent schedule and Decimal tariff reconstruction. No main-auditor result used as truth."
+    },
+    {
+      "case_id": "p-b7dnq6awc",
+      "class": "K2",
+      "rounds": 1,
+      "failed_role": "linking",
+      "independent_schedule": [
+        {
+          "attempt_id": "run-p-b7dnq6awc:1:evidence:1",
+          "role": "evidence",
+          "round": 1,
+          "message_attempt_ids": []
+        },
+        {
+          "attempt_id": "run-p-b7dnq6awc:1:draft:1",
+          "role": "draft",
+          "round": 1,
+          "message_attempt_ids": []
+        },
+        {
+          "attempt_id": "run-p-b7dnq6awc:2:aggregator:1",
+          "role": "aggregator",
+          "round": 2,
+          "message_attempt_ids": [
+            "run-p-b7dnq6awc:1:evidence:1",
+            "run-p-b7dnq6awc:1:draft:1"
+          ]
+        }
+      ],
+      "observed_request_count": 3,
+      "actual_transferred_prior_messages": [
+        [],
+        [],
+        [
+          {
+            "attempt_id": "run-p-b7dnq6awc:1:evidence:1",
+            "role": "evidence",
+            "round": 1,
+            "text": "p-b7dnq6awc|evidence|1|amber"
+          },
+          {
+            "attempt_id": "run-p-b7dnq6awc:1:draft:1",
+            "role": "draft",
+            "round": 1,
+            "text": "p-b7dnq6awc|draft|1|amber"
+          }
+        ]
+      ],
+      "native_truth": {
+        "started_inner_calls": 3,
+        "known_inner_calls": 3,
+        "unresolved_inner_calls": 0,
+        "known_cost_subtotal_usd": "0.0006945",
+        "total_cost_usd": "0.0006945"
+      },
+      "true_status": "completed",
+      "true_answer": "p-b7dnq6awc|aggregator|2|amber",
+      "measurement_complete": true,
+      "expected_instrument": {
+        "trace_accepted": true,
+        "journal_accepted": true,
+        "partial": false,
+        "provenance": "Contract-derived expectation only; not instrument execution."
+      },
+      "message_violations": [],
+      "manufacturing_notes": [],
+      "read_depth": "Current production execution with injected synthetic client; independent schedule and Decimal tariff reconstruction. No main-auditor result used as truth."
+    },
+    {
+      "case_id": "p-vktaj3qn2",
+      "class": "K1",
+      "rounds": 2,
+      "failed_role": null,
+      "independent_schedule": [
+        {
+          "attempt_id": "run-p-vktaj3qn2:1:evidence:1",
+          "role": "evidence",
+          "round": 1,
+          "message_attempt_ids": []
+        },
+        {
+          "attempt_id": "run-p-vktaj3qn2:1:linking:1",
+          "role": "linking",
+          "round": 1,
+          "message_attempt_ids": []
+        },
+        {
+          "attempt_id": "run-p-vktaj3qn2:1:draft:1",
+          "role": "draft",
+          "round": 1,
+          "message_attempt_ids": []
+        },
+        {
+          "attempt_id": "run-p-vktaj3qn2:2:evidence:1",
+          "role": "evidence",
+          "round": 2,
+          "message_attempt_ids": [
+            "run-p-vktaj3qn2:1:evidence:1",
+            "run-p-vktaj3qn2:1:draft:1"
+          ]
+        },
+        {
+          "attempt_id": "run-p-vktaj3qn2:2:linking:1",
+          "role": "linking",
+          "round": 2,
+          "message_attempt_ids": [
+            "run-p-vktaj3qn2:1:evidence:1",
+            "run-p-vktaj3qn2:1:linking:1"
+          ]
+        },
+        {
+          "attempt_id": "run-p-vktaj3qn2:2:draft:1",
+          "role": "draft",
+          "round": 2,
+          "message_attempt_ids": [
+            "run-p-vktaj3qn2:1:linking:1",
+            "run-p-vktaj3qn2:1:draft:1"
+          ]
+        },
+        {
+          "attempt_id": "run-p-vktaj3qn2:3:aggregator:1",
+          "role": "aggregator",
+          "round": 3,
+          "message_attempt_ids": [
+            "run-p-vktaj3qn2:2:evidence:1",
+            "run-p-vktaj3qn2:2:linking:1",
+            "run-p-vktaj3qn2:2:draft:1"
+          ]
+        }
+      ],
+      "observed_request_count": 7,
+      "actual_transferred_prior_messages": [
+        [],
+        [],
+        [],
+        [
+          {
+            "attempt_id": "run-p-vktaj3qn2:1:evidence:1",
+            "role": "evidence",
+            "round": 1,
+            "text": "p-vktaj3qn2|evidence|1|amber"
+          },
+          {
+            "attempt_id": "run-p-vktaj3qn2:1:draft:1",
+            "role": "draft",
+            "round": 1,
+            "text": "p-vktaj3qn2|draft|1|amber"
+          }
+        ],
+        [
+          {
+            "attempt_id": "run-p-vktaj3qn2:1:evidence:1",
+            "role": "evidence",
+            "round": 1,
+            "text": "p-vktaj3qn2|evidence|1|amber"
+          },
+          {
+            "attempt_id": "run-p-vktaj3qn2:1:linking:1",
+            "role": "linking",
+            "round": 1,
+            "text": "p-vktaj3qn2|linking|1|amber"
+          }
+        ],
+        [
+          {
+            "attempt_id": "run-p-vktaj3qn2:1:linking:1",
+            "role": "linking",
+            "round": 1,
+            "text": "p-vktaj3qn2|linking|1|amber"
+          },
+          {
+            "attempt_id": "run-p-vktaj3qn2:1:draft:1",
+            "role": "draft",
+            "round": 1,
+            "text": "p-vktaj3qn2|draft|1|amber"
+          }
+        ],
+        [
+          {
+            "attempt_id": "run-p-vktaj3qn2:2:evidence:1",
+            "role": "evidence",
+            "round": 2,
+            "text": "p-vktaj3qn2|evidence|2|amber"
+          },
+          {
+            "attempt_id": "run-p-vktaj3qn2:2:linking:1",
+            "role": "linking",
+            "round": 2,
+            "text": "p-vktaj3qn2|linking|2|amber"
+          },
+          {
+            "attempt_id": "run-p-vktaj3qn2:2:draft:1",
+            "role": "draft",
+            "round": 2,
+            "text": "p-vktaj3qn2|draft|2|amber"
+          }
+        ]
+      ],
+      "native_truth": {
+        "started_inner_calls": 7,
+        "known_inner_calls": 7,
+        "unresolved_inner_calls": 0,
+        "known_cost_subtotal_usd": "0.0025612",
+        "total_cost_usd": "0.0025612"
+      },
+      "true_status": "completed",
+      "true_answer": "p-vktaj3qn2|aggregator|3|amber",
+      "measurement_complete": true,
+      "expected_instrument": {
+        "trace_accepted": true,
+        "journal_accepted": true,
+        "partial": false,
+        "provenance": "Contract-derived expectation only; not instrument execution."
+      },
+      "message_violations": [],
+      "manufacturing_notes": [],
+      "read_depth": "Current production execution with injected synthetic client; independent schedule and Decimal tariff reconstruction. No main-auditor result used as truth."
+    },
+    {
+      "case_id": "p-w5t6ckxzm",
+      "class": "V5",
+      "rounds": 2,
+      "failed_role": null,
+      "independent_schedule": [
+        {
+          "attempt_id": "run-p-w5t6ckxzm:1:evidence:1",
+          "role": "evidence",
+          "round": 1,
+          "message_attempt_ids": []
+        },
+        {
+          "attempt_id": "run-p-w5t6ckxzm:1:linking:1",
+          "role": "linking",
+          "round": 1,
+          "message_attempt_ids": []
+        },
+        {
+          "attempt_id": "run-p-w5t6ckxzm:1:draft:1",
+          "role": "draft",
+          "round": 1,
+          "message_attempt_ids": []
+        },
+        {
+          "attempt_id": "run-p-w5t6ckxzm:2:evidence:1",
+          "role": "evidence",
+          "round": 2,
+          "message_attempt_ids": [
+            "run-p-w5t6ckxzm:1:evidence:1",
+            "run-p-w5t6ckxzm:1:draft:1"
+          ]
+        },
+        {
+          "attempt_id": "run-p-w5t6ckxzm:2:linking:1",
+          "role": "linking",
+          "round": 2,
+          "message_attempt_ids": [
+            "run-p-w5t6ckxzm:1:evidence:1",
+            "run-p-w5t6ckxzm:1:linking:1"
+          ]
+        },
+        {
+          "attempt_id": "run-p-w5t6ckxzm:2:draft:1",
+          "role": "draft",
+          "round": 2,
+          "message_attempt_ids": [
+            "run-p-w5t6ckxzm:1:linking:1",
+            "run-p-w5t6ckxzm:1:draft:1"
+          ]
+        },
+        {
+          "attempt_id": "run-p-w5t6ckxzm:3:aggregator:1",
+          "role": "aggregator",
+          "round": 3,
+          "message_attempt_ids": [
+            "run-p-w5t6ckxzm:2:evidence:1",
+            "run-p-w5t6ckxzm:2:linking:1",
+            "run-p-w5t6ckxzm:2:draft:1"
+          ]
+        }
+      ],
+      "observed_request_count": 7,
+      "actual_transferred_prior_messages": [
+        [],
+        [],
+        [],
+        [
+          {
+            "attempt_id": "run-p-w5t6ckxzm:1:evidence:1",
+            "role": "evidence",
+            "round": 1,
+            "text": "p-w5t6ckxzm|evidence|1|amber"
+          },
+          {
+            "attempt_id": "run-p-w5t6ckxzm:1:draft:1",
+            "role": "draft",
+            "round": 1,
+            "text": "p-w5t6ckxzm|draft|1|amber"
+          }
+        ],
+        [
+          {
+            "attempt_id": "run-p-w5t6ckxzm:1:evidence:1",
+            "role": "evidence",
+            "round": 1,
+            "text": "p-w5t6ckxzm|evidence|1|amber"
+          },
+          {
+            "attempt_id": "run-p-w5t6ckxzm:1:linking:1",
+            "role": "linking",
+            "round": 1,
+            "text": "p-w5t6ckxzm|linking|1|amber"
+          }
+        ],
+        [
+          {
+            "attempt_id": "run-p-w5t6ckxzm:1:linking:1",
+            "role": "linking",
+            "round": 1,
+            "text": "p-w5t6ckxzm|linking|1|amber"
+          },
+          {
+            "attempt_id": "run-p-w5t6ckxzm:1:draft:1",
+            "role": "draft",
+            "round": 1,
+            "text": "p-w5t6ckxzm|draft|1|amber"
+          }
+        ],
+        [
+          {
+            "attempt_id": "run-p-w5t6ckxzm:2:evidence:1",
+            "role": "evidence",
+            "round": 2,
+            "text": "p-w5t6ckxzm|evidence|2|amber"
+          },
+          {
+            "attempt_id": "run-p-w5t6ckxzm:2:linking:1",
+            "role": "linking",
+            "round": 2,
+            "text": "p-w5t6ckxzm|linking|2|amber"
+          },
+          {
+            "attempt_id": "run-p-w5t6ckxzm:2:draft:1",
+            "role": "draft",
+            "round": 2,
+            "text": "p-w5t6ckxzm|draft|2|amber"
+          }
+        ]
+      ],
+      "native_truth": {
+        "started_inner_calls": 7,
+        "known_inner_calls": 7,
+        "unresolved_inner_calls": 0,
+        "known_cost_subtotal_usd": "0.0025612",
+        "total_cost_usd": "0.0025612"
+      },
+      "true_status": "completed",
+      "true_answer": "p-w5t6ckxzm|aggregator|3|amber",
+      "measurement_complete": true,
+      "expected_instrument": {
+        "trace_accepted": false,
+        "journal_accepted": false,
+        "partial": false,
+        "provenance": "Contract-derived expectation only; not instrument execution."
+      },
+      "message_violations": [],
+      "manufacturing_notes": [
+        "One completed event removed; later events/closure retained. Envelope sequence and hashes rebuilt to isolate semantic event completeness."
+      ],
+      "read_depth": "Current production execution with injected synthetic client; independent schedule and Decimal tariff reconstruction. No main-auditor result used as truth."
+    },
+    {
+      "case_id": "p-6dzsyfwuh",
+      "class": "V3",
+      "rounds": 2,
+      "failed_role": null,
+      "independent_schedule": [
+        {
+          "attempt_id": "run-p-6dzsyfwuh:1:evidence:1",
+          "role": "evidence",
+          "round": 1,
+          "message_attempt_ids": []
+        },
+        {
+          "attempt_id": "run-p-6dzsyfwuh:1:linking:1",
+          "role": "linking",
+          "round": 1,
+          "message_attempt_ids": []
+        },
+        {
+          "attempt_id": "run-p-6dzsyfwuh:1:draft:1",
+          "role": "draft",
+          "round": 1,
+          "message_attempt_ids": []
+        },
+        {
+          "attempt_id": "run-p-6dzsyfwuh:2:evidence:1",
+          "role": "evidence",
+          "round": 2,
+          "message_attempt_ids": [
+            "run-p-6dzsyfwuh:1:evidence:1",
+            "run-p-6dzsyfwuh:1:draft:1"
+          ]
+        },
+        {
+          "attempt_id": "run-p-6dzsyfwuh:2:linking:1",
+          "role": "linking",
+          "round": 2,
+          "message_attempt_ids": [
+            "run-p-6dzsyfwuh:1:evidence:1",
+            "run-p-6dzsyfwuh:1:linking:1"
+          ]
+        },
+        {
+          "attempt_id": "run-p-6dzsyfwuh:2:draft:1",
+          "role": "draft",
+          "round": 2,
+          "message_attempt_ids": [
+            "run-p-6dzsyfwuh:1:linking:1",
+            "run-p-6dzsyfwuh:1:draft:1"
+          ]
+        },
+        {
+          "attempt_id": "run-p-6dzsyfwuh:3:aggregator:1",
+          "role": "aggregator",
+          "round": 3,
+          "message_attempt_ids": [
+            "run-p-6dzsyfwuh:2:evidence:1",
+            "run-p-6dzsyfwuh:2:linking:1",
+            "run-p-6dzsyfwuh:2:draft:1"
+          ]
+        }
+      ],
+      "observed_request_count": 7,
+      "actual_transferred_prior_messages": [
+        [],
+        [],
+        [],
+        [
+          {
+            "attempt_id": "run-p-6dzsyfwuh:1:evidence:1",
+            "role": "evidence",
+            "round": 1,
+            "text": "p-6dzsyfwuh|evidence|1|amber"
+          },
+          {
+            "attempt_id": "run-p-6dzsyfwuh:1:draft:1",
+            "role": "draft",
+            "round": 1,
+            "text": "p-6dzsyfwuh|draft|1|amber"
+          }
+        ],
+        [
+          {
+            "attempt_id": "run-p-6dzsyfwuh:1:evidence:1",
+            "role": "evidence",
+            "round": 1,
+            "text": "p-6dzsyfwuh|evidence|1|amber"
+          },
+          {
+            "attempt_id": "run-p-6dzsyfwuh:1:linking:1",
+            "role": "linking",
+            "round": 1,
+            "text": "p-6dzsyfwuh|linking|1|amber"
+          }
+        ],
+        [
+          {
+            "attempt_id": "run-p-6dzsyfwuh:1:linking:1",
+            "role": "linking",
+            "round": 1,
+            "text": "p-6dzsyfwuh|linking|1|amber"
+          },
+          {
+            "attempt_id": "run-p-6dzsyfwuh:1:draft:1",
+            "role": "draft",
+            "round": 1,
+            "text": "p-6dzsyfwuh|draft|1|amber"
+          }
+        ],
+        [
+          {
+            "attempt_id": "run-p-6dzsyfwuh:2:evidence:1",
+            "role": "evidence",
+            "round": 2,
+            "text": "p-6dzsyfwuh|evidence|2|amber"
+          },
+          {
+            "attempt_id": "run-p-6dzsyfwuh:2:linking:1",
+            "role": "linking",
+            "round": 2,
+            "text": "p-6dzsyfwuh|linking|2|amber"
+          },
+          {
+            "attempt_id": "run-p-6dzsyfwuh:2:draft:1",
+            "role": "draft",
+            "round": 2,
+            "text": "p-6dzsyfwuh|draft|2|amber"
+          }
+        ]
+      ],
+      "native_truth": {
+        "started_inner_calls": 7,
+        "known_inner_calls": 7,
+        "unresolved_inner_calls": 0,
+        "known_cost_subtotal_usd": "0.0025612",
+        "total_cost_usd": "0.0025612"
+      },
+      "true_status": "completed",
+      "true_answer": "p-6dzsyfwuh|aggregator|3|amber",
+      "measurement_complete": true,
+      "expected_instrument": {
+        "trace_accepted": true,
+        "journal_accepted": true,
+        "partial": false,
+        "provenance": "Contract-derived expectation only; not instrument execution."
+      },
+      "message_violations": [],
+      "manufacturing_notes": [
+        "One adapter-returned cost and the resulting report subtotal/total are consistently increased by 0.00037 USD. Native usage and tariff are unchanged. All journal envelopes are genuinely produced by current execution."
+      ],
+      "read_depth": "Current production execution with injected synthetic client; independent schedule and Decimal tariff reconstruction. No main-auditor result used as truth."
+    },
+    {
+      "case_id": "p-yx4wuqhtd",
+      "class": "V4",
+      "rounds": 2,
+      "failed_role": null,
+      "independent_schedule": [
+        {
+          "attempt_id": "run-p-yx4wuqhtd:1:evidence:1",
+          "role": "evidence",
+          "round": 1,
+          "message_attempt_ids": []
+        },
+        {
+          "attempt_id": "run-p-yx4wuqhtd:1:linking:1",
+          "role": "linking",
+          "round": 1,
+          "message_attempt_ids": []
+        },
+        {
+          "attempt_id": "run-p-yx4wuqhtd:1:draft:1",
+          "role": "draft",
+          "round": 1,
+          "message_attempt_ids": []
+        },
+        {
+          "attempt_id": "run-p-yx4wuqhtd:2:evidence:1",
+          "role": "evidence",
+          "round": 2,
+          "message_attempt_ids": [
+            "run-p-yx4wuqhtd:1:evidence:1",
+            "run-p-yx4wuqhtd:1:draft:1"
+          ]
+        },
+        {
+          "attempt_id": "run-p-yx4wuqhtd:2:linking:1",
+          "role": "linking",
+          "round": 2,
+          "message_attempt_ids": [
+            "run-p-yx4wuqhtd:1:evidence:1",
+            "run-p-yx4wuqhtd:1:linking:1"
+          ]
+        },
+        {
+          "attempt_id": "run-p-yx4wuqhtd:2:draft:1",
+          "role": "draft",
+          "round": 2,
+          "message_attempt_ids": [
+            "run-p-yx4wuqhtd:1:linking:1",
+            "run-p-yx4wuqhtd:1:draft:1"
+          ]
+        },
+        {
+          "attempt_id": "run-p-yx4wuqhtd:3:aggregator:1",
+          "role": "aggregator",
+          "round": 3,
+          "message_attempt_ids": [
+            "run-p-yx4wuqhtd:2:evidence:1",
+            "run-p-yx4wuqhtd:2:linking:1",
+            "run-p-yx4wuqhtd:2:draft:1"
+          ]
+        }
+      ],
+      "observed_request_count": 3,
+      "actual_transferred_prior_messages": [
+        [],
+        [],
+        []
+      ],
+      "native_truth": {
+        "started_inner_calls": 3,
+        "known_inner_calls": 2,
+        "unresolved_inner_calls": 1,
+        "known_cost_subtotal_usd": "0.0003274",
+        "total_cost_usd": null
+      },
+      "true_status": "technical_stop",
+      "true_answer": null,
+      "measurement_complete": false,
+      "expected_instrument": {
+        "trace_accepted": true,
+        "journal_accepted": true,
+        "partial": true,
+        "provenance": "Contract-derived expectation only; not instrument execution."
+      },
+      "message_violations": [],
+      "manufacturing_notes": [
+        "Only the report treats unresolved billing as zero and asserts completion. The genuine open journal and trace are retained exactly. This is a false reporting claim, not an invalid F-01 unknown terminal record."
+      ],
+      "read_depth": "Current production execution with injected synthetic client; independent schedule and Decimal tariff reconstruction. No main-auditor result used as truth."
+    },
+    {
+      "case_id": "p-rbdtj357g",
+      "class": "V8",
+      "rounds": 2,
+      "failed_role": null,
+      "independent_schedule": [
+        {
+          "attempt_id": "run-p-rbdtj357g:1:evidence:1",
+          "role": "evidence",
+          "round": 1,
+          "message_attempt_ids": []
+        },
+        {
+          "attempt_id": "run-p-rbdtj357g:1:linking:1",
+          "role": "linking",
+          "round": 1,
+          "message_attempt_ids": []
+        },
+        {
+          "attempt_id": "run-p-rbdtj357g:1:draft:1",
+          "role": "draft",
+          "round": 1,
+          "message_attempt_ids": []
+        },
+        {
+          "attempt_id": "run-p-rbdtj357g:2:evidence:1",
+          "role": "evidence",
+          "round": 2,
+          "message_attempt_ids": [
+            "run-p-rbdtj357g:1:evidence:1",
+            "run-p-rbdtj357g:1:draft:1"
+          ]
+        },
+        {
+          "attempt_id": "run-p-rbdtj357g:2:linking:1",
+          "role": "linking",
+          "round": 2,
+          "message_attempt_ids": [
+            "run-p-rbdtj357g:1:evidence:1",
+            "run-p-rbdtj357g:1:linking:1"
+          ]
+        },
+        {
+          "attempt_id": "run-p-rbdtj357g:2:draft:1",
+          "role": "draft",
+          "round": 2,
+          "message_attempt_ids": [
+            "run-p-rbdtj357g:1:linking:1",
+            "run-p-rbdtj357g:1:draft:1"
+          ]
+        },
+        {
+          "attempt_id": "run-p-rbdtj357g:3:aggregator:1",
+          "role": "aggregator",
+          "round": 3,
+          "message_attempt_ids": [
+            "run-p-rbdtj357g:2:evidence:1",
+            "run-p-rbdtj357g:2:linking:1",
+            "run-p-rbdtj357g:2:draft:1"
+          ]
+        }
+      ],
+      "observed_request_count": 7,
+      "actual_transferred_prior_messages": [
+        [],
+        [],
+        [],
+        [
+          {
+            "attempt_id": "run-p-rbdtj357g:1:evidence:1",
+            "role": "evidence",
+            "round": 1,
+            "text": "p-rbdtj357g|evidence|1|amber"
+          },
+          {
+            "attempt_id": "run-p-rbdtj357g:1:draft:1",
+            "role": "draft",
+            "round": 1,
+            "text": "p-rbdtj357g|draft|1|amber"
+          }
+        ],
+        [
+          {
+            "attempt_id": "run-p-rbdtj357g:1:evidence:1",
+            "role": "evidence",
+            "round": 1,
+            "text": "p-rbdtj357g|evidence|1|amber"
+          },
+          {
+            "attempt_id": "run-p-rbdtj357g:1:linking:1",
+            "role": "linking",
+            "round": 1,
+            "text": "p-rbdtj357g|linking|1|amber"
+          }
+        ],
+        [
+          {
+            "attempt_id": "run-p-rbdtj357g:1:linking:1",
+            "role": "linking",
+            "round": 1,
+            "text": "p-rbdtj357g|linking|1|amber"
+          },
+          {
+            "attempt_id": "run-p-rbdtj357g:1:draft:1",
+            "role": "draft",
+            "round": 1,
+            "text": "p-rbdtj357g|draft|1|amber"
+          }
+        ],
+        [
+          {
+            "attempt_id": "run-p-rbdtj357g:2:evidence:1",
+            "role": "evidence",
+            "round": 2,
+            "text": "p-rbdtj357g|evidence|2|amber"
+          },
+          {
+            "attempt_id": "run-p-rbdtj357g:2:linking:1",
+            "role": "linking",
+            "round": 2,
+            "text": "p-rbdtj357g|linking|2|amber"
+          },
+          {
+            "attempt_id": "run-p-rbdtj357g:2:draft:1",
+            "role": "draft",
+            "round": 2,
+            "text": "p-rbdtj357g|draft|2|amber"
+          }
+        ]
+      ],
+      "native_truth": {
+        "started_inner_calls": 7,
+        "known_inner_calls": 7,
+        "unresolved_inner_calls": 0,
+        "known_cost_subtotal_usd": "0.0025612",
+        "total_cost_usd": "0.0025612"
+      },
+      "true_status": "completed",
+      "true_answer": "p-rbdtj357g|aggregator|3|amber",
+      "measurement_complete": true,
+      "expected_instrument": {
+        "trace_accepted": true,
+        "journal_accepted": false,
+        "partial": false,
+        "provenance": "Contract-derived expectation only; not instrument execution."
+      },
+      "message_violations": [],
+      "manufacturing_notes": [
+        "One terminal event price-version string changed after binding, without rehashing. Counts, amount, message content and final result unchanged. This tests detectable record integrity, not forged replacement of all anchors."
+      ],
+      "read_depth": "Current production execution with injected synthetic client; independent schedule and Decimal tariff reconstruction. No main-auditor result used as truth."
+    },
+    {
+      "case_id": "p-f9gwrjdba",
+      "class": "V1",
+      "rounds": 2,
+      "failed_role": null,
+      "independent_schedule": [
+        {
+          "attempt_id": "run-p-f9gwrjdba:1:evidence:1",
+          "role": "evidence",
+          "round": 1,
+          "message_attempt_ids": []
+        },
+        {
+          "attempt_id": "run-p-f9gwrjdba:1:linking:1",
+          "role": "linking",
+          "round": 1,
+          "message_attempt_ids": []
+        },
+        {
+          "attempt_id": "run-p-f9gwrjdba:1:draft:1",
+          "role": "draft",
+          "round": 1,
+          "message_attempt_ids": []
+        },
+        {
+          "attempt_id": "run-p-f9gwrjdba:2:evidence:1",
+          "role": "evidence",
+          "round": 2,
+          "message_attempt_ids": [
+            "run-p-f9gwrjdba:1:evidence:1",
+            "run-p-f9gwrjdba:1:draft:1"
+          ]
+        },
+        {
+          "attempt_id": "run-p-f9gwrjdba:2:linking:1",
+          "role": "linking",
+          "round": 2,
+          "message_attempt_ids": [
+            "run-p-f9gwrjdba:1:evidence:1",
+            "run-p-f9gwrjdba:1:linking:1"
+          ]
+        },
+        {
+          "attempt_id": "run-p-f9gwrjdba:2:draft:1",
+          "role": "draft",
+          "round": 2,
+          "message_attempt_ids": [
+            "run-p-f9gwrjdba:1:linking:1",
+            "run-p-f9gwrjdba:1:draft:1"
+          ]
+        },
+        {
+          "attempt_id": "run-p-f9gwrjdba:3:aggregator:1",
+          "role": "aggregator",
+          "round": 3,
+          "message_attempt_ids": [
+            "run-p-f9gwrjdba:2:evidence:1",
+            "run-p-f9gwrjdba:2:linking:1",
+            "run-p-f9gwrjdba:2:draft:1"
+          ]
+        }
+      ],
+      "observed_request_count": 7,
+      "actual_transferred_prior_messages": [
+        [],
+        [],
+        [],
+        [
+          {
+            "attempt_id": "run-p-f9gwrjdba:1:evidence:1",
+            "role": "evidence",
+            "round": 1,
+            "text": "p-f9gwrjdba|evidence|1|amber"
+          },
+          {
+            "attempt_id": "run-p-f9gwrjdba:1:draft:1",
+            "role": "draft",
+            "round": 1,
+            "text": "p-f9gwrjdba|draft|1|amber"
+          }
+        ],
+        [
+          {
+            "attempt_id": "run-p-f9gwrjdba:1:evidence:1",
+            "role": "evidence",
+            "round": 1,
+            "text": "p-f9gwrjdba|evidence|1|amber"
+          },
+          {
+            "attempt_id": "run-p-f9gwrjdba:1:linking:1",
+            "role": "linking",
+            "round": 1,
+            "text": "p-f9gwrjdba|linking|1|amber"
+          },
+          {
+            "attempt_id": "run-p-f9gwrjdba:1:draft:1",
+            "role": "draft",
+            "round": 1,
+            "text": "p-f9gwrjdba|draft|1|amber"
+          }
+        ],
+        [
+          {
+            "attempt_id": "run-p-f9gwrjdba:1:linking:1",
+            "role": "linking",
+            "round": 1,
+            "text": "p-f9gwrjdba|linking|1|amber"
+          },
+          {
+            "attempt_id": "run-p-f9gwrjdba:1:draft:1",
+            "role": "draft",
+            "round": 1,
+            "text": "p-f9gwrjdba|draft|1|amber"
+          }
+        ],
+        [
+          {
+            "attempt_id": "run-p-f9gwrjdba:2:evidence:1",
+            "role": "evidence",
+            "round": 2,
+            "text": "p-f9gwrjdba|evidence|2|amber"
+          },
+          {
+            "attempt_id": "run-p-f9gwrjdba:2:linking:1",
+            "role": "linking",
+            "round": 2,
+            "text": "p-f9gwrjdba|linking|2|amber"
+          },
+          {
+            "attempt_id": "run-p-f9gwrjdba:2:draft:1",
+            "role": "draft",
+            "round": 2,
+            "text": "p-f9gwrjdba|draft|2|amber"
+          }
+        ]
+      ],
+      "native_truth": {
+        "started_inner_calls": 7,
+        "known_inner_calls": 7,
+        "unresolved_inner_calls": 0,
+        "known_cost_subtotal_usd": "0.0025697",
+        "total_cost_usd": "0.0025697"
+      },
+      "true_status": "completed",
+      "true_answer": "p-f9gwrjdba|aggregator|3|amber",
+      "measurement_complete": true,
+      "expected_instrument": {
+        "trace_accepted": false,
+        "journal_accepted": false,
+        "partial": false,
+        "provenance": "Contract-derived expectation only; not instrument execution."
+      },
+      "message_violations": [
+        {
+          "attempt_id": "run-p-f9gwrjdba:2:linking:1",
+          "observed": [
+            "run-p-f9gwrjdba:1:evidence:1",
+            "run-p-f9gwrjdba:1:linking:1",
+            "run-p-f9gwrjdba:1:draft:1"
+          ],
+          "allowed": [
+            "run-p-f9gwrjdba:1:evidence:1",
+            "run-p-f9gwrjdba:1:linking:1"
+          ]
+        }
+      ],
+      "manufacturing_notes": [
+        "The outer wrapper actually injected the forbidden prior message. Started messages were then coherently made to describe that real request; all envelope hashes rebuilt. Responses are role/round constants, so no additional downstream text mutation."
+      ],
+      "read_depth": "Current production execution with injected synthetic client; independent schedule and Decimal tariff reconstruction. No main-auditor result used as truth."
+    }
+  ],
+  "cost_sheet": [
+    {
+      "id": "r01",
+      "status": "supported_known",
+      "cost_usd": "0.0001701"
+    },
+    {
+      "id": "r02",
+      "status": "supported_known",
+      "cost_usd": "0.0001747"
+    },
+    {
+      "id": "r03",
+      "status": "supported_known",
+      "cost_usd": "0.0001701"
+    },
+    {
+      "id": "r04",
+      "status": "supported_known",
+      "cost_usd": "0"
+    },
+    {
+      "id": "r05",
+      "status": "no_model_call",
+      "cost_usd": "0",
+      "limit": "Local CPU time is not monetized as model USD."
+    },
+    {
+      "id": "r06",
+      "status": "known_aggregate_preserved",
+      "cost_usd": "0.00009",
+      "limit": "No separate cache field or independently checked cache tariff. No real provider evidence."
+    },
+    {
+      "id": "r07",
+      "status": "not_separately_supported",
+      "cost_usd": null
+    }
+  ],
+  "not_blind": true,
+  "auditor_used_as_reference": false
+}

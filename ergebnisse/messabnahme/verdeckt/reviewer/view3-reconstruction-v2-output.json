@@ -1,0 +1,2755 @@
+{
+  "schema": 1,
+  "source": "view3-reconstruct-v2.py",
+  "cases": [
+    {
+      "case_id": "p-6dzsyfwuh",
+      "issues": [
+        {
+          "code": "trace_inner_usage_mismatch",
+          "where": "p-6dzsyfwuh-n03",
+          "detail": {
+            "trace": {
+              "cost_source": "synthetic",
+              "cost_usd": "0.0007356",
+              "input_tokens": 164,
+              "output_tokens": 28,
+              "price_version": "Z37-synthetic-20260913"
+            },
+            "inner": {
+              "input_tokens": 164,
+              "output_tokens": 28,
+              "cost_usd": "0.0003656",
+              "cost_source": "synthetic",
+              "price_version": "Z37-synthetic-20260913"
+            }
+          }
+        }
+      ],
+      "counts": {
+        "inner_started": 7,
+        "inner_returned_including_model_failure": 7,
+        "inner_technical_errors": 0,
+        "model_failed_returns": 0,
+        "outer_requests": 7,
+        "trace_started": 7,
+        "trace_terminal_events": 7
+      },
+      "reconstructed_status": "completed",
+      "reconstructed_answer": "p-6dzsyfwuh|aggregator|3|amber",
+      "known_subtotal_usd": "0.0025612",
+      "total_usd": "0.0025612",
+      "unknown_call_ids": [],
+      "known_input_tokens": 1312,
+      "known_output_tokens": 200,
+      "claimed_minus_reconstructed_subtotal_usd": "0.0003700",
+      "claimed_minus_reconstructed_total_usd": "0.0003700",
+      "inner_calls_missing_outer": [],
+      "full_request_model_body_matches": [
+        {
+          "call_id": "p-6dzsyfwuh-n01",
+          "outer_ordinal": 1,
+          "request_and_entire_model_body_equal": true
+        },
+        {
+          "call_id": "p-6dzsyfwuh-n02",
+          "outer_ordinal": 2,
+          "request_and_entire_model_body_equal": true
+        },
+        {
+          "call_id": "p-6dzsyfwuh-n03",
+          "outer_ordinal": 3,
+          "request_and_entire_model_body_equal": true
+        },
+        {
+          "call_id": "p-6dzsyfwuh-n04",
+          "outer_ordinal": 4,
+          "request_and_entire_model_body_equal": true
+        },
+        {
+          "call_id": "p-6dzsyfwuh-n05",
+          "outer_ordinal": 5,
+          "request_and_entire_model_body_equal": true
+        },
+        {
+          "call_id": "p-6dzsyfwuh-n06",
+          "outer_ordinal": 6,
+          "request_and_entire_model_body_equal": true
+        },
+        {
+          "call_id": "p-6dzsyfwuh-n07",
+          "outer_ordinal": 7,
+          "request_and_entire_model_body_equal": true
+        }
+      ],
+      "calls": [
+        {
+          "call_id": "p-6dzsyfwuh-n01",
+          "attempt_id": "run-p-6dzsyfwuh:1:evidence:1",
+          "role": "evidence",
+          "round": 1,
+          "outcome": "returned",
+          "finish_reason": "stop",
+          "known_input_tokens": 130,
+          "known_output_tokens": 22,
+          "waived": true,
+          "reconstructed_cost_usd": "0",
+          "recorded_inner_cost_usd": "0",
+          "outer_terminal_records": 1
+        },
+        {
+          "call_id": "p-6dzsyfwuh-n02",
+          "attempt_id": "run-p-6dzsyfwuh:1:linking:1",
+          "role": "linking",
+          "round": 1,
+          "outcome": "returned",
+          "finish_reason": "stop",
+          "known_input_tokens": 147,
+          "known_output_tokens": 25,
+          "waived": false,
+          "reconstructed_cost_usd": "0.0003274",
+          "recorded_inner_cost_usd": "0.0003274",
+          "outer_terminal_records": 1
+        },
+        {
+          "call_id": "p-6dzsyfwuh-n03",
+          "attempt_id": "run-p-6dzsyfwuh:1:draft:1",
+          "role": "draft",
+          "round": 1,
+          "outcome": "returned",
+          "finish_reason": "stop",
+          "known_input_tokens": 164,
+          "known_output_tokens": 28,
+          "waived": false,
+          "reconstructed_cost_usd": "0.0003656",
+          "recorded_inner_cost_usd": "0.0003656",
+          "outer_terminal_records": 1
+        },
+        {
+          "call_id": "p-6dzsyfwuh-n04",
+          "attempt_id": "run-p-6dzsyfwuh:2:evidence:1",
+          "role": "evidence",
+          "round": 2,
+          "outcome": "returned",
+          "finish_reason": "stop",
+          "known_input_tokens": 191,
+          "known_output_tokens": 31,
+          "waived": false,
+          "reconstructed_cost_usd": "0.0004208",
+          "recorded_inner_cost_usd": "0.0004208",
+          "outer_terminal_records": 1
+        },
+        {
+          "call_id": "p-6dzsyfwuh-n05",
+          "attempt_id": "run-p-6dzsyfwuh:2:linking:1",
+          "role": "linking",
+          "round": 2,
+          "outcome": "returned",
+          "finish_reason": "stop",
+          "known_input_tokens": 208,
+          "known_output_tokens": 34,
+          "waived": false,
+          "reconstructed_cost_usd": "0.0004590",
+          "recorded_inner_cost_usd": "0.0004590",
+          "outer_terminal_records": 1
+        },
+        {
+          "call_id": "p-6dzsyfwuh-n06",
+          "attempt_id": "run-p-6dzsyfwuh:2:draft:1",
+          "role": "draft",
+          "round": 2,
+          "outcome": "returned",
+          "finish_reason": "stop",
+          "known_input_tokens": 225,
+          "known_output_tokens": 37,
+          "waived": false,
+          "reconstructed_cost_usd": "0.0004972",
+          "recorded_inner_cost_usd": "0.0004972",
+          "outer_terminal_records": 1
+        },
+        {
+          "call_id": "p-6dzsyfwuh-n07",
+          "attempt_id": "run-p-6dzsyfwuh:3:aggregator:1",
+          "role": "aggregator",
+          "round": 3,
+          "outcome": "returned",
+          "finish_reason": "stop",
+          "known_input_tokens": 247,
+          "known_output_tokens": 23,
+          "waived": false,
+          "reconstructed_cost_usd": "0.0004912",
+          "recorded_inner_cost_usd": "0.0004912",
+          "outer_terminal_records": 1
+        }
+      ],
+      "actual_messages": [
+        {
+          "call_id": "p-6dzsyfwuh-n01",
+          "attempt_id": "run-p-6dzsyfwuh:1:evidence:1",
+          "actual_prior_messages": [],
+          "model_body_sha256": "1e96b895a8b7c249b4e2bb845944974dec4bdd6b5d295fb77b4bd61a1254f336"
+        },
+        {
+          "call_id": "p-6dzsyfwuh-n02",
+          "attempt_id": "run-p-6dzsyfwuh:1:linking:1",
+          "actual_prior_messages": [],
+          "model_body_sha256": "cde0117164ad3ea9a8450923ba2ff4580183d75ba8ca8459d054b8fefe0cc456"
+        },
+        {
+          "call_id": "p-6dzsyfwuh-n03",
+          "attempt_id": "run-p-6dzsyfwuh:1:draft:1",
+          "actual_prior_messages": [],
+          "model_body_sha256": "4beaf2a8fe924e1cb3cd826513951e0d52c019bd247aae9af612b20a1136ad80"
+        },
+        {
+          "call_id": "p-6dzsyfwuh-n04",
+          "attempt_id": "run-p-6dzsyfwuh:2:evidence:1",
+          "actual_prior_messages": [
+            {
+              "role": "evidence",
+              "round": 1,
+              "text": "p-6dzsyfwuh|evidence|1|amber"
+            },
+            {
+              "role": "draft",
+              "round": 1,
+              "text": "p-6dzsyfwuh|draft|1|amber"
+            }
+          ],
+          "model_body_sha256": "c12901cc28ed5a4ce96b5e71d335774dccadece80d7b8e4f9a61298f560452c1"
+        },
+        {
+          "call_id": "p-6dzsyfwuh-n05",
+          "attempt_id": "run-p-6dzsyfwuh:2:linking:1",
+          "actual_prior_messages": [
+            {
+              "role": "evidence",
+              "round": 1,
+              "text": "p-6dzsyfwuh|evidence|1|amber"
+            },
+            {
+              "role": "linking",
+              "round": 1,
+              "text": "p-6dzsyfwuh|linking|1|amber"
+            }
+          ],
+          "model_body_sha256": "99df627761bc9ec1cecb800ed7361dd397b2ca65d5abe3dfc9ab86a4279d289d"
+        },
+        {
+          "call_id": "p-6dzsyfwuh-n06",
+          "attempt_id": "run-p-6dzsyfwuh:2:draft:1",
+          "actual_prior_messages": [
+            {
+              "role": "linking",
+              "round": 1,
+              "text": "p-6dzsyfwuh|linking|1|amber"
+            },
+            {
+              "role": "draft",
+              "round": 1,
+              "text": "p-6dzsyfwuh|draft|1|amber"
+            }
+          ],
+          "model_body_sha256": "1f04a859d4c2a1ea047d2e5ade2f0a5c69dd251d79d6911d16d6d4e2513c72e8"
+        },
+        {
+          "call_id": "p-6dzsyfwuh-n07",
+          "attempt_id": "run-p-6dzsyfwuh:3:aggregator:1",
+          "actual_prior_messages": [
+            {
+              "role": "evidence",
+              "round": 2,
+              "text": "p-6dzsyfwuh|evidence|2|amber"
+            },
+            {
+              "role": "linking",
+              "round": 2,
+              "text": "p-6dzsyfwuh|linking|2|amber"
+            },
+            {
+              "role": "draft",
+              "round": 2,
+              "text": "p-6dzsyfwuh|draft|2|amber"
+            }
+          ],
+          "model_body_sha256": "7a176451a8bf769b04840bbd945e6d3033ce5ea39ca1b2eb6566cd40ce1c22b8"
+        }
+      ]
+    },
+    {
+      "case_id": "p-83xhvpk79",
+      "issues": [
+        {
+          "code": "inner_attempt_contract_mismatch",
+          "where": "client.line[5]",
+          "detail": {
+            "actual": "run-p-83xhvpk79:1:linking:1:aux",
+            "expected": "run-p-83xhvpk79:1:linking:1"
+          }
+        },
+        {
+          "code": "inner_schedule_mismatch",
+          "where": "client.line[5]",
+          "detail": {
+            "observed": [
+              1,
+              "linking"
+            ],
+            "expected": [
+              1,
+              "draft"
+            ],
+            "note": "Unexpected call is counted but does not replace the required regular call."
+          }
+        },
+        {
+          "code": "inner_call_without_matching_outer_record",
+          "where": "p-83xhvpk79-n03",
+          "detail": {
+            "attempt_id": "run-p-83xhvpk79:1:linking:1:aux",
+            "role": "linking",
+            "round": 1,
+            "request": {
+              "attempt_id": "run-p-83xhvpk79:1:linking:1:aux",
+              "instruction": "Connect evidence across the supplied paragraphs to answer the question. Explain the necessary links.",
+              "max_output_tokens": 1024,
+              "messages": [],
+              "role": "linking",
+              "round": 1,
+              "task": {
+                "paragraphs": [
+                  "Im künstlichen Register p-83xhvpk79 trägt der Behälter die Markierung amber.",
+                  "Dieser Text dient ausschließlich einer technischen Fallprüfung."
+                ],
+                "question": "Welche Markierung trägt der künstliche Behälter?",
+                "task_id": "task-p-83xhvpk79"
+              }
+            },
+            "model_body": {
+              "max_tokens": 1024,
+              "messages": [
+                {
+                  "content": "Connect evidence across the supplied paragraphs to answer the question. Explain the necessary links.",
+                  "role": "system"
+                },
+                {
+                  "content": "{\"paragraphs\": [\"Im künstlichen Register p-83xhvpk79 trägt der Behälter die Markierung amber.\", \"Dieser Text dient ausschließlich einer technischen Fallprüfung.\"], \"prior_messages\": [], \"question\": \"Welche Markierung trägt der künstliche Behälter?\"}",
+                  "role": "user"
+                }
+              ],
+              "model": "google/gemini-2.5-flash-lite",
+              "provider": {
+                "allow_fallbacks": false,
+                "max_price": {
+                  "completion": 0.4,
+                  "prompt": 0.1,
+                  "request": 0
+                },
+                "only": [
+                  "google-vertex/eu"
+                ],
+                "order": [
+                  "google-vertex/eu"
+                ],
+                "require_parameters": true
+              },
+              "reasoning": {
+                "enabled": false
+              },
+              "stream": false,
+              "temperature": 0
+            }
+          }
+        },
+        {
+          "code": "trace_terminal_count_against_inner",
+          "where": "p-83xhvpk79-n03",
+          "detail": {
+            "attempt_id": "run-p-83xhvpk79:1:linking:1:aux",
+            "terminals": 0
+          }
+        }
+      ],
+      "counts": {
+        "inner_started": 8,
+        "inner_returned_including_model_failure": 8,
+        "inner_technical_errors": 0,
+        "model_failed_returns": 0,
+        "outer_requests": 7,
+        "trace_started": 7,
+        "trace_terminal_events": 7
+      },
+      "reconstructed_status": "completed",
+      "reconstructed_answer": "p-83xhvpk79|aggregator|3|amber",
+      "known_subtotal_usd": "0.0031085",
+      "total_usd": "0.0031085",
+      "unknown_call_ids": [],
+      "known_input_tokens": 1561,
+      "known_output_tokens": 240,
+      "claimed_minus_reconstructed_subtotal_usd": "-0.0003656",
+      "claimed_minus_reconstructed_total_usd": "-0.0003656",
+      "inner_calls_missing_outer": [
+        "p-83xhvpk79-n03"
+      ],
+      "full_request_model_body_matches": [
+        {
+          "call_id": "p-83xhvpk79-n01",
+          "outer_ordinal": 1,
+          "request_and_entire_model_body_equal": true
+        },
+        {
+          "call_id": "p-83xhvpk79-n02",
+          "outer_ordinal": 2,
+          "request_and_entire_model_body_equal": true
+        },
+        {
+          "call_id": "p-83xhvpk79-n04",
+          "outer_ordinal": 3,
+          "request_and_entire_model_body_equal": true
+        },
+        {
+          "call_id": "p-83xhvpk79-n05",
+          "outer_ordinal": 4,
+          "request_and_entire_model_body_equal": true
+        },
+        {
+          "call_id": "p-83xhvpk79-n06",
+          "outer_ordinal": 5,
+          "request_and_entire_model_body_equal": true
+        },
+        {
+          "call_id": "p-83xhvpk79-n07",
+          "outer_ordinal": 6,
+          "request_and_entire_model_body_equal": true
+        },
+        {
+          "call_id": "p-83xhvpk79-n08",
+          "outer_ordinal": 7,
+          "request_and_entire_model_body_equal": true
+        }
+      ],
+      "calls": [
+        {
+          "call_id": "p-83xhvpk79-n01",
+          "attempt_id": "run-p-83xhvpk79:1:evidence:1",
+          "role": "evidence",
+          "round": 1,
+          "outcome": "returned",
+          "finish_reason": "stop",
+          "known_input_tokens": 130,
+          "known_output_tokens": 22,
+          "waived": true,
+          "reconstructed_cost_usd": "0",
+          "recorded_inner_cost_usd": "0",
+          "outer_terminal_records": 1
+        },
+        {
+          "call_id": "p-83xhvpk79-n02",
+          "attempt_id": "run-p-83xhvpk79:1:linking:1",
+          "role": "linking",
+          "round": 1,
+          "outcome": "returned",
+          "finish_reason": "stop",
+          "known_input_tokens": 147,
+          "known_output_tokens": 25,
+          "waived": false,
+          "reconstructed_cost_usd": "0.0003274",
+          "recorded_inner_cost_usd": "0.0003274",
+          "outer_terminal_records": 1
+        },
+        {
+          "call_id": "p-83xhvpk79-n03",
+          "attempt_id": "run-p-83xhvpk79:1:linking:1:aux",
+          "role": "linking",
+          "round": 1,
+          "outcome": "returned",
+          "finish_reason": "stop",
+          "known_input_tokens": 164,
+          "known_output_tokens": 28,
+          "waived": false,
+          "reconstructed_cost_usd": "0.0003656",
+          "recorded_inner_cost_usd": "0.0003656",
+          "outer_terminal_records": 0
+        },
+        {
+          "call_id": "p-83xhvpk79-n04",
+          "attempt_id": "run-p-83xhvpk79:1:draft:1",
+          "role": "draft",
+          "round": 1,
+          "outcome": "returned",
+          "finish_reason": "stop",
+          "known_input_tokens": 181,
+          "known_output_tokens": 31,
+          "waived": false,
+          "reconstructed_cost_usd": "0.0004038",
+          "recorded_inner_cost_usd": "0.0004038",
+          "outer_terminal_records": 1
+        },
+        {
+          "call_id": "p-83xhvpk79-n05",
+          "attempt_id": "run-p-83xhvpk79:2:evidence:1",
+          "role": "evidence",
+          "round": 2,
+          "outcome": "returned",
+          "finish_reason": "stop",
+          "known_input_tokens": 208,
+          "known_output_tokens": 34,
+          "waived": false,
+          "reconstructed_cost_usd": "0.0004590",
+          "recorded_inner_cost_usd": "0.0004590",
+          "outer_terminal_records": 1
+        },
+        {
+          "call_id": "p-83xhvpk79-n06",
+          "attempt_id": "run-p-83xhvpk79:2:linking:1",
+          "role": "linking",
+          "round": 2,
+          "outcome": "returned",
+          "finish_reason": "stop",
+          "known_input_tokens": 225,
+          "known_output_tokens": 37,
+          "waived": false,
+          "reconstructed_cost_usd": "0.0004972",
+          "recorded_inner_cost_usd": "0.0004972",
+          "outer_terminal_records": 1
+        },
+        {
+          "call_id": "p-83xhvpk79-n07",
+          "attempt_id": "run-p-83xhvpk79:2:draft:1",
+          "role": "draft",
+          "round": 2,
+          "outcome": "returned",
+          "finish_reason": "stop",
+          "known_input_tokens": 242,
+          "known_output_tokens": 40,
+          "waived": false,
+          "reconstructed_cost_usd": "0.0005354",
+          "recorded_inner_cost_usd": "0.0005354",
+          "outer_terminal_records": 1
+        },
+        {
+          "call_id": "p-83xhvpk79-n08",
+          "attempt_id": "run-p-83xhvpk79:3:aggregator:1",
+          "role": "aggregator",
+          "round": 3,
+          "outcome": "returned",
+          "finish_reason": "stop",
+          "known_input_tokens": 264,
+          "known_output_tokens": 23,
+          "waived": false,
+          "reconstructed_cost_usd": "0.0005201",
+          "recorded_inner_cost_usd": "0.0005201",
+          "outer_terminal_records": 1
+        }
+      ],
+      "actual_messages": [
+        {
+          "call_id": "p-83xhvpk79-n01",
+          "attempt_id": "run-p-83xhvpk79:1:evidence:1",
+          "actual_prior_messages": [],
+          "model_body_sha256": "a0d0cd6a1494949daa32d2d2705637ace55a3321028a92a4ae7c33a671009ec0"
+        },
+        {
+          "call_id": "p-83xhvpk79-n02",
+          "attempt_id": "run-p-83xhvpk79:1:linking:1",
+          "actual_prior_messages": [],
+          "model_body_sha256": "ff66da21fb2c88506c297b1c1806e56f33a89382c713e2df17cbced8b649f63d"
+        },
+        {
+          "call_id": "p-83xhvpk79-n03",
+          "attempt_id": "run-p-83xhvpk79:1:linking:1:aux",
+          "actual_prior_messages": [],
+          "model_body_sha256": "ff66da21fb2c88506c297b1c1806e56f33a89382c713e2df17cbced8b649f63d"
+        },
+        {
+          "call_id": "p-83xhvpk79-n04",
+          "attempt_id": "run-p-83xhvpk79:1:draft:1",
+          "actual_prior_messages": [],
+          "model_body_sha256": "cd9d1db51614a4b5706618b11db4419e8bfaa0e062523ab13f598c8996b0fb57"
+        },
+        {
+          "call_id": "p-83xhvpk79-n05",
+          "attempt_id": "run-p-83xhvpk79:2:evidence:1",
+          "actual_prior_messages": [
+            {
+              "role": "evidence",
+              "round": 1,
+              "text": "p-83xhvpk79|evidence|1|amber"
+            },
+            {
+              "role": "draft",
+              "round": 1,
+              "text": "p-83xhvpk79|draft|1|amber"
+            }
+          ],
+          "model_body_sha256": "ce234566766bf30b2669282cdacac544ac8604d5fdbf7cf2c772a13490b1fdac"
+        },
+        {
+          "call_id": "p-83xhvpk79-n06",
+          "attempt_id": "run-p-83xhvpk79:2:linking:1",
+          "actual_prior_messages": [
+            {
+              "role": "evidence",
+              "round": 1,
+              "text": "p-83xhvpk79|evidence|1|amber"
+            },
+            {
+              "role": "linking",
+              "round": 1,
+              "text": "p-83xhvpk79|linking|1|amber"
+            }
+          ],
+          "model_body_sha256": "09cd0e70fc939e42309fc15fb6e34e7910b48062e74902eba6277325d3d5890e"
+        },
+        {
+          "call_id": "p-83xhvpk79-n07",
+          "attempt_id": "run-p-83xhvpk79:2:draft:1",
+          "actual_prior_messages": [
+            {
+              "role": "linking",
+              "round": 1,
+              "text": "p-83xhvpk79|linking|1|amber"
+            },
+            {
+              "role": "draft",
+              "round": 1,
+              "text": "p-83xhvpk79|draft|1|amber"
+            }
+          ],
+          "model_body_sha256": "66462256fae6155687f0373bdf0ea69a58e61fd5b19ae2ab649261e75275688a"
+        },
+        {
+          "call_id": "p-83xhvpk79-n08",
+          "attempt_id": "run-p-83xhvpk79:3:aggregator:1",
+          "actual_prior_messages": [
+            {
+              "role": "evidence",
+              "round": 2,
+              "text": "p-83xhvpk79|evidence|2|amber"
+            },
+            {
+              "role": "linking",
+              "round": 2,
+              "text": "p-83xhvpk79|linking|2|amber"
+            },
+            {
+              "role": "draft",
+              "round": 2,
+              "text": "p-83xhvpk79|draft|2|amber"
+            }
+          ],
+          "model_body_sha256": "9f6ea81f86bb5a56deb1df61aa8cc5336782e779c505015f04ddb042783fe1a6"
+        }
+      ]
+    },
+    {
+      "case_id": "p-b7dnq6awc",
+      "issues": [],
+      "counts": {
+        "inner_started": 3,
+        "inner_returned_including_model_failure": 3,
+        "inner_technical_errors": 0,
+        "model_failed_returns": 0,
+        "outer_requests": 3,
+        "trace_started": 3,
+        "trace_terminal_events": 3
+      },
+      "reconstructed_status": "completed",
+      "reconstructed_answer": "p-b7dnq6awc|aggregator|2|amber",
+      "known_subtotal_usd": "0.0006945",
+      "total_usd": "0.0006945",
+      "unknown_call_ids": [],
+      "known_input_tokens": 451,
+      "known_output_tokens": 70,
+      "claimed_minus_reconstructed_subtotal_usd": "0E-7",
+      "claimed_minus_reconstructed_total_usd": "0E-7",
+      "inner_calls_missing_outer": [],
+      "full_request_model_body_matches": [
+        {
+          "call_id": "p-b7dnq6awc-n01",
+          "outer_ordinal": 1,
+          "request_and_entire_model_body_equal": true
+        },
+        {
+          "call_id": "p-b7dnq6awc-n02",
+          "outer_ordinal": 2,
+          "request_and_entire_model_body_equal": true
+        },
+        {
+          "call_id": "p-b7dnq6awc-n03",
+          "outer_ordinal": 3,
+          "request_and_entire_model_body_equal": true
+        }
+      ],
+      "calls": [
+        {
+          "call_id": "p-b7dnq6awc-n01",
+          "attempt_id": "run-p-b7dnq6awc:1:evidence:1",
+          "role": "evidence",
+          "round": 1,
+          "outcome": "returned",
+          "finish_reason": "stop",
+          "known_input_tokens": 130,
+          "known_output_tokens": 22,
+          "waived": true,
+          "reconstructed_cost_usd": "0",
+          "recorded_inner_cost_usd": "0",
+          "outer_terminal_records": 1
+        },
+        {
+          "call_id": "p-b7dnq6awc-n02",
+          "attempt_id": "run-p-b7dnq6awc:1:draft:1",
+          "role": "draft",
+          "round": 1,
+          "outcome": "returned",
+          "finish_reason": "stop",
+          "known_input_tokens": 147,
+          "known_output_tokens": 25,
+          "waived": false,
+          "reconstructed_cost_usd": "0.0003274",
+          "recorded_inner_cost_usd": "0.0003274",
+          "outer_terminal_records": 1
+        },
+        {
+          "call_id": "p-b7dnq6awc-n03",
+          "attempt_id": "run-p-b7dnq6awc:2:aggregator:1",
+          "role": "aggregator",
+          "round": 2,
+          "outcome": "returned",
+          "finish_reason": "stop",
+          "known_input_tokens": 174,
+          "known_output_tokens": 23,
+          "waived": false,
+          "reconstructed_cost_usd": "0.0003671",
+          "recorded_inner_cost_usd": "0.0003671",
+          "outer_terminal_records": 1
+        }
+      ],
+      "actual_messages": [
+        {
+          "call_id": "p-b7dnq6awc-n01",
+          "attempt_id": "run-p-b7dnq6awc:1:evidence:1",
+          "actual_prior_messages": [],
+          "model_body_sha256": "de99280a712db137783b555d980c5c0fd50a3a43c278e9ba54aa8aeba3358188"
+        },
+        {
+          "call_id": "p-b7dnq6awc-n02",
+          "attempt_id": "run-p-b7dnq6awc:1:draft:1",
+          "actual_prior_messages": [],
+          "model_body_sha256": "6233dbb5b14d6ed6e973bded7628dab4024e370b15f6375874572e6563f7ecaa"
+        },
+        {
+          "call_id": "p-b7dnq6awc-n03",
+          "attempt_id": "run-p-b7dnq6awc:2:aggregator:1",
+          "actual_prior_messages": [
+            {
+              "role": "evidence",
+              "round": 1,
+              "text": "p-b7dnq6awc|evidence|1|amber"
+            },
+            {
+              "role": "draft",
+              "round": 1,
+              "text": "p-b7dnq6awc|draft|1|amber"
+            }
+          ],
+          "model_body_sha256": "5734f3ab9e7ec4f5354278814a3c92ca1b7580d6193b47640db0d59419711b8e"
+        }
+      ]
+    },
+    {
+      "case_id": "p-f9gwrjdba",
+      "issues": [
+        {
+          "code": "inner_message_contract_violation",
+          "where": "client.line[9]",
+          "detail": {
+            "actual": [
+              {
+                "attempt_id": "run-p-f9gwrjdba:1:evidence:1",
+                "role": "evidence",
+                "round": 1,
+                "text": "p-f9gwrjdba|evidence|1|amber"
+              },
+              {
+                "attempt_id": "run-p-f9gwrjdba:1:linking:1",
+                "role": "linking",
+                "round": 1,
+                "text": "p-f9gwrjdba|linking|1|amber"
+              },
+              {
+                "attempt_id": "run-p-f9gwrjdba:1:draft:1",
+                "role": "draft",
+                "round": 1,
+                "text": "p-f9gwrjdba|draft|1|amber"
+              }
+            ],
+            "expected": [
+              {
+                "attempt_id": "run-p-f9gwrjdba:1:evidence:1",
+                "role": "evidence",
+                "round": 1,
+                "text": "p-f9gwrjdba|evidence|1|amber"
+              },
+              {
+                "attempt_id": "run-p-f9gwrjdba:1:linking:1",
+                "role": "linking",
+                "round": 1,
+                "text": "p-f9gwrjdba|linking|1|amber"
+              }
+            ]
+          }
+        }
+      ],
+      "counts": {
+        "inner_started": 7,
+        "inner_returned_including_model_failure": 7,
+        "inner_technical_errors": 0,
+        "model_failed_returns": 0,
+        "outer_requests": 7,
+        "trace_started": 7,
+        "trace_terminal_events": 7
+      },
+      "reconstructed_status": "completed",
+      "reconstructed_answer": "p-f9gwrjdba|aggregator|3|amber",
+      "known_subtotal_usd": "0.0025697",
+      "total_usd": "0.0025697",
+      "unknown_call_ids": [],
+      "known_input_tokens": 1317,
+      "known_output_tokens": 200,
+      "claimed_minus_reconstructed_subtotal_usd": "0E-7",
+      "claimed_minus_reconstructed_total_usd": "0E-7",
+      "inner_calls_missing_outer": [],
+      "full_request_model_body_matches": [
+        {
+          "call_id": "p-f9gwrjdba-n01",
+          "outer_ordinal": 1,
+          "request_and_entire_model_body_equal": true
+        },
+        {
+          "call_id": "p-f9gwrjdba-n02",
+          "outer_ordinal": 2,
+          "request_and_entire_model_body_equal": true
+        },
+        {
+          "call_id": "p-f9gwrjdba-n03",
+          "outer_ordinal": 3,
+          "request_and_entire_model_body_equal": true
+        },
+        {
+          "call_id": "p-f9gwrjdba-n04",
+          "outer_ordinal": 4,
+          "request_and_entire_model_body_equal": true
+        },
+        {
+          "call_id": "p-f9gwrjdba-n05",
+          "outer_ordinal": 5,
+          "request_and_entire_model_body_equal": true
+        },
+        {
+          "call_id": "p-f9gwrjdba-n06",
+          "outer_ordinal": 6,
+          "request_and_entire_model_body_equal": true
+        },
+        {
+          "call_id": "p-f9gwrjdba-n07",
+          "outer_ordinal": 7,
+          "request_and_entire_model_body_equal": true
+        }
+      ],
+      "calls": [
+        {
+          "call_id": "p-f9gwrjdba-n01",
+          "attempt_id": "run-p-f9gwrjdba:1:evidence:1",
+          "role": "evidence",
+          "round": 1,
+          "outcome": "returned",
+          "finish_reason": "stop",
+          "known_input_tokens": 130,
+          "known_output_tokens": 22,
+          "waived": true,
+          "reconstructed_cost_usd": "0",
+          "recorded_inner_cost_usd": "0",
+          "outer_terminal_records": 1
+        },
+        {
+          "call_id": "p-f9gwrjdba-n02",
+          "attempt_id": "run-p-f9gwrjdba:1:linking:1",
+          "role": "linking",
+          "round": 1,
+          "outcome": "returned",
+          "finish_reason": "stop",
+          "known_input_tokens": 147,
+          "known_output_tokens": 25,
+          "waived": false,
+          "reconstructed_cost_usd": "0.0003274",
+          "recorded_inner_cost_usd": "0.0003274",
+          "outer_terminal_records": 1
+        },
+        {
+          "call_id": "p-f9gwrjdba-n03",
+          "attempt_id": "run-p-f9gwrjdba:1:draft:1",
+          "role": "draft",
+          "round": 1,
+          "outcome": "returned",
+          "finish_reason": "stop",
+          "known_input_tokens": 164,
+          "known_output_tokens": 28,
+          "waived": false,
+          "reconstructed_cost_usd": "0.0003656",
+          "recorded_inner_cost_usd": "0.0003656",
+          "outer_terminal_records": 1
+        },
+        {
+          "call_id": "p-f9gwrjdba-n04",
+          "attempt_id": "run-p-f9gwrjdba:2:evidence:1",
+          "role": "evidence",
+          "round": 2,
+          "outcome": "returned",
+          "finish_reason": "stop",
+          "known_input_tokens": 191,
+          "known_output_tokens": 31,
+          "waived": false,
+          "reconstructed_cost_usd": "0.0004208",
+          "recorded_inner_cost_usd": "0.0004208",
+          "outer_terminal_records": 1
+        },
+        {
+          "call_id": "p-f9gwrjdba-n05",
+          "attempt_id": "run-p-f9gwrjdba:2:linking:1",
+          "role": "linking",
+          "round": 2,
+          "outcome": "returned",
+          "finish_reason": "stop",
+          "known_input_tokens": 213,
+          "known_output_tokens": 34,
+          "waived": false,
+          "reconstructed_cost_usd": "0.0004675",
+          "recorded_inner_cost_usd": "0.0004675",
+          "outer_terminal_records": 1
+        },
+        {
+          "call_id": "p-f9gwrjdba-n06",
+          "attempt_id": "run-p-f9gwrjdba:2:draft:1",
+          "role": "draft",
+          "round": 2,
+          "outcome": "returned",
+          "finish_reason": "stop",
+          "known_input_tokens": 225,
+          "known_output_tokens": 37,
+          "waived": false,
+          "reconstructed_cost_usd": "0.0004972",
+          "recorded_inner_cost_usd": "0.0004972",
+          "outer_terminal_records": 1
+        },
+        {
+          "call_id": "p-f9gwrjdba-n07",
+          "attempt_id": "run-p-f9gwrjdba:3:aggregator:1",
+          "role": "aggregator",
+          "round": 3,
+          "outcome": "returned",
+          "finish_reason": "stop",
+          "known_input_tokens": 247,
+          "known_output_tokens": 23,
+          "waived": false,
+          "reconstructed_cost_usd": "0.0004912",
+          "recorded_inner_cost_usd": "0.0004912",
+          "outer_terminal_records": 1
+        }
+      ],
+      "actual_messages": [
+        {
+          "call_id": "p-f9gwrjdba-n01",
+          "attempt_id": "run-p-f9gwrjdba:1:evidence:1",
+          "actual_prior_messages": [],
+          "model_body_sha256": "182e96b9a14225ac4f7711b0f83ffce109869296cd84940b2ba733922520e6a6"
+        },
+        {
+          "call_id": "p-f9gwrjdba-n02",
+          "attempt_id": "run-p-f9gwrjdba:1:linking:1",
+          "actual_prior_messages": [],
+          "model_body_sha256": "ec48c2c25ade7cffd0d92f761ba9f19cca18d034598851746e3d496ab11ff6db"
+        },
+        {
+          "call_id": "p-f9gwrjdba-n03",
+          "attempt_id": "run-p-f9gwrjdba:1:draft:1",
+          "actual_prior_messages": [],
+          "model_body_sha256": "7f4306f5ba99e3665785d49835beabeeca34228bc947cb735e7e20333b5f7dff"
+        },
+        {
+          "call_id": "p-f9gwrjdba-n04",
+          "attempt_id": "run-p-f9gwrjdba:2:evidence:1",
+          "actual_prior_messages": [
+            {
+              "role": "evidence",
+              "round": 1,
+              "text": "p-f9gwrjdba|evidence|1|amber"
+            },
+            {
+              "role": "draft",
+              "round": 1,
+              "text": "p-f9gwrjdba|draft|1|amber"
+            }
+          ],
+          "model_body_sha256": "7a9c3e5797b319a1d23aecfcfe95d4f95d7193b665ea648d83ceda9db3353250"
+        },
+        {
+          "call_id": "p-f9gwrjdba-n05",
+          "attempt_id": "run-p-f9gwrjdba:2:linking:1",
+          "actual_prior_messages": [
+            {
+              "role": "evidence",
+              "round": 1,
+              "text": "p-f9gwrjdba|evidence|1|amber"
+            },
+            {
+              "role": "linking",
+              "round": 1,
+              "text": "p-f9gwrjdba|linking|1|amber"
+            },
+            {
+              "role": "draft",
+              "round": 1,
+              "text": "p-f9gwrjdba|draft|1|amber"
+            }
+          ],
+          "model_body_sha256": "426bd7c7c19f37f230da7ecac0850a181566b35e77671f95873bba7de01f95f2"
+        },
+        {
+          "call_id": "p-f9gwrjdba-n06",
+          "attempt_id": "run-p-f9gwrjdba:2:draft:1",
+          "actual_prior_messages": [
+            {
+              "role": "linking",
+              "round": 1,
+              "text": "p-f9gwrjdba|linking|1|amber"
+            },
+            {
+              "role": "draft",
+              "round": 1,
+              "text": "p-f9gwrjdba|draft|1|amber"
+            }
+          ],
+          "model_body_sha256": "0aab018433934f65fd23d2a12b180474efe224ecb28791fc816ce0f6073342f2"
+        },
+        {
+          "call_id": "p-f9gwrjdba-n07",
+          "attempt_id": "run-p-f9gwrjdba:3:aggregator:1",
+          "actual_prior_messages": [
+            {
+              "role": "evidence",
+              "round": 2,
+              "text": "p-f9gwrjdba|evidence|2|amber"
+            },
+            {
+              "role": "linking",
+              "round": 2,
+              "text": "p-f9gwrjdba|linking|2|amber"
+            },
+            {
+              "role": "draft",
+              "round": 2,
+              "text": "p-f9gwrjdba|draft|2|amber"
+            }
+          ],
+          "model_body_sha256": "4e2998d64328250accfaefc75a0241d907f486f214799415c51770e62a35e2f2"
+        }
+      ]
+    },
+    {
+      "case_id": "p-kbqchj34v",
+      "issues": [],
+      "counts": {
+        "inner_started": 3,
+        "inner_returned_including_model_failure": 3,
+        "inner_technical_errors": 0,
+        "model_failed_returns": 1,
+        "outer_requests": 3,
+        "trace_started": 3,
+        "trace_terminal_events": 3
+      },
+      "reconstructed_status": "model_failed",
+      "reconstructed_answer": null,
+      "known_subtotal_usd": "0.0006930",
+      "total_usd": "0.0006930",
+      "unknown_call_ids": [],
+      "known_input_tokens": 441,
+      "known_output_tokens": 75,
+      "claimed_minus_reconstructed_subtotal_usd": "0E-7",
+      "claimed_minus_reconstructed_total_usd": "0E-7",
+      "inner_calls_missing_outer": [],
+      "full_request_model_body_matches": [
+        {
+          "call_id": "p-kbqchj34v-n01",
+          "outer_ordinal": 1,
+          "request_and_entire_model_body_equal": true
+        },
+        {
+          "call_id": "p-kbqchj34v-n02",
+          "outer_ordinal": 2,
+          "request_and_entire_model_body_equal": true
+        },
+        {
+          "call_id": "p-kbqchj34v-n03",
+          "outer_ordinal": 3,
+          "request_and_entire_model_body_equal": true
+        }
+      ],
+      "calls": [
+        {
+          "call_id": "p-kbqchj34v-n01",
+          "attempt_id": "run-p-kbqchj34v:1:evidence:1",
+          "role": "evidence",
+          "round": 1,
+          "outcome": "returned",
+          "finish_reason": "stop",
+          "known_input_tokens": 130,
+          "known_output_tokens": 22,
+          "waived": true,
+          "reconstructed_cost_usd": "0",
+          "recorded_inner_cost_usd": "0",
+          "outer_terminal_records": 1
+        },
+        {
+          "call_id": "p-kbqchj34v-n02",
+          "attempt_id": "run-p-kbqchj34v:1:linking:1",
+          "role": "linking",
+          "round": 1,
+          "outcome": "returned",
+          "finish_reason": "stop",
+          "known_input_tokens": 147,
+          "known_output_tokens": 25,
+          "waived": false,
+          "reconstructed_cost_usd": "0.0003274",
+          "recorded_inner_cost_usd": "0.0003274",
+          "outer_terminal_records": 1
+        },
+        {
+          "call_id": "p-kbqchj34v-n03",
+          "attempt_id": "run-p-kbqchj34v:1:draft:1",
+          "role": "draft",
+          "round": 1,
+          "outcome": "returned",
+          "finish_reason": "empty",
+          "known_input_tokens": 164,
+          "known_output_tokens": 28,
+          "waived": false,
+          "reconstructed_cost_usd": "0.0003656",
+          "recorded_inner_cost_usd": "0.0003656",
+          "outer_terminal_records": 1
+        }
+      ],
+      "actual_messages": [
+        {
+          "call_id": "p-kbqchj34v-n01",
+          "attempt_id": "run-p-kbqchj34v:1:evidence:1",
+          "actual_prior_messages": [],
+          "model_body_sha256": "616cb05b1580b6bd49fbcd23dd9750b74cff152d34ebb33348f5980d7fed4fa0"
+        },
+        {
+          "call_id": "p-kbqchj34v-n02",
+          "attempt_id": "run-p-kbqchj34v:1:linking:1",
+          "actual_prior_messages": [],
+          "model_body_sha256": "a45ae676b0865f412ad74592b34f81360e7c9ccc63b3ccf81fe8652a745bb2f7"
+        },
+        {
+          "call_id": "p-kbqchj34v-n03",
+          "attempt_id": "run-p-kbqchj34v:1:draft:1",
+          "actual_prior_messages": [],
+          "model_body_sha256": "563bd8be2aa4e8152096c5521f552aac63b2f16e456b9cff6a88c176ce064ce1"
+        }
+      ]
+    },
+    {
+      "case_id": "p-p73vgcqax",
+      "issues": [],
+      "counts": {
+        "inner_started": 3,
+        "inner_returned_including_model_failure": 2,
+        "inner_technical_errors": 1,
+        "model_failed_returns": 0,
+        "outer_requests": 3,
+        "trace_started": 3,
+        "trace_terminal_events": 2
+      },
+      "reconstructed_status": "technical_stop",
+      "reconstructed_answer": null,
+      "known_subtotal_usd": "0.0003274",
+      "total_usd": null,
+      "unknown_call_ids": [
+        "p-p73vgcqax-n03"
+      ],
+      "known_input_tokens": 277,
+      "known_output_tokens": 47,
+      "claimed_minus_reconstructed_subtotal_usd": "0E-7",
+      "claimed_minus_reconstructed_total_usd": null,
+      "inner_calls_missing_outer": [],
+      "full_request_model_body_matches": [
+        {
+          "call_id": "p-p73vgcqax-n01",
+          "outer_ordinal": 1,
+          "request_and_entire_model_body_equal": true
+        },
+        {
+          "call_id": "p-p73vgcqax-n02",
+          "outer_ordinal": 2,
+          "request_and_entire_model_body_equal": true
+        },
+        {
+          "call_id": "p-p73vgcqax-n03",
+          "outer_ordinal": 3,
+          "request_and_entire_model_body_equal": true
+        }
+      ],
+      "calls": [
+        {
+          "call_id": "p-p73vgcqax-n01",
+          "attempt_id": "run-p-p73vgcqax:1:evidence:1",
+          "role": "evidence",
+          "round": 1,
+          "outcome": "returned",
+          "finish_reason": "stop",
+          "known_input_tokens": 130,
+          "known_output_tokens": 22,
+          "waived": true,
+          "reconstructed_cost_usd": "0",
+          "recorded_inner_cost_usd": "0",
+          "outer_terminal_records": 1
+        },
+        {
+          "call_id": "p-p73vgcqax-n02",
+          "attempt_id": "run-p-p73vgcqax:1:linking:1",
+          "role": "linking",
+          "round": 1,
+          "outcome": "returned",
+          "finish_reason": "stop",
+          "known_input_tokens": 147,
+          "known_output_tokens": 25,
+          "waived": false,
+          "reconstructed_cost_usd": "0.0003274",
+          "recorded_inner_cost_usd": "0.0003274",
+          "outer_terminal_records": 1
+        },
+        {
+          "call_id": "p-p73vgcqax-n03",
+          "attempt_id": "run-p-p73vgcqax:1:draft:1",
+          "role": "draft",
+          "round": 1,
+          "outcome": "technical_error",
+          "finish_reason": null,
+          "known_input_tokens": null,
+          "known_output_tokens": null,
+          "waived": false,
+          "reconstructed_cost_usd": null,
+          "recorded_inner_cost_usd": null,
+          "outer_terminal_records": 0
+        }
+      ],
+      "actual_messages": [
+        {
+          "call_id": "p-p73vgcqax-n01",
+          "attempt_id": "run-p-p73vgcqax:1:evidence:1",
+          "actual_prior_messages": [],
+          "model_body_sha256": "f83cbc6f85cfeab3514eac09264c6303c036578e93e15a4620a67372f35c32b1"
+        },
+        {
+          "call_id": "p-p73vgcqax-n02",
+          "attempt_id": "run-p-p73vgcqax:1:linking:1",
+          "actual_prior_messages": [],
+          "model_body_sha256": "7f60d0e5bc7e3ba7f14c6c30a8fa3dac5935c54aec8df1c3b53b47ea113d87a4"
+        },
+        {
+          "call_id": "p-p73vgcqax-n03",
+          "attempt_id": "run-p-p73vgcqax:1:draft:1",
+          "actual_prior_messages": [],
+          "model_body_sha256": "48dfb6f824b86c7eb488101f74949aa6d77972b82544a73202d152e8b438a58b"
+        }
+      ]
+    },
+    {
+      "case_id": "p-r82sckbw4",
+      "issues": [
+        {
+          "code": "trace_terminal_count_against_inner",
+          "where": "p-r82sckbw4-n01",
+          "detail": {
+            "attempt_id": "run-p-r82sckbw4:1:evidence:1",
+            "terminals": 2
+          }
+        }
+      ],
+      "counts": {
+        "inner_started": 7,
+        "inner_returned_including_model_failure": 7,
+        "inner_technical_errors": 0,
+        "model_failed_returns": 0,
+        "outer_requests": 7,
+        "trace_started": 7,
+        "trace_terminal_events": 8
+      },
+      "reconstructed_status": "completed",
+      "reconstructed_answer": "p-r82sckbw4|aggregator|3|amber",
+      "known_subtotal_usd": "0.0025612",
+      "total_usd": "0.0025612",
+      "unknown_call_ids": [],
+      "known_input_tokens": 1312,
+      "known_output_tokens": 200,
+      "claimed_minus_reconstructed_subtotal_usd": "0E-7",
+      "claimed_minus_reconstructed_total_usd": "0E-7",
+      "inner_calls_missing_outer": [],
+      "full_request_model_body_matches": [
+        {
+          "call_id": "p-r82sckbw4-n01",
+          "outer_ordinal": 1,
+          "request_and_entire_model_body_equal": true
+        },
+        {
+          "call_id": "p-r82sckbw4-n02",
+          "outer_ordinal": 2,
+          "request_and_entire_model_body_equal": true
+        },
+        {
+          "call_id": "p-r82sckbw4-n03",
+          "outer_ordinal": 3,
+          "request_and_entire_model_body_equal": true
+        },
+        {
+          "call_id": "p-r82sckbw4-n04",
+          "outer_ordinal": 4,
+          "request_and_entire_model_body_equal": true
+        },
+        {
+          "call_id": "p-r82sckbw4-n05",
+          "outer_ordinal": 5,
+          "request_and_entire_model_body_equal": true
+        },
+        {
+          "call_id": "p-r82sckbw4-n06",
+          "outer_ordinal": 6,
+          "request_and_entire_model_body_equal": true
+        },
+        {
+          "call_id": "p-r82sckbw4-n07",
+          "outer_ordinal": 7,
+          "request_and_entire_model_body_equal": true
+        }
+      ],
+      "calls": [
+        {
+          "call_id": "p-r82sckbw4-n01",
+          "attempt_id": "run-p-r82sckbw4:1:evidence:1",
+          "role": "evidence",
+          "round": 1,
+          "outcome": "returned",
+          "finish_reason": "stop",
+          "known_input_tokens": 130,
+          "known_output_tokens": 22,
+          "waived": true,
+          "reconstructed_cost_usd": "0",
+          "recorded_inner_cost_usd": "0",
+          "outer_terminal_records": 2
+        },
+        {
+          "call_id": "p-r82sckbw4-n02",
+          "attempt_id": "run-p-r82sckbw4:1:linking:1",
+          "role": "linking",
+          "round": 1,
+          "outcome": "returned",
+          "finish_reason": "stop",
+          "known_input_tokens": 147,
+          "known_output_tokens": 25,
+          "waived": false,
+          "reconstructed_cost_usd": "0.0003274",
+          "recorded_inner_cost_usd": "0.0003274",
+          "outer_terminal_records": 1
+        },
+        {
+          "call_id": "p-r82sckbw4-n03",
+          "attempt_id": "run-p-r82sckbw4:1:draft:1",
+          "role": "draft",
+          "round": 1,
+          "outcome": "returned",
+          "finish_reason": "stop",
+          "known_input_tokens": 164,
+          "known_output_tokens": 28,
+          "waived": false,
+          "reconstructed_cost_usd": "0.0003656",
+          "recorded_inner_cost_usd": "0.0003656",
+          "outer_terminal_records": 1
+        },
+        {
+          "call_id": "p-r82sckbw4-n04",
+          "attempt_id": "run-p-r82sckbw4:2:evidence:1",
+          "role": "evidence",
+          "round": 2,
+          "outcome": "returned",
+          "finish_reason": "stop",
+          "known_input_tokens": 191,
+          "known_output_tokens": 31,
+          "waived": false,
+          "reconstructed_cost_usd": "0.0004208",
+          "recorded_inner_cost_usd": "0.0004208",
+          "outer_terminal_records": 1
+        },
+        {
+          "call_id": "p-r82sckbw4-n05",
+          "attempt_id": "run-p-r82sckbw4:2:linking:1",
+          "role": "linking",
+          "round": 2,
+          "outcome": "returned",
+          "finish_reason": "stop",
+          "known_input_tokens": 208,
+          "known_output_tokens": 34,
+          "waived": false,
+          "reconstructed_cost_usd": "0.0004590",
+          "recorded_inner_cost_usd": "0.0004590",
+          "outer_terminal_records": 1
+        },
+        {
+          "call_id": "p-r82sckbw4-n06",
+          "attempt_id": "run-p-r82sckbw4:2:draft:1",
+          "role": "draft",
+          "round": 2,
+          "outcome": "returned",
+          "finish_reason": "stop",
+          "known_input_tokens": 225,
+          "known_output_tokens": 37,
+          "waived": false,
+          "reconstructed_cost_usd": "0.0004972",
+          "recorded_inner_cost_usd": "0.0004972",
+          "outer_terminal_records": 1
+        },
+        {
+          "call_id": "p-r82sckbw4-n07",
+          "attempt_id": "run-p-r82sckbw4:3:aggregator:1",
+          "role": "aggregator",
+          "round": 3,
+          "outcome": "returned",
+          "finish_reason": "stop",
+          "known_input_tokens": 247,
+          "known_output_tokens": 23,
+          "waived": false,
+          "reconstructed_cost_usd": "0.0004912",
+          "recorded_inner_cost_usd": "0.0004912",
+          "outer_terminal_records": 1
+        }
+      ],
+      "actual_messages": [
+        {
+          "call_id": "p-r82sckbw4-n01",
+          "attempt_id": "run-p-r82sckbw4:1:evidence:1",
+          "actual_prior_messages": [],
+          "model_body_sha256": "d197a397a15c7dbb5a0ae2af59cc6167fbce10cb90152f1a3432db387fc6df9e"
+        },
+        {
+          "call_id": "p-r82sckbw4-n02",
+          "attempt_id": "run-p-r82sckbw4:1:linking:1",
+          "actual_prior_messages": [],
+          "model_body_sha256": "0c99cf3d5c015101440a748e1d4c6b09165bc64b736afa4daa47b10fe886bbcb"
+        },
+        {
+          "call_id": "p-r82sckbw4-n03",
+          "attempt_id": "run-p-r82sckbw4:1:draft:1",
+          "actual_prior_messages": [],
+          "model_body_sha256": "ff15a6b06ac563b79e7e89f4a65c469c361e3bcd4869d3988a36238aea28bb11"
+        },
+        {
+          "call_id": "p-r82sckbw4-n04",
+          "attempt_id": "run-p-r82sckbw4:2:evidence:1",
+          "actual_prior_messages": [
+            {
+              "role": "evidence",
+              "round": 1,
+              "text": "p-r82sckbw4|evidence|1|amber"
+            },
+            {
+              "role": "draft",
+              "round": 1,
+              "text": "p-r82sckbw4|draft|1|amber"
+            }
+          ],
+          "model_body_sha256": "01162d2572bcb70f373bcd8c016163e7a3ce5c49248e3012096cf66c7cdd4329"
+        },
+        {
+          "call_id": "p-r82sckbw4-n05",
+          "attempt_id": "run-p-r82sckbw4:2:linking:1",
+          "actual_prior_messages": [
+            {
+              "role": "evidence",
+              "round": 1,
+              "text": "p-r82sckbw4|evidence|1|amber"
+            },
+            {
+              "role": "linking",
+              "round": 1,
+              "text": "p-r82sckbw4|linking|1|amber"
+            }
+          ],
+          "model_body_sha256": "6e8e71eb93e69f67393037dc9b983755639189edd536c20b47083660b057c8cc"
+        },
+        {
+          "call_id": "p-r82sckbw4-n06",
+          "attempt_id": "run-p-r82sckbw4:2:draft:1",
+          "actual_prior_messages": [
+            {
+              "role": "linking",
+              "round": 1,
+              "text": "p-r82sckbw4|linking|1|amber"
+            },
+            {
+              "role": "draft",
+              "round": 1,
+              "text": "p-r82sckbw4|draft|1|amber"
+            }
+          ],
+          "model_body_sha256": "1298c9eebe9d2052113a8c35ead91dd3a5bfd117fca1cea98457b5dc9c46169b"
+        },
+        {
+          "call_id": "p-r82sckbw4-n07",
+          "attempt_id": "run-p-r82sckbw4:3:aggregator:1",
+          "actual_prior_messages": [
+            {
+              "role": "evidence",
+              "round": 2,
+              "text": "p-r82sckbw4|evidence|2|amber"
+            },
+            {
+              "role": "linking",
+              "round": 2,
+              "text": "p-r82sckbw4|linking|2|amber"
+            },
+            {
+              "role": "draft",
+              "round": 2,
+              "text": "p-r82sckbw4|draft|2|amber"
+            }
+          ],
+          "model_body_sha256": "c72c91497c51cd94234a64129c9d65142791eb6af8e98ab9ecf406d6b27986ea"
+        }
+      ]
+    },
+    {
+      "case_id": "p-rbdtj357g",
+      "issues": [
+        {
+          "code": "trace_inner_usage_mismatch",
+          "where": "p-rbdtj357g-n01",
+          "detail": {
+            "trace": {
+              "cost_source": "synthetic",
+              "cost_usd": "0",
+              "input_tokens": 130,
+              "output_tokens": 22,
+              "price_version": "Z37-synthetic-20260913-r"
+            },
+            "inner": {
+              "input_tokens": 130,
+              "output_tokens": 22,
+              "cost_usd": "0",
+              "cost_source": "synthetic",
+              "price_version": "Z37-synthetic-20260913"
+            }
+          }
+        }
+      ],
+      "counts": {
+        "inner_started": 7,
+        "inner_returned_including_model_failure": 7,
+        "inner_technical_errors": 0,
+        "model_failed_returns": 0,
+        "outer_requests": 7,
+        "trace_started": 7,
+        "trace_terminal_events": 7
+      },
+      "reconstructed_status": "completed",
+      "reconstructed_answer": "p-rbdtj357g|aggregator|3|amber",
+      "known_subtotal_usd": "0.0025612",
+      "total_usd": "0.0025612",
+      "unknown_call_ids": [],
+      "known_input_tokens": 1312,
+      "known_output_tokens": 200,
+      "claimed_minus_reconstructed_subtotal_usd": "0E-7",
+      "claimed_minus_reconstructed_total_usd": "0E-7",
+      "inner_calls_missing_outer": [],
+      "full_request_model_body_matches": [
+        {
+          "call_id": "p-rbdtj357g-n01",
+          "outer_ordinal": 1,
+          "request_and_entire_model_body_equal": true
+        },
+        {
+          "call_id": "p-rbdtj357g-n02",
+          "outer_ordinal": 2,
+          "request_and_entire_model_body_equal": true
+        },
+        {
+          "call_id": "p-rbdtj357g-n03",
+          "outer_ordinal": 3,
+          "request_and_entire_model_body_equal": true
+        },
+        {
+          "call_id": "p-rbdtj357g-n04",
+          "outer_ordinal": 4,
+          "request_and_entire_model_body_equal": true
+        },
+        {
+          "call_id": "p-rbdtj357g-n05",
+          "outer_ordinal": 5,
+          "request_and_entire_model_body_equal": true
+        },
+        {
+          "call_id": "p-rbdtj357g-n06",
+          "outer_ordinal": 6,
+          "request_and_entire_model_body_equal": true
+        },
+        {
+          "call_id": "p-rbdtj357g-n07",
+          "outer_ordinal": 7,
+          "request_and_entire_model_body_equal": true
+        }
+      ],
+      "calls": [
+        {
+          "call_id": "p-rbdtj357g-n01",
+          "attempt_id": "run-p-rbdtj357g:1:evidence:1",
+          "role": "evidence",
+          "round": 1,
+          "outcome": "returned",
+          "finish_reason": "stop",
+          "known_input_tokens": 130,
+          "known_output_tokens": 22,
+          "waived": true,
+          "reconstructed_cost_usd": "0",
+          "recorded_inner_cost_usd": "0",
+          "outer_terminal_records": 1
+        },
+        {
+          "call_id": "p-rbdtj357g-n02",
+          "attempt_id": "run-p-rbdtj357g:1:linking:1",
+          "role": "linking",
+          "round": 1,
+          "outcome": "returned",
+          "finish_reason": "stop",
+          "known_input_tokens": 147,
+          "known_output_tokens": 25,
+          "waived": false,
+          "reconstructed_cost_usd": "0.0003274",
+          "recorded_inner_cost_usd": "0.0003274",
+          "outer_terminal_records": 1
+        },
+        {
+          "call_id": "p-rbdtj357g-n03",
+          "attempt_id": "run-p-rbdtj357g:1:draft:1",
+          "role": "draft",
+          "round": 1,
+          "outcome": "returned",
+          "finish_reason": "stop",
+          "known_input_tokens": 164,
+          "known_output_tokens": 28,
+          "waived": false,
+          "reconstructed_cost_usd": "0.0003656",
+          "recorded_inner_cost_usd": "0.0003656",
+          "outer_terminal_records": 1
+        },
+        {
+          "call_id": "p-rbdtj357g-n04",
+          "attempt_id": "run-p-rbdtj357g:2:evidence:1",
+          "role": "evidence",
+          "round": 2,
+          "outcome": "returned",
+          "finish_reason": "stop",
+          "known_input_tokens": 191,
+          "known_output_tokens": 31,
+          "waived": false,
+          "reconstructed_cost_usd": "0.0004208",
+          "recorded_inner_cost_usd": "0.0004208",
+          "outer_terminal_records": 1
+        },
+        {
+          "call_id": "p-rbdtj357g-n05",
+          "attempt_id": "run-p-rbdtj357g:2:linking:1",
+          "role": "linking",
+          "round": 2,
+          "outcome": "returned",
+          "finish_reason": "stop",
+          "known_input_tokens": 208,
+          "known_output_tokens": 34,
+          "waived": false,
+          "reconstructed_cost_usd": "0.0004590",
+          "recorded_inner_cost_usd": "0.0004590",
+          "outer_terminal_records": 1
+        },
+        {
+          "call_id": "p-rbdtj357g-n06",
+          "attempt_id": "run-p-rbdtj357g:2:draft:1",
+          "role": "draft",
+          "round": 2,
+          "outcome": "returned",
+          "finish_reason": "stop",
+          "known_input_tokens": 225,
+          "known_output_tokens": 37,
+          "waived": false,
+          "reconstructed_cost_usd": "0.0004972",
+          "recorded_inner_cost_usd": "0.0004972",
+          "outer_terminal_records": 1
+        },
+        {
+          "call_id": "p-rbdtj357g-n07",
+          "attempt_id": "run-p-rbdtj357g:3:aggregator:1",
+          "role": "aggregator",
+          "round": 3,
+          "outcome": "returned",
+          "finish_reason": "stop",
+          "known_input_tokens": 247,
+          "known_output_tokens": 23,
+          "waived": false,
+          "reconstructed_cost_usd": "0.0004912",
+          "recorded_inner_cost_usd": "0.0004912",
+          "outer_terminal_records": 1
+        }
+      ],
+      "actual_messages": [
+        {
+          "call_id": "p-rbdtj357g-n01",
+          "attempt_id": "run-p-rbdtj357g:1:evidence:1",
+          "actual_prior_messages": [],
+          "model_body_sha256": "13f286685d735dc4c6aca08b014a33c5a85ae3357c2b55b027e9a6a09eedc940"
+        },
+        {
+          "call_id": "p-rbdtj357g-n02",
+          "attempt_id": "run-p-rbdtj357g:1:linking:1",
+          "actual_prior_messages": [],
+          "model_body_sha256": "955e776f8f99ea6288feb82b6047d8442ca554c5ad0610935dc5d9b77bed31ed"
+        },
+        {
+          "call_id": "p-rbdtj357g-n03",
+          "attempt_id": "run-p-rbdtj357g:1:draft:1",
+          "actual_prior_messages": [],
+          "model_body_sha256": "edffeb8484a02aba6a9ad9e057856fec846ddc56456cf54138ff9401826803bd"
+        },
+        {
+          "call_id": "p-rbdtj357g-n04",
+          "attempt_id": "run-p-rbdtj357g:2:evidence:1",
+          "actual_prior_messages": [
+            {
+              "role": "evidence",
+              "round": 1,
+              "text": "p-rbdtj357g|evidence|1|amber"
+            },
+            {
+              "role": "draft",
+              "round": 1,
+              "text": "p-rbdtj357g|draft|1|amber"
+            }
+          ],
+          "model_body_sha256": "00c562c14a396c78c54098533ab7306801bb2bfa9329cff1b15cf13d78898fe6"
+        },
+        {
+          "call_id": "p-rbdtj357g-n05",
+          "attempt_id": "run-p-rbdtj357g:2:linking:1",
+          "actual_prior_messages": [
+            {
+              "role": "evidence",
+              "round": 1,
+              "text": "p-rbdtj357g|evidence|1|amber"
+            },
+            {
+              "role": "linking",
+              "round": 1,
+              "text": "p-rbdtj357g|linking|1|amber"
+            }
+          ],
+          "model_body_sha256": "abb7a3c637cb1afba71d3f6610b7957f09f21c16f563a5367648456b2594d65e"
+        },
+        {
+          "call_id": "p-rbdtj357g-n06",
+          "attempt_id": "run-p-rbdtj357g:2:draft:1",
+          "actual_prior_messages": [
+            {
+              "role": "linking",
+              "round": 1,
+              "text": "p-rbdtj357g|linking|1|amber"
+            },
+            {
+              "role": "draft",
+              "round": 1,
+              "text": "p-rbdtj357g|draft|1|amber"
+            }
+          ],
+          "model_body_sha256": "9e6669bd0dba93ea9876358a90b2e15cee79ed173c2003ff7ad03096160626d2"
+        },
+        {
+          "call_id": "p-rbdtj357g-n07",
+          "attempt_id": "run-p-rbdtj357g:3:aggregator:1",
+          "actual_prior_messages": [
+            {
+              "role": "evidence",
+              "round": 2,
+              "text": "p-rbdtj357g|evidence|2|amber"
+            },
+            {
+              "role": "linking",
+              "round": 2,
+              "text": "p-rbdtj357g|linking|2|amber"
+            },
+            {
+              "role": "draft",
+              "round": 2,
+              "text": "p-rbdtj357g|draft|2|amber"
+            }
+          ],
+          "model_body_sha256": "1a059cc7f11ac370735c359c434d56798b99127fbf02fda5d23ca59fc85baeab"
+        }
+      ]
+    },
+    {
+      "case_id": "p-vktaj3qn2",
+      "issues": [],
+      "counts": {
+        "inner_started": 7,
+        "inner_returned_including_model_failure": 7,
+        "inner_technical_errors": 0,
+        "model_failed_returns": 0,
+        "outer_requests": 7,
+        "trace_started": 7,
+        "trace_terminal_events": 7
+      },
+      "reconstructed_status": "completed",
+      "reconstructed_answer": "p-vktaj3qn2|aggregator|3|amber",
+      "known_subtotal_usd": "0.0025612",
+      "total_usd": "0.0025612",
+      "unknown_call_ids": [],
+      "known_input_tokens": 1312,
+      "known_output_tokens": 200,
+      "claimed_minus_reconstructed_subtotal_usd": "0E-7",
+      "claimed_minus_reconstructed_total_usd": "0E-7",
+      "inner_calls_missing_outer": [],
+      "full_request_model_body_matches": [
+        {
+          "call_id": "p-vktaj3qn2-n01",
+          "outer_ordinal": 1,
+          "request_and_entire_model_body_equal": true
+        },
+        {
+          "call_id": "p-vktaj3qn2-n02",
+          "outer_ordinal": 2,
+          "request_and_entire_model_body_equal": true
+        },
+        {
+          "call_id": "p-vktaj3qn2-n03",
+          "outer_ordinal": 3,
+          "request_and_entire_model_body_equal": true
+        },
+        {
+          "call_id": "p-vktaj3qn2-n04",
+          "outer_ordinal": 4,
+          "request_and_entire_model_body_equal": true
+        },
+        {
+          "call_id": "p-vktaj3qn2-n05",
+          "outer_ordinal": 5,
+          "request_and_entire_model_body_equal": true
+        },
+        {
+          "call_id": "p-vktaj3qn2-n06",
+          "outer_ordinal": 6,
+          "request_and_entire_model_body_equal": true
+        },
+        {
+          "call_id": "p-vktaj3qn2-n07",
+          "outer_ordinal": 7,
+          "request_and_entire_model_body_equal": true
+        }
+      ],
+      "calls": [
+        {
+          "call_id": "p-vktaj3qn2-n01",
+          "attempt_id": "run-p-vktaj3qn2:1:evidence:1",
+          "role": "evidence",
+          "round": 1,
+          "outcome": "returned",
+          "finish_reason": "stop",
+          "known_input_tokens": 130,
+          "known_output_tokens": 22,
+          "waived": true,
+          "reconstructed_cost_usd": "0",
+          "recorded_inner_cost_usd": "0",
+          "outer_terminal_records": 1
+        },
+        {
+          "call_id": "p-vktaj3qn2-n02",
+          "attempt_id": "run-p-vktaj3qn2:1:linking:1",
+          "role": "linking",
+          "round": 1,
+          "outcome": "returned",
+          "finish_reason": "stop",
+          "known_input_tokens": 147,
+          "known_output_tokens": 25,
+          "waived": false,
+          "reconstructed_cost_usd": "0.0003274",
+          "recorded_inner_cost_usd": "0.0003274",
+          "outer_terminal_records": 1
+        },
+        {
+          "call_id": "p-vktaj3qn2-n03",
+          "attempt_id": "run-p-vktaj3qn2:1:draft:1",
+          "role": "draft",
+          "round": 1,
+          "outcome": "returned",
+          "finish_reason": "stop",
+          "known_input_tokens": 164,
+          "known_output_tokens": 28,
+          "waived": false,
+          "reconstructed_cost_usd": "0.0003656",
+          "recorded_inner_cost_usd": "0.0003656",
+          "outer_terminal_records": 1
+        },
+        {
+          "call_id": "p-vktaj3qn2-n04",
+          "attempt_id": "run-p-vktaj3qn2:2:evidence:1",
+          "role": "evidence",
+          "round": 2,
+          "outcome": "returned",
+          "finish_reason": "stop",
+          "known_input_tokens": 191,
+          "known_output_tokens": 31,
+          "waived": false,
+          "reconstructed_cost_usd": "0.0004208",
+          "recorded_inner_cost_usd": "0.0004208",
+          "outer_terminal_records": 1
+        },
+        {
+          "call_id": "p-vktaj3qn2-n05",
+          "attempt_id": "run-p-vktaj3qn2:2:linking:1",
+          "role": "linking",
+          "round": 2,
+          "outcome": "returned",
+          "finish_reason": "stop",
+          "known_input_tokens": 208,
+          "known_output_tokens": 34,
+          "waived": false,
+          "reconstructed_cost_usd": "0.0004590",
+          "recorded_inner_cost_usd": "0.0004590",
+          "outer_terminal_records": 1
+        },
+        {
+          "call_id": "p-vktaj3qn2-n06",
+          "attempt_id": "run-p-vktaj3qn2:2:draft:1",
+          "role": "draft",
+          "round": 2,
+          "outcome": "returned",
+          "finish_reason": "stop",
+          "known_input_tokens": 225,
+          "known_output_tokens": 37,
+          "waived": false,
+          "reconstructed_cost_usd": "0.0004972",
+          "recorded_inner_cost_usd": "0.0004972",
+          "outer_terminal_records": 1
+        },
+        {
+          "call_id": "p-vktaj3qn2-n07",
+          "attempt_id": "run-p-vktaj3qn2:3:aggregator:1",
+          "role": "aggregator",
+          "round": 3,
+          "outcome": "returned",
+          "finish_reason": "stop",
+          "known_input_tokens": 247,
+          "known_output_tokens": 23,
+          "waived": false,
+          "reconstructed_cost_usd": "0.0004912",
+          "recorded_inner_cost_usd": "0.0004912",
+          "outer_terminal_records": 1
+        }
+      ],
+      "actual_messages": [
+        {
+          "call_id": "p-vktaj3qn2-n01",
+          "attempt_id": "run-p-vktaj3qn2:1:evidence:1",
+          "actual_prior_messages": [],
+          "model_body_sha256": "92b4ede11eb26e0d2e3b6b81481ebce5a2ec9fa8760eb68f0733037e900ef105"
+        },
+        {
+          "call_id": "p-vktaj3qn2-n02",
+          "attempt_id": "run-p-vktaj3qn2:1:linking:1",
+          "actual_prior_messages": [],
+          "model_body_sha256": "b9276c0166414901c27ed1ba4effe8a4fe9ee7b072948a8b7a44035ee48e21d1"
+        },
+        {
+          "call_id": "p-vktaj3qn2-n03",
+          "attempt_id": "run-p-vktaj3qn2:1:draft:1",
+          "actual_prior_messages": [],
+          "model_body_sha256": "997de945b1ca673a9a2a8ec5686bc372af96551dc99f0542e096fc426f59791e"
+        },
+        {
+          "call_id": "p-vktaj3qn2-n04",
+          "attempt_id": "run-p-vktaj3qn2:2:evidence:1",
+          "actual_prior_messages": [
+            {
+              "role": "evidence",
+              "round": 1,
+              "text": "p-vktaj3qn2|evidence|1|amber"
+            },
+            {
+              "role": "draft",
+              "round": 1,
+              "text": "p-vktaj3qn2|draft|1|amber"
+            }
+          ],
+          "model_body_sha256": "9c52d41fa18336ce9b97e53e78229979e09b4dbc9810008371137d1a47014927"
+        },
+        {
+          "call_id": "p-vktaj3qn2-n05",
+          "attempt_id": "run-p-vktaj3qn2:2:linking:1",
+          "actual_prior_messages": [
+            {
+              "role": "evidence",
+              "round": 1,
+              "text": "p-vktaj3qn2|evidence|1|amber"
+            },
+            {
+              "role": "linking",
+              "round": 1,
+              "text": "p-vktaj3qn2|linking|1|amber"
+            }
+          ],
+          "model_body_sha256": "5b81428eb9021a40ab2379e5489f7ced615bb7a40b8b661054e6ee650486914f"
+        },
+        {
+          "call_id": "p-vktaj3qn2-n06",
+          "attempt_id": "run-p-vktaj3qn2:2:draft:1",
+          "actual_prior_messages": [
+            {
+              "role": "linking",
+              "round": 1,
+              "text": "p-vktaj3qn2|linking|1|amber"
+            },
+            {
+              "role": "draft",
+              "round": 1,
+              "text": "p-vktaj3qn2|draft|1|amber"
+            }
+          ],
+          "model_body_sha256": "d836f82254817da431fb80e42ee082e968f555dbaa34e2e10bfa5e0ba47191cf"
+        },
+        {
+          "call_id": "p-vktaj3qn2-n07",
+          "attempt_id": "run-p-vktaj3qn2:3:aggregator:1",
+          "actual_prior_messages": [
+            {
+              "role": "evidence",
+              "round": 2,
+              "text": "p-vktaj3qn2|evidence|2|amber"
+            },
+            {
+              "role": "linking",
+              "round": 2,
+              "text": "p-vktaj3qn2|linking|2|amber"
+            },
+            {
+              "role": "draft",
+              "round": 2,
+              "text": "p-vktaj3qn2|draft|2|amber"
+            }
+          ],
+          "model_body_sha256": "da8c7e20f2e5490b361bc242f92b214ea2808f10e1ba4e031ffb77ef9cd1e717"
+        }
+      ]
+    },
+    {
+      "case_id": "p-vz3eq4smw",
+      "issues": [
+        {
+          "code": "trace_terminal_count_against_inner",
+          "where": "p-vz3eq4smw-n01",
+          "detail": {
+            "attempt_id": "run-p-vz3eq4smw:1:evidence:1",
+            "terminals": 0
+          }
+        },
+        {
+          "code": "trace_terminal_without_inner_attempt",
+          "where": "trace",
+          "detail": [
+            {
+              "attempt_id": "run-p-vz3eq4smw:1:checking:1",
+              "kind": "completed",
+              "text": "p-vz3eq4smw|evidence|1|amber",
+              "usage": {
+                "cost_source": "synthetic",
+                "cost_usd": "0",
+                "input_tokens": 130,
+                "output_tokens": 22,
+                "price_version": "Z37-synthetic-20260913"
+              }
+            }
+          ]
+        }
+      ],
+      "counts": {
+        "inner_started": 7,
+        "inner_returned_including_model_failure": 7,
+        "inner_technical_errors": 0,
+        "model_failed_returns": 0,
+        "outer_requests": 7,
+        "trace_started": 7,
+        "trace_terminal_events": 7
+      },
+      "reconstructed_status": "completed",
+      "reconstructed_answer": "p-vz3eq4smw|aggregator|3|amber",
+      "known_subtotal_usd": "0.0025612",
+      "total_usd": "0.0025612",
+      "unknown_call_ids": [],
+      "known_input_tokens": 1312,
+      "known_output_tokens": 200,
+      "claimed_minus_reconstructed_subtotal_usd": "0E-7",
+      "claimed_minus_reconstructed_total_usd": "0E-7",
+      "inner_calls_missing_outer": [],
+      "full_request_model_body_matches": [
+        {
+          "call_id": "p-vz3eq4smw-n01",
+          "outer_ordinal": 1,
+          "request_and_entire_model_body_equal": true
+        },
+        {
+          "call_id": "p-vz3eq4smw-n02",
+          "outer_ordinal": 2,
+          "request_and_entire_model_body_equal": true
+        },
+        {
+          "call_id": "p-vz3eq4smw-n03",
+          "outer_ordinal": 3,
+          "request_and_entire_model_body_equal": true
+        },
+        {
+          "call_id": "p-vz3eq4smw-n04",
+          "outer_ordinal": 4,
+          "request_and_entire_model_body_equal": true
+        },
+        {
+          "call_id": "p-vz3eq4smw-n05",
+          "outer_ordinal": 5,
+          "request_and_entire_model_body_equal": true
+        },
+        {
+          "call_id": "p-vz3eq4smw-n06",
+          "outer_ordinal": 6,
+          "request_and_entire_model_body_equal": true
+        },
+        {
+          "call_id": "p-vz3eq4smw-n07",
+          "outer_ordinal": 7,
+          "request_and_entire_model_body_equal": true
+        }
+      ],
+      "calls": [
+        {
+          "call_id": "p-vz3eq4smw-n01",
+          "attempt_id": "run-p-vz3eq4smw:1:evidence:1",
+          "role": "evidence",
+          "round": 1,
+          "outcome": "returned",
+          "finish_reason": "stop",
+          "known_input_tokens": 130,
+          "known_output_tokens": 22,
+          "waived": true,
+          "reconstructed_cost_usd": "0",
+          "recorded_inner_cost_usd": "0",
+          "outer_terminal_records": 0
+        },
+        {
+          "call_id": "p-vz3eq4smw-n02",
+          "attempt_id": "run-p-vz3eq4smw:1:linking:1",
+          "role": "linking",
+          "round": 1,
+          "outcome": "returned",
+          "finish_reason": "stop",
+          "known_input_tokens": 147,
+          "known_output_tokens": 25,
+          "waived": false,
+          "reconstructed_cost_usd": "0.0003274",
+          "recorded_inner_cost_usd": "0.0003274",
+          "outer_terminal_records": 1
+        },
+        {
+          "call_id": "p-vz3eq4smw-n03",
+          "attempt_id": "run-p-vz3eq4smw:1:draft:1",
+          "role": "draft",
+          "round": 1,
+          "outcome": "returned",
+          "finish_reason": "stop",
+          "known_input_tokens": 164,
+          "known_output_tokens": 28,
+          "waived": false,
+          "reconstructed_cost_usd": "0.0003656",
+          "recorded_inner_cost_usd": "0.0003656",
+          "outer_terminal_records": 1
+        },
+        {
+          "call_id": "p-vz3eq4smw-n04",
+          "attempt_id": "run-p-vz3eq4smw:2:evidence:1",
+          "role": "evidence",
+          "round": 2,
+          "outcome": "returned",
+          "finish_reason": "stop",
+          "known_input_tokens": 191,
+          "known_output_tokens": 31,
+          "waived": false,
+          "reconstructed_cost_usd": "0.0004208",
+          "recorded_inner_cost_usd": "0.0004208",
+          "outer_terminal_records": 1
+        },
+        {
+          "call_id": "p-vz3eq4smw-n05",
+          "attempt_id": "run-p-vz3eq4smw:2:linking:1",
+          "role": "linking",
+          "round": 2,
+          "outcome": "returned",
+          "finish_reason": "stop",
+          "known_input_tokens": 208,
+          "known_output_tokens": 34,
+          "waived": false,
+          "reconstructed_cost_usd": "0.0004590",
+          "recorded_inner_cost_usd": "0.0004590",
+          "outer_terminal_records": 1
+        },
+        {
+          "call_id": "p-vz3eq4smw-n06",
+          "attempt_id": "run-p-vz3eq4smw:2:draft:1",
+          "role": "draft",
+          "round": 2,
+          "outcome": "returned",
+          "finish_reason": "stop",
+          "known_input_tokens": 225,
+          "known_output_tokens": 37,
+          "waived": false,
+          "reconstructed_cost_usd": "0.0004972",
+          "recorded_inner_cost_usd": "0.0004972",
+          "outer_terminal_records": 1
+        },
+        {
+          "call_id": "p-vz3eq4smw-n07",
+          "attempt_id": "run-p-vz3eq4smw:3:aggregator:1",
+          "role": "aggregator",
+          "round": 3,
+          "outcome": "returned",
+          "finish_reason": "stop",
+          "known_input_tokens": 247,
+          "known_output_tokens": 23,
+          "waived": false,
+          "reconstructed_cost_usd": "0.0004912",
+          "recorded_inner_cost_usd": "0.0004912",
+          "outer_terminal_records": 1
+        }
+      ],
+      "actual_messages": [
+        {
+          "call_id": "p-vz3eq4smw-n01",
+          "attempt_id": "run-p-vz3eq4smw:1:evidence:1",
+          "actual_prior_messages": [],
+          "model_body_sha256": "56bf2c0e65ccf460461e927a84061be6af8ebe428709853f2c92654e9679b9bc"
+        },
+        {
+          "call_id": "p-vz3eq4smw-n02",
+          "attempt_id": "run-p-vz3eq4smw:1:linking:1",
+          "actual_prior_messages": [],
+          "model_body_sha256": "b4141ac694472f4a3f3fa65b026fb19cb287f180ff8fe3d158f869df91335b0b"
+        },
+        {
+          "call_id": "p-vz3eq4smw-n03",
+          "attempt_id": "run-p-vz3eq4smw:1:draft:1",
+          "actual_prior_messages": [],
+          "model_body_sha256": "a5134437af2db44a353d3536dd26b1ac2b54e82bef2e10151394dd6eb3e7854e"
+        },
+        {
+          "call_id": "p-vz3eq4smw-n04",
+          "attempt_id": "run-p-vz3eq4smw:2:evidence:1",
+          "actual_prior_messages": [
+            {
+              "role": "evidence",
+              "round": 1,
+              "text": "p-vz3eq4smw|evidence|1|amber"
+            },
+            {
+              "role": "draft",
+              "round": 1,
+              "text": "p-vz3eq4smw|draft|1|amber"
+            }
+          ],
+          "model_body_sha256": "36c57180a6b22c3c8083cac9407dcb4c4d11713a8587cc99116312aa96dc4a24"
+        },
+        {
+          "call_id": "p-vz3eq4smw-n05",
+          "attempt_id": "run-p-vz3eq4smw:2:linking:1",
+          "actual_prior_messages": [
+            {
+              "role": "evidence",
+              "round": 1,
+              "text": "p-vz3eq4smw|evidence|1|amber"
+            },
+            {
+              "role": "linking",
+              "round": 1,
+              "text": "p-vz3eq4smw|linking|1|amber"
+            }
+          ],
+          "model_body_sha256": "908b3fbdab4eb24c5fefd52f2563fe2f28329f2646130be2fc9c47725bd51ad4"
+        },
+        {
+          "call_id": "p-vz3eq4smw-n06",
+          "attempt_id": "run-p-vz3eq4smw:2:draft:1",
+          "actual_prior_messages": [
+            {
+              "role": "linking",
+              "round": 1,
+              "text": "p-vz3eq4smw|linking|1|amber"
+            },
+            {
+              "role": "draft",
+              "round": 1,
+              "text": "p-vz3eq4smw|draft|1|amber"
+            }
+          ],
+          "model_body_sha256": "127efbad4f7d3b97fc50764f8b9ea1d238521ede197eb39a53934b8775362d24"
+        },
+        {
+          "call_id": "p-vz3eq4smw-n07",
+          "attempt_id": "run-p-vz3eq4smw:3:aggregator:1",
+          "actual_prior_messages": [
+            {
+              "role": "evidence",
+              "round": 2,
+              "text": "p-vz3eq4smw|evidence|2|amber"
+            },
+            {
+              "role": "linking",
+              "round": 2,
+              "text": "p-vz3eq4smw|linking|2|amber"
+            },
+            {
+              "role": "draft",
+              "round": 2,
+              "text": "p-vz3eq4smw|draft|2|amber"
+            }
+          ],
+          "model_body_sha256": "9f3300024a9060f861a4b6a161d578e125ae8a28ec0b38c617a1ab22b5362726"
+        }
+      ]
+    },
+    {
+      "case_id": "p-w5t6ckxzm",
+      "issues": [
+        {
+          "code": "trace_terminal_count_against_inner",
+          "where": "p-w5t6ckxzm-n02",
+          "detail": {
+            "attempt_id": "run-p-w5t6ckxzm:1:linking:1",
+            "terminals": 0
+          }
+        }
+      ],
+      "counts": {
+        "inner_started": 7,
+        "inner_returned_including_model_failure": 7,
+        "inner_technical_errors": 0,
+        "model_failed_returns": 0,
+        "outer_requests": 7,
+        "trace_started": 7,
+        "trace_terminal_events": 6
+      },
+      "reconstructed_status": "completed",
+      "reconstructed_answer": "p-w5t6ckxzm|aggregator|3|amber",
+      "known_subtotal_usd": "0.0025612",
+      "total_usd": "0.0025612",
+      "unknown_call_ids": [],
+      "known_input_tokens": 1312,
+      "known_output_tokens": 200,
+      "claimed_minus_reconstructed_subtotal_usd": "0E-7",
+      "claimed_minus_reconstructed_total_usd": "0E-7",
+      "inner_calls_missing_outer": [],
+      "full_request_model_body_matches": [
+        {
+          "call_id": "p-w5t6ckxzm-n01",
+          "outer_ordinal": 1,
+          "request_and_entire_model_body_equal": true
+        },
+        {
+          "call_id": "p-w5t6ckxzm-n02",
+          "outer_ordinal": 2,
+          "request_and_entire_model_body_equal": true
+        },
+        {
+          "call_id": "p-w5t6ckxzm-n03",
+          "outer_ordinal": 3,
+          "request_and_entire_model_body_equal": true
+        },
+        {
+          "call_id": "p-w5t6ckxzm-n04",
+          "outer_ordinal": 4,
+          "request_and_entire_model_body_equal": true
+        },
+        {
+          "call_id": "p-w5t6ckxzm-n05",
+          "outer_ordinal": 5,
+          "request_and_entire_model_body_equal": true
+        },
+        {
+          "call_id": "p-w5t6ckxzm-n06",
+          "outer_ordinal": 6,
+          "request_and_entire_model_body_equal": true
+        },
+        {
+          "call_id": "p-w5t6ckxzm-n07",
+          "outer_ordinal": 7,
+          "request_and_entire_model_body_equal": true
+        }
+      ],
+      "calls": [
+        {
+          "call_id": "p-w5t6ckxzm-n01",
+          "attempt_id": "run-p-w5t6ckxzm:1:evidence:1",
+          "role": "evidence",
+          "round": 1,
+          "outcome": "returned",
+          "finish_reason": "stop",
+          "known_input_tokens": 130,
+          "known_output_tokens": 22,
+          "waived": true,
+          "reconstructed_cost_usd": "0",
+          "recorded_inner_cost_usd": "0",
+          "outer_terminal_records": 1
+        },
+        {
+          "call_id": "p-w5t6ckxzm-n02",
+          "attempt_id": "run-p-w5t6ckxzm:1:linking:1",
+          "role": "linking",
+          "round": 1,
+          "outcome": "returned",
+          "finish_reason": "stop",
+          "known_input_tokens": 147,
+          "known_output_tokens": 25,
+          "waived": false,
+          "reconstructed_cost_usd": "0.0003274",
+          "recorded_inner_cost_usd": "0.0003274",
+          "outer_terminal_records": 0
+        },
+        {
+          "call_id": "p-w5t6ckxzm-n03",
+          "attempt_id": "run-p-w5t6ckxzm:1:draft:1",
+          "role": "draft",
+          "round": 1,
+          "outcome": "returned",
+          "finish_reason": "stop",
+          "known_input_tokens": 164,
+          "known_output_tokens": 28,
+          "waived": false,
+          "reconstructed_cost_usd": "0.0003656",
+          "recorded_inner_cost_usd": "0.0003656",
+          "outer_terminal_records": 1
+        },
+        {
+          "call_id": "p-w5t6ckxzm-n04",
+          "attempt_id": "run-p-w5t6ckxzm:2:evidence:1",
+          "role": "evidence",
+          "round": 2,
+          "outcome": "returned",
+          "finish_reason": "stop",
+          "known_input_tokens": 191,
+          "known_output_tokens": 31,
+          "waived": false,
+          "reconstructed_cost_usd": "0.0004208",
+          "recorded_inner_cost_usd": "0.0004208",
+          "outer_terminal_records": 1
+        },
+        {
+          "call_id": "p-w5t6ckxzm-n05",
+          "attempt_id": "run-p-w5t6ckxzm:2:linking:1",
+          "role": "linking",
+          "round": 2,
+          "outcome": "returned",
+          "finish_reason": "stop",
+          "known_input_tokens": 208,
+          "known_output_tokens": 34,
+          "waived": false,
+          "reconstructed_cost_usd": "0.0004590",
+          "recorded_inner_cost_usd": "0.0004590",
+          "outer_terminal_records": 1
+        },
+        {
+          "call_id": "p-w5t6ckxzm-n06",
+          "attempt_id": "run-p-w5t6ckxzm:2:draft:1",
+          "role": "draft",
+          "round": 2,
+          "outcome": "returned",
+          "finish_reason": "stop",
+          "known_input_tokens": 225,
+          "known_output_tokens": 37,
+          "waived": false,
+          "reconstructed_cost_usd": "0.0004972",
+          "recorded_inner_cost_usd": "0.0004972",
+          "outer_terminal_records": 1
+        },
+        {
+          "call_id": "p-w5t6ckxzm-n07",
+          "attempt_id": "run-p-w5t6ckxzm:3:aggregator:1",
+          "role": "aggregator",
+          "round": 3,
+          "outcome": "returned",
+          "finish_reason": "stop",
+          "known_input_tokens": 247,
+          "known_output_tokens": 23,
+          "waived": false,
+          "reconstructed_cost_usd": "0.0004912",
+          "recorded_inner_cost_usd": "0.0004912",
+          "outer_terminal_records": 1
+        }
+      ],
+      "actual_messages": [
+        {
+          "call_id": "p-w5t6ckxzm-n01",
+          "attempt_id": "run-p-w5t6ckxzm:1:evidence:1",
+          "actual_prior_messages": [],
+          "model_body_sha256": "6bc86175497c3a934ba46ed5d48018da59d0c64ee93a6649ceaba338375fd1ae"
+        },
+        {
+          "call_id": "p-w5t6ckxzm-n02",
+          "attempt_id": "run-p-w5t6ckxzm:1:linking:1",
+          "actual_prior_messages": [],
+          "model_body_sha256": "1974aa8de05156d74c5db7553b5761390550442d47d035039e363e63972f37a4"
+        },
+        {
+          "call_id": "p-w5t6ckxzm-n03",
+          "attempt_id": "run-p-w5t6ckxzm:1:draft:1",
+          "actual_prior_messages": [],
+          "model_body_sha256": "50f8d1dea666ecc030251b890b357759230c86e821727d2818be9a40bf7b92d2"
+        },
+        {
+          "call_id": "p-w5t6ckxzm-n04",
+          "attempt_id": "run-p-w5t6ckxzm:2:evidence:1",
+          "actual_prior_messages": [
+            {
+              "role": "evidence",
+              "round": 1,
+              "text": "p-w5t6ckxzm|evidence|1|amber"
+            },
+            {
+              "role": "draft",
+              "round": 1,
+              "text": "p-w5t6ckxzm|draft|1|amber"
+            }
+          ],
+          "model_body_sha256": "f52fdba86ebf73fc314a3123178e1844cc481904d1d5823b0417798710fd46e0"
+        },
+        {
+          "call_id": "p-w5t6ckxzm-n05",
+          "attempt_id": "run-p-w5t6ckxzm:2:linking:1",
+          "actual_prior_messages": [
+            {
+              "role": "evidence",
+              "round": 1,
+              "text": "p-w5t6ckxzm|evidence|1|amber"
+            },
+            {
+              "role": "linking",
+              "round": 1,
+              "text": "p-w5t6ckxzm|linking|1|amber"
+            }
+          ],
+          "model_body_sha256": "34a300d50b86d4cf1e86b9860636bb1663752acbd3c070e0cdbd1106b2cf087d"
+        },
+        {
+          "call_id": "p-w5t6ckxzm-n06",
+          "attempt_id": "run-p-w5t6ckxzm:2:draft:1",
+          "actual_prior_messages": [
+            {
+              "role": "linking",
+              "round": 1,
+              "text": "p-w5t6ckxzm|linking|1|amber"
+            },
+            {
+              "role": "draft",
+              "round": 1,
+              "text": "p-w5t6ckxzm|draft|1|amber"
+            }
+          ],
+          "model_body_sha256": "13512122bcf262d4e70ebfcf03330514748ef8027d4c7fb42df63e51862b8079"
+        },
+        {
+          "call_id": "p-w5t6ckxzm-n07",
+          "attempt_id": "run-p-w5t6ckxzm:3:aggregator:1",
+          "actual_prior_messages": [
+            {
+              "role": "evidence",
+              "round": 2,
+              "text": "p-w5t6ckxzm|evidence|2|amber"
+            },
+            {
+              "role": "linking",
+              "round": 2,
+              "text": "p-w5t6ckxzm|linking|2|amber"
+            },
+            {
+              "role": "draft",
+              "round": 2,
+              "text": "p-w5t6ckxzm|draft|2|amber"
+            }
+          ],
+          "model_body_sha256": "285fec5bf3d3c27dce054993d7a5cf0ce929b973f35438017ab1a04c0f5be458"
+        }
+      ]
+    },
+    {
+      "case_id": "p-yx4wuqhtd",
+      "issues": [],
+      "counts": {
+        "inner_started": 3,
+        "inner_returned_including_model_failure": 2,
+        "inner_technical_errors": 1,
+        "model_failed_returns": 0,
+        "outer_requests": 3,
+        "trace_started": 3,
+        "trace_terminal_events": 2
+      },
+      "reconstructed_status": "technical_stop",
+      "reconstructed_answer": null,
+      "known_subtotal_usd": "0.0003274",
+      "total_usd": null,
+      "unknown_call_ids": [
+        "p-yx4wuqhtd-n03"
+      ],
+      "known_input_tokens": 277,
+      "known_output_tokens": 47,
+      "claimed_minus_reconstructed_subtotal_usd": "0E-7",
+      "claimed_minus_reconstructed_total_usd": null,
+      "inner_calls_missing_outer": [],
+      "full_request_model_body_matches": [
+        {
+          "call_id": "p-yx4wuqhtd-n01",
+          "outer_ordinal": 1,
+          "request_and_entire_model_body_equal": true
+        },
+        {
+          "call_id": "p-yx4wuqhtd-n02",
+          "outer_ordinal": 2,
+          "request_and_entire_model_body_equal": true
+        },
+        {
+          "call_id": "p-yx4wuqhtd-n03",
+          "outer_ordinal": 3,
+          "request_and_entire_model_body_equal": true
+        }
+      ],
+      "calls": [
+        {
+          "call_id": "p-yx4wuqhtd-n01",
+          "attempt_id": "run-p-yx4wuqhtd:1:evidence:1",
+          "role": "evidence",
+          "round": 1,
+          "outcome": "returned",
+          "finish_reason": "stop",
+          "known_input_tokens": 130,
+          "known_output_tokens": 22,
+          "waived": true,
+          "reconstructed_cost_usd": "0",
+          "recorded_inner_cost_usd": "0",
+          "outer_terminal_records": 1
+        },
+        {
+          "call_id": "p-yx4wuqhtd-n02",
+          "attempt_id": "run-p-yx4wuqhtd:1:linking:1",
+          "role": "linking",
+          "round": 1,
+          "outcome": "returned",
+          "finish_reason": "stop",
+          "known_input_tokens": 147,
+          "known_output_tokens": 25,
+          "waived": false,
+          "reconstructed_cost_usd": "0.0003274",
+          "recorded_inner_cost_usd": "0.0003274",
+          "outer_terminal_records": 1
+        },
+        {
+          "call_id": "p-yx4wuqhtd-n03",
+          "attempt_id": "run-p-yx4wuqhtd:1:draft:1",
+          "role": "draft",
+          "round": 1,
+          "outcome": "technical_error",
+          "finish_reason": null,
+          "known_input_tokens": null,
+          "known_output_tokens": null,
+          "waived": false,
+          "reconstructed_cost_usd": null,
+          "recorded_inner_cost_usd": null,
+          "outer_terminal_records": 0
+        }
+      ],
+      "actual_messages": [
+        {
+          "call_id": "p-yx4wuqhtd-n01",
+          "attempt_id": "run-p-yx4wuqhtd:1:evidence:1",
+          "actual_prior_messages": [],
+          "model_body_sha256": "352b62855f75e74be96f63387403ada23485f2e3796ba357d164b618d0949c6f"
+        },
+        {
+          "call_id": "p-yx4wuqhtd-n02",
+          "attempt_id": "run-p-yx4wuqhtd:1:linking:1",
+          "actual_prior_messages": [],
+          "model_body_sha256": "bbf5f9e1f88c46addba63586b1abd51d0e39d79cf1cbbfbdee0dfd82d43f0c0c"
+        },
+        {
+          "call_id": "p-yx4wuqhtd-n03",
+          "attempt_id": "run-p-yx4wuqhtd:1:draft:1",
+          "actual_prior_messages": [],
+          "model_body_sha256": "a3ac850680234359b569397c714e18560663f731bd4f3d2d2bbd61f7a063fb75"
+        }
+      ]
+    }
+  ],
+  "cost_sheet": {
+    "rows": [
+      {
+        "id": "r01",
+        "role": "input_output",
+        "amount_usd": "0.0001701",
+        "support": "supported_individual_model_call_amount"
+      },
+      {
+        "id": "r02",
+        "role": "paid_model_failure",
+        "amount_usd": "0.0001747",
+        "support": "supported_individual_model_call_amount"
+      },
+      {
+        "id": "r03",
+        "role": "fresh_repeat",
+        "amount_usd": "0.0001701",
+        "support": "supported_individual_model_call_amount"
+      },
+      {
+        "id": "r04",
+        "role": "known_zero_price",
+        "amount_usd": "0",
+        "support": "supported_individual_model_call_amount"
+      },
+      {
+        "id": "r05",
+        "role": "local_controller",
+        "amount_usd": "0",
+        "support": "zero_model_usd_only_local_cpu_measurement_unavailable"
+      },
+      {
+        "id": "r06",
+        "role": "cache",
+        "amount_usd": "0.00009",
+        "support": "known_provider_total_only_separate_cache_attribution_unsupported"
+      },
+      {
+        "id": "r07",
+        "role": "automatic_retry",
+        "amount_usd": null,
+        "support": "forbidden_no_executed_call_or_price_inferred"
+      }
+    ],
+    "sum_of_supported_known_amounts_usd": "0.0006049",
+    "scope": "Synthetic amounts; forbidden automatic retry omitted as not executed, not zero-priced. No separate cache/reasoning rate or measured controller time inferred."
+  }
+}

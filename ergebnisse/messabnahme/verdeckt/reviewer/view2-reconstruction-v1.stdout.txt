@@ -1,0 +1,509 @@
+{
+  "cases": [
+    {
+      "case_id": "p-6dzsyfwuh",
+      "issues": [],
+      "counts": {
+        "started_events": 7,
+        "distinct_started_attempts": 7,
+        "terminal_events": 7,
+        "matched_unique_terminals": 7,
+        "outer_requests": 7
+      },
+      "open_attempts": [],
+      "costs": {
+        "raw_terminal_event_sum_usd": "0.0029312",
+        "matched_unique_known_subtotal_usd": "0.0029312",
+        "unknown_terminal_amounts": [],
+        "outer_record_total_if_complete_usd": "0.0029312",
+        "scope": "Recorded amounts only; no independent tariff truth. Invalid evidence can restrict whether these are trusted totals."
+      },
+      "journal": {
+        "lines": 16,
+        "chain_ok": true,
+        "finished_records": 1
+      }
+    },
+    {
+      "case_id": "p-83xhvpk79",
+      "issues": [],
+      "counts": {
+        "started_events": 7,
+        "distinct_started_attempts": 7,
+        "terminal_events": 7,
+        "matched_unique_terminals": 7,
+        "outer_requests": 7
+      },
+      "open_attempts": [],
+      "costs": {
+        "raw_terminal_event_sum_usd": "0.0027429",
+        "matched_unique_known_subtotal_usd": "0.0027429",
+        "unknown_terminal_amounts": [],
+        "outer_record_total_if_complete_usd": "0.0027429",
+        "scope": "Recorded amounts only; no independent tariff truth. Invalid evidence can restrict whether these are trusted totals."
+      },
+      "journal": {
+        "lines": 16,
+        "chain_ok": true,
+        "finished_records": 1
+      }
+    },
+    {
+      "case_id": "p-b7dnq6awc",
+      "issues": [],
+      "counts": {
+        "started_events": 3,
+        "distinct_started_attempts": 3,
+        "terminal_events": 3,
+        "matched_unique_terminals": 3,
+        "outer_requests": 3
+      },
+      "open_attempts": [],
+      "costs": {
+        "raw_terminal_event_sum_usd": "0.0006945",
+        "matched_unique_known_subtotal_usd": "0.0006945",
+        "unknown_terminal_amounts": [],
+        "outer_record_total_if_complete_usd": "0.0006945",
+        "scope": "Recorded amounts only; no independent tariff truth. Invalid evidence can restrict whether these are trusted totals."
+      },
+      "journal": {
+        "lines": 9,
+        "chain_ok": true,
+        "finished_records": 1
+      }
+    },
+    {
+      "case_id": "p-f9gwrjdba",
+      "issues": [
+        {
+          "code": "message_contract_violation",
+          "where": "trace.events[8]",
+          "detail": {
+            "observed": [
+              {
+                "attempt_id": "run-p-f9gwrjdba:1:evidence:1",
+                "role": "evidence",
+                "round": 1,
+                "text": "p-f9gwrjdba|evidence|1|amber"
+              },
+              {
+                "attempt_id": "run-p-f9gwrjdba:1:linking:1",
+                "role": "linking",
+                "round": 1,
+                "text": "p-f9gwrjdba|linking|1|amber"
+              },
+              {
+                "attempt_id": "run-p-f9gwrjdba:1:draft:1",
+                "role": "draft",
+                "round": 1,
+                "text": "p-f9gwrjdba|draft|1|amber"
+              }
+            ],
+            "expected": [
+              {
+                "attempt_id": "run-p-f9gwrjdba:1:evidence:1",
+                "role": "evidence",
+                "round": 1,
+                "text": "p-f9gwrjdba|evidence|1|amber"
+              },
+              {
+                "attempt_id": "run-p-f9gwrjdba:1:linking:1",
+                "role": "linking",
+                "round": 1,
+                "text": "p-f9gwrjdba|linking|1|amber"
+              }
+            ]
+          }
+        }
+      ],
+      "counts": {
+        "started_events": 7,
+        "distinct_started_attempts": 7,
+        "terminal_events": 7,
+        "matched_unique_terminals": 7,
+        "outer_requests": 7
+      },
+      "open_attempts": [],
+      "costs": {
+        "raw_terminal_event_sum_usd": "0.0025697",
+        "matched_unique_known_subtotal_usd": "0.0025697",
+        "unknown_terminal_amounts": [],
+        "outer_record_total_if_complete_usd": "0.0025697",
+        "scope": "Recorded amounts only; no independent tariff truth. Invalid evidence can restrict whether these are trusted totals."
+      },
+      "journal": {
+        "lines": 16,
+        "chain_ok": true,
+        "finished_records": 1
+      }
+    },
+    {
+      "case_id": "p-kbqchj34v",
+      "issues": [],
+      "counts": {
+        "started_events": 3,
+        "distinct_started_attempts": 3,
+        "terminal_events": 3,
+        "matched_unique_terminals": 3,
+        "outer_requests": 3
+      },
+      "open_attempts": [],
+      "costs": {
+        "raw_terminal_event_sum_usd": "0.0006930",
+        "matched_unique_known_subtotal_usd": "0.0006930",
+        "unknown_terminal_amounts": [],
+        "outer_record_total_if_complete_usd": "0.0006930",
+        "scope": "Recorded amounts only; no independent tariff truth. Invalid evidence can restrict whether these are trusted totals."
+      },
+      "journal": {
+        "lines": 8,
+        "chain_ok": true,
+        "finished_records": 1
+      }
+    },
+    {
+      "case_id": "p-p73vgcqax",
+      "issues": [],
+      "counts": {
+        "started_events": 3,
+        "distinct_started_attempts": 3,
+        "terminal_events": 2,
+        "matched_unique_terminals": 2,
+        "outer_requests": 3
+      },
+      "open_attempts": [
+        "run-p-p73vgcqax:1:draft:1"
+      ],
+      "costs": {
+        "raw_terminal_event_sum_usd": "0.0003274",
+        "matched_unique_known_subtotal_usd": "0.0003274",
+        "unknown_terminal_amounts": [],
+        "outer_record_total_if_complete_usd": null,
+        "scope": "Recorded amounts only; no independent tariff truth. Invalid evidence can restrict whether these are trusted totals."
+      },
+      "journal": {
+        "lines": 6,
+        "chain_ok": true,
+        "finished_records": 0
+      }
+    },
+    {
+      "case_id": "p-r82sckbw4",
+      "issues": [
+        {
+          "code": "duplicate_terminal",
+          "where": "trace.events[2]",
+          "detail": "run-p-r82sckbw4:1:evidence:1"
+        }
+      ],
+      "counts": {
+        "started_events": 7,
+        "distinct_started_attempts": 7,
+        "terminal_events": 8,
+        "matched_unique_terminals": 7,
+        "outer_requests": 7
+      },
+      "open_attempts": [],
+      "costs": {
+        "raw_terminal_event_sum_usd": "0.0025612",
+        "matched_unique_known_subtotal_usd": "0.0025612",
+        "unknown_terminal_amounts": [],
+        "outer_record_total_if_complete_usd": "0.0025612",
+        "scope": "Recorded amounts only; no independent tariff truth. Invalid evidence can restrict whether these are trusted totals."
+      },
+      "journal": {
+        "lines": 17,
+        "chain_ok": true,
+        "finished_records": 1
+      }
+    },
+    {
+      "case_id": "p-rbdtj357g",
+      "issues": [
+        {
+          "code": "journal_checksum_mismatch",
+          "where": "journal.line[3]",
+          "detail": {
+            "stored": "061c4f5ae10ea573b5eefcca3c7e810a58c265feb879aa10fc9f2a3c6b2a8f4e",
+            "recomputed": "d033809636e16244d3b7442a26b98acf4d4080c0e074a87d50643569e1d8eb54"
+          }
+        }
+      ],
+      "counts": {
+        "started_events": 7,
+        "distinct_started_attempts": 7,
+        "terminal_events": 7,
+        "matched_unique_terminals": 7,
+        "outer_requests": 7
+      },
+      "open_attempts": [],
+      "costs": {
+        "raw_terminal_event_sum_usd": "0.0025612",
+        "matched_unique_known_subtotal_usd": "0.0025612",
+        "unknown_terminal_amounts": [],
+        "outer_record_total_if_complete_usd": "0.0025612",
+        "scope": "Recorded amounts only; no independent tariff truth. Invalid evidence can restrict whether these are trusted totals."
+      },
+      "journal": {
+        "lines": 16,
+        "chain_ok": false,
+        "finished_records": 1
+      }
+    },
+    {
+      "case_id": "p-vktaj3qn2",
+      "issues": [],
+      "counts": {
+        "started_events": 7,
+        "distinct_started_attempts": 7,
+        "terminal_events": 7,
+        "matched_unique_terminals": 7,
+        "outer_requests": 7
+      },
+      "open_attempts": [],
+      "costs": {
+        "raw_terminal_event_sum_usd": "0.0025612",
+        "matched_unique_known_subtotal_usd": "0.0025612",
+        "unknown_terminal_amounts": [],
+        "outer_record_total_if_complete_usd": "0.0025612",
+        "scope": "Recorded amounts only; no independent tariff truth. Invalid evidence can restrict whether these are trusted totals."
+      },
+      "journal": {
+        "lines": 16,
+        "chain_ok": true,
+        "finished_records": 1
+      }
+    },
+    {
+      "case_id": "p-vz3eq4smw",
+      "issues": [
+        {
+          "code": "terminal_without_matching_start",
+          "where": "trace.events[1]",
+          "detail": "run-p-vz3eq4smw:1:checking:1"
+        },
+        {
+          "code": "next_step_before_terminal",
+          "where": "trace.events[2]",
+          "detail": "run-p-vz3eq4smw:1:evidence:1"
+        },
+        {
+          "code": "message_contract_violation",
+          "where": "trace.events[6]",
+          "detail": {
+            "observed": [
+              {
+                "attempt_id": "run-p-vz3eq4smw:1:evidence:1",
+                "role": "evidence",
+                "round": 1,
+                "text": "p-vz3eq4smw|evidence|1|amber"
+              },
+              {
+                "attempt_id": "run-p-vz3eq4smw:1:draft:1",
+                "role": "draft",
+                "round": 1,
+                "text": "p-vz3eq4smw|draft|1|amber"
+              }
+            ],
+            "expected": [
+              {
+                "attempt_id": "run-p-vz3eq4smw:1:draft:1",
+                "role": "draft",
+                "round": 1,
+                "text": "p-vz3eq4smw|draft|1|amber"
+              }
+            ]
+          }
+        },
+        {
+          "code": "message_contract_violation",
+          "where": "trace.events[8]",
+          "detail": {
+            "observed": [
+              {
+                "attempt_id": "run-p-vz3eq4smw:1:evidence:1",
+                "role": "evidence",
+                "round": 1,
+                "text": "p-vz3eq4smw|evidence|1|amber"
+              },
+              {
+                "attempt_id": "run-p-vz3eq4smw:1:linking:1",
+                "role": "linking",
+                "round": 1,
+                "text": "p-vz3eq4smw|linking|1|amber"
+              }
+            ],
+            "expected": [
+              {
+                "attempt_id": "run-p-vz3eq4smw:1:linking:1",
+                "role": "linking",
+                "round": 1,
+                "text": "p-vz3eq4smw|linking|1|amber"
+              }
+            ]
+          }
+        },
+        {
+          "code": "invalid_completed_status",
+          "where": "trace.status",
+          "detail": {
+            "schedule_slots_seen": 7,
+            "required": 7,
+            "open": [
+              "run-p-vz3eq4smw:1:evidence:1"
+            ],
+            "failure": null
+          }
+        }
+      ],
+      "counts": {
+        "started_events": 7,
+        "distinct_started_attempts": 7,
+        "terminal_events": 7,
+        "matched_unique_terminals": 6,
+        "outer_requests": 7
+      },
+      "open_attempts": [
+        "run-p-vz3eq4smw:1:evidence:1"
+      ],
+      "costs": {
+        "raw_terminal_event_sum_usd": "0.0025612",
+        "matched_unique_known_subtotal_usd": "0.0025612",
+        "unknown_terminal_amounts": [],
+        "outer_record_total_if_complete_usd": null,
+        "scope": "Recorded amounts only; no independent tariff truth. Invalid evidence can restrict whether these are trusted totals."
+      },
+      "journal": {
+        "lines": 16,
+        "chain_ok": true,
+        "finished_records": 1
+      }
+    },
+    {
+      "case_id": "p-w5t6ckxzm",
+      "issues": [
+        {
+          "code": "next_step_before_terminal",
+          "where": "trace.events[3]",
+          "detail": "run-p-w5t6ckxzm:1:linking:1"
+        },
+        {
+          "code": "message_contract_violation",
+          "where": "trace.events[7]",
+          "detail": {
+            "observed": [
+              {
+                "attempt_id": "run-p-w5t6ckxzm:1:evidence:1",
+                "role": "evidence",
+                "round": 1,
+                "text": "p-w5t6ckxzm|evidence|1|amber"
+              },
+              {
+                "attempt_id": "run-p-w5t6ckxzm:1:linking:1",
+                "role": "linking",
+                "round": 1,
+                "text": "p-w5t6ckxzm|linking|1|amber"
+              }
+            ],
+            "expected": [
+              {
+                "attempt_id": "run-p-w5t6ckxzm:1:evidence:1",
+                "role": "evidence",
+                "round": 1,
+                "text": "p-w5t6ckxzm|evidence|1|amber"
+              }
+            ]
+          }
+        },
+        {
+          "code": "message_contract_violation",
+          "where": "trace.events[9]",
+          "detail": {
+            "observed": [
+              {
+                "attempt_id": "run-p-w5t6ckxzm:1:linking:1",
+                "role": "linking",
+                "round": 1,
+                "text": "p-w5t6ckxzm|linking|1|amber"
+              },
+              {
+                "attempt_id": "run-p-w5t6ckxzm:1:draft:1",
+                "role": "draft",
+                "round": 1,
+                "text": "p-w5t6ckxzm|draft|1|amber"
+              }
+            ],
+            "expected": [
+              {
+                "attempt_id": "run-p-w5t6ckxzm:1:draft:1",
+                "role": "draft",
+                "round": 1,
+                "text": "p-w5t6ckxzm|draft|1|amber"
+              }
+            ]
+          }
+        },
+        {
+          "code": "invalid_completed_status",
+          "where": "trace.status",
+          "detail": {
+            "schedule_slots_seen": 7,
+            "required": 7,
+            "open": [
+              "run-p-w5t6ckxzm:1:linking:1"
+            ],
+            "failure": null
+          }
+        }
+      ],
+      "counts": {
+        "started_events": 7,
+        "distinct_started_attempts": 7,
+        "terminal_events": 6,
+        "matched_unique_terminals": 6,
+        "outer_requests": 7
+      },
+      "open_attempts": [
+        "run-p-w5t6ckxzm:1:linking:1"
+      ],
+      "costs": {
+        "raw_terminal_event_sum_usd": "0.0022338",
+        "matched_unique_known_subtotal_usd": "0.0022338",
+        "unknown_terminal_amounts": [],
+        "outer_record_total_if_complete_usd": null,
+        "scope": "Recorded amounts only; no independent tariff truth. Invalid evidence can restrict whether these are trusted totals."
+      },
+      "journal": {
+        "lines": 15,
+        "chain_ok": true,
+        "finished_records": 1
+      }
+    },
+    {
+      "case_id": "p-yx4wuqhtd",
+      "issues": [],
+      "counts": {
+        "started_events": 3,
+        "distinct_started_attempts": 3,
+        "terminal_events": 2,
+        "matched_unique_terminals": 2,
+        "outer_requests": 3
+      },
+      "open_attempts": [
+        "run-p-yx4wuqhtd:1:draft:1"
+      ],
+      "costs": {
+        "raw_terminal_event_sum_usd": "0.0003274",
+        "matched_unique_known_subtotal_usd": "0.0003274",
+        "unknown_terminal_amounts": [],
+        "outer_record_total_if_complete_usd": null,
+        "scope": "Recorded amounts only; no independent tariff truth. Invalid evidence can restrict whether these are trusted totals."
+      },
+      "journal": {
+        "lines": 6,
+        "chain_ok": true,
+        "finished_records": 0
+      }
+    }
+  ]
+}

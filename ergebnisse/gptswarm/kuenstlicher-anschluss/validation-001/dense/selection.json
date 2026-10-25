@@ -1,0 +1,57 @@
+{
+  "selection_method": "EdgeWiseDistribution.realize_full",
+  "potential_connections": [
+    [
+      "A",
+      "C"
+    ],
+    [
+      "B",
+      "C"
+    ]
+  ],
+  "fixture_logits": [
+    2.1972246170043945,
+    -2.1972246170043945
+  ],
+  "threshold": null,
+  "temperature": 1.0,
+  "learned_order": false,
+  "training": false,
+  "initial_edges": 0,
+  "seed": 31,
+  "torch_version": "2.2.2",
+  "selected_edges": [
+    [
+      "A",
+      "C"
+    ],
+    [
+      "B",
+      "C"
+    ]
+  ],
+  "log_probability": null,
+  "native_sources": {
+    "Graph.run": {
+      "path": "/Users/jannikhiller/Desktop/ai operations/Studium OS/Masterarbeit/eval-harness/eval/runs/Z31-PRUNING-001/original/swarm/graph/graph.py",
+      "sha256": "f021601f1a1aae0dfe23f236a926ee98814e0c4dd3c8aeb7a88b0571db1d0938"
+    },
+    "Node.execute": {
+      "path": "/Users/jannikhiller/Desktop/ai operations/Studium OS/Masterarbeit/eval-harness/eval/runs/Z31-PRUNING-001/original/swarm/graph/node.py",
+      "sha256": "6a0c98880293139129a804e2a50c4d30a57c387a2d6691de66d4a3cbbefb6755"
+    },
+    "CompositeGraph.check_cycle": {
+      "path": "/Users/jannikhiller/Desktop/ai operations/Studium OS/Masterarbeit/eval-harness/eval/runs/Z31-PRUNING-001/original/swarm/graph/composite_graph.py",
+      "sha256": "65ac6e423c0c3f480bbf45a591da2c076b9494a788b098b9ab372788d7ceac66"
+    },
+    "EdgeWiseDistribution.realize": {
+      "path": "/Users/jannikhiller/Desktop/ai operations/Studium OS/Masterarbeit/eval-harness/eval/runs/Z31-PRUNING-001/original/swarm/optimizer/edge_optimizer/parameterization.py",
+      "sha256": "57f2883f032baf72fd911b853d58070dd5da00503e40d5b7624c4274c605443d"
+    },
+    "EdgeWiseDistribution.realize_full": {
+      "path": "/Users/jannikhiller/Desktop/ai operations/Studium OS/Masterarbeit/eval-harness/eval/runs/Z31-PRUNING-001/original/swarm/optimizer/edge_optimizer/parameterization.py",
+      "sha256": "57f2883f032baf72fd911b853d58070dd5da00503e40d5b7624c4274c605443d"
+    }
+  }
+}

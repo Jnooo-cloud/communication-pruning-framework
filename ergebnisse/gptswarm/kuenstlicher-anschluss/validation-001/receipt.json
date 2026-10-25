@@ -1,0 +1,81 @@
+{
+  "finished_utc": "2026-09-11T08:27:18.127123+00:00",
+  "runs": [
+    {
+      "command": [
+        "/Users/jannikhiller/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/Users/jannikhiller/Desktop/ai operations/Studium OS/Masterarbeit/eval-harness/eval/runs/Z31-PRUNING-001/case.py",
+        "/Users/jannikhiller/Desktop/ai operations/Studium OS/Masterarbeit/eval-harness/eval/runs/Z31-PRUNING-001/validation-001/dense",
+        "dense"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "/Users/jannikhiller/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/Users/jannikhiller/Desktop/ai operations/Studium OS/Masterarbeit/eval-harness/eval/runs/Z31-PRUNING-001/case.py",
+        "/Users/jannikhiller/Desktop/ai operations/Studium OS/Masterarbeit/eval-harness/eval/runs/Z31-PRUNING-001/validation-001/pruned",
+        "pruned"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "/Users/jannikhiller/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/Users/jannikhiller/Desktop/ai operations/Studium OS/Masterarbeit/eval-harness/eval/runs/Z31-PRUNING-001/case.py",
+        "/Users/jannikhiller/Desktop/ai operations/Studium OS/Masterarbeit/eval-harness/eval/runs/Z31-PRUNING-001/validation-001/failed_b",
+        "failed_b"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "/Users/jannikhiller/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/Users/jannikhiller/Desktop/ai operations/Studium OS/Masterarbeit/eval-harness/eval/runs/Z31-PRUNING-001/verify.py",
+        "/Users/jannikhiller/Desktop/ai operations/Studium OS/Masterarbeit/eval-harness/eval/runs/Z31-PRUNING-001/validation-001",
+        "/Users/jannikhiller/Desktop/ai operations/Studium OS/Masterarbeit/eval-harness/eval/runs/Z31-PRUNING-001/original"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "/Users/jannikhiller/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "/Users/jannikhiller/Desktop/ai operations/Studium OS/Masterarbeit/eval-harness/eval/runs/Z31-PRUNING-001/tests.py"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "own_sources_unchanged": true,
+  "original_sources_unchanged": true,
+  "outputs": {
+    "1-stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "1-stdout.log": "ba9ec6bc3b5545af80c0272aea3466f1e58ddab77ec9db775cec56c67b949aed",
+    "2-stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "2-stdout.log": "2737a64af292f367e19c8e305db2d3b9f6fe66f79fc7dfd6ab47c222ef5d600d",
+    "3-stderr.log": "053dff26b58ee2452297ef280ad009aa01efb32e5248f9456d446029542feed4",
+    "3-stdout.log": "ffb9cd0afce9eecc4039faf231d0544aad5e243657d7ee3cbd989394be66cad3",
+    "4-stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "4-stdout.log": "af194cdb039e6d1aab5ff147011ef379a6c07553011da59519634aca0de20b18",
+    "5-stderr.log": "50fd7bbd7d5509ec67afb142e6059477d7a352daf3c92f34e216cb9e61b97b41",
+    "5-stdout.log": "1c8eeae6c70a8fc137e505098d6228b9a82b752adf1f5735e59ce8d76ee0ccdc",
+    "dense/client.jsonl": "743c31d90bd8d4f5dd1b1cfe79aeb0250492d64cfa04c499151d136ab087ef1d",
+    "dense/journal.jsonl": "e849c66813ed581a65f0fc2fae18548b1d25afb38eab10e520a9c570d149a378",
+    "dense/node-entry.jsonl": "ffc03c4ad640db67ae7667ef70352ee93937afd2d6f8eb3ea203ea0baff169ed",
+    "dense/result.json": "7c360a3319c06c316575cf31a38b03b868abfd31285df2421d8e3ca9cdb1be55",
+    "dense/selection.json": "bd0cbd54610a37b5f3fb388ccffff3b6860dbf49b062c281fafaa1945c56c94d",
+    "failed_b/client.jsonl": "c62185918f419ad5832d29e002a273c09e8d7e342be00b29560553eec1fbd46c",
+    "failed_b/journal.jsonl": "65eea0534e7e3dc459cacc6314d397d7e3e6a6010c258d4f9e01d43530c9e139",
+    "failed_b/node-entry.jsonl": "c475a469204de06be7b819c1cef7388b045b231e8406e6056a4cce7cc00e266a",
+    "failed_b/result.json": "98d7ec430f06e2f4f16532fe98455e96a3c28c9120c167a53b0062f571dcfe7e",
+    "failed_b/selection.json": "bd0cbd54610a37b5f3fb388ccffff3b6860dbf49b062c281fafaa1945c56c94d",
+    "own-source-manifest.json": "e3f068bf1635781de830b6169a736226da26aa84507273b5b2e98c6c10995f6d",
+    "own-source.zip": "66ad708ca01de339c4c3085eb892fe54bb7332bb57f9d03cea2c22bba88a8d1a",
+    "pruned/client.jsonl": "a93c9d67c9b8635e5fb53669e7af462422722fb51eab5fba7e05d0e182553a57",
+    "pruned/journal.jsonl": "485448d7757f1a9984072806532c611853c45b07c0674f7be0609ff96830db3a",
+    "pruned/node-entry.jsonl": "4d25144106b40bb0007ba7be395a8fa5dd3d6969507889612f55735967c9a847",
+    "pruned/result.json": "7bea40623402802f2ad82228b5c3c3121c5130f599175d68af0b920f51e327ef",
+    "pruned/selection.json": "faa5bb84e42577e5aa3030fe9efa8878f734ec6616a5b62369199fe887419777",
+    "started.json": "9f729e87fdbc49380ee45d26632b7a3cb574956c82bb2842db5bf93d2a77f914",
+    "verification.json": "31c32828b66770038ad22dde0ccbd4b43a582f0b5cb79f8b03b3802ed57ef9a5"
+  }
+}

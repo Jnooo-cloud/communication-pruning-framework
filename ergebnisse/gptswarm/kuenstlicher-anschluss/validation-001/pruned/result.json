@@ -1,0 +1,32 @@
+{
+  "case": "pruned",
+  "framework": "GPTSwarm@c23a827f561c934ce21dd950408f7606aa4a8821",
+  "status": "completed",
+  "native_answer": [
+    "ALPHA"
+  ],
+  "native_node_entries": [
+    "A",
+    "C"
+  ],
+  "blocked_before_inner_client": [],
+  "node_outputs": {
+    "C": [
+      {
+        "actor": "C",
+        "output": "ALPHA"
+      }
+    ],
+    "A": [
+      {
+        "actor": "A",
+        "output": "ALPHA"
+      }
+    ],
+    "B": []
+  },
+  "ledger_poisoned": false,
+  "ledger_active": null,
+  "real_model_calls": 0,
+  "scope": "Synthetic functional integration; no trained adaptive policy or performance claim."
+}

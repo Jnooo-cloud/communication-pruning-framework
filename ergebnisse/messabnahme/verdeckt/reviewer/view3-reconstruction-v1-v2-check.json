@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "verified_unchanged_fields": [
+    "counts",
+    "known_subtotal_usd",
+    "total_usd",
+    "known_input_tokens",
+    "known_output_tokens",
+    "claimed_minus_reconstructed_subtotal_usd",
+    "claimed_minus_reconstructed_total_usd",
+    "reconstructed_status",
+    "reconstructed_answer",
+    "calls",
+    "inner_calls_missing_outer",
+    "full_request_model_body_matches",
+    "actual_messages"
+  ],
+  "cost_sheet_unchanged": true,
+  "scope": "Only diagnosis of nonregular aux call changed; actual requests, counts, tokens, all per-call amounts, totals and outcomes unchanged in all twelve cases."
+}

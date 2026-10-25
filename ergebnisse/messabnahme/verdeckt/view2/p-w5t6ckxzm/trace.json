@@ -1,0 +1,238 @@
+{
+  "configuration": {
+    "config_id": "bank-p-w5t6ckxzm",
+    "edges": [
+      [
+        "evidence",
+        "linking"
+      ],
+      [
+        "linking",
+        "draft"
+      ],
+      [
+        "draft",
+        "evidence"
+      ]
+    ],
+    "roles": [
+      "evidence",
+      "linking",
+      "draft"
+    ]
+  },
+  "events": [
+    {
+      "attempt_id": "run-p-w5t6ckxzm:1:evidence:1",
+      "instruction": "Find evidence relevant to the question in the supplied paragraphs. Give a supported answer if possible.",
+      "kind": "started",
+      "max_output_tokens": 1024,
+      "messages": [],
+      "role": "evidence",
+      "round": 1
+    },
+    {
+      "attempt_id": "run-p-w5t6ckxzm:1:evidence:1",
+      "kind": "completed",
+      "text": "p-w5t6ckxzm|evidence|1|amber",
+      "usage": {
+        "cost_source": "synthetic",
+        "cost_usd": "0",
+        "input_tokens": 130,
+        "output_tokens": 22,
+        "price_version": "Z37-synthetic-20260913"
+      }
+    },
+    {
+      "attempt_id": "run-p-w5t6ckxzm:1:linking:1",
+      "instruction": "Connect evidence across the supplied paragraphs to answer the question. Explain the necessary links.",
+      "kind": "started",
+      "max_output_tokens": 1024,
+      "messages": [],
+      "role": "linking",
+      "round": 1
+    },
+    {
+      "attempt_id": "run-p-w5t6ckxzm:1:draft:1",
+      "instruction": "Derive an answer independently from the supplied paragraphs. Use any supplied prior messages critically.",
+      "kind": "started",
+      "max_output_tokens": 1024,
+      "messages": [],
+      "role": "draft",
+      "round": 1
+    },
+    {
+      "attempt_id": "run-p-w5t6ckxzm:1:draft:1",
+      "kind": "completed",
+      "text": "p-w5t6ckxzm|draft|1|amber",
+      "usage": {
+        "cost_source": "synthetic",
+        "cost_usd": "0.0003656",
+        "input_tokens": 164,
+        "output_tokens": 28,
+        "price_version": "Z37-synthetic-20260913"
+      }
+    },
+    {
+      "attempt_id": "run-p-w5t6ckxzm:2:evidence:1",
+      "instruction": "Find evidence relevant to the question in the supplied paragraphs. Give a supported answer if possible.",
+      "kind": "started",
+      "max_output_tokens": 1024,
+      "messages": [
+        {
+          "attempt_id": "run-p-w5t6ckxzm:1:evidence:1",
+          "role": "evidence",
+          "round": 1,
+          "text": "p-w5t6ckxzm|evidence|1|amber"
+        },
+        {
+          "attempt_id": "run-p-w5t6ckxzm:1:draft:1",
+          "role": "draft",
+          "round": 1,
+          "text": "p-w5t6ckxzm|draft|1|amber"
+        }
+      ],
+      "role": "evidence",
+      "round": 2
+    },
+    {
+      "attempt_id": "run-p-w5t6ckxzm:2:evidence:1",
+      "kind": "completed",
+      "text": "p-w5t6ckxzm|evidence|2|amber",
+      "usage": {
+        "cost_source": "synthetic",
+        "cost_usd": "0.0004208",
+        "input_tokens": 191,
+        "output_tokens": 31,
+        "price_version": "Z37-synthetic-20260913"
+      }
+    },
+    {
+      "attempt_id": "run-p-w5t6ckxzm:2:linking:1",
+      "instruction": "Connect evidence across the supplied paragraphs to answer the question. Explain the necessary links.",
+      "kind": "started",
+      "max_output_tokens": 1024,
+      "messages": [
+        {
+          "attempt_id": "run-p-w5t6ckxzm:1:evidence:1",
+          "role": "evidence",
+          "round": 1,
+          "text": "p-w5t6ckxzm|evidence|1|amber"
+        },
+        {
+          "attempt_id": "run-p-w5t6ckxzm:1:linking:1",
+          "role": "linking",
+          "round": 1,
+          "text": "p-w5t6ckxzm|linking|1|amber"
+        }
+      ],
+      "role": "linking",
+      "round": 2
+    },
+    {
+      "attempt_id": "run-p-w5t6ckxzm:2:linking:1",
+      "kind": "completed",
+      "text": "p-w5t6ckxzm|linking|2|amber",
+      "usage": {
+        "cost_source": "synthetic",
+        "cost_usd": "0.0004590",
+        "input_tokens": 208,
+        "output_tokens": 34,
+        "price_version": "Z37-synthetic-20260913"
+      }
+    },
+    {
+      "attempt_id": "run-p-w5t6ckxzm:2:draft:1",
+      "instruction": "Derive an answer independently from the supplied paragraphs. Use any supplied prior messages critically.",
+      "kind": "started",
+      "max_output_tokens": 1024,
+      "messages": [
+        {
+          "attempt_id": "run-p-w5t6ckxzm:1:linking:1",
+          "role": "linking",
+          "round": 1,
+          "text": "p-w5t6ckxzm|linking|1|amber"
+        },
+        {
+          "attempt_id": "run-p-w5t6ckxzm:1:draft:1",
+          "role": "draft",
+          "round": 1,
+          "text": "p-w5t6ckxzm|draft|1|amber"
+        }
+      ],
+      "role": "draft",
+      "round": 2
+    },
+    {
+      "attempt_id": "run-p-w5t6ckxzm:2:draft:1",
+      "kind": "completed",
+      "text": "p-w5t6ckxzm|draft|2|amber",
+      "usage": {
+        "cost_source": "synthetic",
+        "cost_usd": "0.0004972",
+        "input_tokens": 225,
+        "output_tokens": 37,
+        "price_version": "Z37-synthetic-20260913"
+      }
+    },
+    {
+      "attempt_id": "run-p-w5t6ckxzm:3:aggregator:1",
+      "instruction": "Answer the question using the supplied paragraphs and available final producer messages. Return only the answer.",
+      "kind": "started",
+      "max_output_tokens": 128,
+      "messages": [
+        {
+          "attempt_id": "run-p-w5t6ckxzm:2:evidence:1",
+          "role": "evidence",
+          "round": 2,
+          "text": "p-w5t6ckxzm|evidence|2|amber"
+        },
+        {
+          "attempt_id": "run-p-w5t6ckxzm:2:linking:1",
+          "role": "linking",
+          "round": 2,
+          "text": "p-w5t6ckxzm|linking|2|amber"
+        },
+        {
+          "attempt_id": "run-p-w5t6ckxzm:2:draft:1",
+          "role": "draft",
+          "round": 2,
+          "text": "p-w5t6ckxzm|draft|2|amber"
+        }
+      ],
+      "role": "aggregator",
+      "round": 3
+    },
+    {
+      "attempt_id": "run-p-w5t6ckxzm:3:aggregator:1",
+      "kind": "completed",
+      "text": "p-w5t6ckxzm|aggregator|3|amber",
+      "usage": {
+        "cost_source": "synthetic",
+        "cost_usd": "0.0004912",
+        "input_tokens": 247,
+        "output_tokens": 23,
+        "price_version": "Z37-synthetic-20260913"
+      }
+    }
+  ],
+  "failed_role": null,
+  "failure_policy": "F-01/v1",
+  "output_limits": {
+    "aggregator": 128,
+    "producer": 1024
+  },
+  "rounds": 2,
+  "run_id": "run-p-w5t6ckxzm",
+  "schema": 3,
+  "task": {
+    "paragraphs": [
+      "Im künstlichen Register p-w5t6ckxzm trägt der Behälter die Markierung amber.",
+      "Dieser Text dient ausschließlich einer technischen Fallprüfung."
+    ],
+    "question": "Welche Markierung trägt der künstliche Behälter?",
+    "task_id": "task-p-w5t6ckxzm"
+  },
+  "answer": "p-w5t6ckxzm|aggregator|3|amber",
+  "status": "completed"
+}

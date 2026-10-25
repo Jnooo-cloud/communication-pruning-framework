@@ -1,0 +1,103 @@
+{
+  "schema": 1,
+  "stage": "view2",
+  "reviewer": "Separater Agent /root/z37_blind_reviewer; organisatorische Verdeckung, keine menschliche Abnahme",
+  "input_binding": "reviewer/view2-reconstruction-v1-inputs.json",
+  "source_archive": {"path": "reviewer/view2-reconstruction-v1.tar", "sha256": "3ecb5a058f2ce910588b271617cd922fda6829bf80828a14242fd7f89574251e"},
+  "execution": "reviewer/view2-reconstruction-v1-execution.json",
+  "full_reconstruction": "reviewer/view2-reconstruction-v1-output.json",
+  "access_scope": "Vertrag, dieselben zwölf Sicht1-Fälle, genau deren 36 freigegebene Sicht2-Dateien sowie eigene Reviewer-Dateien. Keine Sicht3, privaten Dateien, Instrumentausgaben, Produktionsquellen oder Sollschlüssel gelesen. Vor der Ausführung wurden Quelle und alle 49 Evidenzdateien vollständig mit Manifest archiviert.",
+  "method": "Eigenständig aus dem Vertrag geschriebene Routine mit Python-Standardbibliothek: Ablauf, Versuchspaarung, Nachrichtenprojektion, äußere Requestfolge, Journalhashkette und Dezimalsummen. Erfolgreiche Ausführung, keine technische Fehlannahme oder verworfene Ausführung aufgetreten. stdout, stderr und Ausgabe erhalten.",
+  "verdict_scope": "Die folgenden Feldurteile beziehen sich auf den Nachweis durch die äußeren S2-Belege. Begründete Zählung/Kostensumme bedeutet belegte äußere Aufrufe/verbuchte Beträge, keine unabhängige Tarifwahrheit oder Vollständigkeit gegen verschwiegene innere Aufrufe. measurement_complete beurteilt den vollständigen verwendbaren äußeren Messbeleg. Eine vollständig erfasste Ausführung kann gegen den Nachrichtenvertrag verstoßen.",
+  "all_cases_still_undecidable": ["Vollständigkeit gegenüber vollständig verschwiegenen inneren Aufrufen", "Korrektheit der verbuchten Einzelpreise gegenüber unabhängigem Tarif", "Gleichheit der übrigen Modellfelder zwischen äußerem und innerem Client"],
+  "counts_order": ["äußere Requests", "Starts", "Abschlussereignisse", "eindeutig zugeordnete Abschlüsse"],
+  "cases": [
+    {
+      "case_id": "p-6dzsyfwuh", "counts": [7,7,7,7], "recorded_known_subtotal_usd": "0.0029312", "recorded_total_usd": "0.0029312",
+      "claim_verdicts": {"status":"begründet","answer":"begründet","measurement_complete":"begründet","started_attempts":"begründet","calls":"begründet","known_cost_subtotal_usd":"begründet","total_cost_usd":"begründet"},
+      "outer_contract": "begründet",
+      "evidence": "Sieben gepaarte Versuche; erlaubte Nachrichten und gleiche äußere Modellprojektion; Journal mit 16 Zeilen, gültiger Kette und Abschluss; Antwort entspricht dem Aggregator. Die Dezimalsumme entspricht den verbuchten Einzelbeträgen.",
+      "gain_from_view1": "Äußerer Ablauf und Arithmetik jetzt belegt; unabhängige Preisrichtigkeit weiterhin offen."
+    },
+    {
+      "case_id": "p-83xhvpk79", "counts": [7,7,7,7], "recorded_known_subtotal_usd": "0.0027429", "recorded_total_usd": "0.0027429",
+      "claim_verdicts": {"status":"begründet","answer":"begründet","measurement_complete":"begründet","started_attempts":"begründet","calls":"begründet","known_cost_subtotal_usd":"begründet","total_cost_usd":"begründet"},
+      "outer_contract": "begründet",
+      "evidence": "Vollständige gepaarte äußere Folge mit sieben Requests, erlaubten Nachrichten, 16 gültigen Journalzeilen und passender Aggregatorantwort. Alle verbuchten Beträge ergeben exakt die behauptete Summe.",
+      "gain_from_view1": "Äußere Vertragskonsistenz belegt; innere Vollständigkeit und Tarifwahrheit bleiben offen."
+    },
+    {
+      "case_id": "p-b7dnq6awc", "counts": [3,3,3,3], "recorded_known_subtotal_usd": "0.0006945", "recorded_total_usd": "0.0006945",
+      "claim_verdicts": {"status":"begründet","answer":"begründet","measurement_complete":"begründet","started_attempts":"begründet","calls":"begründet","known_cost_subtotal_usd":"begründet","total_cost_usd":"begründet"},
+      "outer_contract": "begründet",
+      "evidence": "Eine vorgegebene Runde; linking als suppressed dokumentiert und ohne äußeren Request. evidence, draft und Aggregator besitzen jeweils ein Start-/Abschlusspaar. Aggregator erhält nur evidence/draft aus Runde 1. Neun gültige Journalzeilen einschließlich Abschluss.",
+      "gain_from_view1": "Zulässige Unterdrückung und verkürzter Ablauf nun äußerlich belegt, keine Gleichsetzung mit versteckter Ausführung."
+    },
+    {
+      "case_id": "p-f9gwrjdba", "counts": [7,7,7,7], "recorded_known_subtotal_usd": "0.0025697", "recorded_total_usd": "0.0025697",
+      "claim_verdicts": {"status":"begründet","answer":"begründet","measurement_complete":"begründet","started_attempts":"begründet","calls":"begründet","known_cost_subtotal_usd":"begründet","total_cost_usd":"begründet"},
+      "outer_contract": "kontradiziert",
+      "evidence": "trace.events[8] und observed_requests.jsonl Zeile 5: linking in Runde 2 erhält zusätzlich draft aus Runde 1, obwohl keine Kante draft→linking vorgegeben ist. Die verbotene Nachricht steht auch tatsächlich im model_body.prior_messages. Erlaubt wären nur evidence und linking. Die Ausführung ist vollständig äußerlich erfasst, aber verletzt den Nachrichtenvertrag.",
+      "gain_from_view1": "Konkrete unzulässige Nachrichtenübertragung nachgewiesen; reine Status-/Summenkonsistenz hatte sie nicht gezeigt."
+    },
+    {
+      "case_id": "p-kbqchj34v", "counts": [3,3,3,3], "recorded_known_subtotal_usd": "0.0006930", "recorded_total_usd": "0.0006930",
+      "claim_verdicts": {"status":"begründet","answer":"begründet","measurement_complete":"begründet","started_attempts":"begründet","calls":"begründet","known_cost_subtotal_usd":"begründet","total_cost_usd":"begründet"},
+      "outer_contract": "begründet",
+      "evidence": "Dritter Versuch draft/Runde1 endet model_failed mit reason=empty und bekanntem Betrag 0.0003656 USD. Danach keine weiteren Ereignisse/Requests, keine Antwort, versiegeltes model_failed-Journal mit acht gültigen Zeilen. Die bezahlte Fehlausführung bleibt im Gesamtbetrag enthalten.",
+      "gain_from_view1": "Regulärer F-01-Modellmisserfolg jetzt von offenem technischen Versuch unterscheidbar. Vollständige Messung ist kein erfolgreicher Qualitätslauf."
+    },
+    {
+      "case_id": "p-p73vgcqax", "counts": [3,3,2,2], "recorded_known_subtotal_usd": "0.0003274", "recorded_total_usd": null,
+      "claim_verdicts": {"status":"nicht entscheidbar","answer":"begründet","measurement_complete":"begründet","started_attempts":"begründet","calls":"begründet","known_cost_subtotal_usd":"begründet","total_cost_usd":"begründet"},
+      "outer_contract": "begründet",
+      "evidence": "Dritter Versuch draft/Runde1 ist gestartet und als äußerer Request sichtbar, hat aber kein Abschlussereignis. Sechs gültige Journalzeilen, kein finished und kein erfundenes Trace-status/answer-Paar. Zwei bekannte Abschlüsse summieren sich auf 0.0003274 USD; Gesamtkosten bleiben null. Der genaue technische Abbruchgrund ist in dieser Sicht noch nicht direkt belegt.",
+      "gain_from_view1": "Korrekte Offenheit des Belegs nachgewiesen. technical_stop ist als Ursache plausibel, aber mangels innerem Fehlerbeleg noch nicht entschieden."
+    },
+    {
+      "case_id": "p-r82sckbw4", "counts": [7,7,8,7], "recorded_known_subtotal_usd": "0.0025612", "recorded_total_usd": null,
+      "claim_verdicts": {"status":"begründet","answer":"begründet","measurement_complete":"kontradiziert","started_attempts":"begründet","calls":"kontradiziert","known_cost_subtotal_usd":"begründet","total_cost_usd":"nicht entscheidbar"},
+      "outer_contract": "kontradiziert",
+      "evidence": "trace.events[1] und [2] schließen denselben evidence/Runde1-Versuch zweimal identisch ab. Sieben äußere Requests und sieben eindeutige Versuche stehen acht Abschlussereignissen gegenüber. Die Journalhashkette ist gültig (17 Zeilen), schützt also nicht vor fachlich doppelten Ereignissen. Beide betroffenen Einträge nennen bekannten Nullpreis; deshalb bleibt die Dezimalsumme bei Deduplizierung zufällig unverändert.",
+      "gain_from_view1": "Doppeltes Ereignis konkret erkannt; die gleiche Kostensumme ist kein Gegenbeweis. Der vollständige gültige Messbeleg ist widerlegt."
+    },
+    {
+      "case_id": "p-rbdtj357g", "counts": [7,7,7,7], "recorded_known_subtotal_usd": "0.0025612", "recorded_total_usd": null,
+      "claim_verdicts": {"status":"nicht entscheidbar","answer":"nicht entscheidbar","measurement_complete":"kontradiziert","started_attempts":"begründet","calls":"nicht entscheidbar","known_cost_subtotal_usd":"nicht entscheidbar","total_cost_usd":"nicht entscheidbar"},
+      "outer_contract": "kontradiziert",
+      "evidence": "Journalzeile 3 verletzt die gespeicherte SHA-256-Bindung: gespeichert 061c4f5ae10ea573b5eefcca3c7e810a58c265feb879aa10fc9f2a3c6b2a8f4e, berechnet d033809636e16244d3b7442a26b98acf4d4080c0e074a87d50643569e1d8eb54. Dort steht price_version=Z37-synthetic-20260913-r. Trace und Journalinhalt stimmen ansonsten überein; sieben äußere Requests und die bloße Summe sind lesbar. Wegen gebrochener Ereignisintegrität wird daraus kein gültiger abgeschlossener Kosten-/Ergebnisnachweis.",
+      "gain_from_view1": "Integritätsbruch nachgewiesen. Zeitpunkt, Täter und historischer Originalwert werden aus der Prüfsumme allein nicht erfunden."
+    },
+    {
+      "case_id": "p-vktaj3qn2", "counts": [7,7,7,7], "recorded_known_subtotal_usd": "0.0025612", "recorded_total_usd": "0.0025612",
+      "claim_verdicts": {"status":"begründet","answer":"begründet","measurement_complete":"begründet","started_attempts":"begründet","calls":"begründet","known_cost_subtotal_usd":"begründet","total_cost_usd":"begründet"},
+      "outer_contract": "begründet",
+      "evidence": "Sieben gepaarte äußere Versuche, erlaubte tatsächlich übertragene Nachrichten, passende Aggregatorantwort, 16 gültige Journalzeilen mit finished und exakte verbuchte Summe.",
+      "gain_from_view1": "Äußerer Vertragsnachweis erreicht; vollständig verschwiegene innere Aufrufe und unabhängige Preise noch nicht entscheidbar."
+    },
+    {
+      "case_id": "p-vz3eq4smw", "counts": [7,7,7,6], "recorded_known_subtotal_usd": "0.0025612", "recorded_total_usd": null,
+      "claim_verdicts": {"status":"kontradiziert","answer":"begründet","measurement_complete":"kontradiziert","started_attempts":"begründet","calls":"nicht entscheidbar","known_cost_subtotal_usd":"begründet","total_cost_usd":"nicht entscheidbar"},
+      "outer_contract": "kontradiziert",
+      "evidence": "trace.events[1] nennt run-p-vz3eq4smw:1:checking:1, obwohl zuvor evidence/Runde1 gestartet wurde und checking weder aktive Rolle noch gestarteter Versuch ist. Damit bleiben ein Abschluss unzugeordnet und evidence offen; nur sechs Abschlüsse sind gültig gepaart. Spätere Requests verwenden trotzdem dessen behauptete Ausgabe. Sieben rohe Abschlusszeilen belegen keine sieben passend abgeschlossenen Versuche. Der falsch zugeordnete Betrag ist 0, wodurch die numerische Teilsumme unverändert bleibt.",
+      "gain_from_view1": "Falsche Versuch-/Rollenzuordnung belegt. Ein vorhandener Aggregatorausgang kann den ungültigen Abschluss des Gesamtlaufs nicht heilen."
+    },
+    {
+      "case_id": "p-w5t6ckxzm", "counts": [7,7,6,6], "recorded_known_subtotal_usd": "0.0022338", "recorded_total_usd": null,
+      "claim_verdicts": {"status":"kontradiziert","answer":"begründet","measurement_complete":"kontradiziert","started_attempts":"begründet","calls":"kontradiziert","known_cost_subtotal_usd":"kontradiziert","total_cost_usd":"nicht entscheidbar"},
+      "outer_contract": "kontradiziert",
+      "evidence": "Zu linking/Runde1 fehlt nach trace.events[2] das Abschlussereignis. Dennoch geht die Ausführung weiter, Folge-Requests enthalten dessen nicht durch Abschluss belegten Text und das Journal behauptet completed. Sieben äußere Requests, nur sechs Abschlüsse. Die vorhandenen bekannten Beträge ergeben 0.0022338 statt 0.0025612 USD; Differenz 0.0003274 USD. Ein möglicher fehlender Betrag wird nicht aus der Behauptung ergänzt.",
+      "gain_from_view1": "Fehlender Abschluss und dadurch unbelegte Gesamtkosten konkret sichtbar; dies ist wegen weiterer Ausführung und behaupteter Versiegelung kein sauberer offener Prefix."
+    },
+    {
+      "case_id": "p-yx4wuqhtd", "counts": [3,3,2,2], "recorded_known_subtotal_usd": "0.0003274", "recorded_total_usd": null,
+      "claim_verdicts": {"status":"kontradiziert","answer":"kontradiziert","measurement_complete":"kontradiziert","started_attempts":"begründet","calls":"begründet","known_cost_subtotal_usd":"begründet","total_cost_usd":"kontradiziert"},
+      "outer_contract": "kontradiziert",
+      "evidence": "S2 enthält einen sauberen offenen Prefix: draft/Runde1 gestartet, zwei Abschlüsse, kein Aggregatorrequest, kein finished und keine Traceantwort. Das widerlegt die Sicht1-Behauptungen completed, Aggregatorantwort und measurement_complete=true. 0.0003274 USD sind eine bekannte Teilsumme; ein gleichlautender bekannter Gesamtbetrag ist bei ungeklärtem offenem Versuch nicht zulässig.",
+      "gain_from_view1": "Der bloße Widerspruch der Behauptung ist jetzt durch konkrete Offenheit und fehlende Aggregatorausführung aufgelöst. Die genaue innere Abrechnung des offenen Versuchs bleibt unbekannt."
+    }
+  ],
+  "messages_scope": "Die vollständigen erwarteten/aufgezeichneten Nachrichten und die tatsächlich übergebenen prior_messages jedes äußeren Requests stehen in der archivierten Rekonstruktionsausgabe. Verwaltungskennungen wurden dort als Herkunft geprüft und im model_body nur role/round/text zugelassen. Übrige Modellfelder wurden gebunden, ohne einen noch nicht zugänglichen inneren Gleichheitsbeleg zu behaupten.",
+  "summary": "S2 belegt einen konkreten unerlaubten Nachrichtenweg, ein doppeltes Ereignis, eine gebrochene Journalbindung, eine falsche Abschlusszuordnung, einen fehlenden Abschluss bei behauptetem Vollabschluss und einen falschen Vollständigkeits-/Gesamtkostenanspruch über einem offenen Prefix. Weitere äußerlich konsistente Fälle bleiben hinsichtlich verborgener innerer Ausführung und Preiswahrheit offen. Kein Schluss aus dem Fallklassenkontingent.",
+  "instrument_capability": "Nicht beurteilt: diese Ergebnisse stammen aus einer neuen unabhängigen Routine und manueller Auslegung, nicht aus eingesehenen Produktionsausgaben."
+}

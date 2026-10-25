@@ -1,0 +1,67 @@
+{
+  "case_id": "p-b7dnq6awc",
+  "class": "K2",
+  "rounds": 1,
+  "failed_role": "linking",
+  "independent_schedule": [
+    {
+      "attempt_id": "run-p-b7dnq6awc:1:evidence:1",
+      "role": "evidence",
+      "round": 1,
+      "message_attempt_ids": []
+    },
+    {
+      "attempt_id": "run-p-b7dnq6awc:1:draft:1",
+      "role": "draft",
+      "round": 1,
+      "message_attempt_ids": []
+    },
+    {
+      "attempt_id": "run-p-b7dnq6awc:2:aggregator:1",
+      "role": "aggregator",
+      "round": 2,
+      "message_attempt_ids": [
+        "run-p-b7dnq6awc:1:evidence:1",
+        "run-p-b7dnq6awc:1:draft:1"
+      ]
+    }
+  ],
+  "observed_request_count": 3,
+  "actual_transferred_prior_messages": [
+    [],
+    [],
+    [
+      {
+        "attempt_id": "run-p-b7dnq6awc:1:evidence:1",
+        "role": "evidence",
+        "round": 1,
+        "text": "p-b7dnq6awc|evidence|1|amber"
+      },
+      {
+        "attempt_id": "run-p-b7dnq6awc:1:draft:1",
+        "role": "draft",
+        "round": 1,
+        "text": "p-b7dnq6awc|draft|1|amber"
+      }
+    ]
+  ],
+  "native_truth": {
+    "started_inner_calls": 3,
+    "known_inner_calls": 3,
+    "unresolved_inner_calls": 0,
+    "known_cost_subtotal_usd": "0.0006945",
+    "total_cost_usd": "0.0006945"
+  },
+  "true_status": "completed",
+  "true_answer": "p-b7dnq6awc|aggregator|2|amber",
+  "measurement_complete": true,
+  "expected_instrument": {
+    "trace_accepted": true,
+    "journal_accepted": true,
+    "partial": false,
+    "provenance": "Contract-derived expectation only; not instrument execution."
+  },
+  "message_violations": [],
+  "manufacturing_notes": [],
+  "read_depth": "Current production execution with injected synthetic client; independent schedule and Decimal tariff reconstruction. No main-auditor result used as truth."
+}

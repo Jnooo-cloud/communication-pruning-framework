@@ -1,0 +1,3 @@
+{"attempt_id": "run-p-b7dnq6awc:1:evidence:1", "billing_state": "known", "call_id": "p-b7dnq6awc-n01", "cost_source": "synthetic", "cost_usd": "0", "input_tokens": 130, "output_tokens": 22, "price_version": "Z37-synthetic-20260913"}
+{"attempt_id": "run-p-b7dnq6awc:1:draft:1", "billing_state": "known", "call_id": "p-b7dnq6awc-n02", "cost_source": "synthetic", "cost_usd": "0.0003274", "input_tokens": 147, "output_tokens": 25, "price_version": "Z37-synthetic-20260913"}
+{"attempt_id": "run-p-b7dnq6awc:2:aggregator:1", "billing_state": "known", "call_id": "p-b7dnq6awc-n03", "cost_source": "synthetic", "cost_usd": "0.0003671", "input_tokens": 174, "output_tokens": 23, "price_version": "Z37-synthetic-20260913"}

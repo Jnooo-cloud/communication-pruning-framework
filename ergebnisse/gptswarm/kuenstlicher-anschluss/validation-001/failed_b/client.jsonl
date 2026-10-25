@@ -1,0 +1,4 @@
+{"actor":"A","input":{"context":"A supplies ALPHA; B supplies BETA.","question":"Combine the available synthetic markers."},"kind":"started"}
+{"actor":"A","kind":"completed","response":{"actor":"A","output":"ALPHA"},"usage":{"cost_source":"synthetic","cost_usd":"0.001","input_tokens":20,"output_tokens":8,"price_version":null}}
+{"actor":"B","input":{"context":"A supplies ALPHA; B supplies BETA.","question":"Combine the available synthetic markers."},"kind":"started"}
+{"actor":"B","error":"planned synthetic B failure","kind":"failed","usage":{"cost_source":"synthetic","cost_usd":"0.002","input_tokens":20,"output_tokens":0,"price_version":null}}

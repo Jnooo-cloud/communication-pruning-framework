@@ -1,0 +1,249 @@
+{
+ "entwicklungsmatrix": {
+  "zeilen": [
+   {
+    "config": "C01",
+    "em_pct": 40.33,
+    "richtig_von_300": 121,
+    "abstand_pp": 0.0,
+    "kosten_usd": "0.00111262",
+    "kosten_rel_C01": 1.0,
+    "im_spielraum_1pp": true,
+    "q_wahl_300": 49
+   },
+   {
+    "config": "C02",
+    "em_pct": 29.33,
+    "richtig_von_300": 88,
+    "abstand_pp": -11.0,
+    "kosten_usd": "0.00101557",
+    "kosten_rel_C01": 0.913,
+    "im_spielraum_1pp": false,
+    "q_wahl_300": 27
+   },
+   {
+    "config": "C03",
+    "em_pct": 22.0,
+    "richtig_von_300": 66,
+    "abstand_pp": -18.33,
+    "kosten_usd": "0.00103594",
+    "kosten_rel_C01": 0.931,
+    "im_spielraum_1pp": false,
+    "q_wahl_300": 13
+   },
+   {
+    "config": "C04",
+    "em_pct": 38.33,
+    "richtig_von_300": 115,
+    "abstand_pp": -2.0,
+    "kosten_usd": "0.00109934",
+    "kosten_rel_C01": 0.988,
+    "im_spielraum_1pp": false,
+    "q_wahl_300": 31
+   },
+   {
+    "config": "C05",
+    "em_pct": 37.0,
+    "richtig_von_300": 111,
+    "abstand_pp": -3.33,
+    "kosten_usd": "0.00106295",
+    "kosten_rel_C01": 0.955,
+    "im_spielraum_1pp": false,
+    "q_wahl_300": 26
+   },
+   {
+    "config": "C06",
+    "em_pct": 28.67,
+    "richtig_von_300": 86,
+    "abstand_pp": -11.67,
+    "kosten_usd": "0.00101743",
+    "kosten_rel_C01": 0.914,
+    "im_spielraum_1pp": false,
+    "q_wahl_300": 22
+   },
+   {
+    "config": "C07",
+    "em_pct": 35.67,
+    "richtig_von_300": 107,
+    "abstand_pp": -4.67,
+    "kosten_usd": "0.00139172",
+    "kosten_rel_C01": 1.251,
+    "im_spielraum_1pp": false,
+    "q_wahl_300": 19
+   },
+   {
+    "config": "C08",
+    "em_pct": 36.33,
+    "richtig_von_300": 109,
+    "abstand_pp": -4.0,
+    "kosten_usd": "0.00160195",
+    "kosten_rel_C01": 1.44,
+    "im_spielraum_1pp": false,
+    "q_wahl_300": 14
+   },
+   {
+    "config": "C09",
+    "em_pct": 37.67,
+    "richtig_von_300": 113,
+    "abstand_pp": -2.67,
+    "kosten_usd": "0.00142748",
+    "kosten_rel_C01": 1.283,
+    "im_spielraum_1pp": false,
+    "q_wahl_300": 25
+   },
+   {
+    "config": "C10",
+    "em_pct": 34.33,
+    "richtig_von_300": 103,
+    "abstand_pp": -6.0,
+    "kosten_usd": "0.00159982",
+    "kosten_rel_C01": 1.438,
+    "im_spielraum_1pp": false,
+    "q_wahl_300": 19
+   },
+   {
+    "config": "C11",
+    "em_pct": 28.33,
+    "richtig_von_300": 85,
+    "abstand_pp": -12.0,
+    "kosten_usd": "0.00136808",
+    "kosten_rel_C01": 1.23,
+    "im_spielraum_1pp": false,
+    "q_wahl_300": 13
+   },
+   {
+    "config": "C12",
+    "em_pct": 24.67,
+    "richtig_von_300": 74,
+    "abstand_pp": -15.67,
+    "kosten_usd": "0.00151239",
+    "kosten_rel_C01": 1.359,
+    "im_spielraum_1pp": false,
+    "q_wahl_300": 7
+   },
+   {
+    "config": "C13",
+    "em_pct": 36.67,
+    "richtig_von_300": 110,
+    "abstand_pp": -3.67,
+    "kosten_usd": "0.00139534",
+    "kosten_rel_C01": 1.254,
+    "im_spielraum_1pp": false,
+    "q_wahl_300": 22
+   },
+   {
+    "config": "C14",
+    "em_pct": 36.0,
+    "richtig_von_300": 108,
+    "abstand_pp": -4.33,
+    "kosten_usd": "0.00158353",
+    "kosten_rel_C01": 1.423,
+    "im_spielraum_1pp": false,
+    "q_wahl_300": 13
+   }
+  ],
+  "beste_em_pct": 40.33,
+  "fstar": "C01",
+  "q_wahl_summe": 300,
+  "q_wahl_c01": 49,
+  "q_konfigurationen_genutzt": 14,
+  "obergrenze": {
+   "richtig_von_300": 152,
+   "em_pct": 50.67,
+   "differenz_zu_fstar_pp": 10.33,
+   "keine_konfiguration_richtig": 148,
+   "alle_14_richtig": 33,
+   "c01_falsch_andere_richtig": 31,
+   "kosten_guenstigste_beste_je_aufgabe_usd": "0.00087531",
+   "kosten_rel_C01": 0.787
+  },
+  "aufgabenmittel_alle_binaer": true
+ },
+ "hauptstudie_modellausfaelle": {
+  "Q": {
+   "laeufe": 9040,
+   "modellausfaelle": 228,
+   "kosten_gesamt_usd": "14.43511769",
+   "kosten_ausfaelle_usd": "0.30277739",
+   "anteil_pct": 2.1
+  },
+  "F": {
+   "laeufe": 9040,
+   "modellausfaelle": 224,
+   "kosten_gesamt_usd": "12.34547314",
+   "kosten_ausfaelle_usd": "0.25788151",
+   "anteil_pct": 2.09
+  },
+  "alle": {
+   "laeufe": 18080,
+   "modellausfaelle": 452,
+   "kosten_gesamt_usd": "26.78059083",
+   "kosten_ausfaelle_usd": "0.56065890",
+   "anteil_pct": 2.09
+  }
+ },
+ "z55_tokens_mal_tarif": {
+  "identical": {
+   "z53": {
+    "tokens_mal_tarif_usd": "0.13516680",
+    "gemeldet_usd": "0.11105094",
+    "gemeldet_unter_tarif_pct": 17.8
+   },
+   "z55": {
+    "tokens_mal_tarif_usd": "0.13516680",
+    "gemeldet_usd": "0.13406727",
+    "gemeldet_unter_tarif_pct": 0.8
+   },
+   "gemeldet_mehr_z55_pct": 20.7,
+   "tokens_mal_tarif_gleich": true,
+   "calls": [
+    441,
+    441
+   ]
+  },
+  "all": {
+   "z53": {
+    "tokens_mal_tarif_usd": "0.15146890",
+    "gemeldet_usd": "0.12570271",
+    "gemeldet_unter_tarif_pct": 17.0
+   },
+   "z55": {
+    "tokens_mal_tarif_usd": "0.15056260",
+    "gemeldet_usd": "0.14946307",
+    "gemeldet_unter_tarif_pct": 0.7
+   },
+   "gemeldet_mehr_z55_pct": 18.9,
+   "tokens_mal_tarif_gleich": false,
+   "calls": [
+    491,
+    488
+   ]
+  }
+ },
+ "rundenvergleich_nach_rundenwahl": {
+  "regel_1_runden": {
+   "bloecke": 1649,
+   "richtig_regel": 575,
+   "richtig_eine_runde": 577,
+   "nur_regel_richtig": 1,
+   "nur_eine_runde_richtig": 3,
+   "differenz_pp": -0.12
+  },
+  "regel_2_runden": {
+   "bloecke": 1303,
+   "richtig_regel": 422,
+   "richtig_eine_runde": 425,
+   "nur_regel_richtig": 61,
+   "nur_eine_runde_richtig": 64,
+   "differenz_pp": -0.23
+  }
+ },
+ "eingaben_sha256": {
+  "Masterarbeit/eval-harness/eval/runs/Z39-RAEUM-ENTWICKLUNG-001/recovery-fit/run-001/F-star.json": "9050e4acd90d38cce94558c95b11c38ba667fd435e13a4f0095075711597c61b",
+  "Masterarbeit/eval-harness/eval/runs/Z39-RAEUM-ENTWICKLUNG-001/recovery-fit/run-001/raw-Q-sem.json": "c48fa831b8db4e9319072dd508a527944f8797c1fc647e1eea56fd050518a097",
+  "Masterarbeit/eval-harness/eval/runs/Z39-RAEUM-ENTWICKLUNG-001/recovery-fit/run-001/development-means.json": "9719dd0357bf15775c5b105d63361d28b6d9d58e5f79a681158873f5385d5ad7",
+  "Masterarbeit/eval-harness/eval/runs/Z51-RETRY-EINZELERSATZ-001/operation/isolated-backup-D074/8fa92e0363674966964a48fc89d9abc1/STATE.json": "960d6402c87d16c9fc9817e86f1c6a0d0cddafe8d1e66c2b665c1ea1a2f05be6",
+  "Masterarbeit-Schreiben/04_ergebnisse/daten/collected/rows-T.json": "752c3166618ff0d9f9bbe0e6a2220247e890af3ac109f86f27c34728545386aa",
+  "Masterarbeit-Schreiben/04_ergebnisse/nacharbeit-2026-10-04/Z55-KOSTENZERLEGUNG.json": "a340d6126b72d0fae0c839d805837554495164ec91888081797dc17ca41ed1d8"
+ }
+}

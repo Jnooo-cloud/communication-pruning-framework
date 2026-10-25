@@ -1,0 +1,31 @@
+{
+ "post_hoc": true,
+ "frame": {
+  "tasks": 2277,
+  "families": 535,
+  "plan_sha256": "42a55ddd7dc71738d39fbdb546b0bb60ca19a0d6485f47688de32c893f47f61f",
+  "replacement": true
+ },
+ "draws": 9040,
+ "observed_distinct_tasks": 2239,
+ "expected_distinct_tasks_uniform_wr": 2234.0684977043206,
+ "observed_distinct_families": 528,
+ "sum_m2_over_n_task": 4.912610619469026,
+ "expected_sum_m2_over_n_task_uniform_wr": 4.96969696969697,
+ "sum_m2_over_n_family": 62.37212389380531,
+ "repeated_tasks": 2081,
+ "draws_in_repeated_tasks": 8882,
+ "share_repeated_tasks_all_em_diffs_equal": 0.992311388755406,
+ "icc_em_diff_task": {
+  "icc": 0.9812991416093977,
+  "msb": 0.4330231721716395,
+  "msw": 0.0020344813904584528,
+  "m0": 4.0371257325203445
+ },
+ "icc_cost_residual_task": {
+  "icc": 0.46883096564581794,
+  "msb": 5.518408777159127e-07,
+  "msw": 1.2092947590588963e-07,
+  "m0": 4.0371257325203445
+ }
+}

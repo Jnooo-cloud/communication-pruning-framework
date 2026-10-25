@@ -1,0 +1,2950 @@
+{
+  "schema": 1,
+  "scope": "S2 independent outer-evidence reconstruction",
+  "source": "view2-reconstruct-v1.py",
+  "cases": [
+    {
+      "case_id": "p-6dzsyfwuh",
+      "issues": [],
+      "trace_status": "completed",
+      "trace_answer": "p-6dzsyfwuh|aggregator|3|amber",
+      "counts": {
+        "started_events": 7,
+        "distinct_started_attempts": 7,
+        "terminal_events": 7,
+        "matched_unique_terminals": 7,
+        "outer_requests": 7
+      },
+      "open_attempts": [],
+      "suppressed": [],
+      "model_failure_attempt": null,
+      "costs": {
+        "raw_terminal_event_sum_usd": "0.0029312",
+        "matched_unique_known_subtotal_usd": "0.0029312",
+        "unknown_terminal_amounts": [],
+        "outer_record_total_if_complete_usd": "0.0029312",
+        "scope": "Recorded amounts only; no independent tariff truth. Invalid evidence can restrict whether these are trusted totals."
+      },
+      "journal": {
+        "lines": 16,
+        "chain_ok": true,
+        "finished_records": 1
+      },
+      "message_checks": [
+        {
+          "attempt_id": "run-p-6dzsyfwuh:1:evidence:1",
+          "expected": [],
+          "trace_messages": []
+        },
+        {
+          "attempt_id": "run-p-6dzsyfwuh:1:linking:1",
+          "expected": [],
+          "trace_messages": []
+        },
+        {
+          "attempt_id": "run-p-6dzsyfwuh:1:draft:1",
+          "expected": [],
+          "trace_messages": []
+        },
+        {
+          "attempt_id": "run-p-6dzsyfwuh:2:evidence:1",
+          "expected": [
+            {
+              "attempt_id": "run-p-6dzsyfwuh:1:evidence:1",
+              "role": "evidence",
+              "round": 1,
+              "text": "p-6dzsyfwuh|evidence|1|amber"
+            },
+            {
+              "attempt_id": "run-p-6dzsyfwuh:1:draft:1",
+              "role": "draft",
+              "round": 1,
+              "text": "p-6dzsyfwuh|draft|1|amber"
+            }
+          ],
+          "trace_messages": [
+            {
+              "attempt_id": "run-p-6dzsyfwuh:1:evidence:1",
+              "role": "evidence",
+              "round": 1,
+              "text": "p-6dzsyfwuh|evidence|1|amber"
+            },
+            {
+              "attempt_id": "run-p-6dzsyfwuh:1:draft:1",
+              "role": "draft",
+              "round": 1,
+              "text": "p-6dzsyfwuh|draft|1|amber"
+            }
+          ]
+        },
+        {
+          "attempt_id": "run-p-6dzsyfwuh:2:linking:1",
+          "expected": [
+            {
+              "attempt_id": "run-p-6dzsyfwuh:1:evidence:1",
+              "role": "evidence",
+              "round": 1,
+              "text": "p-6dzsyfwuh|evidence|1|amber"
+            },
+            {
+              "attempt_id": "run-p-6dzsyfwuh:1:linking:1",
+              "role": "linking",
+              "round": 1,
+              "text": "p-6dzsyfwuh|linking|1|amber"
+            }
+          ],
+          "trace_messages": [
+            {
+              "attempt_id": "run-p-6dzsyfwuh:1:evidence:1",
+              "role": "evidence",
+              "round": 1,
+              "text": "p-6dzsyfwuh|evidence|1|amber"
+            },
+            {
+              "attempt_id": "run-p-6dzsyfwuh:1:linking:1",
+              "role": "linking",
+              "round": 1,
+              "text": "p-6dzsyfwuh|linking|1|amber"
+            }
+          ]
+        },
+        {
+          "attempt_id": "run-p-6dzsyfwuh:2:draft:1",
+          "expected": [
+            {
+              "attempt_id": "run-p-6dzsyfwuh:1:linking:1",
+              "role": "linking",
+              "round": 1,
+              "text": "p-6dzsyfwuh|linking|1|amber"
+            },
+            {
+              "attempt_id": "run-p-6dzsyfwuh:1:draft:1",
+              "role": "draft",
+              "round": 1,
+              "text": "p-6dzsyfwuh|draft|1|amber"
+            }
+          ],
+          "trace_messages": [
+            {
+              "attempt_id": "run-p-6dzsyfwuh:1:linking:1",
+              "role": "linking",
+              "round": 1,
+              "text": "p-6dzsyfwuh|linking|1|amber"
+            },
+            {
+              "attempt_id": "run-p-6dzsyfwuh:1:draft:1",
+              "role": "draft",
+              "round": 1,
+              "text": "p-6dzsyfwuh|draft|1|amber"
+            }
+          ]
+        },
+        {
+          "attempt_id": "run-p-6dzsyfwuh:3:aggregator:1",
+          "expected": [
+            {
+              "attempt_id": "run-p-6dzsyfwuh:2:evidence:1",
+              "role": "evidence",
+              "round": 2,
+              "text": "p-6dzsyfwuh|evidence|2|amber"
+            },
+            {
+              "attempt_id": "run-p-6dzsyfwuh:2:linking:1",
+              "role": "linking",
+              "round": 2,
+              "text": "p-6dzsyfwuh|linking|2|amber"
+            },
+            {
+              "attempt_id": "run-p-6dzsyfwuh:2:draft:1",
+              "role": "draft",
+              "round": 2,
+              "text": "p-6dzsyfwuh|draft|2|amber"
+            }
+          ],
+          "trace_messages": [
+            {
+              "attempt_id": "run-p-6dzsyfwuh:2:evidence:1",
+              "role": "evidence",
+              "round": 2,
+              "text": "p-6dzsyfwuh|evidence|2|amber"
+            },
+            {
+              "attempt_id": "run-p-6dzsyfwuh:2:linking:1",
+              "role": "linking",
+              "round": 2,
+              "text": "p-6dzsyfwuh|linking|2|amber"
+            },
+            {
+              "attempt_id": "run-p-6dzsyfwuh:2:draft:1",
+              "role": "draft",
+              "round": 2,
+              "text": "p-6dzsyfwuh|draft|2|amber"
+            }
+          ]
+        }
+      ],
+      "outer_requests": [
+        {
+          "ordinal": 1,
+          "attempt_id": "run-p-6dzsyfwuh:1:evidence:1",
+          "role": "evidence",
+          "round": 1,
+          "prior_messages": [],
+          "model_body_sha256": "1e96b895a8b7c249b4e2bb845944974dec4bdd6b5d295fb77b4bd61a1254f336"
+        },
+        {
+          "ordinal": 2,
+          "attempt_id": "run-p-6dzsyfwuh:1:linking:1",
+          "role": "linking",
+          "round": 1,
+          "prior_messages": [],
+          "model_body_sha256": "cde0117164ad3ea9a8450923ba2ff4580183d75ba8ca8459d054b8fefe0cc456"
+        },
+        {
+          "ordinal": 3,
+          "attempt_id": "run-p-6dzsyfwuh:1:draft:1",
+          "role": "draft",
+          "round": 1,
+          "prior_messages": [],
+          "model_body_sha256": "4beaf2a8fe924e1cb3cd826513951e0d52c019bd247aae9af612b20a1136ad80"
+        },
+        {
+          "ordinal": 4,
+          "attempt_id": "run-p-6dzsyfwuh:2:evidence:1",
+          "role": "evidence",
+          "round": 2,
+          "prior_messages": [
+            {
+              "role": "evidence",
+              "round": 1,
+              "text": "p-6dzsyfwuh|evidence|1|amber"
+            },
+            {
+              "role": "draft",
+              "round": 1,
+              "text": "p-6dzsyfwuh|draft|1|amber"
+            }
+          ],
+          "model_body_sha256": "c12901cc28ed5a4ce96b5e71d335774dccadece80d7b8e4f9a61298f560452c1"
+        },
+        {
+          "ordinal": 5,
+          "attempt_id": "run-p-6dzsyfwuh:2:linking:1",
+          "role": "linking",
+          "round": 2,
+          "prior_messages": [
+            {
+              "role": "evidence",
+              "round": 1,
+              "text": "p-6dzsyfwuh|evidence|1|amber"
+            },
+            {
+              "role": "linking",
+              "round": 1,
+              "text": "p-6dzsyfwuh|linking|1|amber"
+            }
+          ],
+          "model_body_sha256": "99df627761bc9ec1cecb800ed7361dd397b2ca65d5abe3dfc9ab86a4279d289d"
+        },
+        {
+          "ordinal": 6,
+          "attempt_id": "run-p-6dzsyfwuh:2:draft:1",
+          "role": "draft",
+          "round": 2,
+          "prior_messages": [
+            {
+              "role": "linking",
+              "round": 1,
+              "text": "p-6dzsyfwuh|linking|1|amber"
+            },
+            {
+              "role": "draft",
+              "round": 1,
+              "text": "p-6dzsyfwuh|draft|1|amber"
+            }
+          ],
+          "model_body_sha256": "1f04a859d4c2a1ea047d2e5ade2f0a5c69dd251d79d6911d16d6d4e2513c72e8"
+        },
+        {
+          "ordinal": 7,
+          "attempt_id": "run-p-6dzsyfwuh:3:aggregator:1",
+          "role": "aggregator",
+          "round": 3,
+          "prior_messages": [
+            {
+              "role": "evidence",
+              "round": 2,
+              "text": "p-6dzsyfwuh|evidence|2|amber"
+            },
+            {
+              "role": "linking",
+              "round": 2,
+              "text": "p-6dzsyfwuh|linking|2|amber"
+            },
+            {
+              "role": "draft",
+              "round": 2,
+              "text": "p-6dzsyfwuh|draft|2|amber"
+            }
+          ],
+          "model_body_sha256": "7a176451a8bf769b04840bbd945e6d3033ce5ea39ca1b2eb6566cd40ce1c22b8"
+        }
+      ],
+      "claimed": {
+        "status": "completed",
+        "answer": "p-6dzsyfwuh|aggregator|3|amber",
+        "measurement_complete": true,
+        "started_attempts": 7,
+        "calls": 7,
+        "known_cost_subtotal_usd": "0.0029312",
+        "total_cost_usd": "0.0029312"
+      }
+    },
+    {
+      "case_id": "p-83xhvpk79",
+      "issues": [],
+      "trace_status": "completed",
+      "trace_answer": "p-83xhvpk79|aggregator|3|amber",
+      "counts": {
+        "started_events": 7,
+        "distinct_started_attempts": 7,
+        "terminal_events": 7,
+        "matched_unique_terminals": 7,
+        "outer_requests": 7
+      },
+      "open_attempts": [],
+      "suppressed": [],
+      "model_failure_attempt": null,
+      "costs": {
+        "raw_terminal_event_sum_usd": "0.0027429",
+        "matched_unique_known_subtotal_usd": "0.0027429",
+        "unknown_terminal_amounts": [],
+        "outer_record_total_if_complete_usd": "0.0027429",
+        "scope": "Recorded amounts only; no independent tariff truth. Invalid evidence can restrict whether these are trusted totals."
+      },
+      "journal": {
+        "lines": 16,
+        "chain_ok": true,
+        "finished_records": 1
+      },
+      "message_checks": [
+        {
+          "attempt_id": "run-p-83xhvpk79:1:evidence:1",
+          "expected": [],
+          "trace_messages": []
+        },
+        {
+          "attempt_id": "run-p-83xhvpk79:1:linking:1",
+          "expected": [],
+          "trace_messages": []
+        },
+        {
+          "attempt_id": "run-p-83xhvpk79:1:draft:1",
+          "expected": [],
+          "trace_messages": []
+        },
+        {
+          "attempt_id": "run-p-83xhvpk79:2:evidence:1",
+          "expected": [
+            {
+              "attempt_id": "run-p-83xhvpk79:1:evidence:1",
+              "role": "evidence",
+              "round": 1,
+              "text": "p-83xhvpk79|evidence|1|amber"
+            },
+            {
+              "attempt_id": "run-p-83xhvpk79:1:draft:1",
+              "role": "draft",
+              "round": 1,
+              "text": "p-83xhvpk79|draft|1|amber"
+            }
+          ],
+          "trace_messages": [
+            {
+              "attempt_id": "run-p-83xhvpk79:1:evidence:1",
+              "role": "evidence",
+              "round": 1,
+              "text": "p-83xhvpk79|evidence|1|amber"
+            },
+            {
+              "attempt_id": "run-p-83xhvpk79:1:draft:1",
+              "role": "draft",
+              "round": 1,
+              "text": "p-83xhvpk79|draft|1|amber"
+            }
+          ]
+        },
+        {
+          "attempt_id": "run-p-83xhvpk79:2:linking:1",
+          "expected": [
+            {
+              "attempt_id": "run-p-83xhvpk79:1:evidence:1",
+              "role": "evidence",
+              "round": 1,
+              "text": "p-83xhvpk79|evidence|1|amber"
+            },
+            {
+              "attempt_id": "run-p-83xhvpk79:1:linking:1",
+              "role": "linking",
+              "round": 1,
+              "text": "p-83xhvpk79|linking|1|amber"
+            }
+          ],
+          "trace_messages": [
+            {
+              "attempt_id": "run-p-83xhvpk79:1:evidence:1",
+              "role": "evidence",
+              "round": 1,
+              "text": "p-83xhvpk79|evidence|1|amber"
+            },
+            {
+              "attempt_id": "run-p-83xhvpk79:1:linking:1",
+              "role": "linking",
+              "round": 1,
+              "text": "p-83xhvpk79|linking|1|amber"
+            }
+          ]
+        },
+        {
+          "attempt_id": "run-p-83xhvpk79:2:draft:1",
+          "expected": [
+            {
+              "attempt_id": "run-p-83xhvpk79:1:linking:1",
+              "role": "linking",
+              "round": 1,
+              "text": "p-83xhvpk79|linking|1|amber"
+            },
+            {
+              "attempt_id": "run-p-83xhvpk79:1:draft:1",
+              "role": "draft",
+              "round": 1,
+              "text": "p-83xhvpk79|draft|1|amber"
+            }
+          ],
+          "trace_messages": [
+            {
+              "attempt_id": "run-p-83xhvpk79:1:linking:1",
+              "role": "linking",
+              "round": 1,
+              "text": "p-83xhvpk79|linking|1|amber"
+            },
+            {
+              "attempt_id": "run-p-83xhvpk79:1:draft:1",
+              "role": "draft",
+              "round": 1,
+              "text": "p-83xhvpk79|draft|1|amber"
+            }
+          ]
+        },
+        {
+          "attempt_id": "run-p-83xhvpk79:3:aggregator:1",
+          "expected": [
+            {
+              "attempt_id": "run-p-83xhvpk79:2:evidence:1",
+              "role": "evidence",
+              "round": 2,
+              "text": "p-83xhvpk79|evidence|2|amber"
+            },
+            {
+              "attempt_id": "run-p-83xhvpk79:2:linking:1",
+              "role": "linking",
+              "round": 2,
+              "text": "p-83xhvpk79|linking|2|amber"
+            },
+            {
+              "attempt_id": "run-p-83xhvpk79:2:draft:1",
+              "role": "draft",
+              "round": 2,
+              "text": "p-83xhvpk79|draft|2|amber"
+            }
+          ],
+          "trace_messages": [
+            {
+              "attempt_id": "run-p-83xhvpk79:2:evidence:1",
+              "role": "evidence",
+              "round": 2,
+              "text": "p-83xhvpk79|evidence|2|amber"
+            },
+            {
+              "attempt_id": "run-p-83xhvpk79:2:linking:1",
+              "role": "linking",
+              "round": 2,
+              "text": "p-83xhvpk79|linking|2|amber"
+            },
+            {
+              "attempt_id": "run-p-83xhvpk79:2:draft:1",
+              "role": "draft",
+              "round": 2,
+              "text": "p-83xhvpk79|draft|2|amber"
+            }
+          ]
+        }
+      ],
+      "outer_requests": [
+        {
+          "ordinal": 1,
+          "attempt_id": "run-p-83xhvpk79:1:evidence:1",
+          "role": "evidence",
+          "round": 1,
+          "prior_messages": [],
+          "model_body_sha256": "a0d0cd6a1494949daa32d2d2705637ace55a3321028a92a4ae7c33a671009ec0"
+        },
+        {
+          "ordinal": 2,
+          "attempt_id": "run-p-83xhvpk79:1:linking:1",
+          "role": "linking",
+          "round": 1,
+          "prior_messages": [],
+          "model_body_sha256": "ff66da21fb2c88506c297b1c1806e56f33a89382c713e2df17cbced8b649f63d"
+        },
+        {
+          "ordinal": 3,
+          "attempt_id": "run-p-83xhvpk79:1:draft:1",
+          "role": "draft",
+          "round": 1,
+          "prior_messages": [],
+          "model_body_sha256": "cd9d1db51614a4b5706618b11db4419e8bfaa0e062523ab13f598c8996b0fb57"
+        },
+        {
+          "ordinal": 4,
+          "attempt_id": "run-p-83xhvpk79:2:evidence:1",
+          "role": "evidence",
+          "round": 2,
+          "prior_messages": [
+            {
+              "role": "evidence",
+              "round": 1,
+              "text": "p-83xhvpk79|evidence|1|amber"
+            },
+            {
+              "role": "draft",
+              "round": 1,
+              "text": "p-83xhvpk79|draft|1|amber"
+            }
+          ],
+          "model_body_sha256": "ce234566766bf30b2669282cdacac544ac8604d5fdbf7cf2c772a13490b1fdac"
+        },
+        {
+          "ordinal": 5,
+          "attempt_id": "run-p-83xhvpk79:2:linking:1",
+          "role": "linking",
+          "round": 2,
+          "prior_messages": [
+            {
+              "role": "evidence",
+              "round": 1,
+              "text": "p-83xhvpk79|evidence|1|amber"
+            },
+            {
+              "role": "linking",
+              "round": 1,
+              "text": "p-83xhvpk79|linking|1|amber"
+            }
+          ],
+          "model_body_sha256": "09cd0e70fc939e42309fc15fb6e34e7910b48062e74902eba6277325d3d5890e"
+        },
+        {
+          "ordinal": 6,
+          "attempt_id": "run-p-83xhvpk79:2:draft:1",
+          "role": "draft",
+          "round": 2,
+          "prior_messages": [
+            {
+              "role": "linking",
+              "round": 1,
+              "text": "p-83xhvpk79|linking|1|amber"
+            },
+            {
+              "role": "draft",
+              "round": 1,
+              "text": "p-83xhvpk79|draft|1|amber"
+            }
+          ],
+          "model_body_sha256": "66462256fae6155687f0373bdf0ea69a58e61fd5b19ae2ab649261e75275688a"
+        },
+        {
+          "ordinal": 7,
+          "attempt_id": "run-p-83xhvpk79:3:aggregator:1",
+          "role": "aggregator",
+          "round": 3,
+          "prior_messages": [
+            {
+              "role": "evidence",
+              "round": 2,
+              "text": "p-83xhvpk79|evidence|2|amber"
+            },
+            {
+              "role": "linking",
+              "round": 2,
+              "text": "p-83xhvpk79|linking|2|amber"
+            },
+            {
+              "role": "draft",
+              "round": 2,
+              "text": "p-83xhvpk79|draft|2|amber"
+            }
+          ],
+          "model_body_sha256": "9f6ea81f86bb5a56deb1df61aa8cc5336782e779c505015f04ddb042783fe1a6"
+        }
+      ],
+      "claimed": {
+        "status": "completed",
+        "answer": "p-83xhvpk79|aggregator|3|amber",
+        "measurement_complete": true,
+        "started_attempts": 7,
+        "calls": 7,
+        "known_cost_subtotal_usd": "0.0027429",
+        "total_cost_usd": "0.0027429"
+      }
+    },
+    {
+      "case_id": "p-b7dnq6awc",
+      "issues": [],
+      "trace_status": "completed",
+      "trace_answer": "p-b7dnq6awc|aggregator|2|amber",
+      "counts": {
+        "started_events": 3,
+        "distinct_started_attempts": 3,
+        "terminal_events": 3,
+        "matched_unique_terminals": 3,
+        "outer_requests": 3
+      },
+      "open_attempts": [],
+      "suppressed": [
+        {
+          "kind": "suppressed",
+          "role": "linking",
+          "round": 1
+        }
+      ],
+      "model_failure_attempt": null,
+      "costs": {
+        "raw_terminal_event_sum_usd": "0.0006945",
+        "matched_unique_known_subtotal_usd": "0.0006945",
+        "unknown_terminal_amounts": [],
+        "outer_record_total_if_complete_usd": "0.0006945",
+        "scope": "Recorded amounts only; no independent tariff truth. Invalid evidence can restrict whether these are trusted totals."
+      },
+      "journal": {
+        "lines": 9,
+        "chain_ok": true,
+        "finished_records": 1
+      },
+      "message_checks": [
+        {
+          "attempt_id": "run-p-b7dnq6awc:1:evidence:1",
+          "expected": [],
+          "trace_messages": []
+        },
+        {
+          "attempt_id": "run-p-b7dnq6awc:1:draft:1",
+          "expected": [],
+          "trace_messages": []
+        },
+        {
+          "attempt_id": "run-p-b7dnq6awc:2:aggregator:1",
+          "expected": [
+            {
+              "attempt_id": "run-p-b7dnq6awc:1:evidence:1",
+              "role": "evidence",
+              "round": 1,
+              "text": "p-b7dnq6awc|evidence|1|amber"
+            },
+            {
+              "attempt_id": "run-p-b7dnq6awc:1:draft:1",
+              "role": "draft",
+              "round": 1,
+              "text": "p-b7dnq6awc|draft|1|amber"
+            }
+          ],
+          "trace_messages": [
+            {
+              "attempt_id": "run-p-b7dnq6awc:1:evidence:1",
+              "role": "evidence",
+              "round": 1,
+              "text": "p-b7dnq6awc|evidence|1|amber"
+            },
+            {
+              "attempt_id": "run-p-b7dnq6awc:1:draft:1",
+              "role": "draft",
+              "round": 1,
+              "text": "p-b7dnq6awc|draft|1|amber"
+            }
+          ]
+        }
+      ],
+      "outer_requests": [
+        {
+          "ordinal": 1,
+          "attempt_id": "run-p-b7dnq6awc:1:evidence:1",
+          "role": "evidence",
+          "round": 1,
+          "prior_messages": [],
+          "model_body_sha256": "de99280a712db137783b555d980c5c0fd50a3a43c278e9ba54aa8aeba3358188"
+        },
+        {
+          "ordinal": 2,
+          "attempt_id": "run-p-b7dnq6awc:1:draft:1",
+          "role": "draft",
+          "round": 1,
+          "prior_messages": [],
+          "model_body_sha256": "6233dbb5b14d6ed6e973bded7628dab4024e370b15f6375874572e6563f7ecaa"
+        },
+        {
+          "ordinal": 3,
+          "attempt_id": "run-p-b7dnq6awc:2:aggregator:1",
+          "role": "aggregator",
+          "round": 2,
+          "prior_messages": [
+            {
+              "role": "evidence",
+              "round": 1,
+              "text": "p-b7dnq6awc|evidence|1|amber"
+            },
+            {
+              "role": "draft",
+              "round": 1,
+              "text": "p-b7dnq6awc|draft|1|amber"
+            }
+          ],
+          "model_body_sha256": "5734f3ab9e7ec4f5354278814a3c92ca1b7580d6193b47640db0d59419711b8e"
+        }
+      ],
+      "claimed": {
+        "status": "completed",
+        "answer": "p-b7dnq6awc|aggregator|2|amber",
+        "measurement_complete": true,
+        "started_attempts": 3,
+        "calls": 3,
+        "known_cost_subtotal_usd": "0.0006945",
+        "total_cost_usd": "0.0006945"
+      }
+    },
+    {
+      "case_id": "p-f9gwrjdba",
+      "issues": [
+        {
+          "code": "message_contract_violation",
+          "where": "trace.events[8]",
+          "detail": {
+            "observed": [
+              {
+                "attempt_id": "run-p-f9gwrjdba:1:evidence:1",
+                "role": "evidence",
+                "round": 1,
+                "text": "p-f9gwrjdba|evidence|1|amber"
+              },
+              {
+                "attempt_id": "run-p-f9gwrjdba:1:linking:1",
+                "role": "linking",
+                "round": 1,
+                "text": "p-f9gwrjdba|linking|1|amber"
+              },
+              {
+                "attempt_id": "run-p-f9gwrjdba:1:draft:1",
+                "role": "draft",
+                "round": 1,
+                "text": "p-f9gwrjdba|draft|1|amber"
+              }
+            ],
+            "expected": [
+              {
+                "attempt_id": "run-p-f9gwrjdba:1:evidence:1",
+                "role": "evidence",
+                "round": 1,
+                "text": "p-f9gwrjdba|evidence|1|amber"
+              },
+              {
+                "attempt_id": "run-p-f9gwrjdba:1:linking:1",
+                "role": "linking",
+                "round": 1,
+                "text": "p-f9gwrjdba|linking|1|amber"
+              }
+            ]
+          }
+        }
+      ],
+      "trace_status": "completed",
+      "trace_answer": "p-f9gwrjdba|aggregator|3|amber",
+      "counts": {
+        "started_events": 7,
+        "distinct_started_attempts": 7,
+        "terminal_events": 7,
+        "matched_unique_terminals": 7,
+        "outer_requests": 7
+      },
+      "open_attempts": [],
+      "suppressed": [],
+      "model_failure_attempt": null,
+      "costs": {
+        "raw_terminal_event_sum_usd": "0.0025697",
+        "matched_unique_known_subtotal_usd": "0.0025697",
+        "unknown_terminal_amounts": [],
+        "outer_record_total_if_complete_usd": "0.0025697",
+        "scope": "Recorded amounts only; no independent tariff truth. Invalid evidence can restrict whether these are trusted totals."
+      },
+      "journal": {
+        "lines": 16,
+        "chain_ok": true,
+        "finished_records": 1
+      },
+      "message_checks": [
+        {
+          "attempt_id": "run-p-f9gwrjdba:1:evidence:1",
+          "expected": [],
+          "trace_messages": []
+        },
+        {
+          "attempt_id": "run-p-f9gwrjdba:1:linking:1",
+          "expected": [],
+          "trace_messages": []
+        },
+        {
+          "attempt_id": "run-p-f9gwrjdba:1:draft:1",
+          "expected": [],
+          "trace_messages": []
+        },
+        {
+          "attempt_id": "run-p-f9gwrjdba:2:evidence:1",
+          "expected": [
+            {
+              "attempt_id": "run-p-f9gwrjdba:1:evidence:1",
+              "role": "evidence",
+              "round": 1,
+              "text": "p-f9gwrjdba|evidence|1|amber"
+            },
+            {
+              "attempt_id": "run-p-f9gwrjdba:1:draft:1",
+              "role": "draft",
+              "round": 1,
+              "text": "p-f9gwrjdba|draft|1|amber"
+            }
+          ],
+          "trace_messages": [
+            {
+              "attempt_id": "run-p-f9gwrjdba:1:evidence:1",
+              "role": "evidence",
+              "round": 1,
+              "text": "p-f9gwrjdba|evidence|1|amber"
+            },
+            {
+              "attempt_id": "run-p-f9gwrjdba:1:draft:1",
+              "role": "draft",
+              "round": 1,
+              "text": "p-f9gwrjdba|draft|1|amber"
+            }
+          ]
+        },
+        {
+          "attempt_id": "run-p-f9gwrjdba:2:linking:1",
+          "expected": [
+            {
+              "attempt_id": "run-p-f9gwrjdba:1:evidence:1",
+              "role": "evidence",
+              "round": 1,
+              "text": "p-f9gwrjdba|evidence|1|amber"
+            },
+            {
+              "attempt_id": "run-p-f9gwrjdba:1:linking:1",
+              "role": "linking",
+              "round": 1,
+              "text": "p-f9gwrjdba|linking|1|amber"
+            }
+          ],
+          "trace_messages": [
+            {
+              "attempt_id": "run-p-f9gwrjdba:1:evidence:1",
+              "role": "evidence",
+              "round": 1,
+              "text": "p-f9gwrjdba|evidence|1|amber"
+            },
+            {
+              "attempt_id": "run-p-f9gwrjdba:1:linking:1",
+              "role": "linking",
+              "round": 1,
+              "text": "p-f9gwrjdba|linking|1|amber"
+            },
+            {
+              "attempt_id": "run-p-f9gwrjdba:1:draft:1",
+              "role": "draft",
+              "round": 1,
+              "text": "p-f9gwrjdba|draft|1|amber"
+            }
+          ]
+        },
+        {
+          "attempt_id": "run-p-f9gwrjdba:2:draft:1",
+          "expected": [
+            {
+              "attempt_id": "run-p-f9gwrjdba:1:linking:1",
+              "role": "linking",
+              "round": 1,
+              "text": "p-f9gwrjdba|linking|1|amber"
+            },
+            {
+              "attempt_id": "run-p-f9gwrjdba:1:draft:1",
+              "role": "draft",
+              "round": 1,
+              "text": "p-f9gwrjdba|draft|1|amber"
+            }
+          ],
+          "trace_messages": [
+            {
+              "attempt_id": "run-p-f9gwrjdba:1:linking:1",
+              "role": "linking",
+              "round": 1,
+              "text": "p-f9gwrjdba|linking|1|amber"
+            },
+            {
+              "attempt_id": "run-p-f9gwrjdba:1:draft:1",
+              "role": "draft",
+              "round": 1,
+              "text": "p-f9gwrjdba|draft|1|amber"
+            }
+          ]
+        },
+        {
+          "attempt_id": "run-p-f9gwrjdba:3:aggregator:1",
+          "expected": [
+            {
+              "attempt_id": "run-p-f9gwrjdba:2:evidence:1",
+              "role": "evidence",
+              "round": 2,
+              "text": "p-f9gwrjdba|evidence|2|amber"
+            },
+            {
+              "attempt_id": "run-p-f9gwrjdba:2:linking:1",
+              "role": "linking",
+              "round": 2,
+              "text": "p-f9gwrjdba|linking|2|amber"
+            },
+            {
+              "attempt_id": "run-p-f9gwrjdba:2:draft:1",
+              "role": "draft",
+              "round": 2,
+              "text": "p-f9gwrjdba|draft|2|amber"
+            }
+          ],
+          "trace_messages": [
+            {
+              "attempt_id": "run-p-f9gwrjdba:2:evidence:1",
+              "role": "evidence",
+              "round": 2,
+              "text": "p-f9gwrjdba|evidence|2|amber"
+            },
+            {
+              "attempt_id": "run-p-f9gwrjdba:2:linking:1",
+              "role": "linking",
+              "round": 2,
+              "text": "p-f9gwrjdba|linking|2|amber"
+            },
+            {
+              "attempt_id": "run-p-f9gwrjdba:2:draft:1",
+              "role": "draft",
+              "round": 2,
+              "text": "p-f9gwrjdba|draft|2|amber"
+            }
+          ]
+        }
+      ],
+      "outer_requests": [
+        {
+          "ordinal": 1,
+          "attempt_id": "run-p-f9gwrjdba:1:evidence:1",
+          "role": "evidence",
+          "round": 1,
+          "prior_messages": [],
+          "model_body_sha256": "182e96b9a14225ac4f7711b0f83ffce109869296cd84940b2ba733922520e6a6"
+        },
+        {
+          "ordinal": 2,
+          "attempt_id": "run-p-f9gwrjdba:1:linking:1",
+          "role": "linking",
+          "round": 1,
+          "prior_messages": [],
+          "model_body_sha256": "ec48c2c25ade7cffd0d92f761ba9f19cca18d034598851746e3d496ab11ff6db"
+        },
+        {
+          "ordinal": 3,
+          "attempt_id": "run-p-f9gwrjdba:1:draft:1",
+          "role": "draft",
+          "round": 1,
+          "prior_messages": [],
+          "model_body_sha256": "7f4306f5ba99e3665785d49835beabeeca34228bc947cb735e7e20333b5f7dff"
+        },
+        {
+          "ordinal": 4,
+          "attempt_id": "run-p-f9gwrjdba:2:evidence:1",
+          "role": "evidence",
+          "round": 2,
+          "prior_messages": [
+            {
+              "role": "evidence",
+              "round": 1,
+              "text": "p-f9gwrjdba|evidence|1|amber"
+            },
+            {
+              "role": "draft",
+              "round": 1,
+              "text": "p-f9gwrjdba|draft|1|amber"
+            }
+          ],
+          "model_body_sha256": "7a9c3e5797b319a1d23aecfcfe95d4f95d7193b665ea648d83ceda9db3353250"
+        },
+        {
+          "ordinal": 5,
+          "attempt_id": "run-p-f9gwrjdba:2:linking:1",
+          "role": "linking",
+          "round": 2,
+          "prior_messages": [
+            {
+              "role": "evidence",
+              "round": 1,
+              "text": "p-f9gwrjdba|evidence|1|amber"
+            },
+            {
+              "role": "linking",
+              "round": 1,
+              "text": "p-f9gwrjdba|linking|1|amber"
+            },
+            {
+              "role": "draft",
+              "round": 1,
+              "text": "p-f9gwrjdba|draft|1|amber"
+            }
+          ],
+          "model_body_sha256": "426bd7c7c19f37f230da7ecac0850a181566b35e77671f95873bba7de01f95f2"
+        },
+        {
+          "ordinal": 6,
+          "attempt_id": "run-p-f9gwrjdba:2:draft:1",
+          "role": "draft",
+          "round": 2,
+          "prior_messages": [
+            {
+              "role": "linking",
+              "round": 1,
+              "text": "p-f9gwrjdba|linking|1|amber"
+            },
+            {
+              "role": "draft",
+              "round": 1,
+              "text": "p-f9gwrjdba|draft|1|amber"
+            }
+          ],
+          "model_body_sha256": "0aab018433934f65fd23d2a12b180474efe224ecb28791fc816ce0f6073342f2"
+        },
+        {
+          "ordinal": 7,
+          "attempt_id": "run-p-f9gwrjdba:3:aggregator:1",
+          "role": "aggregator",
+          "round": 3,
+          "prior_messages": [
+            {
+              "role": "evidence",
+              "round": 2,
+              "text": "p-f9gwrjdba|evidence|2|amber"
+            },
+            {
+              "role": "linking",
+              "round": 2,
+              "text": "p-f9gwrjdba|linking|2|amber"
+            },
+            {
+              "role": "draft",
+              "round": 2,
+              "text": "p-f9gwrjdba|draft|2|amber"
+            }
+          ],
+          "model_body_sha256": "4e2998d64328250accfaefc75a0241d907f486f214799415c51770e62a35e2f2"
+        }
+      ],
+      "claimed": {
+        "status": "completed",
+        "answer": "p-f9gwrjdba|aggregator|3|amber",
+        "measurement_complete": true,
+        "started_attempts": 7,
+        "calls": 7,
+        "known_cost_subtotal_usd": "0.0025697",
+        "total_cost_usd": "0.0025697"
+      }
+    },
+    {
+      "case_id": "p-kbqchj34v",
+      "issues": [],
+      "trace_status": "model_failed",
+      "trace_answer": null,
+      "counts": {
+        "started_events": 3,
+        "distinct_started_attempts": 3,
+        "terminal_events": 3,
+        "matched_unique_terminals": 3,
+        "outer_requests": 3
+      },
+      "open_attempts": [],
+      "suppressed": [],
+      "model_failure_attempt": "run-p-kbqchj34v:1:draft:1",
+      "costs": {
+        "raw_terminal_event_sum_usd": "0.0006930",
+        "matched_unique_known_subtotal_usd": "0.0006930",
+        "unknown_terminal_amounts": [],
+        "outer_record_total_if_complete_usd": "0.0006930",
+        "scope": "Recorded amounts only; no independent tariff truth. Invalid evidence can restrict whether these are trusted totals."
+      },
+      "journal": {
+        "lines": 8,
+        "chain_ok": true,
+        "finished_records": 1
+      },
+      "message_checks": [
+        {
+          "attempt_id": "run-p-kbqchj34v:1:evidence:1",
+          "expected": [],
+          "trace_messages": []
+        },
+        {
+          "attempt_id": "run-p-kbqchj34v:1:linking:1",
+          "expected": [],
+          "trace_messages": []
+        },
+        {
+          "attempt_id": "run-p-kbqchj34v:1:draft:1",
+          "expected": [],
+          "trace_messages": []
+        }
+      ],
+      "outer_requests": [
+        {
+          "ordinal": 1,
+          "attempt_id": "run-p-kbqchj34v:1:evidence:1",
+          "role": "evidence",
+          "round": 1,
+          "prior_messages": [],
+          "model_body_sha256": "616cb05b1580b6bd49fbcd23dd9750b74cff152d34ebb33348f5980d7fed4fa0"
+        },
+        {
+          "ordinal": 2,
+          "attempt_id": "run-p-kbqchj34v:1:linking:1",
+          "role": "linking",
+          "round": 1,
+          "prior_messages": [],
+          "model_body_sha256": "a45ae676b0865f412ad74592b34f81360e7c9ccc63b3ccf81fe8652a745bb2f7"
+        },
+        {
+          "ordinal": 3,
+          "attempt_id": "run-p-kbqchj34v:1:draft:1",
+          "role": "draft",
+          "round": 1,
+          "prior_messages": [],
+          "model_body_sha256": "563bd8be2aa4e8152096c5521f552aac63b2f16e456b9cff6a88c176ce064ce1"
+        }
+      ],
+      "claimed": {
+        "status": "model_failed",
+        "answer": null,
+        "measurement_complete": true,
+        "started_attempts": 3,
+        "calls": 3,
+        "known_cost_subtotal_usd": "0.0006930",
+        "total_cost_usd": "0.0006930"
+      }
+    },
+    {
+      "case_id": "p-p73vgcqax",
+      "issues": [],
+      "trace_status": null,
+      "trace_answer": null,
+      "counts": {
+        "started_events": 3,
+        "distinct_started_attempts": 3,
+        "terminal_events": 2,
+        "matched_unique_terminals": 2,
+        "outer_requests": 3
+      },
+      "open_attempts": [
+        "run-p-p73vgcqax:1:draft:1"
+      ],
+      "suppressed": [],
+      "model_failure_attempt": null,
+      "costs": {
+        "raw_terminal_event_sum_usd": "0.0003274",
+        "matched_unique_known_subtotal_usd": "0.0003274",
+        "unknown_terminal_amounts": [],
+        "outer_record_total_if_complete_usd": null,
+        "scope": "Recorded amounts only; no independent tariff truth. Invalid evidence can restrict whether these are trusted totals."
+      },
+      "journal": {
+        "lines": 6,
+        "chain_ok": true,
+        "finished_records": 0
+      },
+      "message_checks": [
+        {
+          "attempt_id": "run-p-p73vgcqax:1:evidence:1",
+          "expected": [],
+          "trace_messages": []
+        },
+        {
+          "attempt_id": "run-p-p73vgcqax:1:linking:1",
+          "expected": [],
+          "trace_messages": []
+        },
+        {
+          "attempt_id": "run-p-p73vgcqax:1:draft:1",
+          "expected": [],
+          "trace_messages": []
+        }
+      ],
+      "outer_requests": [
+        {
+          "ordinal": 1,
+          "attempt_id": "run-p-p73vgcqax:1:evidence:1",
+          "role": "evidence",
+          "round": 1,
+          "prior_messages": [],
+          "model_body_sha256": "f83cbc6f85cfeab3514eac09264c6303c036578e93e15a4620a67372f35c32b1"
+        },
+        {
+          "ordinal": 2,
+          "attempt_id": "run-p-p73vgcqax:1:linking:1",
+          "role": "linking",
+          "round": 1,
+          "prior_messages": [],
+          "model_body_sha256": "7f60d0e5bc7e3ba7f14c6c30a8fa3dac5935c54aec8df1c3b53b47ea113d87a4"
+        },
+        {
+          "ordinal": 3,
+          "attempt_id": "run-p-p73vgcqax:1:draft:1",
+          "role": "draft",
+          "round": 1,
+          "prior_messages": [],
+          "model_body_sha256": "48dfb6f824b86c7eb488101f74949aa6d77972b82544a73202d152e8b438a58b"
+        }
+      ],
+      "claimed": {
+        "status": "technical_stop",
+        "answer": null,
+        "measurement_complete": false,
+        "started_attempts": 3,
+        "calls": 2,
+        "known_cost_subtotal_usd": "0.0003274",
+        "total_cost_usd": null
+      }
+    },
+    {
+      "case_id": "p-r82sckbw4",
+      "issues": [
+        {
+          "code": "duplicate_terminal",
+          "where": "trace.events[2]",
+          "detail": "run-p-r82sckbw4:1:evidence:1"
+        }
+      ],
+      "trace_status": "completed",
+      "trace_answer": "p-r82sckbw4|aggregator|3|amber",
+      "counts": {
+        "started_events": 7,
+        "distinct_started_attempts": 7,
+        "terminal_events": 8,
+        "matched_unique_terminals": 7,
+        "outer_requests": 7
+      },
+      "open_attempts": [],
+      "suppressed": [],
+      "model_failure_attempt": null,
+      "costs": {
+        "raw_terminal_event_sum_usd": "0.0025612",
+        "matched_unique_known_subtotal_usd": "0.0025612",
+        "unknown_terminal_amounts": [],
+        "outer_record_total_if_complete_usd": "0.0025612",
+        "scope": "Recorded amounts only; no independent tariff truth. Invalid evidence can restrict whether these are trusted totals."
+      },
+      "journal": {
+        "lines": 17,
+        "chain_ok": true,
+        "finished_records": 1
+      },
+      "message_checks": [
+        {
+          "attempt_id": "run-p-r82sckbw4:1:evidence:1",
+          "expected": [],
+          "trace_messages": []
+        },
+        {
+          "attempt_id": "run-p-r82sckbw4:1:linking:1",
+          "expected": [],
+          "trace_messages": []
+        },
+        {
+          "attempt_id": "run-p-r82sckbw4:1:draft:1",
+          "expected": [],
+          "trace_messages": []
+        },
+        {
+          "attempt_id": "run-p-r82sckbw4:2:evidence:1",
+          "expected": [
+            {
+              "attempt_id": "run-p-r82sckbw4:1:evidence:1",
+              "role": "evidence",
+              "round": 1,
+              "text": "p-r82sckbw4|evidence|1|amber"
+            },
+            {
+              "attempt_id": "run-p-r82sckbw4:1:draft:1",
+              "role": "draft",
+              "round": 1,
+              "text": "p-r82sckbw4|draft|1|amber"
+            }
+          ],
+          "trace_messages": [
+            {
+              "attempt_id": "run-p-r82sckbw4:1:evidence:1",
+              "role": "evidence",
+              "round": 1,
+              "text": "p-r82sckbw4|evidence|1|amber"
+            },
+            {
+              "attempt_id": "run-p-r82sckbw4:1:draft:1",
+              "role": "draft",
+              "round": 1,
+              "text": "p-r82sckbw4|draft|1|amber"
+            }
+          ]
+        },
+        {
+          "attempt_id": "run-p-r82sckbw4:2:linking:1",
+          "expected": [
+            {
+              "attempt_id": "run-p-r82sckbw4:1:evidence:1",
+              "role": "evidence",
+              "round": 1,
+              "text": "p-r82sckbw4|evidence|1|amber"
+            },
+            {
+              "attempt_id": "run-p-r82sckbw4:1:linking:1",
+              "role": "linking",
+              "round": 1,
+              "text": "p-r82sckbw4|linking|1|amber"
+            }
+          ],
+          "trace_messages": [
+            {
+              "attempt_id": "run-p-r82sckbw4:1:evidence:1",
+              "role": "evidence",
+              "round": 1,
+              "text": "p-r82sckbw4|evidence|1|amber"
+            },
+            {
+              "attempt_id": "run-p-r82sckbw4:1:linking:1",
+              "role": "linking",
+              "round": 1,
+              "text": "p-r82sckbw4|linking|1|amber"
+            }
+          ]
+        },
+        {
+          "attempt_id": "run-p-r82sckbw4:2:draft:1",
+          "expected": [
+            {
+              "attempt_id": "run-p-r82sckbw4:1:linking:1",
+              "role": "linking",
+              "round": 1,
+              "text": "p-r82sckbw4|linking|1|amber"
+            },
+            {
+              "attempt_id": "run-p-r82sckbw4:1:draft:1",
+              "role": "draft",
+              "round": 1,
+              "text": "p-r82sckbw4|draft|1|amber"
+            }
+          ],
+          "trace_messages": [
+            {
+              "attempt_id": "run-p-r82sckbw4:1:linking:1",
+              "role": "linking",
+              "round": 1,
+              "text": "p-r82sckbw4|linking|1|amber"
+            },
+            {
+              "attempt_id": "run-p-r82sckbw4:1:draft:1",
+              "role": "draft",
+              "round": 1,
+              "text": "p-r82sckbw4|draft|1|amber"
+            }
+          ]
+        },
+        {
+          "attempt_id": "run-p-r82sckbw4:3:aggregator:1",
+          "expected": [
+            {
+              "attempt_id": "run-p-r82sckbw4:2:evidence:1",
+              "role": "evidence",
+              "round": 2,
+              "text": "p-r82sckbw4|evidence|2|amber"
+            },
+            {
+              "attempt_id": "run-p-r82sckbw4:2:linking:1",
+              "role": "linking",
+              "round": 2,
+              "text": "p-r82sckbw4|linking|2|amber"
+            },
+            {
+              "attempt_id": "run-p-r82sckbw4:2:draft:1",
+              "role": "draft",
+              "round": 2,
+              "text": "p-r82sckbw4|draft|2|amber"
+            }
+          ],
+          "trace_messages": [
+            {
+              "attempt_id": "run-p-r82sckbw4:2:evidence:1",
+              "role": "evidence",
+              "round": 2,
+              "text": "p-r82sckbw4|evidence|2|amber"
+            },
+            {
+              "attempt_id": "run-p-r82sckbw4:2:linking:1",
+              "role": "linking",
+              "round": 2,
+              "text": "p-r82sckbw4|linking|2|amber"
+            },
+            {
+              "attempt_id": "run-p-r82sckbw4:2:draft:1",
+              "role": "draft",
+              "round": 2,
+              "text": "p-r82sckbw4|draft|2|amber"
+            }
+          ]
+        }
+      ],
+      "outer_requests": [
+        {
+          "ordinal": 1,
+          "attempt_id": "run-p-r82sckbw4:1:evidence:1",
+          "role": "evidence",
+          "round": 1,
+          "prior_messages": [],
+          "model_body_sha256": "d197a397a15c7dbb5a0ae2af59cc6167fbce10cb90152f1a3432db387fc6df9e"
+        },
+        {
+          "ordinal": 2,
+          "attempt_id": "run-p-r82sckbw4:1:linking:1",
+          "role": "linking",
+          "round": 1,
+          "prior_messages": [],
+          "model_body_sha256": "0c99cf3d5c015101440a748e1d4c6b09165bc64b736afa4daa47b10fe886bbcb"
+        },
+        {
+          "ordinal": 3,
+          "attempt_id": "run-p-r82sckbw4:1:draft:1",
+          "role": "draft",
+          "round": 1,
+          "prior_messages": [],
+          "model_body_sha256": "ff15a6b06ac563b79e7e89f4a65c469c361e3bcd4869d3988a36238aea28bb11"
+        },
+        {
+          "ordinal": 4,
+          "attempt_id": "run-p-r82sckbw4:2:evidence:1",
+          "role": "evidence",
+          "round": 2,
+          "prior_messages": [
+            {
+              "role": "evidence",
+              "round": 1,
+              "text": "p-r82sckbw4|evidence|1|amber"
+            },
+            {
+              "role": "draft",
+              "round": 1,
+              "text": "p-r82sckbw4|draft|1|amber"
+            }
+          ],
+          "model_body_sha256": "01162d2572bcb70f373bcd8c016163e7a3ce5c49248e3012096cf66c7cdd4329"
+        },
+        {
+          "ordinal": 5,
+          "attempt_id": "run-p-r82sckbw4:2:linking:1",
+          "role": "linking",
+          "round": 2,
+          "prior_messages": [
+            {
+              "role": "evidence",
+              "round": 1,
+              "text": "p-r82sckbw4|evidence|1|amber"
+            },
+            {
+              "role": "linking",
+              "round": 1,
+              "text": "p-r82sckbw4|linking|1|amber"
+            }
+          ],
+          "model_body_sha256": "6e8e71eb93e69f67393037dc9b983755639189edd536c20b47083660b057c8cc"
+        },
+        {
+          "ordinal": 6,
+          "attempt_id": "run-p-r82sckbw4:2:draft:1",
+          "role": "draft",
+          "round": 2,
+          "prior_messages": [
+            {
+              "role": "linking",
+              "round": 1,
+              "text": "p-r82sckbw4|linking|1|amber"
+            },
+            {
+              "role": "draft",
+              "round": 1,
+              "text": "p-r82sckbw4|draft|1|amber"
+            }
+          ],
+          "model_body_sha256": "1298c9eebe9d2052113a8c35ead91dd3a5bfd117fca1cea98457b5dc9c46169b"
+        },
+        {
+          "ordinal": 7,
+          "attempt_id": "run-p-r82sckbw4:3:aggregator:1",
+          "role": "aggregator",
+          "round": 3,
+          "prior_messages": [
+            {
+              "role": "evidence",
+              "round": 2,
+              "text": "p-r82sckbw4|evidence|2|amber"
+            },
+            {
+              "role": "linking",
+              "round": 2,
+              "text": "p-r82sckbw4|linking|2|amber"
+            },
+            {
+              "role": "draft",
+              "round": 2,
+              "text": "p-r82sckbw4|draft|2|amber"
+            }
+          ],
+          "model_body_sha256": "c72c91497c51cd94234a64129c9d65142791eb6af8e98ab9ecf406d6b27986ea"
+        }
+      ],
+      "claimed": {
+        "status": "completed",
+        "answer": "p-r82sckbw4|aggregator|3|amber",
+        "measurement_complete": true,
+        "started_attempts": 7,
+        "calls": 7,
+        "known_cost_subtotal_usd": "0.0025612",
+        "total_cost_usd": "0.0025612"
+      }
+    },
+    {
+      "case_id": "p-rbdtj357g",
+      "issues": [
+        {
+          "code": "journal_checksum_mismatch",
+          "where": "journal.line[3]",
+          "detail": {
+            "stored": "061c4f5ae10ea573b5eefcca3c7e810a58c265feb879aa10fc9f2a3c6b2a8f4e",
+            "recomputed": "d033809636e16244d3b7442a26b98acf4d4080c0e074a87d50643569e1d8eb54"
+          }
+        }
+      ],
+      "trace_status": "completed",
+      "trace_answer": "p-rbdtj357g|aggregator|3|amber",
+      "counts": {
+        "started_events": 7,
+        "distinct_started_attempts": 7,
+        "terminal_events": 7,
+        "matched_unique_terminals": 7,
+        "outer_requests": 7
+      },
+      "open_attempts": [],
+      "suppressed": [],
+      "model_failure_attempt": null,
+      "costs": {
+        "raw_terminal_event_sum_usd": "0.0025612",
+        "matched_unique_known_subtotal_usd": "0.0025612",
+        "unknown_terminal_amounts": [],
+        "outer_record_total_if_complete_usd": "0.0025612",
+        "scope": "Recorded amounts only; no independent tariff truth. Invalid evidence can restrict whether these are trusted totals."
+      },
+      "journal": {
+        "lines": 16,
+        "chain_ok": false,
+        "finished_records": 1
+      },
+      "message_checks": [
+        {
+          "attempt_id": "run-p-rbdtj357g:1:evidence:1",
+          "expected": [],
+          "trace_messages": []
+        },
+        {
+          "attempt_id": "run-p-rbdtj357g:1:linking:1",
+          "expected": [],
+          "trace_messages": []
+        },
+        {
+          "attempt_id": "run-p-rbdtj357g:1:draft:1",
+          "expected": [],
+          "trace_messages": []
+        },
+        {
+          "attempt_id": "run-p-rbdtj357g:2:evidence:1",
+          "expected": [
+            {
+              "attempt_id": "run-p-rbdtj357g:1:evidence:1",
+              "role": "evidence",
+              "round": 1,
+              "text": "p-rbdtj357g|evidence|1|amber"
+            },
+            {
+              "attempt_id": "run-p-rbdtj357g:1:draft:1",
+              "role": "draft",
+              "round": 1,
+              "text": "p-rbdtj357g|draft|1|amber"
+            }
+          ],
+          "trace_messages": [
+            {
+              "attempt_id": "run-p-rbdtj357g:1:evidence:1",
+              "role": "evidence",
+              "round": 1,
+              "text": "p-rbdtj357g|evidence|1|amber"
+            },
+            {
+              "attempt_id": "run-p-rbdtj357g:1:draft:1",
+              "role": "draft",
+              "round": 1,
+              "text": "p-rbdtj357g|draft|1|amber"
+            }
+          ]
+        },
+        {
+          "attempt_id": "run-p-rbdtj357g:2:linking:1",
+          "expected": [
+            {
+              "attempt_id": "run-p-rbdtj357g:1:evidence:1",
+              "role": "evidence",
+              "round": 1,
+              "text": "p-rbdtj357g|evidence|1|amber"
+            },
+            {
+              "attempt_id": "run-p-rbdtj357g:1:linking:1",
+              "role": "linking",
+              "round": 1,
+              "text": "p-rbdtj357g|linking|1|amber"
+            }
+          ],
+          "trace_messages": [
+            {
+              "attempt_id": "run-p-rbdtj357g:1:evidence:1",
+              "role": "evidence",
+              "round": 1,
+              "text": "p-rbdtj357g|evidence|1|amber"
+            },
+            {
+              "attempt_id": "run-p-rbdtj357g:1:linking:1",
+              "role": "linking",
+              "round": 1,
+              "text": "p-rbdtj357g|linking|1|amber"
+            }
+          ]
+        },
+        {
+          "attempt_id": "run-p-rbdtj357g:2:draft:1",
+          "expected": [
+            {
+              "attempt_id": "run-p-rbdtj357g:1:linking:1",
+              "role": "linking",
+              "round": 1,
+              "text": "p-rbdtj357g|linking|1|amber"
+            },
+            {
+              "attempt_id": "run-p-rbdtj357g:1:draft:1",
+              "role": "draft",
+              "round": 1,
+              "text": "p-rbdtj357g|draft|1|amber"
+            }
+          ],
+          "trace_messages": [
+            {
+              "attempt_id": "run-p-rbdtj357g:1:linking:1",
+              "role": "linking",
+              "round": 1,
+              "text": "p-rbdtj357g|linking|1|amber"
+            },
+            {
+              "attempt_id": "run-p-rbdtj357g:1:draft:1",
+              "role": "draft",
+              "round": 1,
+              "text": "p-rbdtj357g|draft|1|amber"
+            }
+          ]
+        },
+        {
+          "attempt_id": "run-p-rbdtj357g:3:aggregator:1",
+          "expected": [
+            {
+              "attempt_id": "run-p-rbdtj357g:2:evidence:1",
+              "role": "evidence",
+              "round": 2,
+              "text": "p-rbdtj357g|evidence|2|amber"
+            },
+            {
+              "attempt_id": "run-p-rbdtj357g:2:linking:1",
+              "role": "linking",
+              "round": 2,
+              "text": "p-rbdtj357g|linking|2|amber"
+            },
+            {
+              "attempt_id": "run-p-rbdtj357g:2:draft:1",
+              "role": "draft",
+              "round": 2,
+              "text": "p-rbdtj357g|draft|2|amber"
+            }
+          ],
+          "trace_messages": [
+            {
+              "attempt_id": "run-p-rbdtj357g:2:evidence:1",
+              "role": "evidence",
+              "round": 2,
+              "text": "p-rbdtj357g|evidence|2|amber"
+            },
+            {
+              "attempt_id": "run-p-rbdtj357g:2:linking:1",
+              "role": "linking",
+              "round": 2,
+              "text": "p-rbdtj357g|linking|2|amber"
+            },
+            {
+              "attempt_id": "run-p-rbdtj357g:2:draft:1",
+              "role": "draft",
+              "round": 2,
+              "text": "p-rbdtj357g|draft|2|amber"
+            }
+          ]
+        }
+      ],
+      "outer_requests": [
+        {
+          "ordinal": 1,
+          "attempt_id": "run-p-rbdtj357g:1:evidence:1",
+          "role": "evidence",
+          "round": 1,
+          "prior_messages": [],
+          "model_body_sha256": "13f286685d735dc4c6aca08b014a33c5a85ae3357c2b55b027e9a6a09eedc940"
+        },
+        {
+          "ordinal": 2,
+          "attempt_id": "run-p-rbdtj357g:1:linking:1",
+          "role": "linking",
+          "round": 1,
+          "prior_messages": [],
+          "model_body_sha256": "955e776f8f99ea6288feb82b6047d8442ca554c5ad0610935dc5d9b77bed31ed"
+        },
+        {
+          "ordinal": 3,
+          "attempt_id": "run-p-rbdtj357g:1:draft:1",
+          "role": "draft",
+          "round": 1,
+          "prior_messages": [],
+          "model_body_sha256": "edffeb8484a02aba6a9ad9e057856fec846ddc56456cf54138ff9401826803bd"
+        },
+        {
+          "ordinal": 4,
+          "attempt_id": "run-p-rbdtj357g:2:evidence:1",
+          "role": "evidence",
+          "round": 2,
+          "prior_messages": [
+            {
+              "role": "evidence",
+              "round": 1,
+              "text": "p-rbdtj357g|evidence|1|amber"
+            },
+            {
+              "role": "draft",
+              "round": 1,
+              "text": "p-rbdtj357g|draft|1|amber"
+            }
+          ],
+          "model_body_sha256": "00c562c14a396c78c54098533ab7306801bb2bfa9329cff1b15cf13d78898fe6"
+        },
+        {
+          "ordinal": 5,
+          "attempt_id": "run-p-rbdtj357g:2:linking:1",
+          "role": "linking",
+          "round": 2,
+          "prior_messages": [
+            {
+              "role": "evidence",
+              "round": 1,
+              "text": "p-rbdtj357g|evidence|1|amber"
+            },
+            {
+              "role": "linking",
+              "round": 1,
+              "text": "p-rbdtj357g|linking|1|amber"
+            }
+          ],
+          "model_body_sha256": "abb7a3c637cb1afba71d3f6610b7957f09f21c16f563a5367648456b2594d65e"
+        },
+        {
+          "ordinal": 6,
+          "attempt_id": "run-p-rbdtj357g:2:draft:1",
+          "role": "draft",
+          "round": 2,
+          "prior_messages": [
+            {
+              "role": "linking",
+              "round": 1,
+              "text": "p-rbdtj357g|linking|1|amber"
+            },
+            {
+              "role": "draft",
+              "round": 1,
+              "text": "p-rbdtj357g|draft|1|amber"
+            }
+          ],
+          "model_body_sha256": "9e6669bd0dba93ea9876358a90b2e15cee79ed173c2003ff7ad03096160626d2"
+        },
+        {
+          "ordinal": 7,
+          "attempt_id": "run-p-rbdtj357g:3:aggregator:1",
+          "role": "aggregator",
+          "round": 3,
+          "prior_messages": [
+            {
+              "role": "evidence",
+              "round": 2,
+              "text": "p-rbdtj357g|evidence|2|amber"
+            },
+            {
+              "role": "linking",
+              "round": 2,
+              "text": "p-rbdtj357g|linking|2|amber"
+            },
+            {
+              "role": "draft",
+              "round": 2,
+              "text": "p-rbdtj357g|draft|2|amber"
+            }
+          ],
+          "model_body_sha256": "1a059cc7f11ac370735c359c434d56798b99127fbf02fda5d23ca59fc85baeab"
+        }
+      ],
+      "claimed": {
+        "status": "completed",
+        "answer": "p-rbdtj357g|aggregator|3|amber",
+        "measurement_complete": true,
+        "started_attempts": 7,
+        "calls": 7,
+        "known_cost_subtotal_usd": "0.0025612",
+        "total_cost_usd": "0.0025612"
+      }
+    },
+    {
+      "case_id": "p-vktaj3qn2",
+      "issues": [],
+      "trace_status": "completed",
+      "trace_answer": "p-vktaj3qn2|aggregator|3|amber",
+      "counts": {
+        "started_events": 7,
+        "distinct_started_attempts": 7,
+        "terminal_events": 7,
+        "matched_unique_terminals": 7,
+        "outer_requests": 7
+      },
+      "open_attempts": [],
+      "suppressed": [],
+      "model_failure_attempt": null,
+      "costs": {
+        "raw_terminal_event_sum_usd": "0.0025612",
+        "matched_unique_known_subtotal_usd": "0.0025612",
+        "unknown_terminal_amounts": [],
+        "outer_record_total_if_complete_usd": "0.0025612",
+        "scope": "Recorded amounts only; no independent tariff truth. Invalid evidence can restrict whether these are trusted totals."
+      },
+      "journal": {
+        "lines": 16,
+        "chain_ok": true,
+        "finished_records": 1
+      },
+      "message_checks": [
+        {
+          "attempt_id": "run-p-vktaj3qn2:1:evidence:1",
+          "expected": [],
+          "trace_messages": []
+        },
+        {
+          "attempt_id": "run-p-vktaj3qn2:1:linking:1",
+          "expected": [],
+          "trace_messages": []
+        },
+        {
+          "attempt_id": "run-p-vktaj3qn2:1:draft:1",
+          "expected": [],
+          "trace_messages": []
+        },
+        {
+          "attempt_id": "run-p-vktaj3qn2:2:evidence:1",
+          "expected": [
+            {
+              "attempt_id": "run-p-vktaj3qn2:1:evidence:1",
+              "role": "evidence",
+              "round": 1,
+              "text": "p-vktaj3qn2|evidence|1|amber"
+            },
+            {
+              "attempt_id": "run-p-vktaj3qn2:1:draft:1",
+              "role": "draft",
+              "round": 1,
+              "text": "p-vktaj3qn2|draft|1|amber"
+            }
+          ],
+          "trace_messages": [
+            {
+              "attempt_id": "run-p-vktaj3qn2:1:evidence:1",
+              "role": "evidence",
+              "round": 1,
+              "text": "p-vktaj3qn2|evidence|1|amber"
+            },
+            {
+              "attempt_id": "run-p-vktaj3qn2:1:draft:1",
+              "role": "draft",
+              "round": 1,
+              "text": "p-vktaj3qn2|draft|1|amber"
+            }
+          ]
+        },
+        {
+          "attempt_id": "run-p-vktaj3qn2:2:linking:1",
+          "expected": [
+            {
+              "attempt_id": "run-p-vktaj3qn2:1:evidence:1",
+              "role": "evidence",
+              "round": 1,
+              "text": "p-vktaj3qn2|evidence|1|amber"
+            },
+            {
+              "attempt_id": "run-p-vktaj3qn2:1:linking:1",
+              "role": "linking",
+              "round": 1,
+              "text": "p-vktaj3qn2|linking|1|amber"
+            }
+          ],
+          "trace_messages": [
+            {
+              "attempt_id": "run-p-vktaj3qn2:1:evidence:1",
+              "role": "evidence",
+              "round": 1,
+              "text": "p-vktaj3qn2|evidence|1|amber"
+            },
+            {
+              "attempt_id": "run-p-vktaj3qn2:1:linking:1",
+              "role": "linking",
+              "round": 1,
+              "text": "p-vktaj3qn2|linking|1|amber"
+            }
+          ]
+        },
+        {
+          "attempt_id": "run-p-vktaj3qn2:2:draft:1",
+          "expected": [
+            {
+              "attempt_id": "run-p-vktaj3qn2:1:linking:1",
+              "role": "linking",
+              "round": 1,
+              "text": "p-vktaj3qn2|linking|1|amber"
+            },
+            {
+              "attempt_id": "run-p-vktaj3qn2:1:draft:1",
+              "role": "draft",
+              "round": 1,
+              "text": "p-vktaj3qn2|draft|1|amber"
+            }
+          ],
+          "trace_messages": [
+            {
+              "attempt_id": "run-p-vktaj3qn2:1:linking:1",
+              "role": "linking",
+              "round": 1,
+              "text": "p-vktaj3qn2|linking|1|amber"
+            },
+            {
+              "attempt_id": "run-p-vktaj3qn2:1:draft:1",
+              "role": "draft",
+              "round": 1,
+              "text": "p-vktaj3qn2|draft|1|amber"
+            }
+          ]
+        },
+        {
+          "attempt_id": "run-p-vktaj3qn2:3:aggregator:1",
+          "expected": [
+            {
+              "attempt_id": "run-p-vktaj3qn2:2:evidence:1",
+              "role": "evidence",
+              "round": 2,
+              "text": "p-vktaj3qn2|evidence|2|amber"
+            },
+            {
+              "attempt_id": "run-p-vktaj3qn2:2:linking:1",
+              "role": "linking",
+              "round": 2,
+              "text": "p-vktaj3qn2|linking|2|amber"
+            },
+            {
+              "attempt_id": "run-p-vktaj3qn2:2:draft:1",
+              "role": "draft",
+              "round": 2,
+              "text": "p-vktaj3qn2|draft|2|amber"
+            }
+          ],
+          "trace_messages": [
+            {
+              "attempt_id": "run-p-vktaj3qn2:2:evidence:1",
+              "role": "evidence",
+              "round": 2,
+              "text": "p-vktaj3qn2|evidence|2|amber"
+            },
+            {
+              "attempt_id": "run-p-vktaj3qn2:2:linking:1",
+              "role": "linking",
+              "round": 2,
+              "text": "p-vktaj3qn2|linking|2|amber"
+            },
+            {
+              "attempt_id": "run-p-vktaj3qn2:2:draft:1",
+              "role": "draft",
+              "round": 2,
+              "text": "p-vktaj3qn2|draft|2|amber"
+            }
+          ]
+        }
+      ],
+      "outer_requests": [
+        {
+          "ordinal": 1,
+          "attempt_id": "run-p-vktaj3qn2:1:evidence:1",
+          "role": "evidence",
+          "round": 1,
+          "prior_messages": [],
+          "model_body_sha256": "92b4ede11eb26e0d2e3b6b81481ebce5a2ec9fa8760eb68f0733037e900ef105"
+        },
+        {
+          "ordinal": 2,
+          "attempt_id": "run-p-vktaj3qn2:1:linking:1",
+          "role": "linking",
+          "round": 1,
+          "prior_messages": [],
+          "model_body_sha256": "b9276c0166414901c27ed1ba4effe8a4fe9ee7b072948a8b7a44035ee48e21d1"
+        },
+        {
+          "ordinal": 3,
+          "attempt_id": "run-p-vktaj3qn2:1:draft:1",
+          "role": "draft",
+          "round": 1,
+          "prior_messages": [],
+          "model_body_sha256": "997de945b1ca673a9a2a8ec5686bc372af96551dc99f0542e096fc426f59791e"
+        },
+        {
+          "ordinal": 4,
+          "attempt_id": "run-p-vktaj3qn2:2:evidence:1",
+          "role": "evidence",
+          "round": 2,
+          "prior_messages": [
+            {
+              "role": "evidence",
+              "round": 1,
+              "text": "p-vktaj3qn2|evidence|1|amber"
+            },
+            {
+              "role": "draft",
+              "round": 1,
+              "text": "p-vktaj3qn2|draft|1|amber"
+            }
+          ],
+          "model_body_sha256": "9c52d41fa18336ce9b97e53e78229979e09b4dbc9810008371137d1a47014927"
+        },
+        {
+          "ordinal": 5,
+          "attempt_id": "run-p-vktaj3qn2:2:linking:1",
+          "role": "linking",
+          "round": 2,
+          "prior_messages": [
+            {
+              "role": "evidence",
+              "round": 1,
+              "text": "p-vktaj3qn2|evidence|1|amber"
+            },
+            {
+              "role": "linking",
+              "round": 1,
+              "text": "p-vktaj3qn2|linking|1|amber"
+            }
+          ],
+          "model_body_sha256": "5b81428eb9021a40ab2379e5489f7ced615bb7a40b8b661054e6ee650486914f"
+        },
+        {
+          "ordinal": 6,
+          "attempt_id": "run-p-vktaj3qn2:2:draft:1",
+          "role": "draft",
+          "round": 2,
+          "prior_messages": [
+            {
+              "role": "linking",
+              "round": 1,
+              "text": "p-vktaj3qn2|linking|1|amber"
+            },
+            {
+              "role": "draft",
+              "round": 1,
+              "text": "p-vktaj3qn2|draft|1|amber"
+            }
+          ],
+          "model_body_sha256": "d836f82254817da431fb80e42ee082e968f555dbaa34e2e10bfa5e0ba47191cf"
+        },
+        {
+          "ordinal": 7,
+          "attempt_id": "run-p-vktaj3qn2:3:aggregator:1",
+          "role": "aggregator",
+          "round": 3,
+          "prior_messages": [
+            {
+              "role": "evidence",
+              "round": 2,
+              "text": "p-vktaj3qn2|evidence|2|amber"
+            },
+            {
+              "role": "linking",
+              "round": 2,
+              "text": "p-vktaj3qn2|linking|2|amber"
+            },
+            {
+              "role": "draft",
+              "round": 2,
+              "text": "p-vktaj3qn2|draft|2|amber"
+            }
+          ],
+          "model_body_sha256": "da8c7e20f2e5490b361bc242f92b214ea2808f10e1ba4e031ffb77ef9cd1e717"
+        }
+      ],
+      "claimed": {
+        "status": "completed",
+        "answer": "p-vktaj3qn2|aggregator|3|amber",
+        "measurement_complete": true,
+        "started_attempts": 7,
+        "calls": 7,
+        "known_cost_subtotal_usd": "0.0025612",
+        "total_cost_usd": "0.0025612"
+      }
+    },
+    {
+      "case_id": "p-vz3eq4smw",
+      "issues": [
+        {
+          "code": "terminal_without_matching_start",
+          "where": "trace.events[1]",
+          "detail": "run-p-vz3eq4smw:1:checking:1"
+        },
+        {
+          "code": "next_step_before_terminal",
+          "where": "trace.events[2]",
+          "detail": "run-p-vz3eq4smw:1:evidence:1"
+        },
+        {
+          "code": "message_contract_violation",
+          "where": "trace.events[6]",
+          "detail": {
+            "observed": [
+              {
+                "attempt_id": "run-p-vz3eq4smw:1:evidence:1",
+                "role": "evidence",
+                "round": 1,
+                "text": "p-vz3eq4smw|evidence|1|amber"
+              },
+              {
+                "attempt_id": "run-p-vz3eq4smw:1:draft:1",
+                "role": "draft",
+                "round": 1,
+                "text": "p-vz3eq4smw|draft|1|amber"
+              }
+            ],
+            "expected": [
+              {
+                "attempt_id": "run-p-vz3eq4smw:1:draft:1",
+                "role": "draft",
+                "round": 1,
+                "text": "p-vz3eq4smw|draft|1|amber"
+              }
+            ]
+          }
+        },
+        {
+          "code": "message_contract_violation",
+          "where": "trace.events[8]",
+          "detail": {
+            "observed": [
+              {
+                "attempt_id": "run-p-vz3eq4smw:1:evidence:1",
+                "role": "evidence",
+                "round": 1,
+                "text": "p-vz3eq4smw|evidence|1|amber"
+              },
+              {
+                "attempt_id": "run-p-vz3eq4smw:1:linking:1",
+                "role": "linking",
+                "round": 1,
+                "text": "p-vz3eq4smw|linking|1|amber"
+              }
+            ],
+            "expected": [
+              {
+                "attempt_id": "run-p-vz3eq4smw:1:linking:1",
+                "role": "linking",
+                "round": 1,
+                "text": "p-vz3eq4smw|linking|1|amber"
+              }
+            ]
+          }
+        },
+        {
+          "code": "invalid_completed_status",
+          "where": "trace.status",
+          "detail": {
+            "schedule_slots_seen": 7,
+            "required": 7,
+            "open": [
+              "run-p-vz3eq4smw:1:evidence:1"
+            ],
+            "failure": null
+          }
+        }
+      ],
+      "trace_status": "completed",
+      "trace_answer": "p-vz3eq4smw|aggregator|3|amber",
+      "counts": {
+        "started_events": 7,
+        "distinct_started_attempts": 7,
+        "terminal_events": 7,
+        "matched_unique_terminals": 6,
+        "outer_requests": 7
+      },
+      "open_attempts": [
+        "run-p-vz3eq4smw:1:evidence:1"
+      ],
+      "suppressed": [],
+      "model_failure_attempt": null,
+      "costs": {
+        "raw_terminal_event_sum_usd": "0.0025612",
+        "matched_unique_known_subtotal_usd": "0.0025612",
+        "unknown_terminal_amounts": [],
+        "outer_record_total_if_complete_usd": null,
+        "scope": "Recorded amounts only; no independent tariff truth. Invalid evidence can restrict whether these are trusted totals."
+      },
+      "journal": {
+        "lines": 16,
+        "chain_ok": true,
+        "finished_records": 1
+      },
+      "message_checks": [
+        {
+          "attempt_id": "run-p-vz3eq4smw:1:evidence:1",
+          "expected": [],
+          "trace_messages": []
+        },
+        {
+          "attempt_id": "run-p-vz3eq4smw:1:linking:1",
+          "expected": [],
+          "trace_messages": []
+        },
+        {
+          "attempt_id": "run-p-vz3eq4smw:1:draft:1",
+          "expected": [],
+          "trace_messages": []
+        },
+        {
+          "attempt_id": "run-p-vz3eq4smw:2:evidence:1",
+          "expected": [
+            {
+              "attempt_id": "run-p-vz3eq4smw:1:draft:1",
+              "role": "draft",
+              "round": 1,
+              "text": "p-vz3eq4smw|draft|1|amber"
+            }
+          ],
+          "trace_messages": [
+            {
+              "attempt_id": "run-p-vz3eq4smw:1:evidence:1",
+              "role": "evidence",
+              "round": 1,
+              "text": "p-vz3eq4smw|evidence|1|amber"
+            },
+            {
+              "attempt_id": "run-p-vz3eq4smw:1:draft:1",
+              "role": "draft",
+              "round": 1,
+              "text": "p-vz3eq4smw|draft|1|amber"
+            }
+          ]
+        },
+        {
+          "attempt_id": "run-p-vz3eq4smw:2:linking:1",
+          "expected": [
+            {
+              "attempt_id": "run-p-vz3eq4smw:1:linking:1",
+              "role": "linking",
+              "round": 1,
+              "text": "p-vz3eq4smw|linking|1|amber"
+            }
+          ],
+          "trace_messages": [
+            {
+              "attempt_id": "run-p-vz3eq4smw:1:evidence:1",
+              "role": "evidence",
+              "round": 1,
+              "text": "p-vz3eq4smw|evidence|1|amber"
+            },
+            {
+              "attempt_id": "run-p-vz3eq4smw:1:linking:1",
+              "role": "linking",
+              "round": 1,
+              "text": "p-vz3eq4smw|linking|1|amber"
+            }
+          ]
+        },
+        {
+          "attempt_id": "run-p-vz3eq4smw:2:draft:1",
+          "expected": [
+            {
+              "attempt_id": "run-p-vz3eq4smw:1:linking:1",
+              "role": "linking",
+              "round": 1,
+              "text": "p-vz3eq4smw|linking|1|amber"
+            },
+            {
+              "attempt_id": "run-p-vz3eq4smw:1:draft:1",
+              "role": "draft",
+              "round": 1,
+              "text": "p-vz3eq4smw|draft|1|amber"
+            }
+          ],
+          "trace_messages": [
+            {
+              "attempt_id": "run-p-vz3eq4smw:1:linking:1",
+              "role": "linking",
+              "round": 1,
+              "text": "p-vz3eq4smw|linking|1|amber"
+            },
+            {
+              "attempt_id": "run-p-vz3eq4smw:1:draft:1",
+              "role": "draft",
+              "round": 1,
+              "text": "p-vz3eq4smw|draft|1|amber"
+            }
+          ]
+        },
+        {
+          "attempt_id": "run-p-vz3eq4smw:3:aggregator:1",
+          "expected": [
+            {
+              "attempt_id": "run-p-vz3eq4smw:2:evidence:1",
+              "role": "evidence",
+              "round": 2,
+              "text": "p-vz3eq4smw|evidence|2|amber"
+            },
+            {
+              "attempt_id": "run-p-vz3eq4smw:2:linking:1",
+              "role": "linking",
+              "round": 2,
+              "text": "p-vz3eq4smw|linking|2|amber"
+            },
+            {
+              "attempt_id": "run-p-vz3eq4smw:2:draft:1",
+              "role": "draft",
+              "round": 2,
+              "text": "p-vz3eq4smw|draft|2|amber"
+            }
+          ],
+          "trace_messages": [
+            {
+              "attempt_id": "run-p-vz3eq4smw:2:evidence:1",
+              "role": "evidence",
+              "round": 2,
+              "text": "p-vz3eq4smw|evidence|2|amber"
+            },
+            {
+              "attempt_id": "run-p-vz3eq4smw:2:linking:1",
+              "role": "linking",
+              "round": 2,
+              "text": "p-vz3eq4smw|linking|2|amber"
+            },
+            {
+              "attempt_id": "run-p-vz3eq4smw:2:draft:1",
+              "role": "draft",
+              "round": 2,
+              "text": "p-vz3eq4smw|draft|2|amber"
+            }
+          ]
+        }
+      ],
+      "outer_requests": [
+        {
+          "ordinal": 1,
+          "attempt_id": "run-p-vz3eq4smw:1:evidence:1",
+          "role": "evidence",
+          "round": 1,
+          "prior_messages": [],
+          "model_body_sha256": "56bf2c0e65ccf460461e927a84061be6af8ebe428709853f2c92654e9679b9bc"
+        },
+        {
+          "ordinal": 2,
+          "attempt_id": "run-p-vz3eq4smw:1:linking:1",
+          "role": "linking",
+          "round": 1,
+          "prior_messages": [],
+          "model_body_sha256": "b4141ac694472f4a3f3fa65b026fb19cb287f180ff8fe3d158f869df91335b0b"
+        },
+        {
+          "ordinal": 3,
+          "attempt_id": "run-p-vz3eq4smw:1:draft:1",
+          "role": "draft",
+          "round": 1,
+          "prior_messages": [],
+          "model_body_sha256": "a5134437af2db44a353d3536dd26b1ac2b54e82bef2e10151394dd6eb3e7854e"
+        },
+        {
+          "ordinal": 4,
+          "attempt_id": "run-p-vz3eq4smw:2:evidence:1",
+          "role": "evidence",
+          "round": 2,
+          "prior_messages": [
+            {
+              "role": "evidence",
+              "round": 1,
+              "text": "p-vz3eq4smw|evidence|1|amber"
+            },
+            {
+              "role": "draft",
+              "round": 1,
+              "text": "p-vz3eq4smw|draft|1|amber"
+            }
+          ],
+          "model_body_sha256": "36c57180a6b22c3c8083cac9407dcb4c4d11713a8587cc99116312aa96dc4a24"
+        },
+        {
+          "ordinal": 5,
+          "attempt_id": "run-p-vz3eq4smw:2:linking:1",
+          "role": "linking",
+          "round": 2,
+          "prior_messages": [
+            {
+              "role": "evidence",
+              "round": 1,
+              "text": "p-vz3eq4smw|evidence|1|amber"
+            },
+            {
+              "role": "linking",
+              "round": 1,
+              "text": "p-vz3eq4smw|linking|1|amber"
+            }
+          ],
+          "model_body_sha256": "908b3fbdab4eb24c5fefd52f2563fe2f28329f2646130be2fc9c47725bd51ad4"
+        },
+        {
+          "ordinal": 6,
+          "attempt_id": "run-p-vz3eq4smw:2:draft:1",
+          "role": "draft",
+          "round": 2,
+          "prior_messages": [
+            {
+              "role": "linking",
+              "round": 1,
+              "text": "p-vz3eq4smw|linking|1|amber"
+            },
+            {
+              "role": "draft",
+              "round": 1,
+              "text": "p-vz3eq4smw|draft|1|amber"
+            }
+          ],
+          "model_body_sha256": "127efbad4f7d3b97fc50764f8b9ea1d238521ede197eb39a53934b8775362d24"
+        },
+        {
+          "ordinal": 7,
+          "attempt_id": "run-p-vz3eq4smw:3:aggregator:1",
+          "role": "aggregator",
+          "round": 3,
+          "prior_messages": [
+            {
+              "role": "evidence",
+              "round": 2,
+              "text": "p-vz3eq4smw|evidence|2|amber"
+            },
+            {
+              "role": "linking",
+              "round": 2,
+              "text": "p-vz3eq4smw|linking|2|amber"
+            },
+            {
+              "role": "draft",
+              "round": 2,
+              "text": "p-vz3eq4smw|draft|2|amber"
+            }
+          ],
+          "model_body_sha256": "9f3300024a9060f861a4b6a161d578e125ae8a28ec0b38c617a1ab22b5362726"
+        }
+      ],
+      "claimed": {
+        "status": "completed",
+        "answer": "p-vz3eq4smw|aggregator|3|amber",
+        "measurement_complete": true,
+        "started_attempts": 7,
+        "calls": 7,
+        "known_cost_subtotal_usd": "0.0025612",
+        "total_cost_usd": "0.0025612"
+      }
+    },
+    {
+      "case_id": "p-w5t6ckxzm",
+      "issues": [
+        {
+          "code": "next_step_before_terminal",
+          "where": "trace.events[3]",
+          "detail": "run-p-w5t6ckxzm:1:linking:1"
+        },
+        {
+          "code": "message_contract_violation",
+          "where": "trace.events[7]",
+          "detail": {
+            "observed": [
+              {
+                "attempt_id": "run-p-w5t6ckxzm:1:evidence:1",
+                "role": "evidence",
+                "round": 1,
+                "text": "p-w5t6ckxzm|evidence|1|amber"
+              },
+              {
+                "attempt_id": "run-p-w5t6ckxzm:1:linking:1",
+                "role": "linking",
+                "round": 1,
+                "text": "p-w5t6ckxzm|linking|1|amber"
+              }
+            ],
+            "expected": [
+              {
+                "attempt_id": "run-p-w5t6ckxzm:1:evidence:1",
+                "role": "evidence",
+                "round": 1,
+                "text": "p-w5t6ckxzm|evidence|1|amber"
+              }
+            ]
+          }
+        },
+        {
+          "code": "message_contract_violation",
+          "where": "trace.events[9]",
+          "detail": {
+            "observed": [
+              {
+                "attempt_id": "run-p-w5t6ckxzm:1:linking:1",
+                "role": "linking",
+                "round": 1,
+                "text": "p-w5t6ckxzm|linking|1|amber"
+              },
+              {
+                "attempt_id": "run-p-w5t6ckxzm:1:draft:1",
+                "role": "draft",
+                "round": 1,
+                "text": "p-w5t6ckxzm|draft|1|amber"
+              }
+            ],
+            "expected": [
+              {
+                "attempt_id": "run-p-w5t6ckxzm:1:draft:1",
+                "role": "draft",
+                "round": 1,
+                "text": "p-w5t6ckxzm|draft|1|amber"
+              }
+            ]
+          }
+        },
+        {
+          "code": "invalid_completed_status",
+          "where": "trace.status",
+          "detail": {
+            "schedule_slots_seen": 7,
+            "required": 7,
+            "open": [
+              "run-p-w5t6ckxzm:1:linking:1"
+            ],
+            "failure": null
+          }
+        }
+      ],
+      "trace_status": "completed",
+      "trace_answer": "p-w5t6ckxzm|aggregator|3|amber",
+      "counts": {
+        "started_events": 7,
+        "distinct_started_attempts": 7,
+        "terminal_events": 6,
+        "matched_unique_terminals": 6,
+        "outer_requests": 7
+      },
+      "open_attempts": [
+        "run-p-w5t6ckxzm:1:linking:1"
+      ],
+      "suppressed": [],
+      "model_failure_attempt": null,
+      "costs": {
+        "raw_terminal_event_sum_usd": "0.0022338",
+        "matched_unique_known_subtotal_usd": "0.0022338",
+        "unknown_terminal_amounts": [],
+        "outer_record_total_if_complete_usd": null,
+        "scope": "Recorded amounts only; no independent tariff truth. Invalid evidence can restrict whether these are trusted totals."
+      },
+      "journal": {
+        "lines": 15,
+        "chain_ok": true,
+        "finished_records": 1
+      },
+      "message_checks": [
+        {
+          "attempt_id": "run-p-w5t6ckxzm:1:evidence:1",
+          "expected": [],
+          "trace_messages": []
+        },
+        {
+          "attempt_id": "run-p-w5t6ckxzm:1:linking:1",
+          "expected": [],
+          "trace_messages": []
+        },
+        {
+          "attempt_id": "run-p-w5t6ckxzm:1:draft:1",
+          "expected": [],
+          "trace_messages": []
+        },
+        {
+          "attempt_id": "run-p-w5t6ckxzm:2:evidence:1",
+          "expected": [
+            {
+              "attempt_id": "run-p-w5t6ckxzm:1:evidence:1",
+              "role": "evidence",
+              "round": 1,
+              "text": "p-w5t6ckxzm|evidence|1|amber"
+            },
+            {
+              "attempt_id": "run-p-w5t6ckxzm:1:draft:1",
+              "role": "draft",
+              "round": 1,
+              "text": "p-w5t6ckxzm|draft|1|amber"
+            }
+          ],
+          "trace_messages": [
+            {
+              "attempt_id": "run-p-w5t6ckxzm:1:evidence:1",
+              "role": "evidence",
+              "round": 1,
+              "text": "p-w5t6ckxzm|evidence|1|amber"
+            },
+            {
+              "attempt_id": "run-p-w5t6ckxzm:1:draft:1",
+              "role": "draft",
+              "round": 1,
+              "text": "p-w5t6ckxzm|draft|1|amber"
+            }
+          ]
+        },
+        {
+          "attempt_id": "run-p-w5t6ckxzm:2:linking:1",
+          "expected": [
+            {
+              "attempt_id": "run-p-w5t6ckxzm:1:evidence:1",
+              "role": "evidence",
+              "round": 1,
+              "text": "p-w5t6ckxzm|evidence|1|amber"
+            }
+          ],
+          "trace_messages": [
+            {
+              "attempt_id": "run-p-w5t6ckxzm:1:evidence:1",
+              "role": "evidence",
+              "round": 1,
+              "text": "p-w5t6ckxzm|evidence|1|amber"
+            },
+            {
+              "attempt_id": "run-p-w5t6ckxzm:1:linking:1",
+              "role": "linking",
+              "round": 1,
+              "text": "p-w5t6ckxzm|linking|1|amber"
+            }
+          ]
+        },
+        {
+          "attempt_id": "run-p-w5t6ckxzm:2:draft:1",
+          "expected": [
+            {
+              "attempt_id": "run-p-w5t6ckxzm:1:draft:1",
+              "role": "draft",
+              "round": 1,
+              "text": "p-w5t6ckxzm|draft|1|amber"
+            }
+          ],
+          "trace_messages": [
+            {
+              "attempt_id": "run-p-w5t6ckxzm:1:linking:1",
+              "role": "linking",
+              "round": 1,
+              "text": "p-w5t6ckxzm|linking|1|amber"
+            },
+            {
+              "attempt_id": "run-p-w5t6ckxzm:1:draft:1",
+              "role": "draft",
+              "round": 1,
+              "text": "p-w5t6ckxzm|draft|1|amber"
+            }
+          ]
+        },
+        {
+          "attempt_id": "run-p-w5t6ckxzm:3:aggregator:1",
+          "expected": [
+            {
+              "attempt_id": "run-p-w5t6ckxzm:2:evidence:1",
+              "role": "evidence",
+              "round": 2,
+              "text": "p-w5t6ckxzm|evidence|2|amber"
+            },
+            {
+              "attempt_id": "run-p-w5t6ckxzm:2:linking:1",
+              "role": "linking",
+              "round": 2,
+              "text": "p-w5t6ckxzm|linking|2|amber"
+            },
+            {
+              "attempt_id": "run-p-w5t6ckxzm:2:draft:1",
+              "role": "draft",
+              "round": 2,
+              "text": "p-w5t6ckxzm|draft|2|amber"
+            }
+          ],
+          "trace_messages": [
+            {
+              "attempt_id": "run-p-w5t6ckxzm:2:evidence:1",
+              "role": "evidence",
+              "round": 2,
+              "text": "p-w5t6ckxzm|evidence|2|amber"
+            },
+            {
+              "attempt_id": "run-p-w5t6ckxzm:2:linking:1",
+              "role": "linking",
+              "round": 2,
+              "text": "p-w5t6ckxzm|linking|2|amber"
+            },
+            {
+              "attempt_id": "run-p-w5t6ckxzm:2:draft:1",
+              "role": "draft",
+              "round": 2,
+              "text": "p-w5t6ckxzm|draft|2|amber"
+            }
+          ]
+        }
+      ],
+      "outer_requests": [
+        {
+          "ordinal": 1,
+          "attempt_id": "run-p-w5t6ckxzm:1:evidence:1",
+          "role": "evidence",
+          "round": 1,
+          "prior_messages": [],
+          "model_body_sha256": "6bc86175497c3a934ba46ed5d48018da59d0c64ee93a6649ceaba338375fd1ae"
+        },
+        {
+          "ordinal": 2,
+          "attempt_id": "run-p-w5t6ckxzm:1:linking:1",
+          "role": "linking",
+          "round": 1,
+          "prior_messages": [],
+          "model_body_sha256": "1974aa8de05156d74c5db7553b5761390550442d47d035039e363e63972f37a4"
+        },
+        {
+          "ordinal": 3,
+          "attempt_id": "run-p-w5t6ckxzm:1:draft:1",
+          "role": "draft",
+          "round": 1,
+          "prior_messages": [],
+          "model_body_sha256": "50f8d1dea666ecc030251b890b357759230c86e821727d2818be9a40bf7b92d2"
+        },
+        {
+          "ordinal": 4,
+          "attempt_id": "run-p-w5t6ckxzm:2:evidence:1",
+          "role": "evidence",
+          "round": 2,
+          "prior_messages": [
+            {
+              "role": "evidence",
+              "round": 1,
+              "text": "p-w5t6ckxzm|evidence|1|amber"
+            },
+            {
+              "role": "draft",
+              "round": 1,
+              "text": "p-w5t6ckxzm|draft|1|amber"
+            }
+          ],
+          "model_body_sha256": "f52fdba86ebf73fc314a3123178e1844cc481904d1d5823b0417798710fd46e0"
+        },
+        {
+          "ordinal": 5,
+          "attempt_id": "run-p-w5t6ckxzm:2:linking:1",
+          "role": "linking",
+          "round": 2,
+          "prior_messages": [
+            {
+              "role": "evidence",
+              "round": 1,
+              "text": "p-w5t6ckxzm|evidence|1|amber"
+            },
+            {
+              "role": "linking",
+              "round": 1,
+              "text": "p-w5t6ckxzm|linking|1|amber"
+            }
+          ],
+          "model_body_sha256": "34a300d50b86d4cf1e86b9860636bb1663752acbd3c070e0cdbd1106b2cf087d"
+        },
+        {
+          "ordinal": 6,
+          "attempt_id": "run-p-w5t6ckxzm:2:draft:1",
+          "role": "draft",
+          "round": 2,
+          "prior_messages": [
+            {
+              "role": "linking",
+              "round": 1,
+              "text": "p-w5t6ckxzm|linking|1|amber"
+            },
+            {
+              "role": "draft",
+              "round": 1,
+              "text": "p-w5t6ckxzm|draft|1|amber"
+            }
+          ],
+          "model_body_sha256": "13512122bcf262d4e70ebfcf03330514748ef8027d4c7fb42df63e51862b8079"
+        },
+        {
+          "ordinal": 7,
+          "attempt_id": "run-p-w5t6ckxzm:3:aggregator:1",
+          "role": "aggregator",
+          "round": 3,
+          "prior_messages": [
+            {
+              "role": "evidence",
+              "round": 2,
+              "text": "p-w5t6ckxzm|evidence|2|amber"
+            },
+            {
+              "role": "linking",
+              "round": 2,
+              "text": "p-w5t6ckxzm|linking|2|amber"
+            },
+            {
+              "role": "draft",
+              "round": 2,
+              "text": "p-w5t6ckxzm|draft|2|amber"
+            }
+          ],
+          "model_body_sha256": "285fec5bf3d3c27dce054993d7a5cf0ce929b973f35438017ab1a04c0f5be458"
+        }
+      ],
+      "claimed": {
+        "status": "completed",
+        "answer": "p-w5t6ckxzm|aggregator|3|amber",
+        "measurement_complete": true,
+        "started_attempts": 7,
+        "calls": 7,
+        "known_cost_subtotal_usd": "0.0025612",
+        "total_cost_usd": "0.0025612"
+      }
+    },
+    {
+      "case_id": "p-yx4wuqhtd",
+      "issues": [],
+      "trace_status": null,
+      "trace_answer": null,
+      "counts": {
+        "started_events": 3,
+        "distinct_started_attempts": 3,
+        "terminal_events": 2,
+        "matched_unique_terminals": 2,
+        "outer_requests": 3
+      },
+      "open_attempts": [
+        "run-p-yx4wuqhtd:1:draft:1"
+      ],
+      "suppressed": [],
+      "model_failure_attempt": null,
+      "costs": {
+        "raw_terminal_event_sum_usd": "0.0003274",
+        "matched_unique_known_subtotal_usd": "0.0003274",
+        "unknown_terminal_amounts": [],
+        "outer_record_total_if_complete_usd": null,
+        "scope": "Recorded amounts only; no independent tariff truth. Invalid evidence can restrict whether these are trusted totals."
+      },
+      "journal": {
+        "lines": 6,
+        "chain_ok": true,
+        "finished_records": 0
+      },
+      "message_checks": [
+        {
+          "attempt_id": "run-p-yx4wuqhtd:1:evidence:1",
+          "expected": [],
+          "trace_messages": []
+        },
+        {
+          "attempt_id": "run-p-yx4wuqhtd:1:linking:1",
+          "expected": [],
+          "trace_messages": []
+        },
+        {
+          "attempt_id": "run-p-yx4wuqhtd:1:draft:1",
+          "expected": [],
+          "trace_messages": []
+        }
+      ],
+      "outer_requests": [
+        {
+          "ordinal": 1,
+          "attempt_id": "run-p-yx4wuqhtd:1:evidence:1",
+          "role": "evidence",
+          "round": 1,
+          "prior_messages": [],
+          "model_body_sha256": "352b62855f75e74be96f63387403ada23485f2e3796ba357d164b618d0949c6f"
+        },
+        {
+          "ordinal": 2,
+          "attempt_id": "run-p-yx4wuqhtd:1:linking:1",
+          "role": "linking",
+          "round": 1,
+          "prior_messages": [],
+          "model_body_sha256": "bbf5f9e1f88c46addba63586b1abd51d0e39d79cf1cbbfbdee0dfd82d43f0c0c"
+        },
+        {
+          "ordinal": 3,
+          "attempt_id": "run-p-yx4wuqhtd:1:draft:1",
+          "role": "draft",
+          "round": 1,
+          "prior_messages": [],
+          "model_body_sha256": "a3ac850680234359b569397c714e18560663f731bd4f3d2d2bbd61f7a063fb75"
+        }
+      ],
+      "claimed": {
+        "status": "completed",
+        "answer": "p-yx4wuqhtd|aggregator|3|amber",
+        "measurement_complete": true,
+        "started_attempts": 3,
+        "calls": 2,
+        "known_cost_subtotal_usd": "0.0003274",
+        "total_cost_usd": "0.0003274"
+      }
+    }
+  ]
+}

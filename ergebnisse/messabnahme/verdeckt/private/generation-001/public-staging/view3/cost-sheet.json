@@ -1,0 +1,72 @@
+{
+  "kind": "one_deterministic_cost_role_sheet",
+  "currency": "USD",
+  "input_usd_per_token": "0.0000017",
+  "output_usd_per_token": "0.0000031",
+  "rows": [
+    {
+      "id": "r01",
+      "role": "input_output",
+      "input_tokens": 80,
+      "output_tokens": 11,
+      "price_waived": false
+    },
+    {
+      "id": "r02",
+      "role": "paid_model_failure",
+      "input_tokens": 90,
+      "output_tokens": 7,
+      "price_waived": false
+    },
+    {
+      "id": "r03",
+      "role": "fresh_repeat",
+      "input_tokens": 80,
+      "output_tokens": 11,
+      "price_waived": false,
+      "fresh_attempt_of": "r01"
+    },
+    {
+      "id": "r04",
+      "role": "known_zero_price",
+      "input_tokens": 50,
+      "output_tokens": 8,
+      "price_waived": true
+    },
+    {
+      "id": "r05",
+      "role": "local_controller",
+      "model_calls": 0,
+      "local_cpu_unit": "nanoseconds",
+      "local_cpu_value": null
+    },
+    {
+      "id": "r06",
+      "role": "cache",
+      "separate_current_schema_field": false,
+      "artificial_provider_body": {
+        "id": "synthetic-cost-sheet-06",
+        "model": "google/gemini-2.5-flash-lite",
+        "provider": "Google",
+        "usage": {
+          "prompt_tokens": 90,
+          "completion_tokens": 7,
+          "total_tokens": 97,
+          "is_byok": false,
+          "cost": "0.00009",
+          "prompt_tokens_details": {
+            "cached_tokens": 20
+          }
+        }
+      },
+      "scope": "Known total must be retained; cache-specific rate/attribution is not independently established."
+    },
+    {
+      "id": "r07",
+      "role": "automatic_retry",
+      "allowed_current_execution": false,
+      "amount": null
+    }
+  ],
+  "limits": "Artificial roles only. No real cache/reasoning provider evidence. A fresh repetition is not an automatic retry. Missing special-role support remains a limit."
+}

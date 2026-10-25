@@ -1,0 +1,417 @@
+{
+ "schema": "z56-v2-data-manifest/v1",
+ "created_utc": "2026-10-20T10:30:03.384424+00:00",
+ "builder": {
+  "path": "Z56-FRAMEWORK-VALIDIERUNG-001/v2/build_manifest.py",
+  "sha256": "2ec723653851eba33fa82e7ff9de9d438237b85d0777aa1af4e4aae5ea9a75a4"
+ },
+ "root": "/Users/jannikhiller/Desktop/ai operations/Studium OS/Masterarbeit/eval-harness/eval/runs",
+ "derivation": "Z56 V2a: data manifest of the run logs behind the thesis evaluation (read only).\n\nDerivation (from the evaluation code, not guessed):\n  P  rows = final P state analysed by Z51-RETRY-EINZELERSATZ-001/operator/resume_main.py\n       (kernel.collect_panel -> analyze_panel), STATE.json bound by the final hold 009040-<sha>.\n       Each row carries the provenance key of the segment that produced it; the chain of\n       ORIGINALS.json files links FINAL-STUDY-001 -> Z51-FORTSETZUNG -> Z51-RATENLIMIT ->\n       Z51-EINZELERSATZ -> Z51-F-EINZELERSATZ -> Z51-RETRY-EINZELERSATZ.\n  R  rows = Z54-SK-KORREKTUR-001/live/collected/rows-R-SK.json (ANALYSIS-R-SK.json); its non-S-k\n       rows equal Z53 rows-R.json = Z52 inspect state (R 0..2182) + Z53 blocks (R 2183..2951)\n       (run_z53.py collect); S-k rows come from Z54 blocks.\n  T, F rows = Z53 rows-T.json / rows-F.json (ANALYSIS-T/F.json, run_z53.py collect).\n  A row is produced by result.json of its slot (final_execution._row / z53_fast); the slot log\n  is the journal.jsonl (MAS arms) or direct-*.json (S, S-k) next to the matching result.json.\nWrites only into this v2 folder.\n",
+ "analysis_inputs": {
+  "P_state": {
+   "path": "Z51-RETRY-EINZELERSATZ-001/operation/isolated-backup-D074/8fa92e0363674966964a48fc89d9abc1/STATE.json",
+   "sha256": "960d6402c87d16c9fc9817e86f1c6a0d0cddafe8d1e66c2b665c1ea1a2f05be6"
+  },
+  "P_final_hold": {
+   "path": "Z51-RETRY-EINZELERSATZ-001/operation/remote-holds/009040-960d6402c87d16c9fc9817e86f1c6a0d0cddafe8d1e66c2b665c1ea1a2f05be6.json",
+   "sha256": "2bc3f7316167ae5015ea64e76c0c8745251c0aee9c366bd068fc0e7a17e41f3e"
+  },
+  "P_analysis": {
+   "path": "Z51-RETRY-EINZELERSATZ-001/operation/P-ANALYSIS.json",
+   "sha256": "fc4be29676749d7611d7c3f0d11e912193e4588609acb5d4734a15c387dcba65"
+  },
+  "P_status": {
+   "path": "Z51-RETRY-EINZELERSATZ-001/operation/starter/STATUS.json",
+   "sha256": "f0c5606ee28b98b8e7de545a8128bafbd8a6ecd679e2495e648f7e89aa79b2b3"
+  },
+  "R_rows_SK": {
+   "path": "Z54-SK-KORREKTUR-001/live/collected/rows-R-SK.json",
+   "sha256": "c2ffe7c30066b5ebbf9596ff96b8280152f8f7fb309c004a842bb290dcc58dd3"
+  },
+  "R_rows_Z53": {
+   "path": "Z53-SCHNELLFORTSETZUNG-001/live/collected/rows-R.json",
+   "sha256": "7f836d8bf04fae7d1fd0f1e616ba39c314ebc357fc2e5c1bbcfb5d73aa83d3b0"
+  },
+  "T_rows": {
+   "path": "Z53-SCHNELLFORTSETZUNG-001/live/collected/rows-T.json",
+   "sha256": "752c3166618ff0d9f9bbe0e6a2220247e890af3ac109f86f27c34728545386aa"
+  },
+  "F_rows": {
+   "path": "Z53-SCHNELLFORTSETZUNG-001/live/collected/rows-F.json",
+   "sha256": "2caadd17c69799b4361cf0dbcd0bb2b0e0e39c7452c8b6408a4fa73aa5e2d2f5"
+  },
+  "R_analysis_SK": {
+   "path": "Z54-SK-KORREKTUR-001/ANALYSIS-R-SK.json",
+   "sha256": "ace7a1f0d3ca425c435d7cf74281074ff3bccc5b1f5d272c3390dee57a0873f4"
+  },
+  "T_analysis": {
+   "path": "Z53-SCHNELLFORTSETZUNG-001/ANALYSIS-T.json",
+   "sha256": "a3558088ead4c4c8e9cd30741331cd3d3813443ef26e1d9cc74bb07956d15b13"
+  },
+  "F_analysis": {
+   "path": "Z53-SCHNELLFORTSETZUNG-001/ANALYSIS-F.json",
+   "sha256": "08ce0ad1704ba31ea78018e56c6ff98c55e1b5832b01040c10c6191e3818d1fe"
+  },
+  "Z52_inspect": {
+   "path": "Z52-NEBENPANEL-ANSCHLUSS-001/recovery-R00038/continuation-R00087/recovery-R00125/technical-R00203/coverage-R01462/rate-stop-R01589/r2183-overlimit/activation/INSPECT-011223-RESULT-001.json",
+   "sha256": "821c59977caeed22f15d6beb5a6d88a6cdb7f07e9445ef0069cdf3d3f7e77b03"
+  },
+  "plan": {
+   "path": "Z50-NACHARBEIT-001/coordination/final-candidate-001/PLAN.json",
+   "sha256": "42a55ddd7dc71738d39fbdb546b0bb60ca19a0d6485f47688de32c893f47f61f"
+  },
+  "candidate_P": {
+   "path": "Z51-HAUPTSTUDIE-001/activation/CANDIDATE-AUTHORIZED.json",
+   "sha256": "7868b57bb9df1c6406bbfd674cf9f8d80a4f40ee3b60ed9f846d7bc16bbbb47d"
+  },
+  "candidate_RTF": {
+   "path": "Z52-NEBENPANEL-ANSCHLUSS-001/recovery-R00038/activation/CANDIDATE.json",
+   "sha256": "135d2a58d7faefde6c7b382e9a23ba5d917a3b1722e1daa7fc7766a6d1cb6a37"
+  }
+ },
+ "z52_roots": {
+  "chain": [
+   "live",
+   "recovery-R00038/live",
+   "recovery-R00038/continuation-R00087/live",
+   "recovery-R00038/continuation-R00087/recovery-R00125/live",
+   "recovery-R00038/continuation-R00087/recovery-R00125/technical-R00203/live",
+   "recovery-R00038/continuation-R00087/recovery-R00125/technical-R00203/coverage-R01462/live",
+   "recovery-R00038/continuation-R00087/recovery-R00125/technical-R00203/coverage-R01462/rate-stop-R01589/live",
+   "recovery-R00038/continuation-R00087/recovery-R00125/technical-R00203/coverage-R01462/rate-stop-R01589/r2183-overlimit/live"
+  ],
+  "copies": [
+   "recovery-R00038/live/original",
+   "recovery-R00038/continuation-R00087/live/original",
+   "recovery-R00038/continuation-R00087/recovery-R00125/live/retained",
+   "recovery-R00038/continuation-R00087/recovery-R00125/live/retained/original",
+   "recovery-R00038/continuation-R00087/recovery-R00125/technical-R00203/live/retained",
+   "recovery-R00038/continuation-R00087/recovery-R00125/technical-R00203/live/retained/retained",
+   "recovery-R00038/continuation-R00087/recovery-R00125/technical-R00203/live/retained/retained/original"
+  ]
+ },
+ "p_segments": {
+  "('recovery_provenance', 'original_checkpoint')": "FINAL-STUDY-001/live",
+  "('recovery_provenance', 'resumed_segment')": "Z51-FORTSETZUNG-001/live",
+  "rate_resume_provenance": "Z51-RATENLIMIT-001/live",
+  "lost_resume_provenance": "Z51-EINZELERSATZ-001/live",
+  "f_resume_provenance": "Z51-F-EINZELERSATZ-001/live",
+  "retry_lost_resume_provenance": "Z51-RETRY-EINZELERSATZ-001/live"
+ },
+ "panels": {
+  "F": {
+   "Fc": {
+    "runs": 2952,
+    "kind": "mas",
+    "sources": {
+     "Z53-SCHNELLFORTSETZUNG-001/live": 2952
+    },
+    "open_with_terminal_file": 0,
+    "with_duplicate_copies": 0
+   },
+   "Ff": {
+    "runs": 2952,
+    "kind": "mas",
+    "sources": {
+     "Z53-SCHNELLFORTSETZUNG-001/live": 2952
+    },
+    "open_with_terminal_file": 0,
+    "with_duplicate_copies": 0
+   },
+   "Qc": {
+    "runs": 2952,
+    "kind": "mas",
+    "sources": {
+     "Z53-SCHNELLFORTSETZUNG-001/live": 2952
+    },
+    "open_with_terminal_file": 1,
+    "with_duplicate_copies": 0
+   },
+   "Qf": {
+    "runs": 2952,
+    "kind": "mas",
+    "sources": {
+     "Z53-SCHNELLFORTSETZUNG-001/live": 2952
+    },
+    "open_with_terminal_file": 0,
+    "with_duplicate_copies": 0
+   }
+  },
+  "P": {
+   "F": {
+    "runs": 9040,
+    "kind": "mas",
+    "sources": {
+     "FINAL-STUDY-001/live": 100,
+     "Z51-EINZELERSATZ-001/live": 1046,
+     "Z51-F-EINZELERSATZ-001/live": 385,
+     "Z51-FORTSETZUNG-001/live": 4,
+     "Z51-RATENLIMIT-001/live": 4429,
+     "Z51-RETRY-EINZELERSATZ-001/live": 3076
+    },
+    "open_with_terminal_file": 0,
+    "with_duplicate_copies": 0
+   },
+   "Q": {
+    "runs": 9040,
+    "kind": "mas",
+    "sources": {
+     "FINAL-STUDY-001/live": 100,
+     "Z51-EINZELERSATZ-001/live": 1046,
+     "Z51-F-EINZELERSATZ-001/live": 385,
+     "Z51-FORTSETZUNG-001/live": 4,
+     "Z51-RATENLIMIT-001/live": 4429,
+     "Z51-RETRY-EINZELERSATZ-001/live": 3076
+    },
+    "open_with_terminal_file": 0,
+    "with_duplicate_copies": 0
+   }
+  },
+  "R": {
+   "D": {
+    "runs": 2952,
+    "kind": "mas",
+    "sources": {
+     "Z52-NEBENPANEL-ANSCHLUSS-001/live": 38,
+     "Z52-NEBENPANEL-ANSCHLUSS-001/recovery-R00038/continuation-R00087/live": 38,
+     "Z52-NEBENPANEL-ANSCHLUSS-001/recovery-R00038/continuation-R00087/recovery-R00125/live": 78,
+     "Z52-NEBENPANEL-ANSCHLUSS-001/recovery-R00038/continuation-R00087/recovery-R00125/technical-R00203/coverage-R01462/live": 127,
+     "Z52-NEBENPANEL-ANSCHLUSS-001/recovery-R00038/continuation-R00087/recovery-R00125/technical-R00203/coverage-R01462/rate-stop-R01589/live": 592,
+     "Z52-NEBENPANEL-ANSCHLUSS-001/recovery-R00038/continuation-R00087/recovery-R00125/technical-R00203/coverage-R01462/rate-stop-R01589/r2183-overlimit/live": 1,
+     "Z52-NEBENPANEL-ANSCHLUSS-001/recovery-R00038/continuation-R00087/recovery-R00125/technical-R00203/live": 1260,
+     "Z52-NEBENPANEL-ANSCHLUSS-001/recovery-R00038/live": 49,
+     "Z53-SCHNELLFORTSETZUNG-001/live": 769
+    },
+    "open_with_terminal_file": 0,
+    "with_duplicate_copies": 205
+   },
+   "F": {
+    "runs": 2952,
+    "kind": "mas",
+    "sources": {
+     "Z52-NEBENPANEL-ANSCHLUSS-001/live": 38,
+     "Z52-NEBENPANEL-ANSCHLUSS-001/recovery-R00038/continuation-R00087/live": 38,
+     "Z52-NEBENPANEL-ANSCHLUSS-001/recovery-R00038/continuation-R00087/recovery-R00125/live": 79,
+     "Z52-NEBENPANEL-ANSCHLUSS-001/recovery-R00038/continuation-R00087/recovery-R00125/technical-R00203/coverage-R01462/live": 126,
+     "Z52-NEBENPANEL-ANSCHLUSS-001/recovery-R00038/continuation-R00087/recovery-R00125/technical-R00203/coverage-R01462/rate-stop-R01589/live": 593,
+     "Z52-NEBENPANEL-ANSCHLUSS-001/recovery-R00038/continuation-R00087/recovery-R00125/technical-R00203/coverage-R01462/rate-stop-R01589/r2183-overlimit/live": 1,
+     "Z52-NEBENPANEL-ANSCHLUSS-001/recovery-R00038/continuation-R00087/recovery-R00125/technical-R00203/live": 1259,
+     "Z52-NEBENPANEL-ANSCHLUSS-001/recovery-R00038/live": 49,
+     "Z53-SCHNELLFORTSETZUNG-001/live": 769
+    },
+    "open_with_terminal_file": 0,
+    "with_duplicate_copies": 205
+   },
+   "Q": {
+    "runs": 2952,
+    "kind": "mas",
+    "sources": {
+     "Z52-NEBENPANEL-ANSCHLUSS-001/live": 38,
+     "Z52-NEBENPANEL-ANSCHLUSS-001/recovery-R00038/continuation-R00087/live": 38,
+     "Z52-NEBENPANEL-ANSCHLUSS-001/recovery-R00038/continuation-R00087/recovery-R00125/live": 79,
+     "Z52-NEBENPANEL-ANSCHLUSS-001/recovery-R00038/continuation-R00087/recovery-R00125/technical-R00203/coverage-R01462/live": 128,
+     "Z52-NEBENPANEL-ANSCHLUSS-001/recovery-R00038/continuation-R00087/recovery-R00125/technical-R00203/coverage-R01462/rate-stop-R01589/live": 592,
+     "Z52-NEBENPANEL-ANSCHLUSS-001/recovery-R00038/continuation-R00087/recovery-R00125/technical-R00203/coverage-R01462/rate-stop-R01589/r2183-overlimit/live": 1,
+     "Z52-NEBENPANEL-ANSCHLUSS-001/recovery-R00038/continuation-R00087/recovery-R00125/technical-R00203/live": 1258,
+     "Z52-NEBENPANEL-ANSCHLUSS-001/recovery-R00038/live": 49,
+     "Z53-SCHNELLFORTSETZUNG-001/live": 769
+    },
+    "open_with_terminal_file": 1,
+    "with_duplicate_copies": 205
+   },
+   "S": {
+    "runs": 2952,
+    "kind": "direct",
+    "sources": {
+     "Z52-NEBENPANEL-ANSCHLUSS-001/live": 38,
+     "Z52-NEBENPANEL-ANSCHLUSS-001/recovery-R00038/continuation-R00087/live": 38,
+     "Z52-NEBENPANEL-ANSCHLUSS-001/recovery-R00038/continuation-R00087/recovery-R00125/live": 78,
+     "Z52-NEBENPANEL-ANSCHLUSS-001/recovery-R00038/continuation-R00087/recovery-R00125/technical-R00203/coverage-R01462/live": 127,
+     "Z52-NEBENPANEL-ANSCHLUSS-001/recovery-R00038/continuation-R00087/recovery-R00125/technical-R00203/coverage-R01462/rate-stop-R01589/live": 592,
+     "Z52-NEBENPANEL-ANSCHLUSS-001/recovery-R00038/continuation-R00087/recovery-R00125/technical-R00203/coverage-R01462/rate-stop-R01589/r2183-overlimit/live": 1,
+     "Z52-NEBENPANEL-ANSCHLUSS-001/recovery-R00038/continuation-R00087/recovery-R00125/technical-R00203/live": 1260,
+     "Z52-NEBENPANEL-ANSCHLUSS-001/recovery-R00038/live": 49,
+     "Z53-SCHNELLFORTSETZUNG-001/live": 769
+    },
+    "open_with_terminal_file": 0,
+    "with_duplicate_copies": 205
+   },
+   "S-k": {
+    "runs": 2952,
+    "kind": "direct",
+    "sources": {
+     "Z54-SK-KORREKTUR-001/live": 2952
+    },
+    "open_with_terminal_file": 0,
+    "with_duplicate_copies": 0
+   },
+   "Z": {
+    "runs": 2952,
+    "kind": "mas",
+    "sources": {
+     "Z52-NEBENPANEL-ANSCHLUSS-001/live": 39,
+     "Z52-NEBENPANEL-ANSCHLUSS-001/recovery-R00038/continuation-R00087/live": 38,
+     "Z52-NEBENPANEL-ANSCHLUSS-001/recovery-R00038/continuation-R00087/recovery-R00125/live": 78,
+     "Z52-NEBENPANEL-ANSCHLUSS-001/recovery-R00038/continuation-R00087/recovery-R00125/technical-R00203/coverage-R01462/live": 127,
+     "Z52-NEBENPANEL-ANSCHLUSS-001/recovery-R00038/continuation-R00087/recovery-R00125/technical-R00203/coverage-R01462/rate-stop-R01589/live": 592,
+     "Z52-NEBENPANEL-ANSCHLUSS-001/recovery-R00038/continuation-R00087/recovery-R00125/technical-R00203/coverage-R01462/rate-stop-R01589/r2183-overlimit/live": 1,
+     "Z52-NEBENPANEL-ANSCHLUSS-001/recovery-R00038/continuation-R00087/recovery-R00125/technical-R00203/live": 1260,
+     "Z52-NEBENPANEL-ANSCHLUSS-001/recovery-R00038/live": 48,
+     "Z53-SCHNELLFORTSETZUNG-001/live": 769
+    },
+    "open_with_terminal_file": 0,
+    "with_duplicate_copies": 205
+   }
+  },
+  "T": {
+   "Q-ST": {
+    "runs": 2952,
+    "kind": "mas",
+    "sources": {
+     "Z53-SCHNELLFORTSETZUNG-001/live": 2952
+    },
+    "open_with_terminal_file": 0,
+    "with_duplicate_copies": 0
+   },
+   "Q-TF": {
+    "runs": 2952,
+    "kind": "mas",
+    "sources": {
+     "Z53-SCHNELLFORTSETZUNG-001/live": 2952
+    },
+    "open_with_terminal_file": 0,
+    "with_duplicate_copies": 0
+   }
+  }
+ },
+ "totals": {
+  "runs": 53504,
+  "mas_runs": 47600,
+  "direct_runs": 5904,
+  "files_read": 198363,
+  "bytes_read": 1531241197
+ },
+ "checks": [
+  {
+   "check": "plan_file_sha",
+   "passed": true,
+   "detail": "42a55ddd7dc71738d39fbdb546b0bb60ca19a0d6485f47688de32c893f47f61f"
+  },
+  {
+   "check": "candidates_fixed_C01_rounds1",
+   "passed": true,
+   "detail": [
+    "C01",
+    "C01",
+    1,
+    1
+   ]
+  },
+  {
+   "check": "candidate_rtf_sha_as_bound_in_z53_fast",
+   "passed": true,
+   "detail": "135d2a58d7faefde6c7b382e9a23ba5d917a3b1722e1daa7fc7766a6d1cb6a37"
+  },
+  {
+   "check": "P_state_file_sha_equals_final_hold",
+   "passed": true,
+   "detail": "960d6402c87d16c9fc9817e86f1c6a0d0cddafe8d1e66c2b665c1ea1a2f05be6"
+  },
+  {
+   "check": "P_analysis_sha_equals_status",
+   "passed": true,
+   "detail": "fc4be29676749d7611d7c3f0d11e912193e4588609acb5d4734a15c387dcba65"
+  },
+  {
+   "check": "P_state_complete_9040",
+   "passed": true,
+   "detail": null
+  },
+  {
+   "check": "R_analysis_rows_binding",
+   "passed": true,
+   "detail": "c2ffe7c30066b5ebbf9596ff96b8280152f8f7fb309c004a842bb290dcc58dd3"
+  },
+  {
+   "check": "R_old_analysis_rows_binding",
+   "passed": true,
+   "detail": "7f836d8bf04fae7d1fd0f1e616ba39c314ebc357fc2e5c1bbcfb5d73aa83d3b0"
+  },
+  {
+   "check": "T_analysis_rows_binding",
+   "passed": true,
+   "detail": "752c3166618ff0d9f9bbe0e6a2220247e890af3ac109f86f27c34728545386aa"
+  },
+  {
+   "check": "F_analysis_rows_binding",
+   "passed": true,
+   "detail": "2caadd17c69799b4361cf0dbcd0bb2b0e0e39c7452c8b6408a4fa73aa5e2d2f5"
+  },
+  {
+   "check": "R_non_Sk_rows_identical_in_Z53_and_Z54",
+   "passed": true,
+   "detail": 14760
+  },
+  {
+   "check": "Z53_prior_binding_hash",
+   "passed": true,
+   "detail": null
+  },
+  {
+   "check": "Z52_inspect_rows_equal_rows_R_0_2182",
+   "passed": true,
+   "detail": 13098
+  },
+  {
+   "check": "run_counts_as_planned",
+   "passed": true,
+   "detail": {
+    "F": {
+     "Fc": 2952,
+     "Ff": 2952,
+     "Qc": 2952,
+     "Qf": 2952
+    },
+    "P": {
+     "F": 9040,
+     "Q": 9040
+    },
+    "R": {
+     "D": 2952,
+     "F": 2952,
+     "Q": 2952,
+     "S": 2952,
+     "S-k": 2952,
+     "Z": 2952
+    },
+    "T": {
+     "Q-ST": 2952,
+     "Q-TF": 2952
+    }
+   }
+  },
+  {
+   "check": "unique_slots",
+   "passed": true,
+   "detail": null
+  },
+  {
+   "check": "no_location_problems",
+   "passed": true,
+   "detail": 0
+  }
+ ],
+ "problems": [],
+ "sidecars": {
+  "runs": {
+   "path": "MANIFEST-RUNS.jsonl",
+   "sha256": "35958b6edef7d78e827cf4b8736b5e6f00ac34ca9960d30b3854a14d6e17175d",
+   "lines": 53504
+  },
+  "files": {
+   "path": "MANIFEST-FILES.jsonl",
+   "sha256": "63c437984e5fc7d58325ac5e5d4928af9b5b14d8277a52ab92038f8cea2b53e5",
+   "lines": 198363
+  }
+ }
+}

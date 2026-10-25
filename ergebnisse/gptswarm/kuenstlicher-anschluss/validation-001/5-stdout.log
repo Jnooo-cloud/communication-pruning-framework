@@ -1,0 +1,514 @@
+{
+  "created_at": "2026-09-11T08:26:51.689461+00:00",
+  "authorization": [
+    "D-046",
+    "D-047",
+    "Continue with Z07 technical probe"
+  ],
+  "selection_sha256": "78ac37fcbf8f05cf779191db666c549ba48626be5b81b113e1f6a76f2ed37cee",
+  "register_sha256": "9965bc18ef847fb60950e38f671457efba35b247914dbac8407e4c5032338ec2",
+  "phase": "technical",
+  "scope": "two selected train tasks only; no holdout or selector training"
+}
+{
+  "run_id": "Z08-OPENROUTER-001",
+  "started_at": "2026-09-11T08:26:51.690049+00:00",
+  "status": "stopped",
+  "mode": "technical_musique_train_not_study",
+  "tasks": [
+    {
+      "task_id": "synthetic-z06-neral",
+      "original_id": "2hop__4_5",
+      "hop": 2,
+      "family_id": "family-aa1b25f51c3a680b8c7d4efad90088bf519ac57f650bf6a2f713b29b7a310585",
+      "paragraph_count": 3,
+      "context_words": 26,
+      "context_characters": 135,
+      "em": 1.0,
+      "f1": 1.0,
+      "provider_audit": {
+        "calls": 5,
+        "cost_usd": "0.0000540",
+        "cost_source": "OpenRouter usage.cost",
+        "undiscounted_token_price_usd": "0.0000540",
+        "charged_minus_undiscounted_usd": "0E-7",
+        "crosscheck": "request_response_execution_binding_not_independent_billing_audit"
+      }
+    }
+  ],
+  "calls_reserved": 6,
+  "known_cost_subtotal_usd": "0.0000540",
+  "total_cost_usd": null,
+  "budget": {
+    "prior_cost_usd": ".0014280",
+    "new_reservation_usd": "1.40"
+  },
+  "release_sha256": "b3cc0475bb78a5026098858e9889acf666d31062d513d303314eca31d36e72f2",
+  "producer_limit": 1024,
+  "aggregator_limit": 128,
+  "source_receipt_sha256": "test-only",
+  "evidence_folder": "eval-harness/eval/runs/Z08-OPENROUTER-001",
+  "stop_type": "ProbeStop",
+  "stop_reason": "technical probe stopped; inspect saved evidence, do not retry",
+  "billed_calls": 5,
+  "unknown_cost_calls": 1,
+  "cost_coverage": 0.8333333333333334,
+  "conservative_reservation_usd": "0.84",
+  "ended_at": "2026-09-11T08:26:51.695576+00:00",
+  "source_unchanged": true
+}
+{
+  "created_at": "2026-09-11T08:26:51.700253+00:00",
+  "authorization": [
+    "D-046",
+    "D-047",
+    "Continue with Z07 technical probe"
+  ],
+  "selection_sha256": "78ac37fcbf8f05cf779191db666c549ba48626be5b81b113e1f6a76f2ed37cee",
+  "register_sha256": "9965bc18ef847fb60950e38f671457efba35b247914dbac8407e4c5032338ec2",
+  "phase": "technical",
+  "scope": "two selected train tasks only; no holdout or selector training"
+}
+{
+  "run_id": "Z08-OPENROUTER-001",
+  "started_at": "2026-09-11T08:26:51.700719+00:00",
+  "status": "stopped",
+  "mode": "technical_musique_train_not_study",
+  "tasks": [],
+  "calls_reserved": 1,
+  "known_cost_subtotal_usd": "0.0000108",
+  "total_cost_usd": "0.0000108",
+  "budget": {
+    "prior_cost_usd": ".0014280",
+    "new_reservation_usd": "1.40"
+  },
+  "release_sha256": "b3cc0475bb78a5026098858e9889acf666d31062d513d303314eca31d36e72f2",
+  "producer_limit": 1024,
+  "aggregator_limit": 128,
+  "source_receipt_sha256": "test-only",
+  "evidence_folder": "eval-harness/eval/runs/Z08-OPENROUTER-001",
+  "stop_type": "ProbeStop",
+  "stop_reason": "technical probe stopped; inspect saved evidence, do not retry",
+  "billed_calls": 1,
+  "unknown_cost_calls": 0,
+  "cost_coverage": 1.0,
+  "conservative_reservation_usd": "0.14",
+  "ended_at": "2026-09-11T08:26:51.701957+00:00",
+  "accounting_audit": [
+    {
+      "calls": 1,
+      "known_cost_subtotal_usd": "0.0000108",
+      "total_cost_usd": "0.0000108",
+      "undiscounted_token_price_usd": "0.0000108",
+      "generation_ids": [
+        "gen-1"
+      ],
+      "finish_reasons": [
+        "length"
+      ],
+      "cost_coverage": 1
+    }
+  ],
+  "combined_technical_cost_usd": "0.0014388",
+  "source_unchanged": true
+}
+{
+  "created_at": "2026-09-11T08:26:51.705125+00:00",
+  "authorization": [
+    "D-046",
+    "D-047",
+    "Continue with Z07 technical probe"
+  ],
+  "selection_sha256": "78ac37fcbf8f05cf779191db666c549ba48626be5b81b113e1f6a76f2ed37cee",
+  "register_sha256": "9965bc18ef847fb60950e38f671457efba35b247914dbac8407e4c5032338ec2",
+  "phase": "technical",
+  "scope": "two selected train tasks only; no holdout or selector training"
+}
+{
+  "run_id": "Z08-OPENROUTER-001",
+  "started_at": "2026-09-11T08:26:51.705622+00:00",
+  "status": "stopped",
+  "mode": "technical_musique_train_not_study",
+  "tasks": [],
+  "calls_reserved": 1,
+  "known_cost_subtotal_usd": "0",
+  "total_cost_usd": null,
+  "budget": {
+    "prior_cost_usd": ".0014280",
+    "new_reservation_usd": "1.40"
+  },
+  "release_sha256": "b3cc0475bb78a5026098858e9889acf666d31062d513d303314eca31d36e72f2",
+  "producer_limit": 1024,
+  "aggregator_limit": 128,
+  "source_receipt_sha256": "test-only",
+  "evidence_folder": "eval-harness/eval/runs/Z08-OPENROUTER-001",
+  "stop_type": "ProbeStop",
+  "stop_reason": "technical probe stopped; inspect saved evidence, do not retry",
+  "billed_calls": 0,
+  "unknown_cost_calls": 1,
+  "cost_coverage": 0.0,
+  "conservative_reservation_usd": "0.14",
+  "ended_at": "2026-09-11T08:26:51.706806+00:00",
+  "source_unchanged": true
+}
+{
+  "created_at": "2026-09-11T08:26:51.709712+00:00",
+  "authorization": [
+    "D-046",
+    "D-047",
+    "Continue with Z07 technical probe"
+  ],
+  "selection_sha256": "78ac37fcbf8f05cf779191db666c549ba48626be5b81b113e1f6a76f2ed37cee",
+  "register_sha256": "9965bc18ef847fb60950e38f671457efba35b247914dbac8407e4c5032338ec2",
+  "phase": "technical",
+  "scope": "two selected train tasks only; no holdout or selector training"
+}
+{
+  "run_id": "Z08-OPENROUTER-001",
+  "started_at": "2026-09-11T08:26:51.710187+00:00",
+  "status": "stopped",
+  "mode": "technical_musique_train_not_study",
+  "tasks": [],
+  "calls_reserved": 1,
+  "known_cost_subtotal_usd": "0",
+  "total_cost_usd": null,
+  "budget": {
+    "prior_cost_usd": ".0014280",
+    "new_reservation_usd": "1.40"
+  },
+  "release_sha256": "b3cc0475bb78a5026098858e9889acf666d31062d513d303314eca31d36e72f2",
+  "producer_limit": 1024,
+  "aggregator_limit": 128,
+  "source_receipt_sha256": "test-only",
+  "evidence_folder": "eval-harness/eval/runs/Z08-OPENROUTER-001",
+  "stop_type": "ProbeStop",
+  "stop_reason": "technical probe stopped; inspect saved evidence, do not retry",
+  "billed_calls": 0,
+  "unknown_cost_calls": 1,
+  "cost_coverage": 0.0,
+  "conservative_reservation_usd": "0.14",
+  "ended_at": "2026-09-11T08:26:51.711261+00:00",
+  "source_unchanged": true
+}
+{
+  "created_at": "2026-09-11T08:26:51.733349+00:00",
+  "authorization": [
+    "D-046",
+    "D-047",
+    "Continue with Z07 technical probe"
+  ],
+  "selection_sha256": "78ac37fcbf8f05cf779191db666c549ba48626be5b81b113e1f6a76f2ed37cee",
+  "register_sha256": "9965bc18ef847fb60950e38f671457efba35b247914dbac8407e4c5032338ec2",
+  "phase": "technical",
+  "scope": "two selected train tasks only; no holdout or selector training"
+}
+{
+  "created_at": "2026-09-11T08:26:51.733967+00:00",
+  "authorization": [
+    "D-046",
+    "D-047",
+    "D-048"
+  ],
+  "cycle": "Z08",
+  "source_receipt": "source.json",
+  "source_receipt_sha256": "synthetic-hash",
+  "bindings": {
+    "project/dsr/Z07-SELECTION.json": "78ac37fcbf8f05cf779191db666c549ba48626be5b81b113e1f6a76f2ed37cee",
+    "project/dsr/Z07-RELEASE.json": "180cf24b3bfe502d7e3d5d69629db7c1a914fe1a623690b405b97b488327eae7",
+    "project/dsr/Z07-LIVE-001.json": "b3cc0475bb78a5026098858e9889acf666d31062d513d303314eca31d36e72f2",
+    "project/dsr/Z07-RECONCILIATION.json": "b3cc0475bb78a5026098858e9889acf666d31062d513d303314eca31d36e72f2",
+    "project/dsr/Z08-PLAN.md": "b3cc0475bb78a5026098858e9889acf666d31062d513d303314eca31d36e72f2",
+    "project/DATENEXPOSITIONSREGISTER.md": "9965bc18ef847fb60950e38f671457efba35b247914dbac8407e4c5032338ec2"
+  },
+  "selected": [
+    {
+      "family_id": "family-aa1b25f51c3a680b8c7d4efad90088bf519ac57f650bf6a2f713b29b7a310585",
+      "hop": 2,
+      "members": [
+        "2hop__4_5"
+      ],
+      "task_id": "2hop__4_5"
+    },
+    {
+      "family_id": "family-a132d8a6ca72f5df24ce495e6d9ada679bf7b805f894864be33ab62c0f0bd044",
+      "hop": 4,
+      "members": [
+        "4hop1__6_7_8_9"
+      ],
+      "task_id": "4hop1__6_7_8_9"
+    }
+  ],
+  "phase": "technical",
+  "producer_limit": 1024,
+  "aggregator_limit": 128,
+  "budget": {
+    "prior_cost_usd": ".001428",
+    "new_reservation_usd": "1.40"
+  },
+  "scope": "same exposed two Z07 tasks; new technical runs after known failure; no holdout"
+}
+{
+  "created_at": "2026-09-11T08:26:51.736600+00:00",
+  "authorization": [
+    "D-046",
+    "D-047",
+    "Continue with Z07 technical probe"
+  ],
+  "selection_sha256": "78ac37fcbf8f05cf779191db666c549ba48626be5b81b113e1f6a76f2ed37cee",
+  "register_sha256": "9965bc18ef847fb60950e38f671457efba35b247914dbac8407e4c5032338ec2",
+  "phase": "technical",
+  "scope": "two selected train tasks only; no holdout or selector training"
+}
+{
+  "run_id": "Z08-OPENROUTER-001",
+  "started_at": "2026-09-11T08:26:51.737208+00:00",
+  "status": "completed",
+  "mode": "technical_musique_train_not_study",
+  "tasks": [
+    {
+      "task_id": "synthetic-z06-neral",
+      "original_id": "2hop__4_5",
+      "hop": 2,
+      "family_id": "family-aa1b25f51c3a680b8c7d4efad90088bf519ac57f650bf6a2f713b29b7a310585",
+      "paragraph_count": 3,
+      "context_words": 26,
+      "context_characters": 135,
+      "em": 1.0,
+      "f1": 1.0,
+      "provider_audit": {
+        "calls": 5,
+        "cost_usd": "0.0000540",
+        "cost_source": "OpenRouter usage.cost",
+        "undiscounted_token_price_usd": "0.0000540",
+        "charged_minus_undiscounted_usd": "0E-7",
+        "crosscheck": "request_response_execution_binding_not_independent_billing_audit"
+      }
+    },
+    {
+      "task_id": "synthetic-z06-neral",
+      "original_id": "4hop1__6_7_8_9",
+      "hop": 4,
+      "family_id": "family-a132d8a6ca72f5df24ce495e6d9ada679bf7b805f894864be33ab62c0f0bd044",
+      "paragraph_count": 3,
+      "context_words": 26,
+      "context_characters": 135,
+      "em": 1.0,
+      "f1": 1.0,
+      "provider_audit": {
+        "calls": 5,
+        "cost_usd": "0.0000540",
+        "cost_source": "OpenRouter usage.cost",
+        "undiscounted_token_price_usd": "0.0000540",
+        "charged_minus_undiscounted_usd": "0E-7",
+        "crosscheck": "request_response_execution_binding_not_independent_billing_audit"
+      }
+    }
+  ],
+  "calls_reserved": 10,
+  "known_cost_subtotal_usd": "0.0001080",
+  "total_cost_usd": "0.0001080",
+  "budget": {
+    "prior_cost_usd": ".0014280",
+    "new_reservation_usd": "1.40"
+  },
+  "release_sha256": "b3cc0475bb78a5026098858e9889acf666d31062d513d303314eca31d36e72f2",
+  "producer_limit": 1024,
+  "aggregator_limit": 128,
+  "source_receipt_sha256": "test-only",
+  "evidence_folder": "eval-harness/eval/runs/Z08-OPENROUTER-001",
+  "billed_calls": 10,
+  "unknown_cost_calls": 0,
+  "cost_coverage": 1.0,
+  "conservative_reservation_usd": "1.40",
+  "ended_at": "2026-09-11T08:26:51.745909+00:00",
+  "accounting_audit": [
+    {
+      "calls": 5,
+      "known_cost_subtotal_usd": "0.0000540",
+      "total_cost_usd": "0.0000540",
+      "undiscounted_token_price_usd": "0.0000540",
+      "generation_ids": [
+        "gen-1",
+        "gen-2",
+        "gen-3",
+        "gen-4",
+        "gen-5"
+      ],
+      "finish_reasons": [
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "stop"
+      ],
+      "cost_coverage": 1
+    },
+    {
+      "calls": 5,
+      "known_cost_subtotal_usd": "0.0000540",
+      "total_cost_usd": "0.0000540",
+      "undiscounted_token_price_usd": "0.0000540",
+      "generation_ids": [
+        "gen-10",
+        "gen-6",
+        "gen-7",
+        "gen-8",
+        "gen-9"
+      ],
+      "finish_reasons": [
+        "stop",
+        "stop",
+        "stop",
+        "stop",
+        "stop"
+      ],
+      "cost_coverage": 1
+    }
+  ],
+  "combined_technical_cost_usd": "0.0015360",
+  "source_unchanged": true
+}
+{
+  "created_at": "2026-09-11T08:27:17.861284+00:00",
+  "authorization": [
+    "D-046",
+    "D-047",
+    "Continue with Z07 technical probe"
+  ],
+  "selection_sha256": "78ac37fcbf8f05cf779191db666c549ba48626be5b81b113e1f6a76f2ed37cee",
+  "register_sha256": "9965bc18ef847fb60950e38f671457efba35b247914dbac8407e4c5032338ec2",
+  "phase": "technical",
+  "scope": "two selected train tasks only; no holdout or selector training"
+}
+{
+  "created_at": "2026-09-11T08:27:17.863005+00:00",
+  "authorization": [
+    "D-046",
+    "D-047",
+    "Continue with Z07 technical probe"
+  ],
+  "selection_sha256": "78ac37fcbf8f05cf779191db666c549ba48626be5b81b113e1f6a76f2ed37cee",
+  "register_sha256": "9965bc18ef847fb60950e38f671457efba35b247914dbac8407e4c5032338ec2",
+  "phase": "technical",
+  "scope": "two selected train tasks only; no holdout or selector training"
+}
+{
+  "created_at": "2026-09-11T08:27:17.867734+00:00",
+  "authorization": [
+    "D-046",
+    "D-047",
+    "Continue with Z07 technical probe"
+  ],
+  "selection_sha256": "78ac37fcbf8f05cf779191db666c549ba48626be5b81b113e1f6a76f2ed37cee",
+  "register_sha256": "9965bc18ef847fb60950e38f671457efba35b247914dbac8407e4c5032338ec2",
+  "phase": "technical",
+  "scope": "two selected train tasks only; no holdout or selector training"
+}
+{
+  "run_id": "Z07-OPENROUTER-001",
+  "started_at": "2026-09-11T08:27:17.868397+00:00",
+  "status": "stopped",
+  "mode": "technical_musique_train_not_study",
+  "tasks": [],
+  "calls_reserved": 2,
+  "known_cost_subtotal_usd": "0.0000108",
+  "total_cost_usd": null,
+  "budget": {
+    "prior_cost_usd": "0.0001213",
+    "new_reservation_usd": "1.40",
+    "maximum_combined_usd": "1.4001213",
+    "authorization_limit_usd": "2"
+  },
+  "release_sha256": "2bd901c35aa6e437c2581a4dd6293311b727fa6680a46a9b964abc5a11679d7e",
+  "producer_limit": 512,
+  "aggregator_limit": 128,
+  "source_receipt_sha256": "test-only",
+  "evidence_folder": "eval-harness/eval/runs/Z07-OPENROUTER-001",
+  "stop_type": "ProbeStop",
+  "stop_reason": "technical probe stopped; inspect saved evidence, do not retry",
+  "billed_calls": 1,
+  "unknown_cost_calls": 1,
+  "cost_coverage": 0.5,
+  "conservative_reservation_usd": "0.28",
+  "ended_at": "2026-09-11T08:27:17.869887+00:00",
+  "source_unchanged": true
+}
+{
+  "created_at": "2026-09-11T08:27:17.872968+00:00",
+  "authorization": [
+    "D-046",
+    "D-047",
+    "Continue with Z07 technical probe"
+  ],
+  "selection_sha256": "78ac37fcbf8f05cf779191db666c549ba48626be5b81b113e1f6a76f2ed37cee",
+  "register_sha256": "9965bc18ef847fb60950e38f671457efba35b247914dbac8407e4c5032338ec2",
+  "phase": "technical",
+  "scope": "two selected train tasks only; no holdout or selector training"
+}
+{
+  "run_id": "Z07-OPENROUTER-001",
+  "started_at": "2026-09-11T08:27:17.873531+00:00",
+  "status": "completed",
+  "mode": "technical_musique_train_not_study",
+  "tasks": [
+    {
+      "task_id": "synthetic-1",
+      "original_id": "2hop__4_5",
+      "hop": 2,
+      "family_id": "family-aa1b25f51c3a680b8c7d4efad90088bf519ac57f650bf6a2f713b29b7a310585",
+      "paragraph_count": 3,
+      "context_words": 26,
+      "context_characters": 135,
+      "em": 1.0,
+      "f1": 1.0,
+      "provider_audit": {
+        "calls": 5,
+        "cost_usd": "0.0000540",
+        "cost_source": "OpenRouter usage.cost",
+        "undiscounted_token_price_usd": "0.0000540",
+        "charged_minus_undiscounted_usd": "0E-7",
+        "crosscheck": "request_response_execution_binding_not_independent_billing_audit"
+      }
+    },
+    {
+      "task_id": "synthetic-2",
+      "original_id": "4hop1__6_7_8_9",
+      "hop": 4,
+      "family_id": "family-a132d8a6ca72f5df24ce495e6d9ada679bf7b805f894864be33ab62c0f0bd044",
+      "paragraph_count": 3,
+      "context_words": 26,
+      "context_characters": 135,
+      "em": 1.0,
+      "f1": 1.0,
+      "provider_audit": {
+        "calls": 5,
+        "cost_usd": "0.0000540",
+        "cost_source": "OpenRouter usage.cost",
+        "undiscounted_token_price_usd": "0.0000540",
+        "charged_minus_undiscounted_usd": "0E-7",
+        "crosscheck": "request_response_execution_binding_not_independent_billing_audit"
+      }
+    }
+  ],
+  "calls_reserved": 10,
+  "known_cost_subtotal_usd": "0.0001080",
+  "total_cost_usd": "0.0001080",
+  "budget": {
+    "prior_cost_usd": "0.0001213",
+    "new_reservation_usd": "1.40",
+    "maximum_combined_usd": "1.4001213",
+    "authorization_limit_usd": "2"
+  },
+  "release_sha256": "d7cce170a600d4ac7673e3d480dc59c86cbcc70b5407361cb73f9df2de7c6ea2",
+  "producer_limit": 512,
+  "aggregator_limit": 128,
+  "source_receipt_sha256": "test-only",
+  "evidence_folder": "eval-harness/eval/runs/Z07-OPENROUTER-001",
+  "billed_calls": 10,
+  "unknown_cost_calls": 0,
+  "cost_coverage": 1.0,
+  "conservative_reservation_usd": "1.40",
+  "ended_at": "2026-09-11T08:27:17.882095+00:00",
+  "combined_technical_cost_usd": "0.0002293",
+  "source_unchanged": true
+}

@@ -1,0 +1,1849 @@
+{
+  "before_reconciliation": true,
+  "created_at_utc": "2026-09-13T09:17:51.014572+00:00",
+  "first_coordinator_private_read": "After final S3 handoff; S3 frozen at 09:13:52 UTC, 2026-09-13",
+  "archive": "source-001.zip",
+  "files": [
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/HANDOFF.json",
+      "sha256": "6dd8592fc755284a1e0fbaf7f4cb1cbbc491a0b6bdbd5da38469b10b8f6da5d3"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/PUBLIC-MANIFEST.json",
+      "sha256": "de520277be747eb8ccd7cbf73066ed07162d6ce7518e8d2fdf48e6b8fd3a05d5"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/contract.md",
+      "sha256": "3f96117f930839c25afc33bafa0b98bfb1e1e73984ab47fad170f36fff7674e9"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/coordinator/bind.py",
+      "sha256": "5b27a36c85f1e5519b85710db777ca663d17643046624b11dd9cfd53b67d1bb5"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/coordinator/verify.py",
+      "sha256": "6e6a66f63031101e86dd130f1cb3d920205b954868b9daaf6d03a2eaff11b26b"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/instrument/RESULTS.json",
+      "sha256": "eb75afe79814b6416eff1acb9f471fa0a6cb0ec8917b8091d0f5c6efdd1a7341"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/instrument/bind_sources.py",
+      "sha256": "4c555c3a92db1e41050e81d8114485224bbdc817a83eb8826290ec88f8b4cde4"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/instrument/run_instrument.py",
+      "sha256": "1788f5049e9ffb9b97eca6d29ad84586a5dbbcc140c62280486d117662b90345"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/instrument/source-001.zip",
+      "sha256": "6d9b041bfdb48eeaf5e597ed4a2db899e47fce46ebb9c0cab50b28ec10f7e80b"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/instrument/source-manifest.json",
+      "sha256": "78a9fd948143f8eada54778ff8ad8afb25353ef5f1e32a3b715162e847664a07"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/CREATOR-RECEIPT.json",
+      "sha256": "16bdceac52923fc194d51cdab8f470cbd74c9676d8798a9829376b3836617b07"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/answer-key.json",
+      "sha256": "32ff0a79d298c97359aa18e6f39689a6499e293e55605d5420e420293a879e0e"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generate-001.log",
+      "sha256": "f2dc6c256a10fd51a58ece386eef2ff1708107c5cccbf2241773655e2034d9fa"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generate.py",
+      "sha256": "dc7e118991d3482201518b370726b8d9a237f832c37782f05f12eb7c3222f6a2"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/COMPLETE.json",
+      "sha256": "a76d444c1ef990d9a34e4d10c007338a1990275bae7ba71cc6840014c8e995cb"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/START.json",
+      "sha256": "a584c31ea4639f6ac2cf4b170ba8713c97864d7edb1005ca29b6fdb1997c4628"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/cases/p-6dzsyfwuh/manufacturing.json",
+      "sha256": "4ba2b29fc9fcf82bae32f8cf47184c6f8adcfbaa20d3952945566d3f272150e6"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/cases/p-6dzsyfwuh/original-journal.jsonl",
+      "sha256": "1b2277f01f25e710a02d92c71bb6c7c5a4dccdf49dba6e5c270573559d3dd3b2"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/cases/p-6dzsyfwuh/original-trace.json",
+      "sha256": "13b5fe9e9e8e1fb2187ad2ad29c44ab14537abe73b09ad95a0773579576f72ce"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/cases/p-83xhvpk79/manufacturing.json",
+      "sha256": "777977e5d4f600be2244d473482d0c2d4a5fef46a8891064bb85f6c923ed0f18"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/cases/p-83xhvpk79/original-journal.jsonl",
+      "sha256": "65a3949e7ee7952696b8ba0c7e0b6742e6232eea0dc4d30426eebbd5411ae68b"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/cases/p-83xhvpk79/original-trace.json",
+      "sha256": "e38aedc65388dd0d0140a7cb567905576721b77293e1004c195d073ddc0f6cba"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/cases/p-b7dnq6awc/manufacturing.json",
+      "sha256": "261cf18524718fb5389de915b7c710e0602edc9e574b1c19cd571f6718324c35"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/cases/p-b7dnq6awc/original-journal.jsonl",
+      "sha256": "3e7d5c449d0eba7da14460416726d8afb3cea84bffea2235b72e0e68b6e48ee4"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/cases/p-b7dnq6awc/original-trace.json",
+      "sha256": "dc17331c29ca74e08c845661cde2086aaa41368edeb86cb11066d8a06867ccf6"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/cases/p-f9gwrjdba/manufacturing.json",
+      "sha256": "170998aa072184d7529b47ec7342e4d3c26842f506097b8bcaac3bbf398c0a57"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/cases/p-f9gwrjdba/original-journal.jsonl",
+      "sha256": "4f5fa061350462fb8d039ca065305dfc439ccd631570137668534d6e57011c30"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/cases/p-f9gwrjdba/original-trace.json",
+      "sha256": "7466a4cd5534667ca1c9ef721aeed5601d1a3b1f2e3f76ed1c35b12d4fb6d467"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/cases/p-kbqchj34v/manufacturing.json",
+      "sha256": "ac5fca3c9218769d67671c72983cfc557334166e39ddcf2893e5992e91749f3b"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/cases/p-kbqchj34v/original-journal.jsonl",
+      "sha256": "9c723e7622ca975d734e4070e4e7a2e202ee31f7a2447acb3469fee3995faa52"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/cases/p-kbqchj34v/original-trace.json",
+      "sha256": "a7e9c1350a85d361e2037ac2c583afea0af2575410a8629852ba6764892dcca7"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/cases/p-p73vgcqax/expected-technical-stop.log",
+      "sha256": "46f22077e30f30d3f91647dddc00a3c92bb90315b4f671ad1d6030403495437a"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/cases/p-p73vgcqax/manufacturing.json",
+      "sha256": "1939f16bc68b6c19434b6e042cc867709ed24e5e498d42b30750242bddaf3579"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/cases/p-p73vgcqax/original-journal.jsonl",
+      "sha256": "1f4de0f9697e5a4b86ed84b23576ab8d88c5e94c5e1d88b6c645d70be6432d3b"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/cases/p-p73vgcqax/original-trace.json",
+      "sha256": "67f71de54bb34a870711d52e30c08e70c94c2d4c15821683896812319b2afc4c"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/cases/p-r82sckbw4/manufacturing.json",
+      "sha256": "1f50aaf7ad984c1de7a8c01db0281cab0961de47e65d593588ae4153642aec9b"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/cases/p-r82sckbw4/original-journal.jsonl",
+      "sha256": "e9c3d80aa0ac3d8e05bbc6f0237acb8bfadb652e98b8097a28842e21528c0238"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/cases/p-r82sckbw4/original-trace.json",
+      "sha256": "f97ad43c96b58b043e0a9673c63adbb3bd631f16a566e6d0bbeb7a8c3340935b"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/cases/p-rbdtj357g/manufacturing.json",
+      "sha256": "375c419ee8182378a7894d3b9772183028a63247352cc037188e3c5df567bfcf"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/cases/p-rbdtj357g/original-journal.jsonl",
+      "sha256": "77870e285c2c35d0ee09bcb5651cd91a3cd5ce64af56a75438f3a37b09ef2e8b"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/cases/p-rbdtj357g/original-trace.json",
+      "sha256": "2f5821d65a5a95f5fcbfdaa8cf69ace422ea327ccaeec1f9af9fbbba129a9a62"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/cases/p-vktaj3qn2/manufacturing.json",
+      "sha256": "6eb25980c883e55b6b84162a6c246f506e60ad60ab3eb7e41f0105db7dc9bc8a"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/cases/p-vktaj3qn2/original-journal.jsonl",
+      "sha256": "db229644c18d52172d1cff9575f86af09941a692a37ca2ebb82da4f324bea7d3"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/cases/p-vktaj3qn2/original-trace.json",
+      "sha256": "f96676a2f59543fecf5b28e6143274b3fb1f4b1448382a0a8a1c180f6d5fd868"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/cases/p-vz3eq4smw/manufacturing.json",
+      "sha256": "0bc92f74027b95f5931bfda0bdafae1143a9ba8d32c52e45c0e3f7d6b01ecc3b"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/cases/p-vz3eq4smw/original-journal.jsonl",
+      "sha256": "ad0c71446f36bc9148cad1505a7702c6fe7e7572bce783d552a83977c36aece9"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/cases/p-vz3eq4smw/original-trace.json",
+      "sha256": "d5cfda052c68497e7a0b48b904b26ad7dd6a4e11b730e37762b42847081dcc41"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/cases/p-w5t6ckxzm/manufacturing.json",
+      "sha256": "4ca3e8a7495409b7351ab5c764a13e961431838ff16f7ad4775dc29dd287dcb0"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/cases/p-w5t6ckxzm/original-journal.jsonl",
+      "sha256": "9b17fa75bf7eea406352f53d670638bacb1b1af493ce7363713d70735ccae34f"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/cases/p-w5t6ckxzm/original-trace.json",
+      "sha256": "2135077da623f7bd487e67cb552c5dbf2cfa9973b01d89292196cd19cef25a1e"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/cases/p-yx4wuqhtd/expected-technical-stop.log",
+      "sha256": "46f22077e30f30d3f91647dddc00a3c92bb90315b4f671ad1d6030403495437a"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/cases/p-yx4wuqhtd/manufacturing.json",
+      "sha256": "0cad9c1c0650dc12a369dbe0babbc285e4af4a4700d2d4d735f94dd3de9baccf"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/cases/p-yx4wuqhtd/original-journal.jsonl",
+      "sha256": "3db430da38b11884129158b7ba23bea31fa669d8f013d95d54b8c314ee152648"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/cases/p-yx4wuqhtd/original-trace.json",
+      "sha256": "5313144f0421b034e9f5924b7ae68140d9bd4d5c64e8029331944f72f160b583"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/cost-sheet-production.json",
+      "sha256": "9d686549771b1f5e03419abc34843267428b018cbcf71ecee7acb4020a04c35f"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/cost-sheet-truth.json",
+      "sha256": "fe00700e48b757df368981a95750846eec757ac53b42e97a4b57e80849724a16"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/01-with/client.jsonl",
+      "sha256": "42091e70bb27c6df22ec87743773f9b7820b7cf954e30e860698e3dd54b38ab5"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/01-with/journal.jsonl",
+      "sha256": "d0c9d8a612c7b7eabc71ba30bb20406483377ce47b012c8c33fdb1780daac58a"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/01-with/observed_requests.jsonl",
+      "sha256": "5333b22f51b6cb67cb083ac89e0633d6fa16238646de10b2a47c7249961a7ec6"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/01-with/trace.json",
+      "sha256": "59403ce31ab5444417e49dcf93c9a72a634fcaa160f3e241b8281e32003c26d8"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/01-without/client.jsonl",
+      "sha256": "42091e70bb27c6df22ec87743773f9b7820b7cf954e30e860698e3dd54b38ab5"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/01-without/observed_requests.jsonl",
+      "sha256": "5333b22f51b6cb67cb083ac89e0633d6fa16238646de10b2a47c7249961a7ec6"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/01-without/trace.json",
+      "sha256": "59403ce31ab5444417e49dcf93c9a72a634fcaa160f3e241b8281e32003c26d8"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/02-with/client.jsonl",
+      "sha256": "42091e70bb27c6df22ec87743773f9b7820b7cf954e30e860698e3dd54b38ab5"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/02-with/journal.jsonl",
+      "sha256": "d0c9d8a612c7b7eabc71ba30bb20406483377ce47b012c8c33fdb1780daac58a"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/02-with/observed_requests.jsonl",
+      "sha256": "5333b22f51b6cb67cb083ac89e0633d6fa16238646de10b2a47c7249961a7ec6"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/02-with/trace.json",
+      "sha256": "59403ce31ab5444417e49dcf93c9a72a634fcaa160f3e241b8281e32003c26d8"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/02-without/client.jsonl",
+      "sha256": "42091e70bb27c6df22ec87743773f9b7820b7cf954e30e860698e3dd54b38ab5"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/02-without/observed_requests.jsonl",
+      "sha256": "5333b22f51b6cb67cb083ac89e0633d6fa16238646de10b2a47c7249961a7ec6"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/02-without/trace.json",
+      "sha256": "59403ce31ab5444417e49dcf93c9a72a634fcaa160f3e241b8281e32003c26d8"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/03-with/client.jsonl",
+      "sha256": "42091e70bb27c6df22ec87743773f9b7820b7cf954e30e860698e3dd54b38ab5"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/03-with/journal.jsonl",
+      "sha256": "d0c9d8a612c7b7eabc71ba30bb20406483377ce47b012c8c33fdb1780daac58a"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/03-with/observed_requests.jsonl",
+      "sha256": "5333b22f51b6cb67cb083ac89e0633d6fa16238646de10b2a47c7249961a7ec6"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/03-with/trace.json",
+      "sha256": "59403ce31ab5444417e49dcf93c9a72a634fcaa160f3e241b8281e32003c26d8"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/03-without/client.jsonl",
+      "sha256": "42091e70bb27c6df22ec87743773f9b7820b7cf954e30e860698e3dd54b38ab5"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/03-without/observed_requests.jsonl",
+      "sha256": "5333b22f51b6cb67cb083ac89e0633d6fa16238646de10b2a47c7249961a7ec6"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/03-without/trace.json",
+      "sha256": "59403ce31ab5444417e49dcf93c9a72a634fcaa160f3e241b8281e32003c26d8"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/04-with/client.jsonl",
+      "sha256": "42091e70bb27c6df22ec87743773f9b7820b7cf954e30e860698e3dd54b38ab5"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/04-with/journal.jsonl",
+      "sha256": "d0c9d8a612c7b7eabc71ba30bb20406483377ce47b012c8c33fdb1780daac58a"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/04-with/observed_requests.jsonl",
+      "sha256": "5333b22f51b6cb67cb083ac89e0633d6fa16238646de10b2a47c7249961a7ec6"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/04-with/trace.json",
+      "sha256": "59403ce31ab5444417e49dcf93c9a72a634fcaa160f3e241b8281e32003c26d8"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/04-without/client.jsonl",
+      "sha256": "42091e70bb27c6df22ec87743773f9b7820b7cf954e30e860698e3dd54b38ab5"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/04-without/observed_requests.jsonl",
+      "sha256": "5333b22f51b6cb67cb083ac89e0633d6fa16238646de10b2a47c7249961a7ec6"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/04-without/trace.json",
+      "sha256": "59403ce31ab5444417e49dcf93c9a72a634fcaa160f3e241b8281e32003c26d8"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/05-with/client.jsonl",
+      "sha256": "42091e70bb27c6df22ec87743773f9b7820b7cf954e30e860698e3dd54b38ab5"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/05-with/journal.jsonl",
+      "sha256": "d0c9d8a612c7b7eabc71ba30bb20406483377ce47b012c8c33fdb1780daac58a"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/05-with/observed_requests.jsonl",
+      "sha256": "5333b22f51b6cb67cb083ac89e0633d6fa16238646de10b2a47c7249961a7ec6"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/05-with/trace.json",
+      "sha256": "59403ce31ab5444417e49dcf93c9a72a634fcaa160f3e241b8281e32003c26d8"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/05-without/client.jsonl",
+      "sha256": "42091e70bb27c6df22ec87743773f9b7820b7cf954e30e860698e3dd54b38ab5"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/05-without/observed_requests.jsonl",
+      "sha256": "5333b22f51b6cb67cb083ac89e0633d6fa16238646de10b2a47c7249961a7ec6"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/05-without/trace.json",
+      "sha256": "59403ce31ab5444417e49dcf93c9a72a634fcaa160f3e241b8281e32003c26d8"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/06-with/client.jsonl",
+      "sha256": "42091e70bb27c6df22ec87743773f9b7820b7cf954e30e860698e3dd54b38ab5"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/06-with/journal.jsonl",
+      "sha256": "d0c9d8a612c7b7eabc71ba30bb20406483377ce47b012c8c33fdb1780daac58a"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/06-with/observed_requests.jsonl",
+      "sha256": "5333b22f51b6cb67cb083ac89e0633d6fa16238646de10b2a47c7249961a7ec6"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/06-with/trace.json",
+      "sha256": "59403ce31ab5444417e49dcf93c9a72a634fcaa160f3e241b8281e32003c26d8"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/06-without/client.jsonl",
+      "sha256": "42091e70bb27c6df22ec87743773f9b7820b7cf954e30e860698e3dd54b38ab5"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/06-without/observed_requests.jsonl",
+      "sha256": "5333b22f51b6cb67cb083ac89e0633d6fa16238646de10b2a47c7249961a7ec6"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/06-without/trace.json",
+      "sha256": "59403ce31ab5444417e49dcf93c9a72a634fcaa160f3e241b8281e32003c26d8"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/07-with/client.jsonl",
+      "sha256": "42091e70bb27c6df22ec87743773f9b7820b7cf954e30e860698e3dd54b38ab5"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/07-with/journal.jsonl",
+      "sha256": "d0c9d8a612c7b7eabc71ba30bb20406483377ce47b012c8c33fdb1780daac58a"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/07-with/observed_requests.jsonl",
+      "sha256": "5333b22f51b6cb67cb083ac89e0633d6fa16238646de10b2a47c7249961a7ec6"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/07-with/trace.json",
+      "sha256": "59403ce31ab5444417e49dcf93c9a72a634fcaa160f3e241b8281e32003c26d8"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/07-without/client.jsonl",
+      "sha256": "42091e70bb27c6df22ec87743773f9b7820b7cf954e30e860698e3dd54b38ab5"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/07-without/observed_requests.jsonl",
+      "sha256": "5333b22f51b6cb67cb083ac89e0633d6fa16238646de10b2a47c7249961a7ec6"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/07-without/trace.json",
+      "sha256": "59403ce31ab5444417e49dcf93c9a72a634fcaa160f3e241b8281e32003c26d8"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/08-with/client.jsonl",
+      "sha256": "42091e70bb27c6df22ec87743773f9b7820b7cf954e30e860698e3dd54b38ab5"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/08-with/journal.jsonl",
+      "sha256": "d0c9d8a612c7b7eabc71ba30bb20406483377ce47b012c8c33fdb1780daac58a"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/08-with/observed_requests.jsonl",
+      "sha256": "5333b22f51b6cb67cb083ac89e0633d6fa16238646de10b2a47c7249961a7ec6"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/08-with/trace.json",
+      "sha256": "59403ce31ab5444417e49dcf93c9a72a634fcaa160f3e241b8281e32003c26d8"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/08-without/client.jsonl",
+      "sha256": "42091e70bb27c6df22ec87743773f9b7820b7cf954e30e860698e3dd54b38ab5"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/08-without/observed_requests.jsonl",
+      "sha256": "5333b22f51b6cb67cb083ac89e0633d6fa16238646de10b2a47c7249961a7ec6"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/08-without/trace.json",
+      "sha256": "59403ce31ab5444417e49dcf93c9a72a634fcaa160f3e241b8281e32003c26d8"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/09-with/client.jsonl",
+      "sha256": "42091e70bb27c6df22ec87743773f9b7820b7cf954e30e860698e3dd54b38ab5"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/09-with/journal.jsonl",
+      "sha256": "d0c9d8a612c7b7eabc71ba30bb20406483377ce47b012c8c33fdb1780daac58a"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/09-with/observed_requests.jsonl",
+      "sha256": "5333b22f51b6cb67cb083ac89e0633d6fa16238646de10b2a47c7249961a7ec6"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/09-with/trace.json",
+      "sha256": "59403ce31ab5444417e49dcf93c9a72a634fcaa160f3e241b8281e32003c26d8"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/09-without/client.jsonl",
+      "sha256": "42091e70bb27c6df22ec87743773f9b7820b7cf954e30e860698e3dd54b38ab5"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/09-without/observed_requests.jsonl",
+      "sha256": "5333b22f51b6cb67cb083ac89e0633d6fa16238646de10b2a47c7249961a7ec6"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/09-without/trace.json",
+      "sha256": "59403ce31ab5444417e49dcf93c9a72a634fcaa160f3e241b8281e32003c26d8"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/10-with/client.jsonl",
+      "sha256": "42091e70bb27c6df22ec87743773f9b7820b7cf954e30e860698e3dd54b38ab5"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/10-with/journal.jsonl",
+      "sha256": "d0c9d8a612c7b7eabc71ba30bb20406483377ce47b012c8c33fdb1780daac58a"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/10-with/observed_requests.jsonl",
+      "sha256": "5333b22f51b6cb67cb083ac89e0633d6fa16238646de10b2a47c7249961a7ec6"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/10-with/trace.json",
+      "sha256": "59403ce31ab5444417e49dcf93c9a72a634fcaa160f3e241b8281e32003c26d8"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/10-without/client.jsonl",
+      "sha256": "42091e70bb27c6df22ec87743773f9b7820b7cf954e30e860698e3dd54b38ab5"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/10-without/observed_requests.jsonl",
+      "sha256": "5333b22f51b6cb67cb083ac89e0633d6fa16238646de10b2a47c7249961a7ec6"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/10-without/trace.json",
+      "sha256": "59403ce31ab5444417e49dcf93c9a72a634fcaa160f3e241b8281e32003c26d8"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/11-with/client.jsonl",
+      "sha256": "42091e70bb27c6df22ec87743773f9b7820b7cf954e30e860698e3dd54b38ab5"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/11-with/journal.jsonl",
+      "sha256": "d0c9d8a612c7b7eabc71ba30bb20406483377ce47b012c8c33fdb1780daac58a"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/11-with/observed_requests.jsonl",
+      "sha256": "5333b22f51b6cb67cb083ac89e0633d6fa16238646de10b2a47c7249961a7ec6"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/11-with/trace.json",
+      "sha256": "59403ce31ab5444417e49dcf93c9a72a634fcaa160f3e241b8281e32003c26d8"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/11-without/client.jsonl",
+      "sha256": "42091e70bb27c6df22ec87743773f9b7820b7cf954e30e860698e3dd54b38ab5"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/11-without/observed_requests.jsonl",
+      "sha256": "5333b22f51b6cb67cb083ac89e0633d6fa16238646de10b2a47c7249961a7ec6"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/11-without/trace.json",
+      "sha256": "59403ce31ab5444417e49dcf93c9a72a634fcaa160f3e241b8281e32003c26d8"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/12-with/client.jsonl",
+      "sha256": "42091e70bb27c6df22ec87743773f9b7820b7cf954e30e860698e3dd54b38ab5"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/12-with/journal.jsonl",
+      "sha256": "d0c9d8a612c7b7eabc71ba30bb20406483377ce47b012c8c33fdb1780daac58a"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/12-with/observed_requests.jsonl",
+      "sha256": "5333b22f51b6cb67cb083ac89e0633d6fa16238646de10b2a47c7249961a7ec6"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/12-with/trace.json",
+      "sha256": "59403ce31ab5444417e49dcf93c9a72a634fcaa160f3e241b8281e32003c26d8"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/12-without/client.jsonl",
+      "sha256": "42091e70bb27c6df22ec87743773f9b7820b7cf954e30e860698e3dd54b38ab5"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/12-without/observed_requests.jsonl",
+      "sha256": "5333b22f51b6cb67cb083ac89e0633d6fa16238646de10b2a47c7249961a7ec6"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/12-without/trace.json",
+      "sha256": "59403ce31ab5444417e49dcf93c9a72a634fcaa160f3e241b8281e32003c26d8"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/13-with/client.jsonl",
+      "sha256": "42091e70bb27c6df22ec87743773f9b7820b7cf954e30e860698e3dd54b38ab5"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/13-with/journal.jsonl",
+      "sha256": "d0c9d8a612c7b7eabc71ba30bb20406483377ce47b012c8c33fdb1780daac58a"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/13-with/observed_requests.jsonl",
+      "sha256": "5333b22f51b6cb67cb083ac89e0633d6fa16238646de10b2a47c7249961a7ec6"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/13-with/trace.json",
+      "sha256": "59403ce31ab5444417e49dcf93c9a72a634fcaa160f3e241b8281e32003c26d8"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/13-without/client.jsonl",
+      "sha256": "42091e70bb27c6df22ec87743773f9b7820b7cf954e30e860698e3dd54b38ab5"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/13-without/observed_requests.jsonl",
+      "sha256": "5333b22f51b6cb67cb083ac89e0633d6fa16238646de10b2a47c7249961a7ec6"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/13-without/trace.json",
+      "sha256": "59403ce31ab5444417e49dcf93c9a72a634fcaa160f3e241b8281e32003c26d8"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/14-with/client.jsonl",
+      "sha256": "42091e70bb27c6df22ec87743773f9b7820b7cf954e30e860698e3dd54b38ab5"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/14-with/journal.jsonl",
+      "sha256": "d0c9d8a612c7b7eabc71ba30bb20406483377ce47b012c8c33fdb1780daac58a"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/14-with/observed_requests.jsonl",
+      "sha256": "5333b22f51b6cb67cb083ac89e0633d6fa16238646de10b2a47c7249961a7ec6"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/14-with/trace.json",
+      "sha256": "59403ce31ab5444417e49dcf93c9a72a634fcaa160f3e241b8281e32003c26d8"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/14-without/client.jsonl",
+      "sha256": "42091e70bb27c6df22ec87743773f9b7820b7cf954e30e860698e3dd54b38ab5"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/14-without/observed_requests.jsonl",
+      "sha256": "5333b22f51b6cb67cb083ac89e0633d6fa16238646de10b2a47c7249961a7ec6"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/14-without/trace.json",
+      "sha256": "59403ce31ab5444417e49dcf93c9a72a634fcaa160f3e241b8281e32003c26d8"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/15-with/client.jsonl",
+      "sha256": "42091e70bb27c6df22ec87743773f9b7820b7cf954e30e860698e3dd54b38ab5"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/15-with/journal.jsonl",
+      "sha256": "d0c9d8a612c7b7eabc71ba30bb20406483377ce47b012c8c33fdb1780daac58a"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/15-with/observed_requests.jsonl",
+      "sha256": "5333b22f51b6cb67cb083ac89e0633d6fa16238646de10b2a47c7249961a7ec6"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/15-with/trace.json",
+      "sha256": "59403ce31ab5444417e49dcf93c9a72a634fcaa160f3e241b8281e32003c26d8"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/15-without/client.jsonl",
+      "sha256": "42091e70bb27c6df22ec87743773f9b7820b7cf954e30e860698e3dd54b38ab5"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/15-without/observed_requests.jsonl",
+      "sha256": "5333b22f51b6cb67cb083ac89e0633d6fa16238646de10b2a47c7249961a7ec6"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/15-without/trace.json",
+      "sha256": "59403ce31ab5444417e49dcf93c9a72a634fcaa160f3e241b8281e32003c26d8"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/16-with/client.jsonl",
+      "sha256": "42091e70bb27c6df22ec87743773f9b7820b7cf954e30e860698e3dd54b38ab5"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/16-with/journal.jsonl",
+      "sha256": "d0c9d8a612c7b7eabc71ba30bb20406483377ce47b012c8c33fdb1780daac58a"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/16-with/observed_requests.jsonl",
+      "sha256": "5333b22f51b6cb67cb083ac89e0633d6fa16238646de10b2a47c7249961a7ec6"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/16-with/trace.json",
+      "sha256": "59403ce31ab5444417e49dcf93c9a72a634fcaa160f3e241b8281e32003c26d8"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/16-without/client.jsonl",
+      "sha256": "42091e70bb27c6df22ec87743773f9b7820b7cf954e30e860698e3dd54b38ab5"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/16-without/observed_requests.jsonl",
+      "sha256": "5333b22f51b6cb67cb083ac89e0633d6fa16238646de10b2a47c7249961a7ec6"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/16-without/trace.json",
+      "sha256": "59403ce31ab5444417e49dcf93c9a72a634fcaa160f3e241b8281e32003c26d8"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/17-with/client.jsonl",
+      "sha256": "42091e70bb27c6df22ec87743773f9b7820b7cf954e30e860698e3dd54b38ab5"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/17-with/journal.jsonl",
+      "sha256": "d0c9d8a612c7b7eabc71ba30bb20406483377ce47b012c8c33fdb1780daac58a"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/17-with/observed_requests.jsonl",
+      "sha256": "5333b22f51b6cb67cb083ac89e0633d6fa16238646de10b2a47c7249961a7ec6"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/17-with/trace.json",
+      "sha256": "59403ce31ab5444417e49dcf93c9a72a634fcaa160f3e241b8281e32003c26d8"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/17-without/client.jsonl",
+      "sha256": "42091e70bb27c6df22ec87743773f9b7820b7cf954e30e860698e3dd54b38ab5"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/17-without/observed_requests.jsonl",
+      "sha256": "5333b22f51b6cb67cb083ac89e0633d6fa16238646de10b2a47c7249961a7ec6"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/17-without/trace.json",
+      "sha256": "59403ce31ab5444417e49dcf93c9a72a634fcaa160f3e241b8281e32003c26d8"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/18-with/client.jsonl",
+      "sha256": "42091e70bb27c6df22ec87743773f9b7820b7cf954e30e860698e3dd54b38ab5"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/18-with/journal.jsonl",
+      "sha256": "d0c9d8a612c7b7eabc71ba30bb20406483377ce47b012c8c33fdb1780daac58a"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/18-with/observed_requests.jsonl",
+      "sha256": "5333b22f51b6cb67cb083ac89e0633d6fa16238646de10b2a47c7249961a7ec6"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/18-with/trace.json",
+      "sha256": "59403ce31ab5444417e49dcf93c9a72a634fcaa160f3e241b8281e32003c26d8"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/18-without/client.jsonl",
+      "sha256": "42091e70bb27c6df22ec87743773f9b7820b7cf954e30e860698e3dd54b38ab5"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/18-without/observed_requests.jsonl",
+      "sha256": "5333b22f51b6cb67cb083ac89e0633d6fa16238646de10b2a47c7249961a7ec6"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/18-without/trace.json",
+      "sha256": "59403ce31ab5444417e49dcf93c9a72a634fcaa160f3e241b8281e32003c26d8"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/19-with/client.jsonl",
+      "sha256": "42091e70bb27c6df22ec87743773f9b7820b7cf954e30e860698e3dd54b38ab5"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/19-with/journal.jsonl",
+      "sha256": "d0c9d8a612c7b7eabc71ba30bb20406483377ce47b012c8c33fdb1780daac58a"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/19-with/observed_requests.jsonl",
+      "sha256": "5333b22f51b6cb67cb083ac89e0633d6fa16238646de10b2a47c7249961a7ec6"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/19-with/trace.json",
+      "sha256": "59403ce31ab5444417e49dcf93c9a72a634fcaa160f3e241b8281e32003c26d8"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/19-without/client.jsonl",
+      "sha256": "42091e70bb27c6df22ec87743773f9b7820b7cf954e30e860698e3dd54b38ab5"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/19-without/observed_requests.jsonl",
+      "sha256": "5333b22f51b6cb67cb083ac89e0633d6fa16238646de10b2a47c7249961a7ec6"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/19-without/trace.json",
+      "sha256": "59403ce31ab5444417e49dcf93c9a72a634fcaa160f3e241b8281e32003c26d8"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/20-with/client.jsonl",
+      "sha256": "42091e70bb27c6df22ec87743773f9b7820b7cf954e30e860698e3dd54b38ab5"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/20-with/journal.jsonl",
+      "sha256": "d0c9d8a612c7b7eabc71ba30bb20406483377ce47b012c8c33fdb1780daac58a"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/20-with/observed_requests.jsonl",
+      "sha256": "5333b22f51b6cb67cb083ac89e0633d6fa16238646de10b2a47c7249961a7ec6"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/20-with/trace.json",
+      "sha256": "59403ce31ab5444417e49dcf93c9a72a634fcaa160f3e241b8281e32003c26d8"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/20-without/client.jsonl",
+      "sha256": "42091e70bb27c6df22ec87743773f9b7820b7cf954e30e860698e3dd54b38ab5"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/20-without/observed_requests.jsonl",
+      "sha256": "5333b22f51b6cb67cb083ac89e0633d6fa16238646de10b2a47c7249961a7ec6"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead/20-without/trace.json",
+      "sha256": "59403ce31ab5444417e49dcf93c9a72a634fcaa160f3e241b8281e32003c26d8"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/overhead.json",
+      "sha256": "fd6cd4155d2a5b460e10cab55737b914ae1a676a18f737953e745cc6d542980d"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view1/p-6dzsyfwuh/case.json",
+      "sha256": "a0589829c3ee563bfbc937ddfb72030be025cae62c22c3ad8f9dfcf4c62b28dc"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view1/p-83xhvpk79/case.json",
+      "sha256": "425b46b9e558ff274c26566605d924909441655b825b66377970d7908993dabc"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view1/p-b7dnq6awc/case.json",
+      "sha256": "2d37c117631bfd614afbc485343d9f1d22c3f8304ee03ded3c1836a286693d3f"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view1/p-f9gwrjdba/case.json",
+      "sha256": "40dcc6c94cd8d0f7046382078c8ff6630b2e95b9ea230fc7ed54c139564dde44"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view1/p-kbqchj34v/case.json",
+      "sha256": "ffe956786552ad18fd992318d8ed3d64bef579a57a593e42ef8ec659fc91ce58"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view1/p-p73vgcqax/case.json",
+      "sha256": "df73f164370b00eb70f9496d94720c7e87b66462ecc154f02facd56f4da5ce3e"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view1/p-r82sckbw4/case.json",
+      "sha256": "62c34cdc48fafca474b64e71926e0644a518a47da0e8444e3c710197aa38ecc8"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view1/p-rbdtj357g/case.json",
+      "sha256": "120cc97392c538c6f4b773aabb7be1a0e79f35a1cc1f706c734e88a5641b862c"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view1/p-vktaj3qn2/case.json",
+      "sha256": "30ebd6afb12f762fb4d24d7f853d87222105ac00a75bd19936cf26e15a8379a3"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view1/p-vz3eq4smw/case.json",
+      "sha256": "17d16d33fb21c86dfb568f0c52ef7bad2c5c5d29d85f6365b3c28de7971c62aa"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view1/p-w5t6ckxzm/case.json",
+      "sha256": "6807bd2f4247627c271ebf188035dfda8f648a25afaea40acfa74fdc272f40a9"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view1/p-yx4wuqhtd/case.json",
+      "sha256": "e0ec725cf7aae499fdd11848e10de41c0c9cced5ece552aa3f2ef9545e68719e"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view2/p-6dzsyfwuh/journal.jsonl",
+      "sha256": "1b2277f01f25e710a02d92c71bb6c7c5a4dccdf49dba6e5c270573559d3dd3b2"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view2/p-6dzsyfwuh/observed_requests.jsonl",
+      "sha256": "8b9e78e73043f45613986c3f248475b9f6e0075cde4785645fe547186e4e17f0"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view2/p-6dzsyfwuh/trace.json",
+      "sha256": "cb6af751c927fda64db348f2ffc6f03ad63de1a76d99ed8ebcf6c6e2ccdbbe87"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view2/p-83xhvpk79/journal.jsonl",
+      "sha256": "65a3949e7ee7952696b8ba0c7e0b6742e6232eea0dc4d30426eebbd5411ae68b"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view2/p-83xhvpk79/observed_requests.jsonl",
+      "sha256": "335d649354cc83954d0fd9d9291c0141193a153c1c4ced2582555d09b9ecf145"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view2/p-83xhvpk79/trace.json",
+      "sha256": "1392bb7eb6cbf1c32338d3ea1b5a20384771e7107e2a9c5c289be83f51ec8078"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view2/p-b7dnq6awc/journal.jsonl",
+      "sha256": "3e7d5c449d0eba7da14460416726d8afb3cea84bffea2235b72e0e68b6e48ee4"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view2/p-b7dnq6awc/observed_requests.jsonl",
+      "sha256": "7f4ea07f83e6895ef9eb6682e162d75dda550e022cf561a4f0794045d01b5269"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view2/p-b7dnq6awc/trace.json",
+      "sha256": "7e085bb92de8b8b9e53b883d094cde14eaa04dec5591bae3e13fb48d89e20889"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view2/p-f9gwrjdba/journal.jsonl",
+      "sha256": "9a848974f44b647f9485b19475ddce5c7d3c0f4dad77336055efcd2d591b9c1b"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view2/p-f9gwrjdba/observed_requests.jsonl",
+      "sha256": "fa8503dc24dcacd244dc496b021861666ff27d758a48d71cd13c0f7f5e5ef982"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view2/p-f9gwrjdba/trace.json",
+      "sha256": "fb807f3b571acd4b341eec2c50a423424a361fd57a4ed1b4aebdd19b3a857fa2"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view2/p-kbqchj34v/journal.jsonl",
+      "sha256": "9c723e7622ca975d734e4070e4e7a2e202ee31f7a2447acb3469fee3995faa52"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view2/p-kbqchj34v/observed_requests.jsonl",
+      "sha256": "90e77344b79d3ce5b31d90334d9083447cc058faa1cede7995cfe160d4278f86"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view2/p-kbqchj34v/trace.json",
+      "sha256": "e2147a033d17b3219eb9289c2598fc52df4a1c3584c50e64171ecb0a10628b37"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view2/p-p73vgcqax/journal.jsonl",
+      "sha256": "1f4de0f9697e5a4b86ed84b23576ab8d88c5e94c5e1d88b6c645d70be6432d3b"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view2/p-p73vgcqax/observed_requests.jsonl",
+      "sha256": "7558065ac5c87e9dfaf7648e1bcbb3c76243e732a84c54ac4dec7e33d917ed46"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view2/p-p73vgcqax/trace.json",
+      "sha256": "67f71de54bb34a870711d52e30c08e70c94c2d4c15821683896812319b2afc4c"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view2/p-r82sckbw4/journal.jsonl",
+      "sha256": "0c056199058302f1eb61d7c5b9bf4cfcbb64cc34961256fb59c2e30dabf67266"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view2/p-r82sckbw4/observed_requests.jsonl",
+      "sha256": "e5618f9289305e1bac276524cad309b77ea2f857174e5ce79bcb9edd6b6d30f6"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view2/p-r82sckbw4/trace.json",
+      "sha256": "22de8af6820355155f4d6e06c5e8363ee4060ce2795f626bf2880141b14a993f"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view2/p-rbdtj357g/journal.jsonl",
+      "sha256": "a3fea8c5d79eb3d84bafaff3746b6567b46417a29722d135972183fd349c87ec"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view2/p-rbdtj357g/observed_requests.jsonl",
+      "sha256": "56ac8cd7bd9c1e4eb6a3e5df63c4b4e4275f2bfadc6d17c0e58e10a51739e8c6"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view2/p-rbdtj357g/trace.json",
+      "sha256": "9878d209fc270414e9f75426bb632112f9bd93ef7c8af158c67314aa3685a77a"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view2/p-vktaj3qn2/journal.jsonl",
+      "sha256": "db229644c18d52172d1cff9575f86af09941a692a37ca2ebb82da4f324bea7d3"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view2/p-vktaj3qn2/observed_requests.jsonl",
+      "sha256": "3af45945ce347c01b396f2f79c23eb52d7dc9716c25dc603e6d4a3a3a16f3a12"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view2/p-vktaj3qn2/trace.json",
+      "sha256": "c517dbe53ef25cf3eebe0d3734046c9921a70c4fb012b89d7d0ba811fe5da6c1"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view2/p-vz3eq4smw/journal.jsonl",
+      "sha256": "aa4b08ed58fd70b04bc140e9cf528cb595dde96704c3e092b04e9615b30387a3"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view2/p-vz3eq4smw/observed_requests.jsonl",
+      "sha256": "04f59ee57ede00d974041b36d8a6365e9b88f758e30809d9194b422cd2f7f947"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view2/p-vz3eq4smw/trace.json",
+      "sha256": "df60ea836c0e413bdda1fe18291a9ddade66dee95631ad88f9a5c89a1c766ffc"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view2/p-w5t6ckxzm/journal.jsonl",
+      "sha256": "c58bfd8401d96d335fcb5fd077ca43869fb2271650c1e60eb7ca8d2f6ea1ae5a"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view2/p-w5t6ckxzm/observed_requests.jsonl",
+      "sha256": "548159dffa73eb8fcfd716ec82cd143f67b9d70747c67c81b39acaebc0bcaf7c"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view2/p-w5t6ckxzm/trace.json",
+      "sha256": "b23fd6615b468ebaf4d47f33dd70f3c04028a21a5b8b9f2ad3e4fe937395abe7"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view2/p-yx4wuqhtd/journal.jsonl",
+      "sha256": "3db430da38b11884129158b7ba23bea31fa669d8f013d95d54b8c314ee152648"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view2/p-yx4wuqhtd/observed_requests.jsonl",
+      "sha256": "b1b0f4e590a3a2f8bddd9c0c8e76695825b74c0e3108540d29e68c0be708b572"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view2/p-yx4wuqhtd/trace.json",
+      "sha256": "5313144f0421b034e9f5924b7ae68140d9bd4d5c64e8029331944f72f160b583"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view3/cost-sheet.json",
+      "sha256": "80e678625c38df041626edd5311e285e8ccda679a0aa65cbb0e1befb23ea2fae"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view3/p-6dzsyfwuh/client.jsonl",
+      "sha256": "e0076fc261f8293c1d7dd3d03b5d58b29826c22fb3fd2360f04589b4ee6ea20c"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view3/p-6dzsyfwuh/tariff.json",
+      "sha256": "5aac0422833fa1c4e3f1ec94d5f8267e4a23dffe7169bc5bbe87fdca6e81eb0b"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view3/p-6dzsyfwuh/usage.jsonl",
+      "sha256": "ac56c86caf19dd3b5907ae3b2c97a00598640099ef2f013d63afdfaadbc21e46"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view3/p-83xhvpk79/client.jsonl",
+      "sha256": "496e05a6b64d6b726673f18a9aaaa862b4037b5fecb837d2c489bbce6a24cada"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view3/p-83xhvpk79/tariff.json",
+      "sha256": "9fd45f1a6550f69fa944fbdc69de72d15180c2e8766e99865b99542aab6bd527"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view3/p-83xhvpk79/usage.jsonl",
+      "sha256": "6ea41c153d5b87e1b5ee68cb718c0a6330033391ae287c03a9cbf33460ba85fe"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view3/p-b7dnq6awc/client.jsonl",
+      "sha256": "7d5b8d0c255b512f1ec8f87d106daa995c0ed2accd3971e92dfc99924f8d2848"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view3/p-b7dnq6awc/tariff.json",
+      "sha256": "8e16aa25890409edfe81e156ee5ce736aefe13e0b794a5129ff58b284ea91ad2"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view3/p-b7dnq6awc/usage.jsonl",
+      "sha256": "134590f8795276b2916326e573b17c9dfaea74a63b6a58a0f38041e500b44d66"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view3/p-f9gwrjdba/client.jsonl",
+      "sha256": "f0213fb9c489d90bcbd8c3f53b1e152ca1482d46b7be8c7ee649ad33920f7d3c"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view3/p-f9gwrjdba/tariff.json",
+      "sha256": "df2f5c55f51908173547b033229b0e2af730750f3d8d2f048dc2f2f0aa247e75"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view3/p-f9gwrjdba/usage.jsonl",
+      "sha256": "dadb3817aa4749cc3a4fa5e74dd22a7e9747eedefe4fc536ff2c0da16083a5c9"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view3/p-kbqchj34v/client.jsonl",
+      "sha256": "52855c85763c8e1161bd0e6dce1153fb9cd7362372bf3b37516d0b3585c21d9a"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view3/p-kbqchj34v/tariff.json",
+      "sha256": "3ecbb429feef8135f392f65625fccde8c6cf5408d6b7f587126bd91cf2f0fcae"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view3/p-kbqchj34v/usage.jsonl",
+      "sha256": "04483c351b2706564b846df8d6967eeae343ccee696e754b8862554e71d058b4"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view3/p-p73vgcqax/client.jsonl",
+      "sha256": "d788df0cab2fe02998ecba685a9bac070095619498919a2d980123dfd22e0316"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view3/p-p73vgcqax/tariff.json",
+      "sha256": "a7b57f6c0b7ce7ab6de443ce586d7b5894d4ee09129bb2284e9bcc34b6603d13"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view3/p-p73vgcqax/usage.jsonl",
+      "sha256": "fe3c9062085997c933c7e754f6cd452c5a85e7f176293d7a6a245b4f8907671d"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view3/p-r82sckbw4/client.jsonl",
+      "sha256": "bd3dcb26c19ce50c4edef7aa60d75d90a1bed8d77d9abdb10fe82f759fe15312"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view3/p-r82sckbw4/tariff.json",
+      "sha256": "cb01e0df3ddb03e12bb596215b192f1d178a44a85762174b115fd887a2b0b63f"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view3/p-r82sckbw4/usage.jsonl",
+      "sha256": "489f0bf469acdd62bbef223c3d9db5de91dceb6146f0faffa2ad82fc359657de"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view3/p-rbdtj357g/client.jsonl",
+      "sha256": "a006adfa3e3a78852f065d998cc52b47c991fbf4ff5a9af56dc890a7e741a501"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view3/p-rbdtj357g/tariff.json",
+      "sha256": "e6cc8cdcacfd65dd96ab4e6e3bade55ceed96cdbbc10c52e86e20da053dae7bf"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view3/p-rbdtj357g/usage.jsonl",
+      "sha256": "461ab9e490cae2e8ab94cafc79e9c024d9b9dfe32cb15b0d2f7bd25ad6e53c2b"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view3/p-vktaj3qn2/client.jsonl",
+      "sha256": "50f15871017212b2ba6c930c50800e0058c009c23b4790a3ba3e1bf886eb4b58"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view3/p-vktaj3qn2/tariff.json",
+      "sha256": "71b66f285c05cf7b03e558dd11d3bf7bb60cded3ff1aa4817ac1e83d229f8f33"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view3/p-vktaj3qn2/usage.jsonl",
+      "sha256": "3eb35d70410b8f24165108e6ff23d8bb7b3ccf6e121bc4962c83b48874b37010"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view3/p-vz3eq4smw/client.jsonl",
+      "sha256": "d2d0b572c19e496cbbb00ce3e5bfbfceeca4bcdde1ad7b7b1000ee24e0d656bd"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view3/p-vz3eq4smw/tariff.json",
+      "sha256": "561ab8902a50c04a5c3db2852e6a4d4eec440101ce5a59dc1a89025b75f4cab1"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view3/p-vz3eq4smw/usage.jsonl",
+      "sha256": "46054f74eec2b455e26ca1cfd5c568a8665b2000e0d94bc007fb5f76c343d97f"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view3/p-w5t6ckxzm/client.jsonl",
+      "sha256": "44c5762018974893f65e9dfb435c1cca27830f54eca40033882c08743c2128f1"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view3/p-w5t6ckxzm/tariff.json",
+      "sha256": "7b5d8061261bd9ddd5b83f9c10e83ab20fe66721d925e8cf2da2383ebb2a20ef"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view3/p-w5t6ckxzm/usage.jsonl",
+      "sha256": "690dd52181b87dc6b284817beab86bceb1abcd7a084d5708c6aeae3ce8262b8b"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view3/p-yx4wuqhtd/client.jsonl",
+      "sha256": "021fd66e22737156b081f9859e30f1bc3e008deff2cda49bf27ae0471863158b"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view3/p-yx4wuqhtd/tariff.json",
+      "sha256": "34e6695c143b3e7c3b5320ccb055668d27d6fe5497505d678acca9d9f8b99311"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generation-001/public-staging/view3/p-yx4wuqhtd/usage.jsonl",
+      "sha256": "6e76f2d7eed535306a047e2234caec1b3888e765ed59e9013dbc42ce95c09689"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/package-001.log",
+      "sha256": "b73d5b0c929ff1c92941256c524ac307e144da4206e0b3dcab3ba3a3032a9bfe"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/package.py",
+      "sha256": "69a6283faf3ffeb2a5c0cf33ae7da94f2d5a3d762bbbcc0788e6e0e0afbd17e4"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/runtime-001.zip",
+      "sha256": "d47d4030fec5922f3da67ebdc504fd3ad1f851580f30cf26072f0a0243f4160b"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/runtime-manifest.json",
+      "sha256": "9b1899fbc1102e04f0aaa8c3fb20276219eae90d1f292889fcb95472766268d2"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/runtime.json",
+      "sha256": "2f1ce4f471ade584993f8bd1114ba76f78c0b93cb6fbbad04bede10e4b88cc2a"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/source-001.zip",
+      "sha256": "f29956025c188febddc32003f4bdd4d98fb0641028ce9256e37900b1ff8613a4"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/source-manifest.json",
+      "sha256": "c272222f91bdbf85e27f45f49ef1977f9bbe75e281e261dd0777940e6ef5bce5"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/truth-001.zip",
+      "sha256": "95dbb2b23d16bc7806a3013a6e5b2f6fdb60efeaef2ff9ed62acb3d44286b93e"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/private/truth-manifest.json",
+      "sha256": "08dabb19f8c57fe9aecf290b4b271c617d56a925c83f8683f6bcf365e8b5bf8a"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/reviewer/view1-hashreceipt.json",
+      "sha256": "11522e4999907624d44f8b19551a5c7a32b2d251c3094e5fd0c4531bbe3d52fc"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/reviewer/view1-review.json",
+      "sha256": "783b536471c8a070a2d904aaa42878df428a58e922c0eb1b9a44ae5decfb2bef"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/reviewer/view1-review.md",
+      "sha256": "75dd7ab1a96134e22afb07e88c3e7ef4ac3e2c6777c6962dac5d59511756e069"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/reviewer/view2-hashreceipt.json",
+      "sha256": "307790b3356f4586fab8320215af1cb1e8ff875c7b1e93c09cbc85f498d7bb81"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/reviewer/view2-reconstruct-v1.py",
+      "sha256": "7b5758a1edb156ef8edfc3b110baa4b4208d4caf91cea4a557a1b9753495fec6"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/reviewer/view2-reconstruction-v1-execution.json",
+      "sha256": "f8882178ece6cab16068bf3b968d0b467d22319b49b353ae193856a08410ed87"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/reviewer/view2-reconstruction-v1-inputs.json",
+      "sha256": "444f16bf32c156f37fe0cc88b255eadfcbd702684d5a45014288483e9b3cee2f"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/reviewer/view2-reconstruction-v1-output.json",
+      "sha256": "0ce91f75c6854d8750e18c7d069aba38fe76d735af2a19ba43a4bf3f68868746"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/reviewer/view2-reconstruction-v1.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/reviewer/view2-reconstruction-v1.stdout.txt",
+      "sha256": "1088c1a088343d046065840d88b8aacac56aaf4e711a13ac6c0f383706566f1a"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/reviewer/view2-reconstruction-v1.tar",
+      "sha256": "3ecb5a058f2ce910588b271617cd922fda6829bf80828a14242fd7f89574251e"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/reviewer/view2-review.json",
+      "sha256": "184547b81b9221355bf9ffc2fbf4994a06e24fa682ed15b886fb99f683290e34"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/reviewer/view2-review.md",
+      "sha256": "0a1112029bdf0dbbfce3c12959ffd11b6ec215943323c5e62bf8cf48df110007"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/reviewer/view3-hashreceipt.json",
+      "sha256": "9be0fab063fa11428dee1b2e25a6cacdd44f7e2f38ffda52cf5af74e6d67b665"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/reviewer/view3-reconstruct-v1.py",
+      "sha256": "992aa554b3a3564f7b9c189aaed783dcf6d1e80c1a1bb9c492b19d847c37f493"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/reviewer/view3-reconstruct-v2.py",
+      "sha256": "fcecb66c43ecda8c2a673d3cd40772941405cd073b0d63673522922279d5654b"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/reviewer/view3-reconstruction-deviation.md",
+      "sha256": "84e6f2a1d71accb3a78faf8523571b4f552a178d8a69658a5161c253c55124ed"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/reviewer/view3-reconstruction-v1-execution.json",
+      "sha256": "4bf9652aa75247225a5cf56b647fce8efaff1d0996ab6971d37a14d66176fd94"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/reviewer/view3-reconstruction-v1-inputs.json",
+      "sha256": "a1d813fd33cb3b63538ce8e138a5c3d1e72fb11eb6f04ff5204e3159dc8cbc6b"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/reviewer/view3-reconstruction-v1-output.json",
+      "sha256": "4a71f10e78c14ba6103561cbd1c334333d632e243245b568e3faee589fb1d631"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/reviewer/view3-reconstruction-v1-v2-check.json",
+      "sha256": "f7cdb5fb92bf989db34130e8c28d791de4560d9c24d8f7928c730176b9ddbfbd"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/reviewer/view3-reconstruction-v1.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/reviewer/view3-reconstruction-v1.stdout.txt",
+      "sha256": "4c9d28cbb1f9ea81b44c5dab33e7892e714defab44ba3beae8c4e2000b9ca5c1"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/reviewer/view3-reconstruction-v1.tar",
+      "sha256": "95a45b6a1f888fbaaa01e913700441f72fae4e45970f35812c41c12bf22ae93b"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/reviewer/view3-reconstruction-v2-execution.json",
+      "sha256": "2599ed3b6d0b500d47df73fe7085f3d832875d5dd73c82526778bc58cf14ea23"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/reviewer/view3-reconstruction-v2-inputs.json",
+      "sha256": "2f2d2a24fa51ea93f863dfb703ae245fad33be45262e5c66ac90a4685a8bf1d5"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/reviewer/view3-reconstruction-v2-output.json",
+      "sha256": "ce3079620bd1d6230c0f3d3c23eeccc460db235f0f70a6d295bb7daa50439f51"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/reviewer/view3-reconstruction-v2.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/reviewer/view3-reconstruction-v2.stdout.txt",
+      "sha256": "5a793c43483a8db5c6b35e3fa1aa0af2f787cf754cf2c0ecfc9715253c05cf01"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/reviewer/view3-reconstruction-v2.tar",
+      "sha256": "68675f59cc548f314e4676aa96a8034c915c18f90685f611836718a7b01c559e"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/reviewer/view3-review.json",
+      "sha256": "41ab6badcdc5e59ace416465dc63b00b8e4026a8579789aae375b7e509269167"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/reviewer/view3-review.md",
+      "sha256": "57c67c1e6a7a390233059cc0de127ac42a087dcbbdd116538da6c5acd9a2fa12"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view1/p-6dzsyfwuh/case.json",
+      "sha256": "a0589829c3ee563bfbc937ddfb72030be025cae62c22c3ad8f9dfcf4c62b28dc"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view1/p-83xhvpk79/case.json",
+      "sha256": "425b46b9e558ff274c26566605d924909441655b825b66377970d7908993dabc"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view1/p-b7dnq6awc/case.json",
+      "sha256": "2d37c117631bfd614afbc485343d9f1d22c3f8304ee03ded3c1836a286693d3f"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view1/p-f9gwrjdba/case.json",
+      "sha256": "40dcc6c94cd8d0f7046382078c8ff6630b2e95b9ea230fc7ed54c139564dde44"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view1/p-kbqchj34v/case.json",
+      "sha256": "ffe956786552ad18fd992318d8ed3d64bef579a57a593e42ef8ec659fc91ce58"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view1/p-p73vgcqax/case.json",
+      "sha256": "df73f164370b00eb70f9496d94720c7e87b66462ecc154f02facd56f4da5ce3e"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view1/p-r82sckbw4/case.json",
+      "sha256": "62c34cdc48fafca474b64e71926e0644a518a47da0e8444e3c710197aa38ecc8"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view1/p-rbdtj357g/case.json",
+      "sha256": "120cc97392c538c6f4b773aabb7be1a0e79f35a1cc1f706c734e88a5641b862c"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view1/p-vktaj3qn2/case.json",
+      "sha256": "30ebd6afb12f762fb4d24d7f853d87222105ac00a75bd19936cf26e15a8379a3"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view1/p-vz3eq4smw/case.json",
+      "sha256": "17d16d33fb21c86dfb568f0c52ef7bad2c5c5d29d85f6365b3c28de7971c62aa"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view1/p-w5t6ckxzm/case.json",
+      "sha256": "6807bd2f4247627c271ebf188035dfda8f648a25afaea40acfa74fdc272f40a9"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view1/p-yx4wuqhtd/case.json",
+      "sha256": "e0ec725cf7aae499fdd11848e10de41c0c9cced5ece552aa3f2ef9545e68719e"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view2/p-6dzsyfwuh/journal.jsonl",
+      "sha256": "1b2277f01f25e710a02d92c71bb6c7c5a4dccdf49dba6e5c270573559d3dd3b2"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view2/p-6dzsyfwuh/observed_requests.jsonl",
+      "sha256": "8b9e78e73043f45613986c3f248475b9f6e0075cde4785645fe547186e4e17f0"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view2/p-6dzsyfwuh/trace.json",
+      "sha256": "cb6af751c927fda64db348f2ffc6f03ad63de1a76d99ed8ebcf6c6e2ccdbbe87"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view2/p-83xhvpk79/journal.jsonl",
+      "sha256": "65a3949e7ee7952696b8ba0c7e0b6742e6232eea0dc4d30426eebbd5411ae68b"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view2/p-83xhvpk79/observed_requests.jsonl",
+      "sha256": "335d649354cc83954d0fd9d9291c0141193a153c1c4ced2582555d09b9ecf145"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view2/p-83xhvpk79/trace.json",
+      "sha256": "1392bb7eb6cbf1c32338d3ea1b5a20384771e7107e2a9c5c289be83f51ec8078"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view2/p-b7dnq6awc/journal.jsonl",
+      "sha256": "3e7d5c449d0eba7da14460416726d8afb3cea84bffea2235b72e0e68b6e48ee4"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view2/p-b7dnq6awc/observed_requests.jsonl",
+      "sha256": "7f4ea07f83e6895ef9eb6682e162d75dda550e022cf561a4f0794045d01b5269"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view2/p-b7dnq6awc/trace.json",
+      "sha256": "7e085bb92de8b8b9e53b883d094cde14eaa04dec5591bae3e13fb48d89e20889"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view2/p-f9gwrjdba/journal.jsonl",
+      "sha256": "9a848974f44b647f9485b19475ddce5c7d3c0f4dad77336055efcd2d591b9c1b"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view2/p-f9gwrjdba/observed_requests.jsonl",
+      "sha256": "fa8503dc24dcacd244dc496b021861666ff27d758a48d71cd13c0f7f5e5ef982"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view2/p-f9gwrjdba/trace.json",
+      "sha256": "fb807f3b571acd4b341eec2c50a423424a361fd57a4ed1b4aebdd19b3a857fa2"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view2/p-kbqchj34v/journal.jsonl",
+      "sha256": "9c723e7622ca975d734e4070e4e7a2e202ee31f7a2447acb3469fee3995faa52"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view2/p-kbqchj34v/observed_requests.jsonl",
+      "sha256": "90e77344b79d3ce5b31d90334d9083447cc058faa1cede7995cfe160d4278f86"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view2/p-kbqchj34v/trace.json",
+      "sha256": "e2147a033d17b3219eb9289c2598fc52df4a1c3584c50e64171ecb0a10628b37"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view2/p-p73vgcqax/journal.jsonl",
+      "sha256": "1f4de0f9697e5a4b86ed84b23576ab8d88c5e94c5e1d88b6c645d70be6432d3b"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view2/p-p73vgcqax/observed_requests.jsonl",
+      "sha256": "7558065ac5c87e9dfaf7648e1bcbb3c76243e732a84c54ac4dec7e33d917ed46"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view2/p-p73vgcqax/trace.json",
+      "sha256": "67f71de54bb34a870711d52e30c08e70c94c2d4c15821683896812319b2afc4c"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view2/p-r82sckbw4/journal.jsonl",
+      "sha256": "0c056199058302f1eb61d7c5b9bf4cfcbb64cc34961256fb59c2e30dabf67266"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view2/p-r82sckbw4/observed_requests.jsonl",
+      "sha256": "e5618f9289305e1bac276524cad309b77ea2f857174e5ce79bcb9edd6b6d30f6"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view2/p-r82sckbw4/trace.json",
+      "sha256": "22de8af6820355155f4d6e06c5e8363ee4060ce2795f626bf2880141b14a993f"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view2/p-rbdtj357g/journal.jsonl",
+      "sha256": "a3fea8c5d79eb3d84bafaff3746b6567b46417a29722d135972183fd349c87ec"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view2/p-rbdtj357g/observed_requests.jsonl",
+      "sha256": "56ac8cd7bd9c1e4eb6a3e5df63c4b4e4275f2bfadc6d17c0e58e10a51739e8c6"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view2/p-rbdtj357g/trace.json",
+      "sha256": "9878d209fc270414e9f75426bb632112f9bd93ef7c8af158c67314aa3685a77a"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view2/p-vktaj3qn2/journal.jsonl",
+      "sha256": "db229644c18d52172d1cff9575f86af09941a692a37ca2ebb82da4f324bea7d3"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view2/p-vktaj3qn2/observed_requests.jsonl",
+      "sha256": "3af45945ce347c01b396f2f79c23eb52d7dc9716c25dc603e6d4a3a3a16f3a12"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view2/p-vktaj3qn2/trace.json",
+      "sha256": "c517dbe53ef25cf3eebe0d3734046c9921a70c4fb012b89d7d0ba811fe5da6c1"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view2/p-vz3eq4smw/journal.jsonl",
+      "sha256": "aa4b08ed58fd70b04bc140e9cf528cb595dde96704c3e092b04e9615b30387a3"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view2/p-vz3eq4smw/observed_requests.jsonl",
+      "sha256": "04f59ee57ede00d974041b36d8a6365e9b88f758e30809d9194b422cd2f7f947"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view2/p-vz3eq4smw/trace.json",
+      "sha256": "df60ea836c0e413bdda1fe18291a9ddade66dee95631ad88f9a5c89a1c766ffc"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view2/p-w5t6ckxzm/journal.jsonl",
+      "sha256": "c58bfd8401d96d335fcb5fd077ca43869fb2271650c1e60eb7ca8d2f6ea1ae5a"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view2/p-w5t6ckxzm/observed_requests.jsonl",
+      "sha256": "548159dffa73eb8fcfd716ec82cd143f67b9d70747c67c81b39acaebc0bcaf7c"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view2/p-w5t6ckxzm/trace.json",
+      "sha256": "b23fd6615b468ebaf4d47f33dd70f3c04028a21a5b8b9f2ad3e4fe937395abe7"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view2/p-yx4wuqhtd/journal.jsonl",
+      "sha256": "3db430da38b11884129158b7ba23bea31fa669d8f013d95d54b8c314ee152648"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view2/p-yx4wuqhtd/observed_requests.jsonl",
+      "sha256": "b1b0f4e590a3a2f8bddd9c0c8e76695825b74c0e3108540d29e68c0be708b572"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view2/p-yx4wuqhtd/trace.json",
+      "sha256": "5313144f0421b034e9f5924b7ae68140d9bd4d5c64e8029331944f72f160b583"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view3/cost-sheet.json",
+      "sha256": "80e678625c38df041626edd5311e285e8ccda679a0aa65cbb0e1befb23ea2fae"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view3/p-6dzsyfwuh/client.jsonl",
+      "sha256": "e0076fc261f8293c1d7dd3d03b5d58b29826c22fb3fd2360f04589b4ee6ea20c"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view3/p-6dzsyfwuh/tariff.json",
+      "sha256": "5aac0422833fa1c4e3f1ec94d5f8267e4a23dffe7169bc5bbe87fdca6e81eb0b"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view3/p-6dzsyfwuh/usage.jsonl",
+      "sha256": "ac56c86caf19dd3b5907ae3b2c97a00598640099ef2f013d63afdfaadbc21e46"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view3/p-83xhvpk79/client.jsonl",
+      "sha256": "496e05a6b64d6b726673f18a9aaaa862b4037b5fecb837d2c489bbce6a24cada"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view3/p-83xhvpk79/tariff.json",
+      "sha256": "9fd45f1a6550f69fa944fbdc69de72d15180c2e8766e99865b99542aab6bd527"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view3/p-83xhvpk79/usage.jsonl",
+      "sha256": "6ea41c153d5b87e1b5ee68cb718c0a6330033391ae287c03a9cbf33460ba85fe"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view3/p-b7dnq6awc/client.jsonl",
+      "sha256": "7d5b8d0c255b512f1ec8f87d106daa995c0ed2accd3971e92dfc99924f8d2848"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view3/p-b7dnq6awc/tariff.json",
+      "sha256": "8e16aa25890409edfe81e156ee5ce736aefe13e0b794a5129ff58b284ea91ad2"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view3/p-b7dnq6awc/usage.jsonl",
+      "sha256": "134590f8795276b2916326e573b17c9dfaea74a63b6a58a0f38041e500b44d66"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view3/p-f9gwrjdba/client.jsonl",
+      "sha256": "f0213fb9c489d90bcbd8c3f53b1e152ca1482d46b7be8c7ee649ad33920f7d3c"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view3/p-f9gwrjdba/tariff.json",
+      "sha256": "df2f5c55f51908173547b033229b0e2af730750f3d8d2f048dc2f2f0aa247e75"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view3/p-f9gwrjdba/usage.jsonl",
+      "sha256": "dadb3817aa4749cc3a4fa5e74dd22a7e9747eedefe4fc536ff2c0da16083a5c9"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view3/p-kbqchj34v/client.jsonl",
+      "sha256": "52855c85763c8e1161bd0e6dce1153fb9cd7362372bf3b37516d0b3585c21d9a"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view3/p-kbqchj34v/tariff.json",
+      "sha256": "3ecbb429feef8135f392f65625fccde8c6cf5408d6b7f587126bd91cf2f0fcae"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view3/p-kbqchj34v/usage.jsonl",
+      "sha256": "04483c351b2706564b846df8d6967eeae343ccee696e754b8862554e71d058b4"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view3/p-p73vgcqax/client.jsonl",
+      "sha256": "d788df0cab2fe02998ecba685a9bac070095619498919a2d980123dfd22e0316"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view3/p-p73vgcqax/tariff.json",
+      "sha256": "a7b57f6c0b7ce7ab6de443ce586d7b5894d4ee09129bb2284e9bcc34b6603d13"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view3/p-p73vgcqax/usage.jsonl",
+      "sha256": "fe3c9062085997c933c7e754f6cd452c5a85e7f176293d7a6a245b4f8907671d"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view3/p-r82sckbw4/client.jsonl",
+      "sha256": "bd3dcb26c19ce50c4edef7aa60d75d90a1bed8d77d9abdb10fe82f759fe15312"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view3/p-r82sckbw4/tariff.json",
+      "sha256": "cb01e0df3ddb03e12bb596215b192f1d178a44a85762174b115fd887a2b0b63f"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view3/p-r82sckbw4/usage.jsonl",
+      "sha256": "489f0bf469acdd62bbef223c3d9db5de91dceb6146f0faffa2ad82fc359657de"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view3/p-rbdtj357g/client.jsonl",
+      "sha256": "a006adfa3e3a78852f065d998cc52b47c991fbf4ff5a9af56dc890a7e741a501"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view3/p-rbdtj357g/tariff.json",
+      "sha256": "e6cc8cdcacfd65dd96ab4e6e3bade55ceed96cdbbc10c52e86e20da053dae7bf"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view3/p-rbdtj357g/usage.jsonl",
+      "sha256": "461ab9e490cae2e8ab94cafc79e9c024d9b9dfe32cb15b0d2f7bd25ad6e53c2b"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view3/p-vktaj3qn2/client.jsonl",
+      "sha256": "50f15871017212b2ba6c930c50800e0058c009c23b4790a3ba3e1bf886eb4b58"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view3/p-vktaj3qn2/tariff.json",
+      "sha256": "71b66f285c05cf7b03e558dd11d3bf7bb60cded3ff1aa4817ac1e83d229f8f33"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view3/p-vktaj3qn2/usage.jsonl",
+      "sha256": "3eb35d70410b8f24165108e6ff23d8bb7b3ccf6e121bc4962c83b48874b37010"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view3/p-vz3eq4smw/client.jsonl",
+      "sha256": "d2d0b572c19e496cbbb00ce3e5bfbfceeca4bcdde1ad7b7b1000ee24e0d656bd"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view3/p-vz3eq4smw/tariff.json",
+      "sha256": "561ab8902a50c04a5c3db2852e6a4d4eec440101ce5a59dc1a89025b75f4cab1"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view3/p-vz3eq4smw/usage.jsonl",
+      "sha256": "46054f74eec2b455e26ca1cfd5c568a8665b2000e0d94bc007fb5f76c343d97f"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view3/p-w5t6ckxzm/client.jsonl",
+      "sha256": "44c5762018974893f65e9dfb435c1cca27830f54eca40033882c08743c2128f1"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view3/p-w5t6ckxzm/tariff.json",
+      "sha256": "7b5d8061261bd9ddd5b83f9c10e83ab20fe66721d925e8cf2da2383ebb2a20ef"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view3/p-w5t6ckxzm/usage.jsonl",
+      "sha256": "690dd52181b87dc6b284817beab86bceb1abcd7a084d5708c6aeae3ce8262b8b"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view3/p-yx4wuqhtd/client.jsonl",
+      "sha256": "021fd66e22737156b081f9859e30f1bc3e008deff2cda49bf27ae0471863158b"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view3/p-yx4wuqhtd/tariff.json",
+      "sha256": "34e6695c143b3e7c3b5320ccb055668d27d6fe5497505d678acca9d9f8b99311"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z37-MESSABNAHME-001/view3/p-yx4wuqhtd/usage.jsonl",
+      "sha256": "6e76f2d7eed535306a047e2234caec1b3888e765ed59e9013dbc42ce95c09689"
+    },
+    {
+      "path": "eval-harness/eval/communication_pruning/__init__.py",
+      "sha256": "8edf0eb6c2ad4a03ea1bcd967ce72d103ab0f36571f504a5f927aa698e984f26"
+    },
+    {
+      "path": "eval-harness/eval/communication_pruning/__main__.py",
+      "sha256": "d29bbb37193c44116088fa6acd40b95d22ac0ec328d89ecafd936d81aca05fdc"
+    },
+    {
+      "path": "eval-harness/eval/communication_pruning/audit.py",
+      "sha256": "d4aebc769df3c0607a25b944dc7fb0307b01b31811df12dc07a91962e082c7da"
+    },
+    {
+      "path": "eval-harness/eval/communication_pruning/bca.py",
+      "sha256": "5955694bdb29e82d117828b2dcde3b81d96716186d56df90700533a503b2c4f6"
+    },
+    {
+      "path": "eval-harness/eval/communication_pruning/bca_validation.py",
+      "sha256": "1a12e39a56459b247cf865ced2a5f8512e81de388f103adbafa0ce763e6d168d"
+    },
+    {
+      "path": "eval-harness/eval/communication_pruning/bca_verify.py",
+      "sha256": "8569bb253f6d590d7ea25b3a72c13aed57799fdf0e287d594e66c8c6ab27b602"
+    },
+    {
+      "path": "eval-harness/eval/communication_pruning/cluster_interval_validation.py",
+      "sha256": "189da9bbf6b10c83548ad947d50762a2cc6fe31a3fefb69548a56c582dd1099d"
+    },
+    {
+      "path": "eval-harness/eval/communication_pruning/cluster_interval_verify.py",
+      "sha256": "86196b50a056c2d290d6ffb5041f7f6e8c4d5419226a478d677928fea3db71d0"
+    },
+    {
+      "path": "eval-harness/eval/communication_pruning/cluster_intervals.py",
+      "sha256": "a6a341775082631a1ec7f62abff7d9b788f6569186f3e4f702ab3421d3a7494f"
+    },
+    {
+      "path": "eval-harness/eval/communication_pruning/configurations.py",
+      "sha256": "538bed52e74482ddbd0300fee9965254ec571bddf3adc4868d443c75db8b4796"
+    },
+    {
+      "path": "eval-harness/eval/communication_pruning/contracts.py",
+      "sha256": "63da89facc64642b92bb6742a3f988dbb84d0263240b89469065e50e70bbfb5f"
+    },
+    {
+      "path": "eval-harness/eval/communication_pruning/data.py",
+      "sha256": "32b810f300a00909726849a116e046631ca5d91b35ab0df22081c7e27b88973c"
+    },
+    {
+      "path": "eval-harness/eval/communication_pruning/demo.py",
+      "sha256": "9921b92b11f6324db28085e92d61c1071c3516ba3d07b17950dd07ad85a45800"
+    },
+    {
+      "path": "eval-harness/eval/communication_pruning/evaluation.py",
+      "sha256": "e73c75654ae686bc09f7153f74caec727d623385f521d015809f29cb39fa2c94"
+    },
+    {
+      "path": "eval-harness/eval/communication_pruning/execution.py",
+      "sha256": "288b1094d0dbff7cf55a597d8e3037e990062ec91930b1c47a52e0b02c484e96"
+    },
+    {
+      "path": "eval-harness/eval/communication_pruning/failure_policy.py",
+      "sha256": "8d3a7ed10a16519d5a728e057d2acc5b849b4d6406f34a58f110081948706608"
+    },
+    {
+      "path": "eval-harness/eval/communication_pruning/finite_uncertainty.py",
+      "sha256": "102afc1775fc1c827ba09c656814ac4cc739fed1f01b7dbefb0dd5b2484683b7"
+    },
+    {
+      "path": "eval-harness/eval/communication_pruning/finite_uncertainty_validation.py",
+      "sha256": "0b75e8dd6e7039bce0b97ffc85ea45ea711a8241f5165d579e7ecaf22e4865c0"
+    },
+    {
+      "path": "eval-harness/eval/communication_pruning/finite_uncertainty_verify.py",
+      "sha256": "522ca5abab9c5ea3fa2b707763ced0d7a88c5c5365aab72d2a568417b0f24293"
+    },
+    {
+      "path": "eval-harness/eval/communication_pruning/followup.py",
+      "sha256": "1da7ce4a847bc495e51c3cbb6e7930ef0079d5050711d6808e06decf83030800"
+    },
+    {
+      "path": "eval-harness/eval/communication_pruning/foreign_audit.py",
+      "sha256": "83354a8e8b7e66e5a4445b3c54fca6f42d263e2bbb32fad2353975a904334379"
+    },
+    {
+      "path": "eval-harness/eval/communication_pruning/foreign_demo.py",
+      "sha256": "19da16d2fc71333e313bdc63dba1e6c241f252cdbb8b64ee5b952fdfff14229d"
+    },
+    {
+      "path": "eval-harness/eval/communication_pruning/foreign_observer.py",
+      "sha256": "e342030cc71d93fb862085fba16c61765e0e6f178748829d2891c2db736e0df9"
+    },
+    {
+      "path": "eval-harness/eval/communication_pruning/foreign_validation.py",
+      "sha256": "4fbf077b20c1acdc0c9624a9cd75f0ad87a04a386f920362f13e23900ae80024"
+    },
+    {
+      "path": "eval-harness/eval/communication_pruning/gptswarm_probe.py",
+      "sha256": "8a26a35916157f267b6835319a5834ee343ad0f270bc0a1635877ce7bbba11e8"
+    },
+    {
+      "path": "eval-harness/eval/communication_pruning/inference.py",
+      "sha256": "48eadb9587b1055cca8a1c62465e41b5510279f1e47731b3698b9dd55f5dd9ba"
+    },
+    {
+      "path": "eval-harness/eval/communication_pruning/journal.py",
+      "sha256": "a7687270b1a24ada7a5e74f5211a25da0b4d418fbc11ff2216c45a730bcb7509"
+    },
+    {
+      "path": "eval-harness/eval/communication_pruning/musique_probe.py",
+      "sha256": "9c24c29ce95201f7221107ba5aa391ae709343a3fbcd8358866b4472e9932c54"
+    },
+    {
+      "path": "eval-harness/eval/communication_pruning/openrouter.py",
+      "sha256": "e9f376fd85faf76d3dd513b91d6c50b29dd2538f96b7f7df759fbb78519f596e"
+    },
+    {
+      "path": "eval-harness/eval/communication_pruning/paired_iid.py",
+      "sha256": "f4d499e28f4c647eb21e1d1e2eb11bf56cfbf4c3f7e20d251c3b84ad3f4a4b0e"
+    },
+    {
+      "path": "eval-harness/eval/communication_pruning/phase_allocation.py",
+      "sha256": "591631771b17fcb8e3f8f94d86b38f1bf667f5112254d015c892ff4645e79792"
+    },
+    {
+      "path": "eval-harness/eval/communication_pruning/phase_budget.py",
+      "sha256": "4124243abf86b55e7f5b5b2f7c2e20f3a854882133fa5baee9d4d64fde8db6a1"
+    },
+    {
+      "path": "eval-harness/eval/communication_pruning/phase_validation.py",
+      "sha256": "1fef0535c4b1e6de476097975bff05c576168814f6d9f85d994f731f8ff72920"
+    },
+    {
+      "path": "eval-harness/eval/communication_pruning/pilot_schedule.py",
+      "sha256": "5897b0362a137011800768f5cff70d61250dd7c14748132b385b7d3b1bce54b8"
+    },
+    {
+      "path": "eval-harness/eval/communication_pruning/pilot_validation.py",
+      "sha256": "75704275ec52dff7321019fcbb6a6c62d813bb6c51c51a479d1edfae5bae269e"
+    },
+    {
+      "path": "eval-harness/eval/communication_pruning/probe.py",
+      "sha256": "5a9a762b911bea4333c01e1a53893f8caabebb624fc93a056c779cfb4117cad5"
+    },
+    {
+      "path": "eval-harness/eval/communication_pruning/rate_limit.py",
+      "sha256": "4e6847e008586aed07e6cc3c655c18fb4f67b3e1aaaef553e5e3742bc92a8bfc"
+    },
+    {
+      "path": "eval-harness/eval/communication_pruning/sampling.py",
+      "sha256": "0629167f9877875861cf08537912f344d3ccf4803bed02ab737dd6c66e02a24e"
+    },
+    {
+      "path": "eval-harness/eval/communication_pruning/sampling_validation.py",
+      "sha256": "71be9b9606347b60c0c94d981f637697ce2d0706a4427ee2f7bd5e17004c99ff"
+    },
+    {
+      "path": "eval-harness/eval/communication_pruning/sampling_verify.py",
+      "sha256": "00ef4920e67d2d691e4ee48b7a1ea5ba4ec81a91fd2668c3c920e44ad78fb2bc"
+    },
+    {
+      "path": "eval-harness/eval/communication_pruning/selection.py",
+      "sha256": "b3348f1a91c80f607b0bb231406af1251cb5b84fd1a6d9864e61d2a6979783a0"
+    },
+    {
+      "path": "eval-harness/eval/communication_pruning/spatial_plan.py",
+      "sha256": "690332efa0bed74abef7a04e57ead6fff93f1064534767416f7ce29828fe6461"
+    },
+    {
+      "path": "eval-harness/eval/communication_pruning/spatial_validation.py",
+      "sha256": "263a37011a395f2f57ec6d4060b19dd98fa1a0be112cc8e57aa8b1bf73d43377"
+    },
+    {
+      "path": "eval-harness/eval/communication_pruning/study.py",
+      "sha256": "bcfc4a84306593e0400c40ac992589b96a0a36bffc94abacd0176afd48f653fa"
+    },
+    {
+      "path": "eval-harness/eval/communication_pruning/study_ratelimit.py",
+      "sha256": "b2e2d81f3fe6de5b05f3111f7689fd0428c05978549553cf910ab7afcc3e2fcf"
+    },
+    {
+      "path": "eval-harness/eval/communication_pruning/study_recovery.py",
+      "sha256": "183a5bbc03726d8ccdf73b586f765fe2a9af5db5164a71da420f95632c2ce5f1"
+    },
+    {
+      "path": "eval-harness/eval/communication_pruning/study_release.py",
+      "sha256": "dbef1f4c9fd5d895fe92658fe5396fb12b4b4b56bb9f21477063bd7422b5661a"
+    },
+    {
+      "path": "eval-harness/eval/communication_pruning/study_resume.py",
+      "sha256": "1edc9990b83065e9e86e6851c2d685a09990c39b426e69962f7a859a5d95f39e"
+    },
+    {
+      "path": "eval-harness/eval/communication_pruning/study_service_recovery.py",
+      "sha256": "b397e61d16461d6f330f0e320fe7887937cc37417a2c5fd9f0f560ef72dbd34c"
+    },
+    {
+      "path": "eval-harness/eval/communication_pruning/study_validation.py",
+      "sha256": "a183ec9768d6a5a3efeb1d6869ccd9849ebf3c4199cca9f4edba26f7118df0bb"
+    },
+    {
+      "path": "eval-harness/eval/communication_pruning/technical.py",
+      "sha256": "0fcb990485af5dedbd2ce02701a632c2634b2326e33f81915cc644794d8d34c0"
+    },
+    {
+      "path": "project/dsr/Z37-MESSABNAHME-PLAN.md",
+      "sha256": "494f52e7718bf680002e17f500c70c4a20b0f49b921c7a4340e7179604c72219"
+    }
+  ],
+  "archive_sha256": "ff53128dd234a7cad3b91844174fa9ceff4a6640176ae59e75571e90abb03d0e"
+}

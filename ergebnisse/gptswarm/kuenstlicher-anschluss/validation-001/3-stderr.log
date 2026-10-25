@@ -1,0 +1,2 @@
+2026-09-11 10:26:47.565 | ERROR    | swarm.graph.node:execute:141 - Node ProbeNode failed to execute due to: AdapterError: planned synthetic B failure
+2026-09-11 10:26:47.566 | ERROR    | swarm.graph.node:execute:141 - Node ProbeNode failed to execute due to: RuntimeError: observed client is stopped after failure

@@ -1,0 +1,45 @@
+{
+ "methode": "Abgleich jeder installierten Datei mit dem sha256 im RECORD der jeweiligen Distribution (pip-Installationsbeleg); Koordination 20.10.2026 nach V4b-Urteil V3a NICHT PRUEFBAR",
+ "distributionen": {
+  "langgraph": {
+   "version": "1.0.6",
+   "gleich": 69,
+   "abweichend": 0,
+   "fehlend": 0,
+   "ohne_hash_im_record": 65,
+   "abweichungen": []
+  },
+  "langgraph-checkpoint": {
+   "version": "4.0.0",
+   "gleich": 25,
+   "abweichend": 0,
+   "fehlend": 0,
+   "ohne_hash_im_record": 16,
+   "abweichungen": []
+  },
+  "langgraph-prebuilt": {
+   "version": "1.0.6",
+   "gleich": 10,
+   "abweichend": 0,
+   "fehlend": 0,
+   "ohne_hash_im_record": 6,
+   "abweichungen": []
+  },
+  "langgraph-sdk": {
+   "version": "0.3.3",
+   "gleich": 15,
+   "abweichend": 0,
+   "fehlend": 0,
+   "ohne_hash_im_record": 11,
+   "abweichungen": []
+  },
+  "langchain-core": {
+   "version": "1.2.7",
+   "gleich": 176,
+   "abweichend": 0,
+   "fehlend": 0,
+   "ohne_hash_im_record": 173,
+   "abweichungen": []
+  }
+ }
+}

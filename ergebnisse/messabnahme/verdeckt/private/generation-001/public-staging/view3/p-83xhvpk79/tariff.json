@@ -1,0 +1,14 @@
+{
+  "kind": "declared_synthetic_tariff",
+  "version": "Z37-synthetic-20260913",
+  "currency": "USD",
+  "input_usd_per_token": "0.0000017",
+  "output_usd_per_token": "0.0000031",
+  "request_usd": "0",
+  "waived_call_ids": [
+    "p-83xhvpk79-n01"
+  ],
+  "cache_price": null,
+  "reasoning_price": null,
+  "scope": "Artificial ledger only. Native usage counts are declared values; no real tokenizer/provider claim."
+}

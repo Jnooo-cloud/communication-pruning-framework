@@ -1,0 +1,58 @@
+[
+  {
+    "id": "r01",
+    "function": "Usage.to_dict",
+    "result": {
+      "input_tokens": 80,
+      "output_tokens": 11,
+      "cost_usd": "0.0001701",
+      "cost_source": "synthetic",
+      "price_version": "Z37-synthetic-20260913"
+    }
+  },
+  {
+    "id": "r02",
+    "function": "Usage.to_dict",
+    "result": {
+      "input_tokens": 90,
+      "output_tokens": 7,
+      "cost_usd": "0.0001747",
+      "cost_source": "synthetic",
+      "price_version": "Z37-synthetic-20260913"
+    }
+  },
+  {
+    "id": "r03",
+    "function": "Usage.to_dict",
+    "result": {
+      "input_tokens": 80,
+      "output_tokens": 11,
+      "cost_usd": "0.0001701",
+      "cost_source": "synthetic",
+      "price_version": "Z37-synthetic-20260913"
+    }
+  },
+  {
+    "id": "r04",
+    "function": "Usage.to_dict",
+    "result": {
+      "input_tokens": 50,
+      "output_tokens": 8,
+      "cost_usd": "0",
+      "cost_source": "synthetic",
+      "price_version": "Z37-synthetic-20260913"
+    }
+  },
+  {
+    "id": "r06",
+    "function": "decode_billing",
+    "generation": "synthetic-cost-sheet-06",
+    "result": {
+      "input_tokens": 90,
+      "output_tokens": 7,
+      "cost_usd": "0.00009",
+      "cost_source": "provider",
+      "price_version": null
+    }
+  }
+]

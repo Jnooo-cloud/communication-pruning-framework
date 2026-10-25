@@ -1,0 +1,30 @@
+{
+  "case": "failed_b",
+  "framework": "GPTSwarm@c23a827f561c934ce21dd950408f7606aa4a8821",
+  "status": "rejected",
+  "native_answer": [
+    "No answer since there are no inputs provided"
+  ],
+  "native_node_entries": [
+    "A",
+    "B",
+    "C"
+  ],
+  "blocked_before_inner_client": [
+    "C"
+  ],
+  "node_outputs": {
+    "C": [],
+    "A": [
+      {
+        "actor": "A",
+        "output": "ALPHA"
+      }
+    ],
+    "B": []
+  },
+  "ledger_poisoned": true,
+  "ledger_active": null,
+  "real_model_calls": 0,
+  "scope": "Synthetic functional integration; no trained adaptive policy or performance claim."
+}

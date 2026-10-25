@@ -1,0 +1,47 @@
+{
+  "bindings": {
+    "authorized_release": "a4f233e3955a7f2141d9706ca2af71f3b1dcfa95f37ef8395634ab9d3075efd4",
+    "folds": "cb1dffde373da17f42dbc73c138ceaca80e9e4960c166a290533b38cc4ed5bc3",
+    "iteration_contract": "0dadb00a631d562bb86a35cd9a18737d72556168d5358090eb3cdfc9fb8c536e",
+    "learning_curves": "ad922ede742d9f6549bcac7d5b676a9fefc10ecbcf70004e348773ab72d8de8a",
+    "plan": "93beb2db247aa9deb7adda8613458b8c875ed2418c0b42b31fe9764cd7fad3df",
+    "r1_authorized_release": "41f338ecaf02467ae2f20955fe5797d776a22a9629c212c6e1944f0665606bd3",
+    "r1_contract": "fb1b219e07860b992c0ad1cfa6a3789ccdb8acb936556f828abd695c706a2813",
+    "r1_recovery_claim": "3e55c6ee9a4aed349d09aaa1460ef5a82eae105f11959c7e37d2ec9315e2ea7e",
+    "root_matrix_acceptance": "fc0db5174d1ef097e7d44e41e5ec38f569709006607efae90a35b09fb105e87b",
+    "runtime_manifest": "b8ce60822ec04bdc13b5b0cda9fb391f32335c8650ae323e9f302d0ca7b317d4",
+    "source_archive": "374a3a246c1c7dcbfec8d62e45b443cc90c204f22e363ca3c0c2c0f181158549",
+    "wrapper": "1c9f12a9b95257b0fc8af8d45074043f3bd0b8f4f0ef386dc3e0acd241e63f3a"
+  },
+  "chosen_alpha": 100,
+  "exact_total_cost_usd": null,
+  "families": 100,
+  "fixed_config": "C01",
+  "independent_effect_evidence": false,
+  "initialization_and_main_fit_export_ns": 6138148000,
+  "known_phase_cost_usd": "6.35076223",
+  "learning_curve_fit_export_validation_ns": 21989295375,
+  "learning_curve_sizes": [
+    103,
+    201,
+    300
+  ],
+  "learning_curves_are_diagnostic": true,
+  "matrix_rows_before_means": 4900,
+  "new_candidate_search": false,
+  "new_model_api_calls": 0,
+  "old_unknown_reserve_usd": "0.14",
+  "raw_candidate_preserved": true,
+  "raw_diagnosis": {
+    "admitted": false,
+    "constant_on_training_inputs": false,
+    "independent_effect_evidence": false,
+    "quality_difference": -0.03666666666666668,
+    "raw_candidate_preserved": true,
+    "recommended_rule": "F_star"
+  },
+  "root_acceptance_origin": "Root external E3 acceptance; not generated or independently re-scored by this wrapper",
+  "rq6_accepted": false,
+  "status": "bound_development_fit_complete",
+  "tasks_after_means": 300
+}

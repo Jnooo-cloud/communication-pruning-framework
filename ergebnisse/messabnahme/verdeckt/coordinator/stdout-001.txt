@@ -1,0 +1,1 @@
+{"checked_at_utc": "2026-09-13T09:17:57.599807+00:00", "role": "Coordinator after S3 freeze and answer-key disclosure; not blind", "checks": 1866, "failures": 0, "failure_details": [], "overhead_difference_ns": {"median": 1099791.5, "minimum": 977375, "maximum": 1237375}, "limits": "Finite artificial cases; no real tariff, statistical or effect acceptance."}

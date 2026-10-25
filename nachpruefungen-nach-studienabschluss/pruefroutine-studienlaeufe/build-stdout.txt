@@ -1,0 +1,12 @@
+{
+ "totals": {
+  "runs": 53504,
+  "mas_runs": 47600,
+  "direct_runs": 5904,
+  "files_read": 198363,
+  "bytes_read": 1531241197
+ },
+ "checks_failed": [],
+ "problems": 0,
+ "manifest_sha256": "9e98bba5ee626ea6d31087c529c2cbaa531d9bffd1948fdce9266ce8c3b87367"
+}

@@ -1,0 +1,545 @@
+{
+ "expected_pattern": {
+  "rejected": [
+   "V1",
+   "V5",
+   "V6",
+   "V7",
+   "V8"
+  ],
+  "accepted": [
+   "V2",
+   "V3",
+   "V4"
+  ]
+ },
+ "observed_pattern": {
+  "rejected": [
+   "V1",
+   "V5",
+   "V6",
+   "V7",
+   "V8"
+  ],
+  "accepted": [
+   "V2",
+   "V3",
+   "V4"
+  ]
+ },
+ "pattern_matches": true,
+ "controls_accepted": true,
+ "cases": {
+  "K1": {
+   "online_rejected": false,
+   "trace_rejected": false,
+   "journal_rejected": false,
+   "rejected_by_pruefroutine": false,
+   "journal_sealed": true,
+   "expected": "accepted",
+   "observed": "accepted",
+   "matches": true,
+   "online": null,
+   "trace_exception": null,
+   "journal_exception": null,
+   "journal_metrics": {
+    "calls": 7,
+    "failed_calls": 0,
+    "unknown_cost_calls": 0,
+    "synthetic_cost_calls": 7,
+    "known_cost_subtotal_usd": "0.0025612",
+    "total_cost_usd": "0.0025612",
+    "cost_coverage": 1.0
+   },
+   "persisted_original_journal": null,
+   "claimed": {
+    "status": "completed",
+    "answer": "z56-k1|aggregator|3|amber",
+    "measurement_complete": true,
+    "started_attempts": 7,
+    "calls": 7,
+    "known_cost_subtotal_usd": "0.0025612",
+    "total_cost_usd": "0.0025612"
+   },
+   "outer_requests": 7,
+   "inner_calls": 7,
+   "inner_truth": {
+    "started_inner_calls": 7,
+    "known_inner_calls": 7,
+    "unresolved_inner_calls": 0,
+    "known_cost_subtotal_usd": "0.0025612",
+    "total_cost_usd": "0.0025612"
+   }
+  },
+  "K3": {
+   "online_rejected": false,
+   "trace_rejected": false,
+   "journal_rejected": false,
+   "rejected_by_pruefroutine": false,
+   "journal_sealed": true,
+   "expected": "accepted",
+   "observed": "accepted",
+   "matches": true,
+   "online": null,
+   "trace_exception": null,
+   "journal_exception": null,
+   "journal_metrics": {
+    "calls": 3,
+    "failed_calls": 1,
+    "unknown_cost_calls": 0,
+    "synthetic_cost_calls": 3,
+    "known_cost_subtotal_usd": "0.0006930",
+    "total_cost_usd": "0.0006930",
+    "cost_coverage": 1.0,
+    "policy_terminal": true
+   },
+   "persisted_original_journal": null,
+   "claimed": {
+    "status": "model_failed",
+    "answer": null,
+    "measurement_complete": true,
+    "started_attempts": 3,
+    "calls": 3,
+    "known_cost_subtotal_usd": "0.0006930",
+    "total_cost_usd": "0.0006930"
+   },
+   "outer_requests": 3,
+   "inner_calls": 3,
+   "inner_truth": {
+    "started_inner_calls": 3,
+    "known_inner_calls": 3,
+    "unresolved_inner_calls": 0,
+    "known_cost_subtotal_usd": "0.0006930",
+    "total_cost_usd": "0.0006930"
+   }
+  },
+  "K4": {
+   "online_rejected": false,
+   "trace_rejected": false,
+   "journal_rejected": false,
+   "rejected_by_pruefroutine": false,
+   "journal_sealed": false,
+   "expected": "accepted",
+   "observed": "accepted",
+   "matches": true,
+   "online": {
+    "exception": "RuntimeError",
+    "message": "synthetic interrupted response before billing receipt"
+   },
+   "trace_exception": null,
+   "journal_exception": null,
+   "journal_metrics": {
+    "calls": 2,
+    "failed_calls": 0,
+    "unknown_cost_calls": 0,
+    "synthetic_cost_calls": 2,
+    "known_cost_subtotal_usd": "0.0003274",
+    "total_cost_usd": null,
+    "cost_coverage": 0.6666666666666666,
+    "started_attempts": 3,
+    "unresolved_attempt_ids": [
+     "run-z56-k4:1:draft:1"
+    ],
+    "schedule_complete": false
+   },
+   "persisted_original_journal": null,
+   "claimed": {
+    "status": "technical_stop",
+    "answer": null,
+    "measurement_complete": false,
+    "started_attempts": 3,
+    "calls": 2,
+    "known_cost_subtotal_usd": "0.0003274",
+    "total_cost_usd": null
+   },
+   "outer_requests": 3,
+   "inner_calls": 3,
+   "inner_truth": {
+    "started_inner_calls": 3,
+    "known_inner_calls": 2,
+    "unresolved_inner_calls": 1,
+    "known_cost_subtotal_usd": "0.0003274",
+    "total_cost_usd": null
+   }
+  },
+  "V1": {
+   "online_rejected": true,
+   "trace_rejected": false,
+   "journal_rejected": false,
+   "rejected_by_pruefroutine": true,
+   "journal_sealed": false,
+   "expected": "rejected",
+   "observed": "rejected",
+   "matches": true,
+   "online": {
+    "exception": "AuditError",
+    "message": "invalid call or message visibility"
+   },
+   "trace_exception": null,
+   "journal_exception": null,
+   "journal_metrics": {
+    "calls": 4,
+    "failed_calls": 0,
+    "unknown_cost_calls": 0,
+    "synthetic_cost_calls": 4,
+    "known_cost_subtotal_usd": "0.0011138",
+    "total_cost_usd": null,
+    "cost_coverage": 1.0,
+    "started_attempts": 4,
+    "unresolved_attempt_ids": [],
+    "schedule_complete": false
+   },
+   "persisted_original_journal": {
+    "accepted": true,
+    "sealed": false,
+    "metrics": {
+     "calls": 4,
+     "failed_calls": 0,
+     "unknown_cost_calls": 0,
+     "synthetic_cost_calls": 4,
+     "known_cost_subtotal_usd": "0.0011138",
+     "total_cost_usd": null,
+     "cost_coverage": 1.0,
+     "started_attempts": 4,
+     "unresolved_attempt_ids": [],
+     "schedule_complete": false
+    }
+   },
+   "claimed": {
+    "status": "technical_stop",
+    "answer": null,
+    "measurement_complete": false,
+    "started_attempts": 4,
+    "calls": 4,
+    "known_cost_subtotal_usd": "0.0011138",
+    "total_cost_usd": null
+   },
+   "outer_requests": 4,
+   "inner_calls": 4,
+   "inner_truth": {
+    "started_inner_calls": 4,
+    "known_inner_calls": 4,
+    "unresolved_inner_calls": 0,
+    "known_cost_subtotal_usd": "0.0011138",
+    "total_cost_usd": "0.0011138"
+   }
+  },
+  "V2": {
+   "online_rejected": false,
+   "trace_rejected": false,
+   "journal_rejected": false,
+   "rejected_by_pruefroutine": false,
+   "journal_sealed": true,
+   "expected": "accepted",
+   "observed": "accepted",
+   "matches": true,
+   "online": null,
+   "trace_exception": null,
+   "journal_exception": null,
+   "journal_metrics": {
+    "calls": 7,
+    "failed_calls": 0,
+    "unknown_cost_calls": 0,
+    "synthetic_cost_calls": 7,
+    "known_cost_subtotal_usd": "0.0027047",
+    "total_cost_usd": "0.0027047",
+    "cost_coverage": 1.0
+   },
+   "persisted_original_journal": null,
+   "claimed": {
+    "status": "completed",
+    "answer": "z56-v2|aggregator|3|amber",
+    "measurement_complete": true,
+    "started_attempts": 7,
+    "calls": 7,
+    "known_cost_subtotal_usd": "0.0027047",
+    "total_cost_usd": "0.0027047"
+   },
+   "outer_requests": 7,
+   "inner_calls": 8,
+   "inner_truth": {
+    "started_inner_calls": 8,
+    "known_inner_calls": 8,
+    "unresolved_inner_calls": 0,
+    "known_cost_subtotal_usd": "0.0031085",
+    "total_cost_usd": "0.0031085"
+   }
+  },
+  "V3": {
+   "online_rejected": false,
+   "trace_rejected": false,
+   "journal_rejected": false,
+   "rejected_by_pruefroutine": false,
+   "journal_sealed": true,
+   "expected": "accepted",
+   "observed": "accepted",
+   "matches": true,
+   "online": null,
+   "trace_exception": null,
+   "journal_exception": null,
+   "journal_metrics": {
+    "calls": 7,
+    "failed_calls": 0,
+    "unknown_cost_calls": 0,
+    "synthetic_cost_calls": 7,
+    "known_cost_subtotal_usd": "0.0029312",
+    "total_cost_usd": "0.0029312",
+    "cost_coverage": 1.0
+   },
+   "persisted_original_journal": null,
+   "claimed": {
+    "status": "completed",
+    "answer": "z56-v3|aggregator|3|amber",
+    "measurement_complete": true,
+    "started_attempts": 7,
+    "calls": 7,
+    "known_cost_subtotal_usd": "0.0029312",
+    "total_cost_usd": "0.0029312"
+   },
+   "outer_requests": 7,
+   "inner_calls": 7,
+   "inner_truth": {
+    "started_inner_calls": 7,
+    "known_inner_calls": 7,
+    "unresolved_inner_calls": 0,
+    "known_cost_subtotal_usd": "0.0025612",
+    "total_cost_usd": "0.0025612"
+   }
+  },
+  "V4": {
+   "online_rejected": false,
+   "trace_rejected": false,
+   "journal_rejected": false,
+   "rejected_by_pruefroutine": false,
+   "journal_sealed": false,
+   "expected": "accepted",
+   "observed": "accepted",
+   "matches": true,
+   "online": {
+    "exception": "RuntimeError",
+    "message": "synthetic interrupted response before billing receipt"
+   },
+   "trace_exception": null,
+   "journal_exception": null,
+   "journal_metrics": {
+    "calls": 2,
+    "failed_calls": 0,
+    "unknown_cost_calls": 0,
+    "synthetic_cost_calls": 2,
+    "known_cost_subtotal_usd": "0.0003274",
+    "total_cost_usd": null,
+    "cost_coverage": 0.6666666666666666,
+    "started_attempts": 3,
+    "unresolved_attempt_ids": [
+     "run-z56-v4:1:draft:1"
+    ],
+    "schedule_complete": false
+   },
+   "persisted_original_journal": null,
+   "claimed": {
+    "status": "completed",
+    "answer": "z56-v4|aggregator|3|amber",
+    "measurement_complete": true,
+    "started_attempts": 3,
+    "calls": 2,
+    "known_cost_subtotal_usd": "0.0003274",
+    "total_cost_usd": "0.0003274"
+   },
+   "outer_requests": 3,
+   "inner_calls": 3,
+   "inner_truth": {
+    "started_inner_calls": 3,
+    "known_inner_calls": 2,
+    "unresolved_inner_calls": 1,
+    "known_cost_subtotal_usd": "0.0003274",
+    "total_cost_usd": null
+   }
+  },
+  "V5": {
+   "online_rejected": false,
+   "trace_rejected": true,
+   "journal_rejected": true,
+   "rejected_by_pruefroutine": true,
+   "journal_sealed": null,
+   "expected": "rejected",
+   "observed": "rejected",
+   "matches": true,
+   "online": null,
+   "trace_exception": "terminal attempt mismatch",
+   "journal_exception": "invalid journal: terminal attempt mismatch",
+   "journal_metrics": null,
+   "persisted_original_journal": null,
+   "claimed": {
+    "status": "completed",
+    "answer": "z56-v5|aggregator|3|amber",
+    "measurement_complete": true,
+    "started_attempts": 7,
+    "calls": 7,
+    "known_cost_subtotal_usd": "0.0025612",
+    "total_cost_usd": "0.0025612"
+   },
+   "outer_requests": 7,
+   "inner_calls": 7,
+   "inner_truth": {
+    "started_inner_calls": 7,
+    "known_inner_calls": 7,
+    "unresolved_inner_calls": 0,
+    "known_cost_subtotal_usd": "0.0025612",
+    "total_cost_usd": "0.0025612"
+   }
+  },
+  "V6": {
+   "online_rejected": false,
+   "trace_rejected": true,
+   "journal_rejected": true,
+   "rejected_by_pruefroutine": true,
+   "journal_sealed": null,
+   "expected": "rejected",
+   "observed": "rejected",
+   "matches": true,
+   "online": null,
+   "trace_exception": "invalid call or message visibility",
+   "journal_exception": "invalid journal: invalid call or message visibility",
+   "journal_metrics": null,
+   "persisted_original_journal": null,
+   "claimed": {
+    "status": "completed",
+    "answer": "z56-v6|aggregator|3|amber",
+    "measurement_complete": true,
+    "started_attempts": 7,
+    "calls": 7,
+    "known_cost_subtotal_usd": "0.0025612",
+    "total_cost_usd": "0.0025612"
+   },
+   "outer_requests": 7,
+   "inner_calls": 7,
+   "inner_truth": {
+    "started_inner_calls": 7,
+    "known_inner_calls": 7,
+    "unresolved_inner_calls": 0,
+    "known_cost_subtotal_usd": "0.0025612",
+    "total_cost_usd": "0.0025612"
+   }
+  },
+  "V7": {
+   "online_rejected": false,
+   "trace_rejected": true,
+   "journal_rejected": true,
+   "rejected_by_pruefroutine": true,
+   "journal_sealed": null,
+   "expected": "rejected",
+   "observed": "rejected",
+   "matches": true,
+   "online": null,
+   "trace_exception": "terminal attempt mismatch",
+   "journal_exception": "invalid journal: terminal attempt mismatch",
+   "journal_metrics": null,
+   "persisted_original_journal": null,
+   "claimed": {
+    "status": "completed",
+    "answer": "z56-v7|aggregator|3|amber",
+    "measurement_complete": true,
+    "started_attempts": 7,
+    "calls": 7,
+    "known_cost_subtotal_usd": "0.0025612",
+    "total_cost_usd": "0.0025612"
+   },
+   "outer_requests": 7,
+   "inner_calls": 7,
+   "inner_truth": {
+    "started_inner_calls": 7,
+    "known_inner_calls": 7,
+    "unresolved_inner_calls": 0,
+    "known_cost_subtotal_usd": "0.0025612",
+    "total_cost_usd": "0.0025612"
+   }
+  },
+  "V8": {
+   "online_rejected": false,
+   "trace_rejected": false,
+   "journal_rejected": true,
+   "rejected_by_pruefroutine": true,
+   "journal_sealed": null,
+   "expected": "rejected",
+   "observed": "rejected",
+   "matches": true,
+   "online": null,
+   "trace_exception": null,
+   "journal_exception": "schema, sequence, or checksum mismatch",
+   "journal_metrics": null,
+   "persisted_original_journal": null,
+   "claimed": {
+    "status": "completed",
+    "answer": "z56-v8|aggregator|3|amber",
+    "measurement_complete": true,
+    "started_attempts": 7,
+    "calls": 7,
+    "known_cost_subtotal_usd": "0.0025612",
+    "total_cost_usd": "0.0025612"
+   },
+   "outer_requests": 7,
+   "inner_calls": 7,
+   "inner_truth": {
+    "started_inner_calls": 7,
+    "known_inner_calls": 7,
+    "unresolved_inner_calls": 0,
+    "known_cost_subtotal_usd": "0.0025612",
+    "total_cost_usd": "0.0025612"
+   }
+  },
+  "V1z": {
+   "online_rejected": false,
+   "trace_rejected": true,
+   "journal_rejected": true,
+   "rejected_by_pruefroutine": true,
+   "journal_sealed": null,
+   "expected": "supplementary",
+   "observed": "rejected",
+   "matches": true,
+   "online": null,
+   "trace_exception": "invalid call or message visibility",
+   "journal_exception": "invalid journal: invalid call or message visibility",
+   "journal_metrics": null,
+   "persisted_original_journal": null,
+   "claimed": {
+    "status": "completed",
+    "answer": "z56-v1z|aggregator|3|amber",
+    "measurement_complete": true,
+    "started_attempts": 7,
+    "calls": 7,
+    "known_cost_subtotal_usd": "0.0025612",
+    "total_cost_usd": "0.0025612"
+   },
+   "outer_requests": 7,
+   "inner_calls": 7,
+   "inner_truth": {
+    "started_inner_calls": 7,
+    "known_inner_calls": 7,
+    "unresolved_inner_calls": 0,
+    "known_cost_subtotal_usd": "0.0025612",
+    "total_cost_usd": "0.0025612"
+   }
+  }
+ },
+ "z37_generate_sha256": "dc7e118991d3482201518b370726b8d9a237f832c37782f05f12eb7c3222f6a2",
+ "sources": {
+  "netguard.py": "26268f84acf4eca2dc623c803e9b02242a35751e127d2f73b95f274092af1164",
+  "common.py": "ca08dd61339c9999e1ba48759a99af35db1833b5cb85130b26ac2d79aa007b2c",
+  "lg_adapter.py": "8ad76454137addac17a9f1d4bbd19df26f4dd2deb9529b0c6615886ace13df2b",
+  "backends.py": "4a7f11d2d36fbdaff05d8c796bc7a97c86d5d70152a75a1b7bfb2fc0f9a90c23",
+  "binding.py": "b4c2a3b7dc91bc45346ca254027956c54e258b06489fb6238145cbecbd018fe1",
+  "tests/test_v3_adapter.py": "9c32b577aa242b1b098ffdd3399939b8c57c2ae9a60777aed53c1cbf5fd1fdd4",
+  "run_v3e.py": "c064593099d41fea9e530093b348582e4f330653cfc28ee7142897aae489b2a2"
+ },
+ "network": {
+  "attempts": {
+   "socket.connect": 0,
+   "socket.connect_ex": 0,
+   "create_connection": 0,
+   "getaddrinfo": 0
+  },
+  "total": 0,
+  "lock_installed_at_end": true
+ },
+ "seconds": 0.2
+}

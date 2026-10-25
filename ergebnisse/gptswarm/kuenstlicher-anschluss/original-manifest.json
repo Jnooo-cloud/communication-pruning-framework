@@ -1,0 +1,88 @@
+{
+  "commit": "c23a827f561c934ce21dd950408f7606aa4a8821",
+  "repository": "https://github.com/metauto-ai/GPTSwarm",
+  "scope": "Unmodified files needed for the tested import/execution path, plus license and metadata; not the full application or benchmark package",
+  "files": {
+    "LICENSE": {
+      "git_blob": "84625adab19d7a05f5a4d9fa254d710f2d25fa71",
+      "sha256": "b7a847866de8d5cb25993f3a31603e39efc1300b74f79e0a55ccfd3a3ee85672",
+      "bytes": 1067
+    },
+    "swarm/graph/graph.py": {
+      "git_blob": "e5ea61dd3c43ea04bd3ab12cad2cfbe7a6e6f01b",
+      "sha256": "f021601f1a1aae0dfe23f236a926ee98814e0c4dd3c8aeb7a88b0571db1d0938",
+      "bytes": 7185
+    },
+    "swarm/optimizer/edge_optimizer/optimization.py": {
+      "git_blob": "2fef560bde329dba9e7c5e41cf8c4391bf5e4231",
+      "sha256": "3ade513bdebd770058a8f40fa430a56e380b23af37f6b09644ad7e6538c07602",
+      "bytes": 1776
+    },
+    "swarm/optimizer/edge_optimizer/parameterization.py": {
+      "git_blob": "b09cad46ac55f827462525a473aff221fc2aac9c",
+      "sha256": "57f2883f032baf72fd911b853d58070dd5da00503e40d5b7624c4274c605443d",
+      "bytes": 6062
+    },
+    "pyproject.toml": {
+      "git_blob": "1c4012389a480b1cce9808c0f30a8cc7ff7e89e8",
+      "sha256": "db4eb474886651cd2fdf2b59a809d590b8a5b107104aaa6327c42d8e751c901f",
+      "bytes": 1751
+    },
+    "setup.py": {
+      "git_blob": "606849326a4002007fd42060b51e69a19c18675c",
+      "sha256": "843ac26c38a41abae578250bc0f9419194b320a0f67327d941037a4268f6cfe7",
+      "bytes": 38
+    },
+    "swarm/graph/__init__.py": {
+      "git_blob": "50db7cd9b8c957809498b55faa8d8c266b930740",
+      "sha256": "f9554a15a8ec1a2d9ef28fa0a4fa6f1fb04c28ef01cab493922db42b183fc4aa",
+      "bytes": 174
+    },
+    "swarm/graph/composite_graph.py": {
+      "git_blob": "3e5109fc7762670778a195b66b8688ee5c6af268",
+      "sha256": "65ac6e423c0c3f480bbf45a591da2c076b9494a788b098b9ab372788d7ceac66",
+      "bytes": 3598
+    },
+    "swarm/graph/node.py": {
+      "git_blob": "e2a14cd49ae194a3ba5760508bb3192477deab10",
+      "sha256": "6a0c98880293139129a804e2a50c4d30a57c387a2d6691de66d4a3cbbefb6755",
+      "bytes": 6333
+    },
+    "swarm/graph/visualize.py": {
+      "git_blob": "29dc24001d7f8e67ebdfce407d9f0047633d56bd",
+      "sha256": "76f0a04adfc10cc4d5d55e7083aaff90d0e7425f806f8f03270588854d898991",
+      "bytes": 3598
+    },
+    "swarm/memory/__init__.py": {
+      "git_blob": "36a775fe06c622f1f849c50f916a492949b630eb",
+      "sha256": "827a453a76fa9504a61c9c64fd9fa6b9290702f8e3235da091f0ca5ef180d332",
+      "bytes": 101
+    },
+    "swarm/memory/memory.py": {
+      "git_blob": "a03b1453856ff53951df48bc112eb371a9a28f36",
+      "sha256": "e40f865ce16cfeccb73194d03d3dc6d5b0f0f55340e872990a145944d7d94c9e",
+      "bytes": 4868
+    },
+    "swarm/optimizer/__init__.py": {
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "swarm/utils/const.py": {
+      "git_blob": "31da5c81e823f0d3632d1a88c848f09e511f1af4",
+      "sha256": "a05fc66038cb550d27665363f269883d9d747dd3d9ea687e66ca17924ce683fc",
+      "bytes": 174
+    },
+    "swarm/utils/globals.py": {
+      "git_blob": "d6b766eb61305974cbacb82fcc44bdf7b4f43458",
+      "sha256": "84596142da5d4699bb94a9412c07cd01f0f990f89b650561b65316ce52e5c59f",
+      "bytes": 697
+    },
+    "swarm/utils/log.py": {
+      "git_blob": "10f18bb5ed6580dbeef49b4613be21f9fda899fa",
+      "sha256": "5462bf47961aa9889ec0a1591e268abc963a8ac722b9e25e67d9ac137e1c5575",
+      "bytes": 2745
+    }
+  },
+  "archive_sha256": "23f846b77b1ab34047e8eb649d8162d55fd6b920cc4c0f05a147c1324dd9c6bf"
+}

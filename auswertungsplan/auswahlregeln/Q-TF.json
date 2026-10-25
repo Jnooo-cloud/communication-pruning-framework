@@ -1,0 +1,1 @@
+{"independent_effect_evidence": false, "quality_target": "EM", "raw_q_sha256": "c48fa831b8db4e9319072dd508a527944f8797c1fc647e1eea56fd050518a097", "rounds": 1, "schema": "z46-fixed-temporal/v1", "temporal_selector_sha256": "70441a14694a0c039c78f4b5828e2694486a46b78fa1739e909ebaab29572d64", "training_cost_usd": ["0.0007823428", "0.0014687921"], "training_quality_em": [0.31, 0.29]}

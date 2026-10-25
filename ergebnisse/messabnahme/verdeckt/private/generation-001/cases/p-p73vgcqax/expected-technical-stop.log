@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "/Users/jannikhiller/Desktop/ai operations/Studium OS/Masterarbeit/eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generate.py", line 243, in build_case
+    original_trace = execute(task, config, client, rounds=rounds, failed_role=failed_role,
+                             run_id=run_id, journal_path=journal,
+                             producer_limit=1024, failure_policy=F01)
+  File "/Users/jannikhiller/Desktop/ai operations/Studium OS/Masterarbeit/eval-harness/eval/communication_pruning/execution.py", line 42, in execute
+    return _execute(task, config, agent, trace, journal)
+  File "/Users/jannikhiller/Desktop/ai operations/Studium OS/Masterarbeit/eval-harness/eval/communication_pruning/execution.py", line 98, in _execute
+    result = call(role, round_no, messages)
+  File "/Users/jannikhiller/Desktop/ai operations/Studium OS/Masterarbeit/eval-harness/eval/communication_pruning/execution.py", line 68, in call
+    response = agent(request)
+  File "/Users/jannikhiller/Desktop/ai operations/Studium OS/Masterarbeit/eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generate.py", line 152, in __call__
+    response = self.native(request,
+                           technical=self.mode in ('K4', 'V4') and self.outer_count == 3,
+                           model_failed=self.mode == 'K3' and self.outer_count == 3)
+  File "/Users/jannikhiller/Desktop/ai operations/Studium OS/Masterarbeit/eval-harness/eval/runs/Z37-MESSABNAHME-001/private/generate.py", line 126, in native
+    raise RuntimeError('synthetic interrupted response before billing receipt')
+RuntimeError: synthetic interrupted response before billing receipt

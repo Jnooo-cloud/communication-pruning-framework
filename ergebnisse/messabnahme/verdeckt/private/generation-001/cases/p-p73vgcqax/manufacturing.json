@@ -1,0 +1,88 @@
+{
+  "case_id": "p-p73vgcqax",
+  "class": "K4",
+  "rounds": 2,
+  "failed_role": null,
+  "independent_schedule": [
+    {
+      "attempt_id": "run-p-p73vgcqax:1:evidence:1",
+      "role": "evidence",
+      "round": 1,
+      "message_attempt_ids": []
+    },
+    {
+      "attempt_id": "run-p-p73vgcqax:1:linking:1",
+      "role": "linking",
+      "round": 1,
+      "message_attempt_ids": []
+    },
+    {
+      "attempt_id": "run-p-p73vgcqax:1:draft:1",
+      "role": "draft",
+      "round": 1,
+      "message_attempt_ids": []
+    },
+    {
+      "attempt_id": "run-p-p73vgcqax:2:evidence:1",
+      "role": "evidence",
+      "round": 2,
+      "message_attempt_ids": [
+        "run-p-p73vgcqax:1:evidence:1",
+        "run-p-p73vgcqax:1:draft:1"
+      ]
+    },
+    {
+      "attempt_id": "run-p-p73vgcqax:2:linking:1",
+      "role": "linking",
+      "round": 2,
+      "message_attempt_ids": [
+        "run-p-p73vgcqax:1:evidence:1",
+        "run-p-p73vgcqax:1:linking:1"
+      ]
+    },
+    {
+      "attempt_id": "run-p-p73vgcqax:2:draft:1",
+      "role": "draft",
+      "round": 2,
+      "message_attempt_ids": [
+        "run-p-p73vgcqax:1:linking:1",
+        "run-p-p73vgcqax:1:draft:1"
+      ]
+    },
+    {
+      "attempt_id": "run-p-p73vgcqax:3:aggregator:1",
+      "role": "aggregator",
+      "round": 3,
+      "message_attempt_ids": [
+        "run-p-p73vgcqax:2:evidence:1",
+        "run-p-p73vgcqax:2:linking:1",
+        "run-p-p73vgcqax:2:draft:1"
+      ]
+    }
+  ],
+  "observed_request_count": 3,
+  "actual_transferred_prior_messages": [
+    [],
+    [],
+    []
+  ],
+  "native_truth": {
+    "started_inner_calls": 3,
+    "known_inner_calls": 2,
+    "unresolved_inner_calls": 1,
+    "known_cost_subtotal_usd": "0.0003274",
+    "total_cost_usd": null
+  },
+  "true_status": "technical_stop",
+  "true_answer": null,
+  "measurement_complete": false,
+  "expected_instrument": {
+    "trace_accepted": true,
+    "journal_accepted": true,
+    "partial": true,
+    "provenance": "Contract-derived expectation only; not instrument execution."
+  },
+  "message_violations": [],
+  "manufacturing_notes": [],
+  "read_depth": "Current production execution with injected synthetic client; independent schedule and Decimal tariff reconstruction. No main-auditor result used as truth."
+}

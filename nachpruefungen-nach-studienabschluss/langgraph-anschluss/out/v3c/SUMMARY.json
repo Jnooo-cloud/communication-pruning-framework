@@ -1,0 +1,98 @@
+{
+ "part_a": {
+  "runs_per_path": 780,
+  "failures_per_check": {
+   "error_equal": 0,
+   "trace_equal": 0,
+   "calls_equal": 0,
+   "journal_bytes_equal": 0,
+   "instrument_equal": 0,
+   "journal_accepted": 0,
+   "known_matches_backend": 0,
+   "unknown_matches_backend": 0,
+   "unknown_stays_unknown": 0,
+   "paid_failures_in_cost": 0
+  },
+  "paid_failure_attempts": 480,
+  "billed_but_not_journaled": 60,
+  "runs_with_unknown_total": 581,
+  "outcomes": {
+   "AdapterError": 60,
+   "Technical": 180,
+   "incomplete": 360,
+   "model_failed": 180
+  }
+ },
+ "part_b": {
+  "runs_per_path": 360,
+  "failures_per_check": {
+   "error_equal": 0,
+   "trace_equal": 0,
+   "sender_state_equal": 0,
+   "provider_files_equal": 0,
+   "journal_bytes_equal": 0,
+   "instrument_equal": 0,
+   "journal_accepted": 0,
+   "raw_costs_match_sender": 0,
+   "raw_unknown_match_sender": 0,
+   "journal_costs_match_raw": 0,
+   "paid_failures_in_sender_cost": 0
+  },
+  "outcomes_by_scenario": {
+   "clean": {
+    "completed": 60
+   },
+   "faults": {
+    "completed": 54,
+    "model_failed": 4,
+    "TerminalArmFailure": 2
+   },
+   "flaky:1": {
+    "TechnicalAbort": 60
+   },
+   "flaky:3": {
+    "completed": 12,
+    "TechnicalAbort": 48
+   },
+   "systemic:2": {
+    "GlobalStop": 60
+   },
+   "systemic:5": {
+    "completed": 42,
+    "GlobalStop": 18
+   }
+  },
+  "physical_attempts": 1537,
+  "unknown_attempts": 302,
+  "rate_retries": 34,
+  "technical_retries": 225,
+  "paid_terminal_arm_failures": 2,
+  "paid_model_failures": 4,
+  "known_cost_usd": "0.07206"
+ },
+ "raw_files": 13796,
+ "raw_zip_sha256": "2ecdf6bf23936035f981b781a78ae4356966e99c1d3f6568efb41445ce29f79b",
+ "raw_zip_verified": true,
+ "sources": {
+  "netguard.py": "26268f84acf4eca2dc623c803e9b02242a35751e127d2f73b95f274092af1164",
+  "common.py": "ca08dd61339c9999e1ba48759a99af35db1833b5cb85130b26ac2d79aa007b2c",
+  "lg_adapter.py": "8ad76454137addac17a9f1d4bbd19df26f4dd2deb9529b0c6615886ace13df2b",
+  "backends.py": "4a7f11d2d36fbdaff05d8c796bc7a97c86d5d70152a75a1b7bfb2fc0f9a90c23",
+  "binding.py": "b4c2a3b7dc91bc45346ca254027956c54e258b06489fb6238145cbecbd018fe1",
+  "tests/test_v3_adapter.py": "9c32b577aa242b1b098ffdd3399939b8c57c2ae9a60777aed53c1cbf5fd1fdd4",
+  "run_v3c.py": "26ff3146938d4db02c3f8019894e4139b5419303799c34cd50251b062f7f4429"
+ },
+ "network": {
+  "attempts": {
+   "socket.connect": 0,
+   "socket.connect_ex": 0,
+   "create_connection": 0,
+   "getaddrinfo": 0
+  },
+  "total": 0,
+  "lock_installed_at_end": true
+ },
+ "seconds": 17.4,
+ "smoke": false,
+ "all_equal": true
+}

@@ -1,0 +1,386 @@
+{
+  "eval-harness/eval/communication_pruning/__init__.py": {
+    "bytes": 89,
+    "sha256": "8edf0eb6c2ad4a03ea1bcd967ce72d103ab0f36571f504a5f927aa698e984f26"
+  },
+  "eval-harness/eval/communication_pruning/__main__.py": {
+    "bytes": 1059,
+    "sha256": "d29bbb37193c44116088fa6acd40b95d22ac0ec328d89ecafd936d81aca05fdc"
+  },
+  "eval-harness/eval/communication_pruning/audit.py": {
+    "bytes": 8947,
+    "sha256": "d4aebc769df3c0607a25b944dc7fb0307b01b31811df12dc07a91962e082c7da"
+  },
+  "eval-harness/eval/communication_pruning/bca.py": {
+    "bytes": 4937,
+    "sha256": "5955694bdb29e82d117828b2dcde3b81d96716186d56df90700533a503b2c4f6"
+  },
+  "eval-harness/eval/communication_pruning/bca_validation.py": {
+    "bytes": 9032,
+    "sha256": "1a12e39a56459b247cf865ced2a5f8512e81de388f103adbafa0ce763e6d168d"
+  },
+  "eval-harness/eval/communication_pruning/bca_verify.py": {
+    "bytes": 5670,
+    "sha256": "8569bb253f6d590d7ea25b3a72c13aed57799fdf0e287d594e66c8c6ab27b602"
+  },
+  "eval-harness/eval/communication_pruning/cluster_interval_validation.py": {
+    "bytes": 10529,
+    "sha256": "189da9bbf6b10c83548ad947d50762a2cc6fe31a3fefb69548a56c582dd1099d"
+  },
+  "eval-harness/eval/communication_pruning/cluster_interval_verify.py": {
+    "bytes": 7571,
+    "sha256": "86196b50a056c2d290d6ffb5041f7f6e8c4d5419226a478d677928fea3db71d0"
+  },
+  "eval-harness/eval/communication_pruning/cluster_intervals.py": {
+    "bytes": 5152,
+    "sha256": "a6a341775082631a1ec7f62abff7d9b788f6569186f3e4f702ab3421d3a7494f"
+  },
+  "eval-harness/eval/communication_pruning/configurations.py": {
+    "bytes": 1016,
+    "sha256": "538bed52e74482ddbd0300fee9965254ec571bddf3adc4868d443c75db8b4796"
+  },
+  "eval-harness/eval/communication_pruning/contracts.py": {
+    "bytes": 4848,
+    "sha256": "63da89facc64642b92bb6742a3f988dbb84d0263240b89469065e50e70bbfb5f"
+  },
+  "eval-harness/eval/communication_pruning/data.py": {
+    "bytes": 9614,
+    "sha256": "32b810f300a00909726849a116e046631ca5d91b35ab0df22081c7e27b88973c"
+  },
+  "eval-harness/eval/communication_pruning/demo.py": {
+    "bytes": 4193,
+    "sha256": "9921b92b11f6324db28085e92d61c1071c3516ba3d07b17950dd07ad85a45800"
+  },
+  "eval-harness/eval/communication_pruning/evaluation.py": {
+    "bytes": 11319,
+    "sha256": "e73c75654ae686bc09f7153f74caec727d623385f521d015809f29cb39fa2c94"
+  },
+  "eval-harness/eval/communication_pruning/execution.py": {
+    "bytes": 5311,
+    "sha256": "288b1094d0dbff7cf55a597d8e3037e990062ec91930b1c47a52e0b02c484e96"
+  },
+  "eval-harness/eval/communication_pruning/failure_policy.py": {
+    "bytes": 2813,
+    "sha256": "8d3a7ed10a16519d5a728e057d2acc5b849b4d6406f34a58f110081948706608"
+  },
+  "eval-harness/eval/communication_pruning/finite_uncertainty.py": {
+    "bytes": 3762,
+    "sha256": "102afc1775fc1c827ba09c656814ac4cc739fed1f01b7dbefb0dd5b2484683b7"
+  },
+  "eval-harness/eval/communication_pruning/finite_uncertainty_validation.py": {
+    "bytes": 8768,
+    "sha256": "0b75e8dd6e7039bce0b97ffc85ea45ea711a8241f5165d579e7ecaf22e4865c0"
+  },
+  "eval-harness/eval/communication_pruning/finite_uncertainty_verify.py": {
+    "bytes": 6123,
+    "sha256": "522ca5abab9c5ea3fa2b707763ced0d7a88c5c5365aab72d2a568417b0f24293"
+  },
+  "eval-harness/eval/communication_pruning/followup.py": {
+    "bytes": 8896,
+    "sha256": "1da7ce4a847bc495e51c3cbb6e7930ef0079d5050711d6808e06decf83030800"
+  },
+  "eval-harness/eval/communication_pruning/foreign_audit.py": {
+    "bytes": 3662,
+    "sha256": "83354a8e8b7e66e5a4445b3c54fca6f42d263e2bbb32fad2353975a904334379"
+  },
+  "eval-harness/eval/communication_pruning/foreign_demo.py": {
+    "bytes": 5434,
+    "sha256": "19da16d2fc71333e313bdc63dba1e6c241f252cdbb8b64ee5b952fdfff14229d"
+  },
+  "eval-harness/eval/communication_pruning/foreign_observer.py": {
+    "bytes": 6004,
+    "sha256": "e342030cc71d93fb862085fba16c61765e0e6f178748829d2891c2db736e0df9"
+  },
+  "eval-harness/eval/communication_pruning/foreign_validation.py": {
+    "bytes": 6705,
+    "sha256": "4fbf077b20c1acdc0c9624a9cd75f0ad87a04a386f920362f13e23900ae80024"
+  },
+  "eval-harness/eval/communication_pruning/gptswarm_probe.py": {
+    "bytes": 7790,
+    "sha256": "8a26a35916157f267b6835319a5834ee343ad0f270bc0a1635877ce7bbba11e8"
+  },
+  "eval-harness/eval/communication_pruning/inference.py": {
+    "bytes": 5892,
+    "sha256": "48eadb9587b1055cca8a1c62465e41b5510279f1e47731b3698b9dd55f5dd9ba"
+  },
+  "eval-harness/eval/communication_pruning/journal.py": {
+    "bytes": 6345,
+    "sha256": "a7687270b1a24ada7a5e74f5211a25da0b4d418fbc11ff2216c45a730bcb7509"
+  },
+  "eval-harness/eval/communication_pruning/musique_probe.py": {
+    "bytes": 12967,
+    "sha256": "9c24c29ce95201f7221107ba5aa391ae709343a3fbcd8358866b4472e9932c54"
+  },
+  "eval-harness/eval/communication_pruning/openrouter.py": {
+    "bytes": 11265,
+    "sha256": "e9f376fd85faf76d3dd513b91d6c50b29dd2538f96b7f7df759fbb78519f596e"
+  },
+  "eval-harness/eval/communication_pruning/phase_allocation.py": {
+    "bytes": 15627,
+    "sha256": "591631771b17fcb8e3f8f94d86b38f1bf667f5112254d015c892ff4645e79792"
+  },
+  "eval-harness/eval/communication_pruning/phase_budget.py": {
+    "bytes": 7960,
+    "sha256": "4124243abf86b55e7f5b5b2f7c2e20f3a854882133fa5baee9d4d64fde8db6a1"
+  },
+  "eval-harness/eval/communication_pruning/phase_validation.py": {
+    "bytes": 7267,
+    "sha256": "1fef0535c4b1e6de476097975bff05c576168814f6d9f85d994f731f8ff72920"
+  },
+  "eval-harness/eval/communication_pruning/pilot_schedule.py": {
+    "bytes": 4853,
+    "sha256": "5897b0362a137011800768f5cff70d61250dd7c14748132b385b7d3b1bce54b8"
+  },
+  "eval-harness/eval/communication_pruning/pilot_validation.py": {
+    "bytes": 6654,
+    "sha256": "75704275ec52dff7321019fcbb6a6c62d813bb6c51c51a479d1edfae5bae269e"
+  },
+  "eval-harness/eval/communication_pruning/probe.py": {
+    "bytes": 10113,
+    "sha256": "5a9a762b911bea4333c01e1a53893f8caabebb624fc93a056c779cfb4117cad5"
+  },
+  "eval-harness/eval/communication_pruning/rate_limit.py": {
+    "bytes": 15638,
+    "sha256": "4e6847e008586aed07e6cc3c655c18fb4f67b3e1aaaef553e5e3742bc92a8bfc"
+  },
+  "eval-harness/eval/communication_pruning/sampling.py": {
+    "bytes": 2769,
+    "sha256": "0629167f9877875861cf08537912f344d3ccf4803bed02ab737dd6c66e02a24e"
+  },
+  "eval-harness/eval/communication_pruning/sampling_validation.py": {
+    "bytes": 7147,
+    "sha256": "71be9b9606347b60c0c94d981f637697ce2d0706a4427ee2f7bd5e17004c99ff"
+  },
+  "eval-harness/eval/communication_pruning/sampling_verify.py": {
+    "bytes": 4874,
+    "sha256": "00ef4920e67d2d691e4ee48b7a1ea5ba4ec81a91fd2668c3c920e44ad78fb2bc"
+  },
+  "eval-harness/eval/communication_pruning/selection.py": {
+    "bytes": 9917,
+    "sha256": "b3348f1a91c80f607b0bb231406af1251cb5b84fd1a6d9864e61d2a6979783a0"
+  },
+  "eval-harness/eval/communication_pruning/spatial_plan.py": {
+    "bytes": 4753,
+    "sha256": "690332efa0bed74abef7a04e57ead6fff93f1064534767416f7ce29828fe6461"
+  },
+  "eval-harness/eval/communication_pruning/spatial_validation.py": {
+    "bytes": 7387,
+    "sha256": "263a37011a395f2f57ec6d4060b19dd98fa1a0be112cc8e57aa8b1bf73d43377"
+  },
+  "eval-harness/eval/communication_pruning/study.py": {
+    "bytes": 12479,
+    "sha256": "bcfc4a84306593e0400c40ac992589b96a0a36bffc94abacd0176afd48f653fa"
+  },
+  "eval-harness/eval/communication_pruning/study_ratelimit.py": {
+    "bytes": 20456,
+    "sha256": "b2e2d81f3fe6de5b05f3111f7689fd0428c05978549553cf910ab7afcc3e2fcf"
+  },
+  "eval-harness/eval/communication_pruning/study_recovery.py": {
+    "bytes": 18224,
+    "sha256": "183a5bbc03726d8ccdf73b586f765fe2a9af5db5164a71da420f95632c2ce5f1"
+  },
+  "eval-harness/eval/communication_pruning/study_release.py": {
+    "bytes": 7349,
+    "sha256": "dbef1f4c9fd5d895fe92658fe5396fb12b4b4b56bb9f21477063bd7422b5661a"
+  },
+  "eval-harness/eval/communication_pruning/study_resume.py": {
+    "bytes": 11695,
+    "sha256": "1edc9990b83065e9e86e6851c2d685a09990c39b426e69962f7a859a5d95f39e"
+  },
+  "eval-harness/eval/communication_pruning/study_service_recovery.py": {
+    "bytes": 20583,
+    "sha256": "b397e61d16461d6f330f0e320fe7887937cc37417a2c5fd9f0f560ef72dbd34c"
+  },
+  "eval-harness/eval/communication_pruning/study_validation.py": {
+    "bytes": 5123,
+    "sha256": "a183ec9768d6a5a3efeb1d6869ccd9849ebf3c4199cca9f4edba26f7118df0bb"
+  },
+  "eval-harness/eval/communication_pruning/technical.py": {
+    "bytes": 4105,
+    "sha256": "0fcb990485af5dedbd2ce02701a632c2634b2326e33f81915cc644794d8d34c0"
+  },
+  "eval-harness/eval/tests/bca_reference.py": {
+    "bytes": 1568,
+    "sha256": "f4258791b6c261646eba3af68fcd41f5a767494fc165fb3d71f344f7187d1293"
+  },
+  "eval-harness/eval/tests/measurement_reference.py": {
+    "bytes": 2432,
+    "sha256": "fa55c534d360e5b24c058b3ab80219b53015422228aa2cfc949c21eca7236bad"
+  },
+  "eval-harness/eval/tests/study_fixture.py": {
+    "bytes": 3901,
+    "sha256": "bd765e19efb482f878e1c1f918231c6090d95b275c721805f5dad589e4ca39b2"
+  },
+  "eval-harness/eval/tests/test_bca.py": {
+    "bytes": 4697,
+    "sha256": "9f48cebd81c21fb840aa383750c3803c52f058190a3cbff3b1b99ab9b1d06a75"
+  },
+  "eval-harness/eval/tests/test_cluster_intervals.py": {
+    "bytes": 5065,
+    "sha256": "68f3a9837813584a2c2ca054ab1697d4b11c743bdc4a325ab8980ca294e46ac1"
+  },
+  "eval-harness/eval/tests/test_core.py": {
+    "bytes": 10116,
+    "sha256": "1b7ef6ea6cede520480569ac559882c9fcdbd2fcbb394cbe59b5310864d130d3"
+  },
+  "eval-harness/eval/tests/test_data.py": {
+    "bytes": 8178,
+    "sha256": "e41a4f094bd2978793347bd2f58e67052e69f267cf0358c9b12e6210b7055c77"
+  },
+  "eval-harness/eval/tests/test_evaluation.py": {
+    "bytes": 8738,
+    "sha256": "bbc25ec816b7e719e5039ba3e3b80d07c37fb303df85a88c6a15b83c5f31bcab"
+  },
+  "eval-harness/eval/tests/test_failure_policy.py": {
+    "bytes": 14688,
+    "sha256": "9afad541fe9fdd53a9cf4b70de4af997c675f8ab1a9111deec379708cdc3b206"
+  },
+  "eval-harness/eval/tests/test_finite_uncertainty.py": {
+    "bytes": 4569,
+    "sha256": "db352d5f5a2802324c0b45ea218d8e54ac24e0df452387610036a3593cb2007a"
+  },
+  "eval-harness/eval/tests/test_followup.py": {
+    "bytes": 12943,
+    "sha256": "7c742ec2fb3a89c79ee04845431fc02857ed23edf32f6ea996ab8eaf71006796"
+  },
+  "eval-harness/eval/tests/test_foreign_observer.py": {
+    "bytes": 5472,
+    "sha256": "83b0d6d6a232e006b3aae6a9413c82f7a774d8e70d83e6b6b55ca2a73a2c5cb9"
+  },
+  "eval-harness/eval/tests/test_gptswarm_probe.py": {
+    "bytes": 2167,
+    "sha256": "063c12fb6b25ec1c81f32bf4c448a986983066da1dd6558e621702db35454854"
+  },
+  "eval-harness/eval/tests/test_inference.py": {
+    "bytes": 6520,
+    "sha256": "cad38f941029e8c16a1ded25d6d3b5a96c98abc8b7bc0e58fa1c52c7ecdd89e6"
+  },
+  "eval-harness/eval/tests/test_journal.py": {
+    "bytes": 15018,
+    "sha256": "b6d2c24f8a698364458b0d040d9cf19c7558fb5bd5fc40065b7da5bd8c2e7172"
+  },
+  "eval-harness/eval/tests/test_measurement.py": {
+    "bytes": 9113,
+    "sha256": "849f313ec099af028918900b126118e09e2d0433be480534bde56937563cd096"
+  },
+  "eval-harness/eval/tests/test_openrouter.py": {
+    "bytes": 12916,
+    "sha256": "f2bbb75b2f999de44caf5269a275bc0ba0847bbd33f7ae64b30a55adb856cd8d"
+  },
+  "eval-harness/eval/tests/test_phase_allocation.py": {
+    "bytes": 8512,
+    "sha256": "a7986f185ddd6cb844d91cedf154187dd0cac6e78758b7d04f061327efc3af90"
+  },
+  "eval-harness/eval/tests/test_pilot_schedule.py": {
+    "bytes": 7721,
+    "sha256": "7d4ee5acf67630b434e9ec49fd84378667b324fb261fab36fc950c25cf06ab69"
+  },
+  "eval-harness/eval/tests/test_rate_limit.py": {
+    "bytes": 9072,
+    "sha256": "1e9954b1fab985a0a1c2d39839ffff8cb55aceceb3fce87ec837fd2d8835472a"
+  },
+  "eval-harness/eval/tests/test_sampling.py": {
+    "bytes": 3856,
+    "sha256": "5f16e77729a2bfe79b1635feba50b48cd108879619bdb585443f0df2120bc14a"
+  },
+  "eval-harness/eval/tests/test_selection.py": {
+    "bytes": 8290,
+    "sha256": "d8036bf4dd489bace7cb81f1192309be7f56cce79fa71f69ef55b73db8d20955"
+  },
+  "eval-harness/eval/tests/test_spatial_plan_budget.py": {
+    "bytes": 8980,
+    "sha256": "ed7ad93bb4f0dc1e3044e448e875fc1d9a793650644c86a1016024698cb6f02a"
+  },
+  "eval-harness/eval/tests/test_study.py": {
+    "bytes": 8898,
+    "sha256": "d39a60a08660bbe13aa79d0cb63e2c6c2fb63592df226f53fc8599420b4e4957"
+  },
+  "eval-harness/eval/tests/test_study_checkpoint.py": {
+    "bytes": 5879,
+    "sha256": "8b65dead6de83b0fc6ee2ea13820b75ef623720f18b6a8e7837832f6edac6e2e"
+  },
+  "eval-harness/eval/tests/test_study_ratelimit.py": {
+    "bytes": 6168,
+    "sha256": "1dec3cb3514c7bbebd195bacfcd012cd63f59c34ea14d45b87762a969eca89ae"
+  },
+  "eval-harness/eval/tests/test_study_recovery.py": {
+    "bytes": 10174,
+    "sha256": "2b5344d89f2c711958493c552ff49e3b96958c30185bcc69faa82bac53fafa60"
+  },
+  "eval-harness/eval/tests/test_study_resume.py": {
+    "bytes": 13464,
+    "sha256": "12ad1742c72c92159e4ac8224b2869507745f833afe6e7f0698f5cfaa6d264c3"
+  },
+  "eval-harness/eval/tests/test_study_service_recovery.py": {
+    "bytes": 9528,
+    "sha256": "4b7709a04fc78231276295610adeda91cab72016a065bbfb17ecc88df0f2446f"
+  },
+  "eval-harness/eval/tests/test_technical.py": {
+    "bytes": 8369,
+    "sha256": "3ad6d30ecbdd342fd99b9c5833e73d9878a1762448bb4aef669a831e8dfb6a42"
+  },
+  "eval-harness/eval/README.md": {
+    "bytes": 12234,
+    "sha256": "38c9f739806922ad8bcfdb1a3fcd32488b1b7ae283d8e720962b696cd0a3694d"
+  },
+  "project/dsr/Z31-PRUNING-PLAN.md": {
+    "bytes": 13853,
+    "sha256": "8ef5ef0c17e300dd09e5034a5eb4f13b8a1995ca9bad2b15fe174975b0650d86"
+  },
+  "project/ENTWICKLUNGSSTEUERUNG.json": {
+    "bytes": 3187,
+    "sha256": "81271bcb14ede2c3e3976c9c7f72c23a4e6c1bca7fe1ec62948bc0b32479c280"
+  },
+  "project/FORSCHUNGSDESIGN-KONSOLIDIERT-2026-09-05.md": {
+    "bytes": 15010,
+    "sha256": "6835e4cb9ff105e2e7143bffde3c5b3703d8785402fa77794a26588418175740"
+  },
+  "eval-harness/eval/runs/Z31-PRUNING-001/wheel-download-receipt.json": {
+    "bytes": 7468,
+    "sha256": "3241a361b16b270ecbdde1c91441afc9aec091b098bc8596a292d76ac30b8947"
+  },
+  "eval-harness/eval/runs/Z31-PRUNING-001/authorization.json": {
+    "bytes": 4657,
+    "sha256": "20fda6f85dd781bde071b31fbc035807f39f7d0eb5a4d9d80b78b303129b291e"
+  },
+  "eval-harness/eval/runs/Z31-PRUNING-001/wheel-install-receipt.json": {
+    "bytes": 787,
+    "sha256": "7125ce43e026fd7316d07052836d634775b8f26d9b97f0d1bed9acd5849ec7fb"
+  },
+  "eval-harness/eval/runs/Z31-PRUNING-001/original-tree.json": {
+    "bytes": 66836,
+    "sha256": "217bb7c0832b50643a96cf14d2bc434cef955ff1084dfda9f23cc20039dc5226"
+  },
+  "eval-harness/eval/runs/Z31-PRUNING-001/run_validation.py": {
+    "bytes": 3798,
+    "sha256": "2e23b2eec482239325dbc2ae3b27088f8566990e03211eb6e1610afc0708fbcd"
+  },
+  "eval-harness/eval/runs/Z31-PRUNING-001/runtime-prepare-started.json": {
+    "bytes": 464,
+    "sha256": "23d77209011bc589417e2110c6225183e77fd2637db0984ca22f5393bc8819fd"
+  },
+  "eval-harness/eval/runs/Z31-PRUNING-001/runtime-requirements.txt": {
+    "bytes": 143,
+    "sha256": "f05ed590a2095e79bb7cc3623e13cdf4d9c32ac26d7bd2b026b9feea1526f2e0"
+  },
+  "eval-harness/eval/runs/Z31-PRUNING-001/case.py": {
+    "bytes": 589,
+    "sha256": "3b261d547d56eaa454979756dc83457d13bb341870defe3eceb38d69ad4d7625"
+  },
+  "eval-harness/eval/runs/Z31-PRUNING-001/prepare_runtime.py": {
+    "bytes": 3006,
+    "sha256": "621d56b3f20d37c36e25a9dbe9bfcb9cbf2296a00100ec13c08ff6a789338d19"
+  },
+  "eval-harness/eval/runs/Z31-PRUNING-001/verify.py": {
+    "bytes": 5484,
+    "sha256": "e78f53bdbf888e5c84b9064e02b83bf6bc92777d74a5b55453f421a429fba141"
+  },
+  "eval-harness/eval/runs/Z31-PRUNING-001/tests.py": {
+    "bytes": 439,
+    "sha256": "52d871febdce01698d6e368746634d36107dbf5ebbb5e2f5b802700be8d183c7"
+  },
+  "eval-harness/eval/runs/Z31-PRUNING-001/original-manifest.json": {
+    "bytes": 3664,
+    "sha256": "6da7d0e14a11b37897a9d5a6ca68a9fc58cddf35aa7c90cfae6759c55e64765f"
+  }
+}

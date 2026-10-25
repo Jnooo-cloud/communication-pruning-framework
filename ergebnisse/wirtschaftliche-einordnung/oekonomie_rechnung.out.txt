@@ -1,0 +1,165 @@
+WIRTSCHAFTLICHE EINORDNUNG: RECHNUNG AUS PRIMÄRDATEN (nur lesend, keine Modellaufrufe, 0 USD)
+Projektwurzel: /Users/jannikhiller/Desktop/ai operations/Studium OS/Masterarbeit
+
+0. Eingaben (SHA-256)
+  eval-harness/eval/runs/Z53-SCHNELLFORTSETZUNG-001/live/collected/rows-R.json  7f836d8bf04fae7d1fd0f1e616ba39c314ebc357fc2e5c1bbcfb5d73aa83d3b0
+  eval-harness/eval/runs/Z53-SCHNELLFORTSETZUNG-001/ANALYSIS-R.json  ec36d63ce918e8c38a888d3c7423b0f20d181df83aa8e2e407850589462ff2f8
+  eval-harness/eval/runs/Z54-SK-KORREKTUR-001/live/collected/rows-R-SK.json  c2ffe7c30066b5ebbf9596ff96b8280152f8f7fb309c004a842bb290dcc58dd3
+  eval-harness/eval/runs/Z54-SK-KORREKTUR-001/ANALYSIS-R-SK.json  ace7a1f0d3ca425c435d7cf74281074ff3bccc5b1f5d272c3390dee57a0873f4
+  eval-harness/eval/runs/Z51-RETRY-EINZELERSATZ-001/operation/P-ANALYSIS.json  fc4be29676749d7611d7c3f0d11e912193e4588609acb5d4734a15c387dcba65
+  eval-harness/eval/runs/Z51-RETRY-EINZELERSATZ-001/operation/isolated-backup-D074/8fa92e0363674966964a48fc89d9abc1/STATE.json  960d6402c87d16c9fc9817e86f1c6a0d0cddafe8d1e66c2b665c1ea1a2f05be6
+  eval-harness/eval/runs/Z50-NACHARBEIT-001/coordination/final-candidate-001/PLAN.json  42a55ddd7dc71738d39fbdb546b0bb60ca19a0d6485f47688de32c893f47f61f
+  eval-harness/eval/runs/Z39-RAEUM-ENTWICKLUNG-001/FINAL-R1-MATRIX-ACCEPTANCE.json  fc0db5174d1ef097e7d44e41e5ec38f569709006607efae90a35b09fb105e87b
+  eval-harness/eval/runs/Z39-RAEUM-ENTWICKLUNG-001/live/budget.jsonl  ca242b85803ebc2b5b19fe4359f1d3f3adacfdb677fa296771eb5fd36ced9e7d
+  eval-harness/eval/runs/Z39-RAEUM-ENTWICKLUNG-001/recovery/budget.jsonl  bb817963811f5343904b394d34d7b22ccb8ad7a49753c5b6f2a1a3a48bb4d593
+  eval-harness/eval/runs/Z52-NEBENPANEL-ANSCHLUSS-001/recovery-R00038/continuation-R00087/recovery-R00125/technical-R00203/live/dispatch/*-settled.json und *-response.json (Zeitstempel und Tokens je Sendeversuch)
+
+1. Referenzvergleich: bekannte Modellkosten, Qualität und Aufrufe je Arm (2.952 Blöcke)
+  Quelle: rows-R.json (Zeilen je Block und Arm) und rows-R-SK.json; Summen und EM identisch mit ANALYSIS-R.json bzw. ANALYSIS-R-SK.json
+
+  Einzelaufruf: exakt richtig 34,08 %, bekannte Kosten gesamt 0,56 USD (genau 0.55842620), je Aufgabe 0.0001891688 USD, je 1.000 Aufgaben 0,19 USD (genau 0,189169), je eine Million Aufgaben 189 USD, mittlere Modellaufrufe je Lauf 1,00
+     Verteilung der Aufrufzahl je Lauf: {1: 2952}
+  Abstimmungsarm neu (Temperatur 1,0): exakt richtig 34,21 %, bekannte Kosten gesamt 2,33 USD (genau 2.33160471), je Aufgabe 0.0007898390 USD, je 1.000 Aufgaben 0,79 USD (genau 0,789839), je eine Million Aufgaben 790 USD, mittlere Modellaufrufe je Lauf 5,00
+     Verteilung der Aufrufzahl je Lauf: {4: 1, 5: 2951}
+  Abstimmungsarm alt (Temperatur 0): exakt richtig 34,08 %, bekannte Kosten gesamt 2,18 USD (genau 2.18318788), je Aufgabe 0.0007395623 USD, je 1.000 Aufgaben 0,74 USD (genau 0,739562), je eine Million Aufgaben 740 USD, mittlere Modellaufrufe je Lauf 5,00
+     Verteilung der Aufrufzahl je Lauf: {5: 2952}
+  F*: exakt richtig 34,35 %, bekannte Kosten gesamt 3,72 USD (genau 3.71802979), je Aufgabe 0.0012594952 USD, je 1.000 Aufgaben 1,26 USD (genau 1,259495), je eine Million Aufgaben 1.259 USD, mittlere Modellaufrufe je Lauf 4,94
+     Verteilung der Aufrufzahl je Lauf: {1: 4, 2: 50, 5: 2898}
+  Q: exakt richtig 29,34 %, bekannte Kosten gesamt 4,32 USD (genau 4.32320008), je Aufgabe 0.0014644987 USD, je 1.000 Aufgaben 1,46 USD (genau 1,464499), je eine Million Aufgaben 1.464 USD, mittlere Modellaufrufe je Lauf 5,89
+     Verteilung der Aufrufzahl je Lauf: {1: 8, 2: 29, 3: 3, 5: 1535, 6: 3, 7: 1374}
+  Zufallsauswahl: exakt richtig 29,00 %, bekannte Kosten gesamt 4,53 USD (genau 4.52977685), je Aufgabe 0.0015344773 USD, je 1.000 Aufgaben 1,53 USD (genau 1,534477), je eine Million Aufgaben 1.534 USD, mittlere Modellaufrufe je Lauf 6,05
+     Verteilung der Aufrufzahl je Lauf: {1: 19, 2: 33, 3: 8, 4: 2, 5: 1240, 6: 2, 7: 1648}
+  dichte Vierergruppe: exakt richtig 27,64 %, bekannte Kosten gesamt 6,98 USD (genau 6.97960722), je Aufgabe 0.0023643656 USD, je 1.000 Aufgaben 2,36 USD (genau 2,364366), je eine Million Aufgaben 2.364 USD, mittlere Modellaufrufe je Lauf 8,80
+     Verteilung der Aufrufzahl je Lauf: {1: 4, 2: 50, 3: 21, 4: 13, 6: 3, 7: 2, 8: 1, 9: 2858}
+
+  Abgleich mit Tabelle 6.5 (Summe der bekannten Kosten, exakt richtig):
+  Abgleich F* Kosten: gerechnet 3.72 | Arbeit 3.72 | stimmt
+  Abgleich F* exakt richtig: gerechnet 34.35 | Arbeit 34.35 | stimmt
+  Abgleich Q Kosten: gerechnet 4.32 | Arbeit 4.32 | stimmt
+  Abgleich Q exakt richtig: gerechnet 29.34 | Arbeit 29.34 | stimmt
+  Abgleich Einzelaufruf Kosten: gerechnet 0.56 | Arbeit 0.56 | stimmt
+  Abgleich Einzelaufruf exakt richtig: gerechnet 34.08 | Arbeit 34.08 | stimmt
+  Abgleich Abstimmungsarm alt (Temperatur 0) Kosten: gerechnet 2.18 | Arbeit 2.18 | stimmt
+  Abgleich Abstimmungsarm alt (Temperatur 0) exakt richtig: gerechnet 34.08 | Arbeit 34.08 | stimmt
+  Abgleich Abstimmungsarm neu (Temperatur 1,0) Kosten: gerechnet 2.33 | Arbeit 2.33 | stimmt
+  Abgleich Abstimmungsarm neu (Temperatur 1,0) exakt richtig: gerechnet 34.21 | Arbeit 34.21 | stimmt
+  Abgleich dichte Vierergruppe Kosten: gerechnet 6.98 | Arbeit 6.98 | stimmt
+  Abgleich dichte Vierergruppe exakt richtig: gerechnet 27.64 | Arbeit 27.64 | stimmt
+  Abgleich Zufallsauswahl Kosten: gerechnet 4.53 | Arbeit 4.53 | stimmt
+  Abgleich Zufallsauswahl exakt richtig: gerechnet 29.00 | Arbeit 29.0 | stimmt
+
+2. Kostenverhältnisse der Mittel (Tabelle 6.6) und Anteile
+  Abgleich F* / dichte Vierergruppe: gerechnet 0.5327 | Arbeit 0.53 | stimmt
+  Abgleich F* / Einzelaufruf: gerechnet 6.6581 | Arbeit 6.66 | stimmt
+  Abgleich F* / Abstimmungsarm alt (Temperatur 0): gerechnet 1.7030 | Arbeit 1.7 | stimmt
+  Abgleich F* / Abstimmungsarm neu (Temperatur 1,0): gerechnet 1.5946 | Arbeit 1.59 | stimmt
+  Abgleich F* / Zufallsauswahl: gerechnet 0.8208 | Arbeit 0.82 | stimmt
+  Abgleich Q / F*: gerechnet 1.1628 | Arbeit 1.16 | stimmt
+  Abgleich Q / Einzelaufruf: gerechnet 7.7418 | Arbeit 7.74 | stimmt
+  Abgleich Q / Abstimmungsarm alt (Temperatur 0): gerechnet 1.9802 | Arbeit 1.98 | stimmt
+  Abgleich Q / Abstimmungsarm neu (Temperatur 1,0): gerechnet 1.8542 | Arbeit 1.85 | stimmt
+  Abgleich Q / dichte Vierergruppe: gerechnet 0.6194 | Arbeit 0.62 | stimmt
+  Abgleich Q / Zufallsauswahl: gerechnet 0.9544 | Arbeit 0.95 | stimmt
+  Einzelaufruf in Prozent der Kosten von F*: 15,0 % (Kurzfassung: rund 15 %)
+  Abstimmungsarm neu / Einzelaufruf: 4,18 (Arbeit: rund 4,2-fach)
+  F* / dichte Vierergruppe: 0,533 (rund halbe Kosten)
+
+  Hoeffding-Radius bei n = 2.952: 5,00 Prozentpunkte
+  F* minus Einzelaufruf: 0,27 Pp., Intervall -4,73 bis 5,27 (Tabelle 6.6: 0,27; -4,73 bis 5,27)
+  F* minus dichte Vierergruppe: 6,71 Pp., Intervall 1,71 bis 11,71 (Tabelle 6.6: 6,71; 1,71 bis 11,71)
+
+3. Hauptstudie: bekannte Modellkosten von Q und F* (9.040 Paare, nacheinander erhoben)
+  Q: exakt richtig 31,99 %, bekannte Kosten gesamt 14,44 USD (genau 14.43511769), je 1.000 Aufgaben 1,60 USD (genau 1,596805), mittlere Modellaufrufe je Lauf 5,88
+  F*: exakt richtig 36,21 %, bekannte Kosten gesamt 12,35 USD (genau 12.34547314), je 1.000 Aufgaben 1,37 USD (genau 1,365650), mittlere Modellaufrufe je Lauf 4,95
+  Abgleich Q Kosten gesamt: gerechnet 14.44 | Arbeit 14.44 | stimmt
+  Abgleich F* Kosten gesamt: gerechnet 12.35 | Arbeit 12.35 | stimmt
+  Abgleich Kostenverhältnis Q/F*: gerechnet 1.1693 | Arbeit 1.169 | stimmt
+  Abgleich Q exakt richtig: gerechnet 31.99 | Arbeit 31.99 | stimmt
+  Abgleich F* exakt richtig: gerechnet 36.21 | Arbeit 36.21 | stimmt
+  Abgleich Aufrufe Q (Tabelle 6.4): gerechnet 5.88 | Arbeit 5.88 | stimmt
+  Abgleich Aufrufe F* (Tabelle 6.4): gerechnet 4.95 | Arbeit 4.95 | stimmt
+
+4. Entwicklungsmatrix (einmalig; aus ihr wurden F* und Q gewählt)
+  abgerechnete Sendeversuche in beiden Kontenbüchern: 29.852
+  bekannte Modellkosten der Entwicklungsmatrix: 6,35 USD (genau 6.35076223); Abnahmedatei: 6.35076223
+  unbekannte Abrechnungen: 1 (zurückgehaltene Reserve 0,14 USD, keine Ausgabe)
+  Umfang: 4.900 Läufe = 300 Aufgaben x 14 Konfigurationen + 50 Wiederholungsaufgaben x 14; Ergebnisstatus abgeschlossen 4802, Modellausfall 98
+  Abgleich Läufe der Matrix (Abschnitt 5.4: 4.900): gerechnet 4900 | Arbeit 4900 | stimmt
+  zum Vergleich: so viel kosten 33.572 Einzelaufrufe oder 5.042 Läufe von F* im Referenzvergleich
+
+5. Amortisation der Entwicklung (nur wo F* belastbar besser und billiger ist: gegenüber der dichten Vierergruppe)
+  Ersparnis F* gegenüber dichter Vierergruppe je Aufgabe: 0.0011048704 USD = 1,10 USD je 1.000 Aufgaben
+  Amortisation nach 5.748 Aufgaben (genau 5.748,0; gerundet rund 5.750); mit der Reserve als Obergrenze der unbekannten Abrechnung nach 5.875 Aufgaben
+  Gegenüber Einzelaufruf: F* kostet je Aufgabe 1,07 USD je 1.000 Aufgaben mehr und ist nicht nachweisbar besser; keine Amortisation, die Entwicklung kommt zu höheren Betriebskosten hinzu
+  Gegenüber Abstimmungsarm neu: F* kostet 0,47 USD je 1.000 Aufgaben mehr und ist nicht nachweisbar besser; keine Amortisation
+
+6. Mehrkosten je eine Million Aufgaben
+  F* gegenüber Einzelaufruf (Referenzvergleich): 1.070 USD (genau 1.070,33), also rund einen US-Dollar (1,07) je 1.000 Aufgaben
+  Q gegenüber F* (Hauptstudie, maßgeblicher Vergleich): 231 USD (genau 231,16)
+     mit den Grenzen des Kostenverhältnisses 1,162 und 1,176 bei festem Mittel von F*: 221 bis 240 USD
+  Q gegenüber F* (Referenzvergleich, nur beschreibend): 205 USD
+  dichte Vierergruppe gegenüber F* (Referenzvergleich): 1.105 USD
+
+7. Empfindlichkeit gegenüber dem Anbieter-Cache: Kosten nach Position des Arms im Block (beschreibend)
+  Begründung: Innerhalb eines Blocks liefen die Arme nacheinander; spätere Arme senden dieselben Absätze erneut und
+  erhalten teils Cache-Rabatt. Ein Arm, der im Block zuerst lief, kommt dem Einzelbetrieb eines Systems am nächsten.
+  Referenzvergleich Einzelaufruf: zuerst im Block 490 Läufe, je 1.000 Aufgaben 0,25 USD; später 2462 Läufe, 0,18 USD; Verhältnis 1,42
+  Referenzvergleich F*: zuerst im Block 489 Läufe, je 1.000 Aufgaben 1,45 USD; später 2463 Läufe, 1,22 USD; Verhältnis 1,19
+  Referenzvergleich Q: zuerst im Block 529 Läufe, je 1.000 Aufgaben 1,73 USD; später 2423 Läufe, 1,41 USD; Verhältnis 1,23
+  Referenzvergleich Zufallsauswahl: zuerst im Block 518 Läufe, je 1.000 Aufgaben 1,75 USD; später 2434 Läufe, 1,49 USD; Verhältnis 1,17
+  Referenzvergleich dichte Vierergruppe: zuerst im Block 491 Läufe, je 1.000 Aufgaben 2,59 USD; später 2461 Läufe, 2,32 USD; Verhältnis 1,12
+  Referenzvergleich Abstimmungsarm alt (Temperatur 0): zuerst im Block 435 Läufe, je 1.000 Aufgaben 0,82 USD; später 2517 Läufe, 0,72 USD; Verhältnis 1,14
+  Hauptstudie F*: zuerst im Paar 4546 Läufe, je 1.000 Aufgaben 1,47 USD; als zweiter Arm 4494 Läufe, 1,26 USD
+  Hauptstudie Q: zuerst im Paar 4494 Läufe, je 1.000 Aufgaben 1,69 USD; als zweiter Arm 4546 Läufe, 1,50 USD
+  Mit den Kosten der Blöcke, in denen der Arm zuerst lief: F*/Einzelaufruf 5,76 (rund 5,8-fach) statt 6,66 (rund 6,7-fach); F*/dichte Vierergruppe 0,56 statt 0,53
+     Mehrkosten F* gegenüber Einzelaufruf je eine Million Aufgaben 1.199 USD; Amortisation gegenüber dichter Vierergruppe nach 5.579 Aufgaben
+     Einzelaufruf zuerst im Block: 0,25 USD je 1.000 Aufgaben statt 0,19; Rangfolge der Arme nach Kosten unverändert: Einzelaufruf < Abstimmungsarm alt (Temperatur 0) < F* < Q < Zufallsauswahl < dichte Vierergruppe
+  Grund für das höhere Kostenniveau von F* in der Hauptstudie (1,37 statt 1,26 USD je 1.000 Aufgaben): F* lief dort in der Hälfte der Paare zuerst, im Referenzvergleich nur in rund einem Sechstel der Blöcke;
+     wo F* zuerst lief, liegen beide Studien nahe beieinander (siehe Zeilen oben). Andere Ziehungen kommen hinzu.
+
+8. Nacheinander laufende Modellaufrufe je Arm (Ablauf nach Abschnitt 5.2 und 5.3)
+  In dieser Umsetzung ruft das Framework alle Aufrufe eines Laufs nacheinander auf; auch die fünf Antworten des
+  Abstimmungsarms wurden nacheinander abgefragt. Nominal je Lauf ohne Modellausfall:
+    Einzelaufruf 1 | Abstimmungsarm 5 | F* 5 (2 Rollen x 2 Runden + Zusammenführung) | Q 5 oder 7 | Zufallsauswahl 5 oder 7 | dichte Vierergruppe 9 (4 x 2 + 1)
+  beobachtetes Mittel im Referenzvergleich: Einzelaufruf 1,00; Abstimmungsarm neu (Temperatur 1,0) 5,00; F* 4,94; Q 5,89; Zufallsauswahl 6,05; dichte Vierergruppe 8,80
+  Weil keine Rolle Antworten derselben Runde liest, könnten die Aufrufe einer Runde gleichzeitig laufen; die Kette hätte
+  dann 3 Stufen (Runde 1, Runde 2, Zusammenführung) bei allen Mehragentenarmen, 1 beim Einzelaufruf und beim Abstimmungsarm.
+
+9. Zeitstempel und gemessene Wartezeiten
+  Laufprotokolle (journal.jsonl) von 769 F*-Läufen geprüft; Schlüssel: ['checksum', 'event.attempt_id', 'event.instruction', 'event.kind', 'event.max_output_tokens', 'event.messages', 'event.reason', 'event.role', 'event.round', 'event.text', 'event.usage', 'journal_schema', 'payload', 'payload.answer', 'payload.event', 'payload.kind', 'payload.status', 'payload.trace', 'previous', 'run_id', 'seq']
+  Zeitstempel-Schlüssel im Laufprotokoll: keine
+  Zeitstempel je Sendeversuch stehen dagegen in den Sendebelegen (dispatched_at, received_at), in den Kontenbüchern
+  (time je Reservierung und Abrechnung) und in den Anbieterantworten (created, sekundengenau).
+  Sendebelege: 40.066 Sendeversuche, Blöcke 203 bis 1462, ausgewertet vollständige Blöcke 204 bis 1461 (1.258 Blöcke)
+  Tarifprüfung je Anbieterantwort: 40.061 von 40.061 Beträgen erfüllen exakt 0,10 USD je Million Eingabetokens ohne Cache, 0,01 USD je Million aus dem Cache, 0,40 USD je Million Ausgabetokens
+  Modellwartezeit je Aufgabe = Summe der Dauern vom Senden bis zum Empfang über alle Aufrufe eines Laufs (Sekunden):
+    Einzelaufruf: 1258 Läufe (ausgeschlossen mit wiederholtem Sendeversuch: 0), Median 1,3 s, Mittel 1,3 s, 90-%-Quantil 1,6 s; Gesamtdauer erster Versand bis letzter Empfang, Median 1,27 s (Summe der Einzeldauern, Median 1,27 s: Aufrufe liefen nacheinander)
+    Abstimmungsarm alt (Temperatur 0): 1258 Läufe (ausgeschlossen mit wiederholtem Sendeversuch: 0), Median 6,4 s, Mittel 6,8 s, 90-%-Quantil 7,9 s; Gesamtdauer erster Versand bis letzter Empfang, Median 6,40 s (Summe der Einzeldauern, Median 6,39 s: Aufrufe liefen nacheinander)
+    F*: 1257 Läufe (ausgeschlossen mit wiederholtem Sendeversuch: 1), Median 7,3 s, Mittel 7,6 s, 90-%-Quantil 9,0 s; Gesamtdauer erster Versand bis letzter Empfang, Median 7,26 s (Summe der Einzeldauern, Median 7,25 s: Aufrufe liefen nacheinander)
+    Q: 1256 Läufe (ausgeschlossen mit wiederholtem Sendeversuch: 2), Median 8,6 s, Mittel 8,8 s, 90-%-Quantil 11,4 s; Gesamtdauer erster Versand bis letzter Empfang, Median 8,56 s (Summe der Einzeldauern, Median 8,55 s: Aufrufe liefen nacheinander)
+    Zufallsauswahl: 1258 Läufe (ausgeschlossen mit wiederholtem Sendeversuch: 0), Median 9,0 s, Mittel 9,0 s, 90-%-Quantil 11,6 s; Gesamtdauer erster Versand bis letzter Empfang, Median 9,04 s (Summe der Einzeldauern, Median 9,02 s: Aufrufe liefen nacheinander)
+    dichte Vierergruppe: 1257 Läufe (ausgeschlossen mit wiederholtem Sendeversuch: 1), Median 12,8 s, Mittel 13,2 s, 90-%-Quantil 15,9 s; Gesamtdauer erster Versand bis letzter Empfang, Median 12,79 s (Summe der Einzeldauern, Median 12,77 s: Aufrufe liefen nacheinander)
+    Verhältnis der Mediane F*/Einzelaufruf 5,7, dichte Vierergruppe/Einzelaufruf 10,0
+  Rechnerisch, falls die Aufrufe einer Runde gleichzeitig liefen (Summe der längsten Dauer je Stufe, gleiche Einzeldauern):
+    Einzelaufruf bei gleichzeitigen Aufrufen je Runde: Median 1,3 s
+    Abstimmungsarm alt (Temperatur 0) bei gleichzeitigen Aufrufen je Runde: Median 1,4 s
+    F* bei gleichzeitigen Aufrufen je Runde: Median 4,5 s
+    Q bei gleichzeitigen Aufrufen je Runde: Median 4,4 s
+    Zufallsauswahl bei gleichzeitigen Aufrufen je Runde: Median 4,4 s
+    dichte Vierergruppe bei gleichzeitigen Aufrufen je Runde: Median 4,6 s
+    bei gleichzeitigen Aufrufen je Runde: Verhältnis der Mediane F*/Einzelaufruf 3,5
+
+10. Rechnerische Grenzkosten je zusätzlicher exakt richtiger Antwort von F* gegenüber dem Einzelaufruf
+  Punktschätzer: 2,7 zusätzliche richtige Antworten je 1.000 Aufgaben für 1,07 USD, also 0,395 USD (rund 0,39 USD) je zusätzlicher richtiger Antwort
+  obere Intervallgrenze: 52,7 zusätzliche richtige Antworten je 1.000 Aufgaben für 1,07 USD, also 0,020 USD (rund 0,02 USD) je zusätzlicher richtiger Antwort
+  untere Intervallgrenze negativ: dort wäre der Einzelaufruf besser und billiger; der Wert einer richtigen Antwort ist nicht gemessen
+
+11. Tabelle für den Entwurf (Referenzvergleich, 2.952 Blöcke; Kosten je 1.000 Aufgaben gerundet)
+  Tabellenzeile Einzelaufruf | exakt richtig 34,08 % | je 1.000 Aufgaben 0,19 USD | Modellaufrufe nacheinander 1
+  Tabellenzeile Abstimmungsarm neu (Temperatur 1,0) | exakt richtig 34,21 % | je 1.000 Aufgaben 0,79 USD | Modellaufrufe nacheinander 5
+  Tabellenzeile F* | exakt richtig 34,35 % | je 1.000 Aufgaben 1,26 USD | Modellaufrufe nacheinander 5
+  Tabellenzeile Q | exakt richtig 29,34 % | je 1.000 Aufgaben 1,46 USD | Modellaufrufe nacheinander 5 oder 7
+  Tabellenzeile Zufallsauswahl | exakt richtig 29,00 % | je 1.000 Aufgaben 1,53 USD | Modellaufrufe nacheinander 5 oder 7
+  Tabellenzeile dichte Vierergruppe | exakt richtig 27,64 % | je 1.000 Aufgaben 2,36 USD | Modellaufrufe nacheinander 9
+
+Ende der Rechnung.

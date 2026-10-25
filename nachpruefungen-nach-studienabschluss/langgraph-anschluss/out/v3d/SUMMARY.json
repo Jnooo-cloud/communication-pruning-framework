@@ -1,0 +1,79 @@
+{
+ "blocks": 100,
+ "errors": [],
+ "replay_misses": 0,
+ "failures_per_check": {
+  "calls_equal_z55": 0,
+  "requests_equal_z55": 0,
+  "answers_equal_z55": 0,
+  "billing_equal_z55": 0,
+  "result_equal_z55": 0,
+  "round1_equal_z53": 0,
+  "requests_equal_z53": 0,
+  "answers_equal_z53": 0,
+  "result_equal_z53": 0,
+  "journal_accepted": 0,
+  "journal_equal_z53_modulo_run_id": 0,
+  "count_ok": 0,
+  "brake_ledger_equal_z55": 0
+ },
+ "all_equal": true,
+ "arms": {
+  "F": {
+   "blocks": 100,
+   "ok": 97,
+   "model_failures": 3,
+   "calls": 491,
+   "cost_usd": "0.12570271",
+   "messages": 582,
+   "inactive_role_calls": 0,
+   "removed_graph_edges_per_block": [
+    14
+   ],
+   "unsealed_journals": 0,
+   "failure_reasons": [
+    "length"
+   ]
+  },
+  "D": {
+   "blocks": 100,
+   "ok": 95,
+   "model_failures": 5,
+   "calls": 869,
+   "cost_usd": "0.24139318",
+   "messages": 1908,
+   "inactive_role_calls": 0,
+   "removed_graph_edges_per_block": [
+    0
+   ],
+   "unsealed_journals": 0,
+   "failure_reasons": [
+    "length"
+   ]
+  }
+ },
+ "z55_replay_folder": "/Users/jannikhiller/Desktop/ai operations/Studium OS/Masterarbeit/eval-harness/eval/runs/Z56-FRAMEWORK-VALIDIERUNG-001/v3/out/v3d/z55-replay",
+ "sources": {
+  "netguard.py": "26268f84acf4eca2dc623c803e9b02242a35751e127d2f73b95f274092af1164",
+  "common.py": "ca08dd61339c9999e1ba48759a99af35db1833b5cb85130b26ac2d79aa007b2c",
+  "lg_adapter.py": "8ad76454137addac17a9f1d4bbd19df26f4dd2deb9529b0c6615886ace13df2b",
+  "backends.py": "4a7f11d2d36fbdaff05d8c796bc7a97c86d5d70152a75a1b7bfb2fc0f9a90c23",
+  "binding.py": "b4c2a3b7dc91bc45346ca254027956c54e258b06489fb6238145cbecbd018fe1",
+  "tests/test_v3_adapter.py": "9c32b577aa242b1b098ffdd3399939b8c57c2ae9a60777aed53c1cbf5fd1fdd4",
+  "run_v3d.py": "b917326478995e714e70a7ed3ff0b210e928f7c24aceae1b8727a4879a5ce887",
+  "z55_replay_guarded.py": "7af6faf2e4a583894781092b3b8eb8e4ea54e994839d29e8589c9d12bf991072",
+  "hash_inputs.py": "8230a47a521ee5084270cf9b3449844c429f247b376f3b8c176af212f7cced03"
+ },
+ "network": {
+  "attempts": {
+   "socket.connect": 0,
+   "socket.connect_ex": 0,
+   "create_connection": 0,
+   "getaddrinfo": 0
+  },
+  "total": 0,
+  "lock_installed_at_end": true
+ },
+ "seconds": 8.1,
+ "smoke": false
+}

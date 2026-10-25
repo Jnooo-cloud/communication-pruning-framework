@@ -1,0 +1,518 @@
+{
+  "schema": 1,
+  "stage": "view3_final_before_key_disclosure",
+  "reviewer": "Separater Agent /root/z37_blind_reviewer; organisatorische Verdeckung, keine menschliche Abnahme",
+  "input_binding": "reviewer/view3-reconstruction-v2-inputs.json",
+  "archive": {
+    "path": "reviewer/view3-reconstruction-v2.tar",
+    "sha256": "68675f59cc548f314e4676aa96a8034c915c18f90685f611836718a7b01c559e"
+  },
+  "full_per_call_reconstruction": "reviewer/view3-reconstruction-v2-output.json",
+  "retained_first_execution": "reviewer/view3-reconstruction-v1-output.json",
+  "own_technical_correction": "reviewer/view3-reconstruction-deviation.md",
+  "unchanged_metrics_check": "reviewer/view3-reconstruction-v1-v2-check.json",
+  "access_scope": "Genau 86 freigegebene Evidenzdateien: Vertrag, zwölf Sicht1-Fälle, 36 Sicht2-Dateien, 36 Sicht3-Falldateien und ein Kostenblatt; zusätzlich eigene Reviewer-Dateien. Alle Evidenzdateien und jeweilige Quelle vor entscheidender Ausführung vollständig archiviert. Keine privaten Dateien, PUBLIC-MANIFEST, Sollschlüssel, Produktionsquellen oder Instrumentausgaben gelesen.",
+  "independence": "Vertragsbasierte eigene Rechenroutinen mit Python-Standardbibliothek und Decimal. Die erste S3-Routine erzeugte nach einem unerlaubten Zusatzaufruf unberechtigte weitere Herkunftshinweise; dies wurde offen dokumentiert und eng korrigiert. Beide Quellen, Eingabearchive, Ausführungen und sämtliche Ausgaben bleiben erhalten. Alle Aufrufe, Tokenwerte, Beträge, Gesamtsummen und tatsächlichen Modellkörper waren zwischen v1 und v2 unverändert.",
+  "scope": "Die Ergebnisse sind aus kontrolliert künstlichen inneren Client-, Usage- und Tarifbelegen rekonstruiert. Keine echte Tokenisierung, Anbieterabrechnung, Wirksamkeit oder allgemeine Angriffssicherheit wird geprüft. Begründet bedeutet in dieser Sicht: durch diese zusätzlichen synthetischen Rohbelege gestützt.",
+  "definitions": {
+    "counts_order": [
+      "innere Starts",
+      "innere reguläre Rückgaben einschließlich bezahltem Modellmisserfolg",
+      "technische Fehler mit ungeklärter Abrechnung",
+      "äußere Requests",
+      "Trace-Abschlussereignisse"
+    ],
+    "tokens_order": [
+      "bekannte Inputtokens",
+      "bekannte Outputtokens"
+    ],
+    "deltas": "claimed minus unabhängig rekonstruierter Betrag in USD; null bei unbekannter Gesamtsumme ist keine numerische Nullabweichung.",
+    "claim_verdicts": "Status, Antwort, Aufrufzahlen und Beträge beziehen sich auf den jetzt unabhängig belegten tatsächlichen inneren Verlauf. measurement_complete beurteilt den ursprünglichen vollständigen, gültigen Messbeleg. Ein tatsächlich beendeter Lauf kann ein ungültiges Journal oder einen unzulässigen Nachrichtenweg besitzen. Rohe Abschlussereignisse und wirkliche Rückgaben werden getrennt ausgewiesen.",
+    "known_zero": "Die explizit im jeweiligen Tarif freigestellten ersten Aufrufe sind bekannte Nullbeträge. Sie werden als echte Aufrufe gezählt; eine technische Abrechnungslücke bleibt hingegen null."
+  },
+  "cases": [
+    {
+      "case_id": "p-6dzsyfwuh",
+      "counts": [
+        7,
+        7,
+        0,
+        7,
+        7
+      ],
+      "known_tokens": [
+        1312,
+        200
+      ],
+      "actual_status": "completed",
+      "actual_answer": "p-6dzsyfwuh|aggregator|3|amber",
+      "known_subtotal_usd": "0.0025612",
+      "total_usd": "0.0025612",
+      "claimed_minus_true_subtotal_usd": "0.0003700",
+      "claimed_minus_true_total_usd": "0.0003700",
+      "claim_verdicts": {
+        "status": "begründet",
+        "answer": "begründet",
+        "measurement_complete": "kontradiziert",
+        "started_attempts": "begründet",
+        "calls": "begründet",
+        "known_cost_subtotal_usd": "kontradiziert",
+        "total_cost_usd": "kontradiziert"
+      },
+      "case_contract": "kontradiziert",
+      "messages": "begründet",
+      "journal_integrity": "begründet",
+      "evidence": "usage.jsonl Zeile 3 und Tarif: draft/Runde1 hat 164 Input- und 28 Outputtokens. 164×0.0000017 + 28×0.0000031 = 0.0003656 USD. Trace bucht stattdessen 0.0007356 und behauptet passend dazu eine um 0.0003700 zu hohe Summe. Alle sieben inneren Aufrufe stimmen sonst mit den äußeren Requests überein.",
+      "gain_from_view2": "Der zuvor nur rechnerisch konsistente Betrag ist durch unabhängige Usage/Tarifwahrheit als falsch bewiesen."
+    },
+    {
+      "case_id": "p-83xhvpk79",
+      "counts": [
+        8,
+        8,
+        0,
+        7,
+        7
+      ],
+      "known_tokens": [
+        1561,
+        240
+      ],
+      "actual_status": "completed",
+      "actual_answer": "p-83xhvpk79|aggregator|3|amber",
+      "known_subtotal_usd": "0.0031085",
+      "total_usd": "0.0031085",
+      "claimed_minus_true_subtotal_usd": "-0.0003656",
+      "claimed_minus_true_total_usd": "-0.0003656",
+      "claim_verdicts": {
+        "status": "begründet",
+        "answer": "begründet",
+        "measurement_complete": "kontradiziert",
+        "started_attempts": "kontradiziert",
+        "calls": "kontradiziert",
+        "known_cost_subtotal_usd": "kontradiziert",
+        "total_cost_usd": "kontradiziert"
+      },
+      "case_contract": "kontradiziert",
+      "messages": "begründet für die reguläre vertragliche Folge; Zusatzaufruf gesondert unzulässig",
+      "journal_integrity": "begründet",
+      "evidence": "client.jsonl Zeilen 5–6 und Usagezeile 3 belegen p-83xhvpk79-n03 mit attempt_id run-p-83xhvpk79:1:linking:1:aux. Dieser weitere linking-Aufruf kehrt zurück und kostet 0.0003656 USD, hat aber weder äußeren Request noch Start-/Abschlussbuchung. Acht innere Rückgaben stehen sieben behaupteten Aufrufen gegenüber. Die sieben regulären äußeren Modellkörper sind exakt in der inneren Spur wiederzufinden.",
+      "gain_from_view2": "Eine zuvor vollständig verschwiegene innere Ausführung sowie die dadurch fehlenden Kosten sind jetzt direkt belegt. Es wird kein zusätzlicher eigenständiger Nachrichtenfehler aus den verworfenen v1-Folgehinweisen abgeleitet."
+    },
+    {
+      "case_id": "p-b7dnq6awc",
+      "counts": [
+        3,
+        3,
+        0,
+        3,
+        3
+      ],
+      "known_tokens": [
+        451,
+        70
+      ],
+      "actual_status": "completed",
+      "actual_answer": "p-b7dnq6awc|aggregator|2|amber",
+      "known_subtotal_usd": "0.0006945",
+      "total_usd": "0.0006945",
+      "claimed_minus_true_subtotal_usd": "0",
+      "claimed_minus_true_total_usd": "0",
+      "claim_verdicts": {
+        "status": "begründet",
+        "answer": "begründet",
+        "measurement_complete": "begründet",
+        "started_attempts": "begründet",
+        "calls": "begründet",
+        "known_cost_subtotal_usd": "begründet",
+        "total_cost_usd": "begründet"
+      },
+      "case_contract": "begründet",
+      "messages": "begründet",
+      "journal_integrity": "begründet",
+      "evidence": "Innere Spur enthält genau evidence/Runde1, draft/Runde1 und Aggregator/Runde2. Kein innerer linking-Aufruf und keine zweite Produzentenrunde. Freistellung und übrige Input-/Outputpreise ergeben exakt 0.0006945 USD; Aggregator erhält nur die beiden vorhandenen Produzentennachrichten.",
+      "gain_from_view2": "Unterdrückung und Rundenauslassung sind nun auch gegenüber der inneren Spur bestätigt; kein versteckter Aufruf."
+    },
+    {
+      "case_id": "p-f9gwrjdba",
+      "counts": [
+        7,
+        7,
+        0,
+        7,
+        7
+      ],
+      "known_tokens": [
+        1317,
+        200
+      ],
+      "actual_status": "completed",
+      "actual_answer": "p-f9gwrjdba|aggregator|3|amber",
+      "known_subtotal_usd": "0.0025697",
+      "total_usd": "0.0025697",
+      "claimed_minus_true_subtotal_usd": "0",
+      "claimed_minus_true_total_usd": "0",
+      "claim_verdicts": {
+        "status": "begründet",
+        "answer": "begründet",
+        "measurement_complete": "begründet",
+        "started_attempts": "begründet",
+        "calls": "begründet",
+        "known_cost_subtotal_usd": "begründet",
+        "total_cost_usd": "begründet"
+      },
+      "case_contract": "kontradiziert",
+      "messages": "kontradiziert",
+      "journal_integrity": "begründet",
+      "evidence": "client.jsonl Zeile 9 zeigt die in S2 gefundene verbotene draft/Runde1-Nachricht tatsächlich im inneren linking/Runde2-Request und Modellkörper. Die erlaubte Kantenliste enthält draft→linking nicht. Alle sieben Aufrufe und ihre Kosten sind vollständig erfasst.",
+      "gain_from_view2": "Die tatsächliche innere Übertragung bestätigt den Vertragsverstoß. Die Messung kann vollständig sein, obwohl die untersuchte Ausführung unzulässig kommuniziert."
+    },
+    {
+      "case_id": "p-kbqchj34v",
+      "counts": [
+        3,
+        3,
+        0,
+        3,
+        3
+      ],
+      "known_tokens": [
+        441,
+        75
+      ],
+      "actual_status": "model_failed",
+      "actual_answer": null,
+      "known_subtotal_usd": "0.0006930",
+      "total_usd": "0.0006930",
+      "claimed_minus_true_subtotal_usd": "0",
+      "claimed_minus_true_total_usd": "0",
+      "claim_verdicts": {
+        "status": "begründet",
+        "answer": "begründet",
+        "measurement_complete": "begründet",
+        "started_attempts": "begründet",
+        "calls": "begründet",
+        "known_cost_subtotal_usd": "begründet",
+        "total_cost_usd": "begründet"
+      },
+      "case_contract": "begründet",
+      "messages": "begründet",
+      "journal_integrity": "begründet",
+      "evidence": "Dritte innere Rückgabe enthält text leer und finish_reason=empty; ihre bekannte Usage ergibt 0.0003656 USD. Danach kein innerer Aufruf. Zwei frühere Rückgaben plus bezahlter Modellmisserfolg ergeben drei abgeschlossene Aufrufe und 0.0006930 USD. Kein Aggregator und keine Qualitätsantwort.",
+      "gain_from_view2": "F-01-Misserfolg, bezahlte Usage und tatsächlicher Stopp jetzt unabhängig bestätigt."
+    },
+    {
+      "case_id": "p-p73vgcqax",
+      "counts": [
+        3,
+        2,
+        1,
+        3,
+        2
+      ],
+      "known_tokens": [
+        277,
+        47
+      ],
+      "actual_status": "technical_stop",
+      "actual_answer": null,
+      "known_subtotal_usd": "0.0003274",
+      "total_usd": null,
+      "claimed_minus_true_subtotal_usd": "0",
+      "claimed_minus_true_total_usd": null,
+      "claim_verdicts": {
+        "status": "begründet",
+        "answer": "begründet",
+        "measurement_complete": "begründet",
+        "started_attempts": "begründet",
+        "calls": "begründet",
+        "known_cost_subtotal_usd": "begründet",
+        "total_cost_usd": "begründet"
+      },
+      "case_contract": "begründet als korrekt offener Prefix",
+      "messages": "begründet",
+      "journal_integrity": "begründet, unversiegelt",
+      "evidence": "client.jsonl letzte Zeile nennt technical_error vor Abrechnungsbeleg für draft/Runde1. usage.jsonl letzte Zeile nennt billing_state=unresolved, cost_source=unknown und null für Tokens/Betrag. Zwei frühere bekannte Abrechnungen ergeben 0.0003274 USD. total=null und measurement_complete=false sind korrekt. Die Tokenangaben sind nur bekannte Teilsummen.",
+      "gain_from_view2": "Die zuvor noch unentschiedene technische Abbruchursache ist direkt belegt. Gesamtkosten bleiben auch in dieser Sicht unbekannt."
+    },
+    {
+      "case_id": "p-r82sckbw4",
+      "counts": [
+        7,
+        7,
+        0,
+        7,
+        8
+      ],
+      "known_tokens": [
+        1312,
+        200
+      ],
+      "actual_status": "completed",
+      "actual_answer": "p-r82sckbw4|aggregator|3|amber",
+      "known_subtotal_usd": "0.0025612",
+      "total_usd": "0.0025612",
+      "claimed_minus_true_subtotal_usd": "0",
+      "claimed_minus_true_total_usd": "0",
+      "claim_verdicts": {
+        "status": "begründet",
+        "answer": "begründet",
+        "measurement_complete": "kontradiziert",
+        "started_attempts": "begründet",
+        "calls": "begründet",
+        "known_cost_subtotal_usd": "begründet",
+        "total_cost_usd": "begründet"
+      },
+      "case_contract": "kontradiziert",
+      "messages": "begründet",
+      "journal_integrity": "begründet; Ereigniseindeutigkeit kontradiziert",
+      "evidence": "Zur ersten inneren Rückgabe existiert genau ein Client-/Usagepaar, aber das Journal enthält zwei identische Abschlüsse. Die physische Zahl sieben ist nun bestätigt; die rohe Journalzählung bleibt acht. Der doppelte Eintrag betrifft einen ausdrücklich freigestellten Nullbetrag, daher stimmt die Gesamtsumme trotz ungültiger Buchung.",
+      "gain_from_view2": "Doppelbuchung lässt sich jetzt eindeutig von einem tatsächlich zusätzlichen Modellaufruf unterscheiden. S2s Widerspruch betraf acht rohe Abschlussereignisse, nicht eine damals bereits bekannte physische Zahl."
+    },
+    {
+      "case_id": "p-rbdtj357g",
+      "counts": [
+        7,
+        7,
+        0,
+        7,
+        7
+      ],
+      "known_tokens": [
+        1312,
+        200
+      ],
+      "actual_status": "completed",
+      "actual_answer": "p-rbdtj357g|aggregator|3|amber",
+      "known_subtotal_usd": "0.0025612",
+      "total_usd": "0.0025612",
+      "claimed_minus_true_subtotal_usd": "0",
+      "claimed_minus_true_total_usd": "0",
+      "claim_verdicts": {
+        "status": "begründet",
+        "answer": "begründet",
+        "measurement_complete": "kontradiziert",
+        "started_attempts": "begründet",
+        "calls": "begründet",
+        "known_cost_subtotal_usd": "begründet",
+        "total_cost_usd": "begründet"
+      },
+      "case_contract": "kontradiziert",
+      "messages": "begründet",
+      "journal_integrity": "kontradiziert",
+      "evidence": "Der S2-Hashbruch bleibt bestehen. Zusätzlich bindet innere Usage für n01 price_version=Z37-synthetic-20260913, während das beschädigte äußere Ereignis Z37-synthetic-20260913-r nennt. Die innere Spur belegt sieben tatsächliche Rückgaben, unveränderte Modellkörper, Antwort und exakt 0.0025612 USD; diese zusätzlichen Belege reparieren das ursprüngliche Journal nicht.",
+      "gain_from_view2": "Tatsächliche Messwerte können unabhängig vom beschädigten Journal rekonstruiert und die abweichende Preisversionsangabe konkret gezeigt werden."
+    },
+    {
+      "case_id": "p-vktaj3qn2",
+      "counts": [
+        7,
+        7,
+        0,
+        7,
+        7
+      ],
+      "known_tokens": [
+        1312,
+        200
+      ],
+      "actual_status": "completed",
+      "actual_answer": "p-vktaj3qn2|aggregator|3|amber",
+      "known_subtotal_usd": "0.0025612",
+      "total_usd": "0.0025612",
+      "claimed_minus_true_subtotal_usd": "0",
+      "claimed_minus_true_total_usd": "0",
+      "claim_verdicts": {
+        "status": "begründet",
+        "answer": "begründet",
+        "measurement_complete": "begründet",
+        "started_attempts": "begründet",
+        "calls": "begründet",
+        "known_cost_subtotal_usd": "begründet",
+        "total_cost_usd": "begründet"
+      },
+      "case_contract": "begründet",
+      "messages": "begründet",
+      "journal_integrity": "begründet",
+      "evidence": "Genau sieben innere Starts/Rückgaben und Usagebelege entsprechen sieben äußeren Requests und korrekt gepaarten Journalereignissen. Alle vollständigen Modellkörper stimmen überein. Nachrichtenwege, Aggregatorantwort, explizite Freistellung und Dezimalpreise passen zum vorgegebenen Vertrag.",
+      "gain_from_view2": "Der vollständige reguläre Messbeleg ist nun auch gegen die separat gebundene innere Ausführung und Tarifgrundlage bestätigt."
+    },
+    {
+      "case_id": "p-vz3eq4smw",
+      "counts": [
+        7,
+        7,
+        0,
+        7,
+        7
+      ],
+      "known_tokens": [
+        1312,
+        200
+      ],
+      "actual_status": "completed",
+      "actual_answer": "p-vz3eq4smw|aggregator|3|amber",
+      "known_subtotal_usd": "0.0025612",
+      "total_usd": "0.0025612",
+      "claimed_minus_true_subtotal_usd": "0",
+      "claimed_minus_true_total_usd": "0",
+      "claim_verdicts": {
+        "status": "begründet",
+        "answer": "begründet",
+        "measurement_complete": "kontradiziert",
+        "started_attempts": "begründet",
+        "calls": "begründet",
+        "known_cost_subtotal_usd": "begründet",
+        "total_cost_usd": "begründet"
+      },
+      "case_contract": "kontradiziert",
+      "messages": "begründet durch innere Rückgaben",
+      "journal_integrity": "begründet; Ereigniszuordnung kontradiziert",
+      "evidence": "Innere n01-Rückgabe/Usage gehören zu evidence/Runde1, während das äußere Abschlussereignis einen nie gestarteten checking-Versuch nennt. Alle sieben tatsächlichen Rückgaben sind vollständig bepreist. Die später verwendete evidence-Ausgabe ist innerlich vorhanden; ihr ursprünglicher äußerer Abschluss bleibt falsch zugeordnet.",
+      "gain_from_view2": "Die S2-Zuordnungslücke ist durch den echten inneren Versuch aufklärbar. S2s unzulässiger Nachweis eines Vollabschlusses wird nicht rückwirkend gültig."
+    },
+    {
+      "case_id": "p-w5t6ckxzm",
+      "counts": [
+        7,
+        7,
+        0,
+        7,
+        6
+      ],
+      "known_tokens": [
+        1312,
+        200
+      ],
+      "actual_status": "completed",
+      "actual_answer": "p-w5t6ckxzm|aggregator|3|amber",
+      "known_subtotal_usd": "0.0025612",
+      "total_usd": "0.0025612",
+      "claimed_minus_true_subtotal_usd": "0",
+      "claimed_minus_true_total_usd": "0",
+      "claim_verdicts": {
+        "status": "begründet",
+        "answer": "begründet",
+        "measurement_complete": "kontradiziert",
+        "started_attempts": "begründet",
+        "calls": "begründet",
+        "known_cost_subtotal_usd": "begründet",
+        "total_cost_usd": "begründet"
+      },
+      "case_contract": "kontradiziert",
+      "messages": "begründet durch innere Rückgaben",
+      "journal_integrity": "begründet; Abschlussvollständigkeit kontradiziert",
+      "evidence": "client.jsonl Zeile 4 und Usagezeile 2 belegen die äußerlich fehlende linking/Runde1-Rückgabe mit 0.0003274 USD. Innerlich sieben Rückgaben und 0.0025612 USD, äußerlich sechs Abschlussereignisse mit nur 0.0022338 USD. Die behauptete Zahl/Summe trifft die Realität, aber ihr ursprünglicher Messbeleg ist unvollständig.",
+      "gain_from_view2": "Die fehlende Abrechnung kann jetzt aus unabhängiger Evidenz rekonstruiert werden; sie wurde in S2 zu Recht nicht aus dem behaupteten Gesamtbetrag ergänzt."
+    },
+    {
+      "case_id": "p-yx4wuqhtd",
+      "counts": [
+        3,
+        2,
+        1,
+        3,
+        2
+      ],
+      "known_tokens": [
+        277,
+        47
+      ],
+      "actual_status": "technical_stop",
+      "actual_answer": null,
+      "known_subtotal_usd": "0.0003274",
+      "total_usd": null,
+      "claimed_minus_true_subtotal_usd": "0",
+      "claimed_minus_true_total_usd": null,
+      "claim_verdicts": {
+        "status": "kontradiziert",
+        "answer": "kontradiziert",
+        "measurement_complete": "kontradiziert",
+        "started_attempts": "begründet",
+        "calls": "begründet",
+        "known_cost_subtotal_usd": "begründet",
+        "total_cost_usd": "kontradiziert"
+      },
+      "case_contract": "kontradiziert durch behauptetes Endergebnis",
+      "messages": "begründet",
+      "journal_integrity": "begründet, unversiegelt",
+      "evidence": "Dritter innerer Versuch endet technical_error vor Abrechnungsbeleg. Seine Usage enthält billing_state=unresolved und null für Tokens/Kosten. Zwei bekannte Rückgaben kosten 0.0003274 USD; kein Aggregator wurde aufgerufen. Daher sind completed, Aggregatorantwort, measurement_complete=true und bekannter Gesamtbetrag falsch. Die unbekannte dritte Abrechnung darf keinen Null-Dollar-Zuwachs zur angeblich vollständigen Summe bilden.",
+      "gain_from_view2": "Die unabhängige innere Usage bestätigt den unbekannten Betrag direkt. Die wirkliche Gesamtsumme ist weiterhin nicht entscheidbar; nur der Anspruch, sie sei bekannt, ist widerlegt."
+    }
+  ],
+  "cost_sheet": {
+    "source": "view3/cost-sheet.json",
+    "rows": [
+      {
+        "id": "r01",
+        "role": "input_output",
+        "model_calls": 1,
+        "amount_usd": "0.0001701",
+        "verdict": "begründet",
+        "evidence": "80×0.0000017 + 11×0.0000031; normale Input-/Outputkosten."
+      },
+      {
+        "id": "r02",
+        "role": "paid_model_failure",
+        "model_calls": 1,
+        "amount_usd": "0.0001747",
+        "verdict": "begründet",
+        "evidence": "90×0.0000017 + 7×0.0000031; bezahlte Fehlausführung zählt und kostet trotz fehlendem Erfolg."
+      },
+      {
+        "id": "r03",
+        "role": "fresh_repeat",
+        "model_calls": 1,
+        "amount_usd": "0.0001701",
+        "verdict": "begründet",
+        "evidence": "Eigener frischer Versuch mit gleicher Usage wie r01; beide zusammen zwei Aufrufe und 0.0003402 USD. Keine automatische Wiederholung behauptet."
+      },
+      {
+        "id": "r04",
+        "role": "known_zero_price",
+        "model_calls": 1,
+        "amount_usd": "0",
+        "verdict": "begründet",
+        "evidence": "Explizite Freistellung trotz 50 Input-/8 Outputtokens: bekannter Nullpreis, kein fehlender Aufruf und keine unbekannte Abrechnung."
+      },
+      {
+        "id": "r05",
+        "role": "local_controller",
+        "model_calls": 0,
+        "amount_usd": "0",
+        "verdict": "begründet nur als Modellkostenabgrenzung",
+        "evidence": "Ohne Modellaufruf keine Modell-USD. local_cpu_value=null: tatsächliche lokale CPU-Zeit nicht entscheidbar. Kein eigenes Controller-Kostenfeld oder erfundener Dollarbetrag."
+      },
+      {
+        "id": "r06",
+        "role": "cache",
+        "model_calls": 1,
+        "amount_usd": "0.00009",
+        "verdict": "begründet als vorgegebener künstlicher Anbieter-Gesamtbetrag",
+        "evidence": "usage.cost unverändert erhalten. 20 cached_tokens belegen ohne getrennten Tarif keine eigene Cachekosten-/Ersparniszurechnung. Separates Cachefeld im Ausführungsvertrag nicht unterstützt; gewöhnliche Tokenpreisformel darf den Anbieter-Gesamtbetrag nicht ersetzen."
+      },
+      {
+        "id": "r07",
+        "role": "automatic_retry",
+        "model_calls": null,
+        "amount_usd": null,
+        "verdict": "nicht entscheidbar als Betrag; kontradiziert als erlaubte aktuelle Ausführung",
+        "evidence": "Automatische Retries sind untersagt. Keine Ausführung und kein Preis vorgegeben; null wird nicht als bekannter Nullpreis interpretiert."
+      }
+    ],
+    "supported_known_model_call_rows": 5,
+    "sum_of_supported_known_amounts_usd": "0.0006049",
+    "separate_reasoning_cost": "nicht separat unterstützt und keine eigenständigen Kostenbelege",
+    "scope": "Ein deterministisches künstliches Rollenblatt; keine Ausführung eines realen Providers oder des bestehenden Kostenparsers geprüft. Die bekannte Summe umfasst normale Aufrufe, Fehlversuch, frische Wiederholung, Freistellung und vorgegebenen Anbieter-Gesamtbetrag. Nicht ausgeführter verbotener Retry ist keine Nullpreisposition."
+  },
+  "actual_messages": "Für jeden inneren Start sind die tatsächlichen prior_messages und der Hash des gesamten model_body in der vollständigen Rekonstruktionsausgabe erhalten. Jeder vorhandene äußere Request stimmt mit genau einem regulären inneren Request und seinem gesamten Modellkörper überein; der zusätzlich belegte innere Aufruf besitzt keinen äußeren Gegenbeleg. Außer dem dokumentierten draft→linking-Verstoß ist kein weiterer eigenständiger Nachrichtenwegverstoß nachgewiesen.",
+  "instrument_capability": "Nicht bewertet oder abgeleitet. Neue unabhängige Rekonstruktion und frühere eigene S2-Prüfung liefern diese Urteile. Der Koordinator muss sie nach ihrer Festschreibung getrennt mit dem gebundenen Sollschlüssel und dem bestehenden Instrument vergleichen.",
+  "remaining_unknowns": [
+    "Gesamtkosten und Tokens der beiden technisch ungeklärten dritten Versuche",
+    "Tatsächliche lokale Controllerzeit im Kostenblatt",
+    "Separate Cache-/Reasoningpreis-Zurechnung",
+    "Reale Anbieter-/Tarifgültigkeit",
+    "Statistische Eignung und tatsächliche Qualitäts-/Kostenwirkung"
+  ],
+  "final_statement": "Die freigegebenen Belege unterscheiden korrekt vollständige, korrekt fehlgeschlagene und korrekt offene Messungen von den konkret nachgewiesenen Ausführungs-, Preis-, Zuordnungs-, Integritäts- und Vollständigkeitsverletzungen. Die Sichten wurden nacheinander beurteilt; ein Befund wird nicht aus einem Fallklassenkontingent abgeleitet. Private Zuordnung und Sollschlüssel bleiben bis zur Übernahme dieses Abschlusses ungelesen."
+}

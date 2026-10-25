@@ -1,0 +1,9 @@
+{
+ "beschreibung": "P-ROWS.json ist der unveraenderte Byte-Ausschnitt des Feldes 'rows' aus dem gesicherten Endzustand der Hauptstudie. Der Endzustand selbst (78,6 MB) ist nicht enthalten.",
+ "endzustand_sha256": "960d6402c87d16c9fc9817e86f1c6a0d0cddafe8d1e66c2b665c1ea1a2f05be6",
+ "endzustand_bytes": 78633896,
+ "feld": "rows",
+ "start": 60600415,
+ "end": 78633021,
+ "p_rows_sha256": "f22b12017abe4f93a89fcb29dd55728e78c31392bcc8895ebbcf47672c00fcd0"
+}

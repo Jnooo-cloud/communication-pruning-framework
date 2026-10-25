@@ -1,0 +1,21 @@
+{
+  "case_count": 12,
+  "views": [
+    "view1",
+    "view2",
+    "view3"
+  ],
+  "contract": "contract.md",
+  "public_manifest": "PUBLIC-MANIFEST.json",
+  "public_manifest_sha256": "de520277be747eb8ccd7cbf73066ed07162d6ce7518e8d2fdf48e6b8fd3a05d5",
+  "creator_role": "informed; no blind claim",
+  "external_model_calls": 0,
+  "completed_paired_overhead_repetitions": 20,
+  "private_key": "private/answer-key.json",
+  "private_key_sha256": "32ff0a79d298c97359aa18e6f39689a6499e293e55605d5420e420293a879e0e",
+  "private_source_manifest": "private/source-manifest.json",
+  "private_truth_manifest": "private/truth-manifest.json",
+  "restriction": "Do not inspect private/ or instrument outputs before freezing all three independent reviewer stages.",
+  "manufacturing_status": "completed; intended technical-stop tracebacks are retained privately",
+  "deviations": []
+}

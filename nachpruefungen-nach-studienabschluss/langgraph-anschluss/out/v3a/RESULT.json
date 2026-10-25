@@ -1,0 +1,23 @@
+{
+ "epoch": 1792492012.424808,
+ "site": "/opt/anaconda3/lib/python3.13/site-packages",
+ "reference_file_mtime": 1792491274.10817,
+ "langgraph": {
+  "files_in_manifest": 256,
+  "changed": [],
+  "py_files_now": 256,
+  "new_py_files": [],
+  "files_modified_since_v3_start": []
+ },
+ "framework": {
+  "files_in_manifest": 200,
+  "changed": [],
+  "files_modified_since_v3_start": []
+ },
+ "langgraph_version_files": {
+  "langgraph/graph/state.py": "322a819686742c110c7b6a0d42a011b142c88dc24a4581f198dbd78360670767",
+  "langgraph/pregel/_runner.py": "0bc8b5d92e05a4ec5e9714d1ee8888b2908d557d8b1f854535e8947ca020f2b9"
+ },
+ "langgraph_unchanged": true,
+ "framework_unchanged": true
+}

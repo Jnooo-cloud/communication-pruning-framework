@@ -1,0 +1,10 @@
+{
+ "attempts": {
+  "socket.connect": 0,
+  "socket.connect_ex": 0,
+  "create_connection": 0,
+  "getaddrinfo": 0
+ },
+ "total": 0,
+ "lock_installed_at_end": true
+}

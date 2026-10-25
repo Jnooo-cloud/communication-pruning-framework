@@ -1,0 +1,41 @@
+{
+  "case_id": "p-w5t6ckxzm",
+  "expected_config": {
+    "config_id": "bank-p-w5t6ckxzm",
+    "roles": [
+      "evidence",
+      "linking",
+      "draft"
+    ],
+    "edges": [
+      [
+        "evidence",
+        "linking"
+      ],
+      [
+        "linking",
+        "draft"
+      ],
+      [
+        "draft",
+        "evidence"
+      ]
+    ]
+  },
+  "rounds": 2,
+  "failed_role": null,
+  "output_limits": {
+    "producer": 1024,
+    "aggregator": 128
+  },
+  "failure_policy": "F-01/v1",
+  "claimed": {
+    "status": "completed",
+    "answer": "p-w5t6ckxzm|aggregator|3|amber",
+    "measurement_complete": true,
+    "started_attempts": 7,
+    "calls": 7,
+    "known_cost_subtotal_usd": "0.0025612",
+    "total_cost_usd": "0.0025612"
+  }
+}
