@@ -38,6 +38,12 @@ LICENSE, LICENSE-DATA                   MIT für Code, CC BY 4.0 für Ergebnisda
 
 `studiencode-ad152f2/` enthält den Code, mit dem die Studien liefen, bytegleich zur Fassung in Commit `ad152f2ab2bfbe0f6982ce8b117a588982b1cfae` des Entwicklungsrepositorys vom 4. Oktober 2026 (Abschnitt 5.5). Der Code unter `communication_pruning/`, `study_preparation/` und `tests/` hat sich danach nicht mehr geändert. Hinzugekommen sind nur die Nachprüfungen nach Studienabschluss. Sie liegen getrennt unter `nachpruefungen-nach-studienabschluss/` und rufen den unveränderten Studiencode auf. Die Hash-Stände des Frameworks vor und nach diesen Prüfungen stehen in `nachpruefungen-nach-studienabschluss/manifest/` und in den Dateien `framework-check-*.json`.
 
+### Statusfelder und Zeitpunkt der Freigabe
+
+Einige Dateien in `auswertungsplan/` tragen Statusfelder aus der Vorbereitung, etwa `"not_authorized_or_frozen"` in `ANALYSIS-BINDING.json` und `"study_frozen": false` in `PREPARATION-RESULT.json`. Sie dokumentieren den Stand vor der Freigabe. `ANALYSIS-BINDING.json` bleibt unverändert, weil die Startfreigabe die Datei per SHA-256 bindet. `PREPARATION-RESULT.json` ist als unverändertes Vorbereitungsprotokoll erhalten und von dieser Bindung ausgenommen. Den eingefrorenen Studienstand bestätigt die Autorenfreigabe `freigabe/AUTHOR-RELEASE.json` (`"study_frozen": true`), die autorisierte Startfreigabe ist `freigabe/CANDIDATE-AUTHORIZED.json`. Die Startfreigabe bindet per SHA-256 alle Dateien in `auswertungsplan/` außer `PREPARATION-RESULT.json`, `freigabe/CALENDAR.json` und sich selbst. Die Kalenderwerte stehen in ihr selbst. Von den 39 Quelldateien, die sie bindet, liegen 25 mit gleicher Prüfsumme in diesem Repository, darunter alle 22 Codedateien der Pakete `communication_pruning` und `study_preparation`.
+
+Den Zeitpunkt hält ein nicht öffentliches Repository fest (Abschnitt 4.3 der Arbeit). Die Startfreigabe (SHA-256 `7868b57bb9df1c6406bbfd674cf9f8d80a4f40ee3b60ed9f846d7bc16bbbb47d`) lag im Startpaket mit SHA-256 `da721cc7f394a1e5af322ee700a7cb265ef82ac46d93b91b48c962ef6c03a401` (31.985.254 Byte). GitHub verzeichnet dessen Upload als Asset 577552659 im Entwurfs-Release 392572604 mit `created_at` 2026-09-20T21:00:20Z, rund zehn Minuten vor dem Start der Erhebung.
+
 ## Zuordnung: Abschnitt der Arbeit zu Pfad
 
 | Abschnitt der Arbeit | Aussage oder Verweis | Pfad |
@@ -46,7 +52,7 @@ LICENSE, LICENSE-DATA                   MIT für Code, CC BY 4.0 für Ergebnisda
 | 5.5 | Codefassung der Studien (Commit ad152f2) | `studiencode-ad152f2/`, `HERKUNFT.tsv` |
 | 5.5 | Auswertungsskripte und Ergebnisdateien | `ergebnisse/`, `nachrechnen/` |
 | 4.2, Tabelle der DSR-Phasen | Repositoryhinweis | diese Datei |
-| 4.2, 4.3, 7.4 | Auswahlregeln, Rundenregel, Ziehungen und Auswertungsplan vor der abschließenden Bewertung eingefroren | `auswertungsplan/ANALYSIS-BINDING.json`, `auswertungsplan/PLAN.json`, `auswertungsplan/auswahlregeln/`, `auswertungsplan/freigabe/` |
+| 4.2, 4.3, 7.4 | Auswahlregeln, Rundenregel, Ziehungen und Auswertungsplan vor der abschließenden Bewertung eingefroren | `auswertungsplan/freigabe/`, `auswertungsplan/ANALYSIS-BINDING.json`, `auswertungsplan/PLAN.json`, `auswertungsplan/auswahlregeln/` |
 | 4.3 | Textüberlappung zwischen Train- und Dev-Teil (2.250 von 2.417 Aufgaben, 2.061 Belegabsatzvorkommen) | `ergebnisse/textueberlappung/` |
 | 4.4 | Vorab festgelegtes Verfahren: studentisierter Bootstrap über ganze Paare, 19.999 Wiederholungen | `auswertungsplan/ANALYSIS-BINDING.json`, `studiencode-ad152f2/eval-harness/eval/study_preparation/intervals.py`, `final_analysis.py` |
 | 4.4, 6.1, 6.3 | Kostenannahme zu den vier unbekannten Originalabrechnungen | `ergebnisse/hauptvergleich/P-ANALYSIS.json` (Feld `recovery_cost_caveat`) |

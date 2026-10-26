@@ -2,7 +2,7 @@ pfad	bytes	sha256	herkunft
 .gitignore	81	83f21ab0ac8b5021d52bd28fe326723a2149db252b063d28d7989d82da664d8d	neu erstellt (R4a)
 LICENSE	1070	81b118d9bd9b9e96bd2e631d6bb9e46aef745068fb24fbc444162a58be6db7c0	neu erstellt (R4a)
 LICENSE-DATA	1280	9c1ba7aaa7ce9124bae4f6d0f739b40532871518f5d2b41fb6017bf02f8b0648	neu erstellt (R4a)
-README.md	17594	1cb4099083e80c11f3f8afcf39066b24de2571cce3dfc27efdd6267c855320c7	neu erstellt (R4a)
+README.md	19133	d817d13b50a0d4dcb777b0291fe2eda6848a5840d98bece5b2afa189cf30b2bf	neu erstellt (R4a), ergänzt um Statusfelder und Zeitpunkt der Freigabe (26.10.2026)
 auswertungsplan/ANALYSIS-BINDING.json	1284	283c02def99e0fb2c88de66a1dd0e8ac2feebaf737bb058981b2be46d5c7ce0a	eval-harness/eval/runs/Z50-STUDIENSTART-001/coordination/final-candidate-001/ANALYSIS-BINDING.json
 auswertungsplan/BUDGET.json	1162	5736a868d0ca30fa84daa18ef8608c8dc77cd2a552dc9f3221acf15d67474e85	eval-harness/eval/runs/Z50-NACHARBEIT-001/coordination/final-candidate-001/BUDGET.json
 auswertungsplan/PLAN.json	7777763	42a55ddd7dc71738d39fbdb546b0bb60ca19a0d6485f47688de32c893f47f61f	eval-harness/eval/runs/Z50-NACHARBEIT-001/coordination/final-candidate-001/PLAN.json
