@@ -1,0 +1,463 @@
+{
+ "schema": "n-gegenprobe/v1",
+ "bestanden": true,
+ "vergleich_py_sha256": "aaeb2cf80b1ff94cbe3255b516b4216925d671d6f022291c8d4dbb151a6a00bf",
+ "gegenprobe_py_sha256": "ee746cd8be3518bdc6a46715e98bbc1913f9068a2bfdf2e073a761160a7046c4",
+ "p_rows_sha256": "f22b12017abe4f93a89fcb29dd55728e78c31392bcc8895ebbcf47672c00fcd0",
+ "p_analysis_sha256": "fc4be29676749d7611d7c3f0d11e912193e4588609acb5d4734a15c387dcba65",
+ "eingang_manifest_sha256": "4a7ef3f82031fc0d04bdb0f80b4cb1ca8ade16b4dfbb8bcb778de83f06b2f19f",
+ "proben": [
+  {
+   "probe": "A Nullprobe",
+   "bestanden": true,
+   "exit": 0,
+   "meldungen": [],
+   "stdout": "{\"meldungen_gesamt\": 0, \"nach_ebene\": {}, \"laeufe_mit_meldung\": 0}",
+   "stderr": ""
+  },
+  {
+   "probe": "B Reihenfolgeprobe (Zeilen 11 und 11.002 von laeufe.jsonl vertauscht)",
+   "bestanden": true,
+   "exit": 0,
+   "meldungen": [],
+   "stdout": "{\"meldungen_gesamt\": 0, \"nach_ebene\": {}, \"laeufe_mit_meldung\": 0}",
+   "stderr": ""
+  },
+  {
+   "probe": "C Änderungsprobe",
+   "bestanden": true,
+   "exit": 1,
+   "siegel": {
+    "AENDERUNGEN.json": "e6151d7609e32bf9e32a556b0460051676b6ac40e882d9ada54b4958db7496fb",
+    "P-ROWS-VERAENDERT.json.gz": "2877ed380c98b7e5bc3f55d83bd47da5da66d9d5a227a1fcc28bc9de8264a518"
+   },
+   "siegel_unveraendert": true,
+   "aenderungen": [
+    {
+     "nr": 1,
+     "art": "EM gedreht",
+     "lauf": "Z50-STUDY-v1:P:07431:F",
+     "arm": "F",
+     "paarindex": 7431,
+     "feld_p_rows": "em",
+     "feld_ausgabe": "exact_match",
+     "alt": 0.0,
+     "neu": 1.0
+    },
+    {
+     "nr": 2,
+     "art": "F1 verändert (+1e-8, Toleranz 1e-9)",
+     "lauf": "Z50-STUDY-v1:P:07045:F",
+     "arm": "F",
+     "paarindex": 7045,
+     "feld_p_rows": "f1",
+     "feld_ausgabe": "f1",
+     "alt": 0.07692307692307693,
+     "neu": 0.07692308692307692
+    },
+    {
+     "nr": 3,
+     "art": "Aufrufzahl +1",
+     "lauf": "Z50-STUDY-v1:P:00689:F",
+     "arm": "F",
+     "paarindex": 689,
+     "feld_p_rows": "call_count",
+     "feld_ausgabe": "gestartete_aufrufe",
+     "alt": 5,
+     "neu": 6
+    },
+    {
+     "nr": 4,
+     "art": "Betrag +0,0000001 US-Dollar",
+     "lauf": "Z50-STUDY-v1:P:01624:F",
+     "arm": "F",
+     "paarindex": 1624,
+     "feld_p_rows": "cost_usd",
+     "feld_ausgabe": "bekannte_kosten_usd",
+     "alt": "0.00076828",
+     "neu": "0.00076838"
+    },
+    {
+     "nr": 5,
+     "art": "Werte zweier Zeilen vertauscht",
+     "lauf": "Z50-STUDY-v1:P:00858:F",
+     "arm": "F",
+     "paarindex": 858,
+     "feld_p_rows": [
+      "f1",
+      "cost_usd"
+     ],
+     "feld_ausgabe": [
+      "f1",
+      "bekannte_kosten_usd"
+     ],
+     "alt": {
+      "f1": 0.6666666666666666,
+      "cost_usd": "0.0013892"
+     },
+     "neu": {
+      "f1": 0.0,
+      "cost_usd": "0.0016352"
+     }
+    },
+    {
+     "nr": 5,
+     "art": "Werte zweier Zeilen vertauscht",
+     "lauf": "Z50-STUDY-v1:P:08567:F",
+     "arm": "F",
+     "paarindex": 8567,
+     "feld_p_rows": [
+      "f1",
+      "cost_usd"
+     ],
+     "feld_ausgabe": [
+      "f1",
+      "bekannte_kosten_usd"
+     ],
+     "alt": {
+      "f1": 0.0,
+      "cost_usd": "0.0016352"
+     },
+     "neu": {
+      "f1": 0.6666666666666666,
+      "cost_usd": "0.0013892"
+     }
+    }
+   ],
+   "kontrolle": {
+    "art": "Kontrolle: F1 um 1e-10 verändert (unter der Toleranz), keine Meldung erwartet",
+    "lauf": "Z50-STUDY-v1:P:03566:F",
+    "arm": "F",
+    "paarindex": 3566,
+    "alt": 0.2857142857142857,
+    "neu": 0.2857142858142857
+   },
+   "laufebene_erwartet": [
+    [
+     "Z50-STUDY-v1:P:00689:F",
+     "gestartete_aufrufe"
+    ],
+    [
+     "Z50-STUDY-v1:P:00858:F",
+     "bekannte_kosten_usd"
+    ],
+    [
+     "Z50-STUDY-v1:P:00858:F",
+     "f1"
+    ],
+    [
+     "Z50-STUDY-v1:P:01624:F",
+     "bekannte_kosten_usd"
+    ],
+    [
+     "Z50-STUDY-v1:P:07045:F",
+     "f1"
+    ],
+    [
+     "Z50-STUDY-v1:P:07431:F",
+     "exact_match"
+    ],
+    [
+     "Z50-STUDY-v1:P:08567:F",
+     "bekannte_kosten_usd"
+    ],
+    [
+     "Z50-STUDY-v1:P:08567:F",
+     "f1"
+    ]
+   ],
+   "laufebene_gemeldet": [
+    [
+     "Z50-STUDY-v1:P:00689:F",
+     "gestartete_aufrufe"
+    ],
+    [
+     "Z50-STUDY-v1:P:00858:F",
+     "bekannte_kosten_usd"
+    ],
+    [
+     "Z50-STUDY-v1:P:00858:F",
+     "f1"
+    ],
+    [
+     "Z50-STUDY-v1:P:01624:F",
+     "bekannte_kosten_usd"
+    ],
+    [
+     "Z50-STUDY-v1:P:07045:F",
+     "f1"
+    ],
+    [
+     "Z50-STUDY-v1:P:07431:F",
+     "exact_match"
+    ],
+    [
+     "Z50-STUDY-v1:P:08567:F",
+     "bekannte_kosten_usd"
+    ],
+    [
+     "Z50-STUDY-v1:P:08567:F",
+     "f1"
+    ]
+   ],
+   "gemeldete_laeufe": 6,
+   "gemeldete_aenderungen": 5,
+   "folgemeldungen": [
+    {
+     "ebene": "p-analysis",
+     "groesse": "arme.F.anteil_exakt_richtig",
+     "feld": "wert",
+     "n_wert": 0.3621681415929204,
+     "soll_wert": 0.3620575221238938,
+     "regel": "relativ ≤ 1e-09"
+    },
+    {
+     "ebene": "p-analysis",
+     "groesse": "arme.F.kosten_summe_usd",
+     "feld": "wert",
+     "n_wert": "12.34547324",
+     "soll_wert": "12.34547314",
+     "regel": "exakt als Dezimalzahl"
+    },
+    {
+     "ebene": "p-analysis",
+     "groesse": "arme.F.kosten_mittel_usd",
+     "feld": "wert",
+     "n_wert": "0.00136564969469026548672566371681415929203539823008849557522124",
+     "soll_wert": "0.0013656496836283185840707964601769911504424778761062",
+     "regel": "relativ ≤ 1e-09"
+    },
+    {
+     "ebene": "p-analysis",
+     "groesse": "qualitaetsdifferenz.schaetzer",
+     "feld": "wert",
+     "n_wert": -0.04225663716814159,
+     "soll_wert": -0.042146017699115045,
+     "regel": "relativ ≤ 1e-09"
+    },
+    {
+     "ebene": "p-analysis",
+     "groesse": "qualitaetsdifferenz.se",
+     "feld": "wert",
+     "n_wert": 0.00346993863459671,
+     "soll_wert": 0.0034683236626088486,
+     "regel": "relativ ≤ 1e-09"
+    },
+    {
+     "ebene": "p-analysis",
+     "groesse": "kostenverhaeltnis.schaetzer",
+     "feld": "wert",
+     "n_wert": 1.169264021668237,
+     "soll_wert": 1.1692640311394327,
+     "regel": "relativ ≤ 1e-09"
+    },
+    {
+     "ebene": "p-analysis",
+     "groesse": "kostenverhaeltnis.se",
+     "feld": "wert",
+     "n_wert": 0.0036742541146988967,
+     "soll_wert": 0.003674363475411334,
+     "regel": "relativ ≤ 1e-09"
+    },
+    {
+     "ebene": "arbeit",
+     "groesse": "paarzahlen.gleich",
+     "feld": "wert",
+     "n_wert": 8040,
+     "soll_wert": 8041,
+     "regel": "exakt"
+    },
+    {
+     "ebene": "arbeit",
+     "groesse": "paarzahlen.nur_f",
+     "feld": "wert",
+     "n_wert": 691,
+     "soll_wert": 690,
+     "regel": "exakt"
+    },
+    {
+     "ebene": "arbeit",
+     "groesse": "saldo_zugunsten_f",
+     "feld": "wert",
+     "n_wert": 382,
+     "soll_wert": 381,
+     "regel": "exakt"
+    },
+    {
+     "ebene": "arbeit",
+     "groesse": "arme.F.anteil_exakt_richtig",
+     "feld": "rundung",
+     "n_wert": {
+      "ungerundet": "36.2168141592920400",
+      "gerundet": "36.22"
+     },
+     "soll_wert": "36.21",
+     "regel": "kaufmännisch auf 2 Stellen gerundet, dann exakt verglichen"
+    },
+    {
+     "ebene": "arbeit",
+     "groesse": "qualitaetsdifferenz.schaetzer",
+     "feld": "rundung",
+     "n_wert": {
+      "ungerundet": "-4.22566371681415900",
+      "gerundet": "-4.23"
+     },
+     "soll_wert": "-4.21",
+     "regel": "kaufmännisch auf 2 Stellen gerundet, dann exakt verglichen"
+    }
+   ],
+   "folgemeldungen_unzulaessig": [],
+   "pflicht_folgemeldungen_fehlend": [],
+   "kontrolle_gemeldet": [],
+   "stdout": "{\"meldungen_gesamt\": 20, \"nach_ebene\": {\"lauf\": 8, \"p-analysis\": 7, \"arbeit\": 5}, \"laeufe_mit_meldung\": 6}",
+   "stderr": ""
+  },
+  {
+   "probe": "D Feldänderungen und Laufmenge",
+   "bestanden": true,
+   "exit": 1,
+   "ids": {
+    "status": "Z50-STUDY-v1:P:05511:Q",
+    "run_id": "Z50-STUDY-v1:P:00049:F",
+    "paarindex": "Z50-STUDY-v1:P:07011:Q",
+    "arm": "Z50-STUDY-v1:P:01733:Q",
+    "unbekannte_betraege": "Z50-STUDY-v1:P:06827:F",
+    "endantwort_geaendert": "Z50-STUDY-v1:P:04794:Q",
+    "endantwort_fehlt": "Z50-STUDY-v1:P:05499:F",
+    "doppelter_lauf": "Z50-STUDY-v1:P:04811:Q",
+    "fehlender_lauf": "Z50-STUDY-v1:P:08694:F"
+   },
+   "erwartete_felder": [
+    "status",
+    "run_id",
+    "paarindex",
+    "arm",
+    "unbekannte_betraege",
+    "endantwort_geaendert",
+    "endantwort_fehlt",
+    "doppelter_lauf",
+    "fehlender_lauf"
+   ],
+   "gefunden": {
+    "status": true,
+    "run_id": true,
+    "paarindex": true,
+    "arm": true,
+    "unbekannte_betraege": true,
+    "endantwort_geaendert": true,
+    "endantwort_fehlt": true,
+    "doppelter_lauf": true,
+    "fehlender_lauf": true
+   },
+   "erwartete_meldungen": [
+    {
+     "mutation": "status",
+     "lauf": "Z50-STUDY-v1:P:05511:Q",
+     "ebene": "lauf",
+     "groesse": "lauf",
+     "feld": "status",
+     "erwarteter_n_wert": "model_failure"
+    },
+    {
+     "mutation": "run_id",
+     "lauf": "Z50-STUDY-v1:P:00049:F",
+     "ebene": "lauf",
+     "groesse": "lauf",
+     "feld": "run_id",
+     "erwarteter_n_wert": "GEGENPROBE-FALSCHE-RUN-ID"
+    },
+    {
+     "mutation": "paarindex",
+     "lauf": "Z50-STUDY-v1:P:07011:Q",
+     "ebene": "lauf",
+     "groesse": "lauf",
+     "feld": "paarindex",
+     "erwarteter_n_wert": 107011
+    },
+    {
+     "mutation": "arm",
+     "lauf": "Z50-STUDY-v1:P:01733:Q",
+     "ebene": "lauf",
+     "groesse": "lauf",
+     "feld": "arm",
+     "erwarteter_n_wert": "F"
+    },
+    {
+     "mutation": "unbekannte_betraege",
+     "lauf": "Z50-STUDY-v1:P:06827:F",
+     "ebene": "plausibilitaet",
+     "groesse": "lauf",
+     "feld": "unbekannte_betraege",
+     "erwarteter_n_wert": 1
+    },
+    {
+     "mutation": "endantwort_geaendert",
+     "lauf": "Z50-STUDY-v1:P:04794:Q",
+     "ebene": "lauf",
+     "groesse": "lauf",
+     "feld": "endantwort",
+     "erwarteter_n_wert": "GEGENPROBE-ANTWORT-GEAENDERT"
+    },
+    {
+     "mutation": "endantwort_fehlt",
+     "lauf": "Z50-STUDY-v1:P:05499:F",
+     "ebene": "lauf",
+     "groesse": "lauf",
+     "feld": "endantwort",
+     "erwarteter_n_wert": "Feld fehlt"
+    },
+    {
+     "mutation": "doppelter_lauf",
+     "lauf": "Z50-STUDY-v1:P:04811:Q",
+     "ebene": "lauf",
+     "groesse": "laufmenge",
+     "feld": "lauf_kennung",
+     "erwarteter_n_wert": "Z50-STUDY-v1:P:04811:Q"
+    },
+    {
+     "mutation": "fehlender_lauf",
+     "lauf": "Z50-STUDY-v1:P:08694:F",
+     "ebene": "lauf",
+     "groesse": "laufmenge",
+     "feld": "vorhanden",
+     "erwarteter_n_wert": null
+    }
+   ],
+   "meldungen_gesamt": 32,
+   "stdout": "{\"meldungen_gesamt\": 32, \"nach_ebene\": {\"lauf\": 8, \"plausibilitaet\": 1, \"intern\": 23}, \"laeufe_mit_meldung\": 8}",
+   "stderr": ""
+  },
+  {
+   "probe": "E Festschreibungsregeln",
+   "bestanden": true,
+   "ohne_ausgabe_sha": {
+    "exit": 2,
+    "erwartet": 2,
+    "fehler": "usage: vergleich.py [-h] --ausgabe AUSGABE --bericht BERICHT\n                    --ausgabe-sha AUSGABE_SHA [--p-rows P_ROWS]\n                    [--p-analysis P_ANALYSIS]\nvergleich.py: error: the following arguments are required: --ausgabe-sha"
+   },
+   "extra_datei": {
+    "exit": 2,
+    "erwartet": 2,
+    "fehler": "VORBEDINGUNG VERLETZT: nicht festgeschriebene Datei(en) in der Ausgabe: nicht-gelistet.txt"
+   },
+   "doppelter_manifestpfad": {
+    "exit": 2,
+    "erwartet": 2,
+    "fehler": "VORBEDINGUNG VERLETZT: doppelter Manifestpfad in AUSGABE.sha256: ZUGRIFFSPROTOKOLL.md"
+   },
+   "unsicherer_manifestpfad": {
+    "exit": 2,
+    "erwartet": 2,
+    "fehler": "VORBEDINGUNG VERLETZT: unsicherer Manifestpfad: '../unsicher.txt'"
+   }
+  },
+  {
+   "probe": "F Änderung nach Festschreibung",
+   "bestanden": true,
+   "exit_falsche_sha": 2,
+   "meldung_falsche_sha": "VORBEDINGUNG VERLETZT: SHA-256 von AUSGABE.sha256 ist 5e88d2b2c1525ddeb484e43da4d45982230b3e2c9223b066d2d044b80f462891, festgeschrieben war 0000000000000000000000000000000000000000000000000000000000000000",
+   "exit_nach_festschreibung_veraendert": 2,
+   "meldung_veraendert": "VORBEDINGUNG VERLETZT: Datei nach der Festschreibung verändert: aggregat.json"
+  }
+ ]
+}

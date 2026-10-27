@@ -27,7 +27,7 @@ ergebnisse/
   gptswarm/                             Künstlicher Anschluss, Demonstration mit echten Aufrufen, Kostenzerlegung
   textueberlappung/                     Absatzüberlappung zwischen Train- und Dev-Teil von MuSiQue
   wirtschaftliche-einordnung/           Rechnung zu Abschnitt 7.5
-nachpruefungen-nach-studienabschluss/   Prüfroutine über alle Laufprotokolle, Anschluss an LangGraph (Code nach ad152f2)
+nachpruefungen-nach-studienabschluss/   Prüfroutine über alle Laufprotokolle, Anschluss an LangGraph (Code nach ad152f2), getrennte Nachrechnung des Hauptvergleichs
 nachrechnen/nachrechnen.py              Rechnet die Kernzahlen aus den Ergebniszeilen nach
 daten/                                  Liste der verwendeten MuSiQue-Aufgaben, Herkunft und Lizenz der Daten
 HERKUNFT.tsv                            Pfad, Größe, SHA-256 und Herkunft jeder Datei
@@ -63,7 +63,7 @@ Den Zeitpunkt hält ein nicht öffentliches Repository fest (Abschnitt 4.3 der A
 | 5.5, 6.3 | Modellausfälle als falsche Antworten mit Kosten | `studiencode-ad152f2/eval-harness/eval/communication_pruning/failure_policy.py`, `ergebnisse/hauptvergleich/P-ROWS.json` |
 | 5.7, 6.2 | Verdeckte Messabnahme mit zwölf Fällen, drei Belegstufen und Sollschlüssel | `ergebnisse/messabnahme/verdeckt/` |
 | 6.2 | Beide Auswertungen der verdeckten Messabnahme | `ergebnisse/messabnahme/verdeckt/reviewer/view3-reconstruction-v1-*`, `view3-reconstruction-v2-*`, `view3-reconstruction-deviation.md`, `view3-reconstruction-v1-v2-check.json` |
-| Kurzfassung, 1.3, 6.2, 7.1 | Prüfroutine des Frameworks weist fünf von acht eingebauten Verletzungen zurück | `ergebnisse/messabnahme/verdeckt/instrument/RESULTS.json`, `ergebnisse/messabnahme/verdeckt/private/answer-key.json` |
+| Kurzfassung, 6.2, 7.1 | Prüfroutine des Frameworks weist fünf von acht eingebauten Verletzungen zurück | `ergebnisse/messabnahme/verdeckt/instrument/RESULTS.json`, `ergebnisse/messabnahme/verdeckt/private/answer-key.json` |
 | 5.7, 6.2, Tabelle 6.3 | Festes Prüfskript ohne Sprachmodell | `ergebnisse/messabnahme/festes-pruefskript/` |
 | 5.7 | Sollfälle der Messung | `studiencode-ad152f2/eval-harness/eval/tests/test_measurement.py`, `measurement_reference.py` |
 | 6.2 | Rückblickende Messabnahme, gleiche Anfragen nach der Korrektur | `ergebnisse/messabnahme/rueckblickend/` |
@@ -72,8 +72,9 @@ Den Zeitpunkt hält ein nicht öffentliches Repository fest (Abschnitt 4.3 der A
 | 6.2 | Behandlung eines Sendeversuchs mit unklarem Ausgang in Tests | `studiencode-ad152f2/eval-harness/eval/tests/test_gptswarm_musique_demo.py` |
 | 5.7, Tabelle 6.2 | Abgleich der gemeldeten Beträge mit dem Kontoguthaben in der Demonstration | nicht enthalten (Kontoangaben, siehe unten); Summe der gemeldeten Beträge 0,40005314 US-Dollar in `ergebnisse/gptswarm/demonstration/ANALYSIS-001.json` |
 | 6.2, Tabelle 7.1 | Nachträgliche Kostenzerlegung der Demonstration | `ergebnisse/gptswarm/kostenzerlegung/` |
-| 6.2, 7.4 | Zweite Nachrechnung aller 6.673 parallel erhobenen Blöcke | `ergebnisse/ergaenzende-vergleiche/skripte-und-nachpruefung/POST-CHECKS.json` |
-| 6.2, 7.1, 8.1 | Prüfroutine über die Studienläufe nach Abschluss der Studie (47.600 Laufprotokolle) | `nachpruefungen-nach-studienabschluss/pruefroutine-studienlaeufe/` |
+| 6.2 | Zweite Nachrechnung aller 6.673 parallel erhobenen Blöcke | `ergebnisse/ergaenzende-vergleiche/skripte-und-nachpruefung/POST-CHECKS.json` |
+| 6.2, 7.1 | Prüfroutine über die Studienläufe nach Abschluss der Studie (47.600 Laufprotokolle) | `nachpruefungen-nach-studienabschluss/pruefroutine-studienlaeufe/` |
+| 6.2, 7.4, Tabelle 7.2, 8.2 | Getrennte Nachrechnung des Hauptvergleichs nach Abschluss der Studie | `nachpruefungen-nach-studienabschluss/getrennte-nachrechnung-hauptvergleich/` |
 | 6.3 | Hauptvergleich | `ergebnisse/hauptvergleich/P-ANALYSIS.json`, `ergebnisse/hauptvergleich/P-ROWS.json` |
 | 6.3 | Aufgaben und Familien als Ziehungseinheit | `ergebnisse/hauptvergleich/sensitivitaet-aufgaben-familien/` |
 | 6.1, Tabelle 6.1 | Kostenverhältnisse ohne nahe Wiederholungen | `ergebnisse/ergaenzende-vergleiche/nahe-wiederholungen/` |
@@ -86,8 +87,8 @@ Den Zeitpunkt hält ein nicht öffentliches Repository fest (Abschnitt 4.3 der A
 | Kurzfassung, 7.1, 7.2 | Überanpassung von Q, abgesicherte Auswahl, Mehrkosten zusätzlicher Kanten | `ergebnisse/entwicklung/ueberanpassung-und-eingriffe/` |
 | 7.2 | Auswahlspielraum | `ergebnisse/entwicklung/spielraum-sensitivitaet/` |
 | 7.3, Tabelle 7.1 | Ergänzende Auswertung zu Tarifen und Modellausfällen | `ergebnisse/entwicklung/zusatzrechnungen/REDTEAMFIX-ZAHLEN.md`, `ergebnisse/gptswarm/kostenzerlegung/` |
-| 1.3, 4.2, 4.3, 7.3, 8.1, 8.2 | Anschluss an LangGraph 1.0.6 ohne Modellaufrufe: 1.080 Läufe, Wiedergabe der 100 Blöcke, Muster der Messabnahme | `nachpruefungen-nach-studienabschluss/langgraph-anschluss/` |
-| 7.5, Tabelle 7.4 | Wirtschaftliche Einordnung | `ergebnisse/wirtschaftliche-einordnung/`, `ergebnisse/ergaenzende-vergleiche/` |
+| 1.3, 4.3, 7.3, 8.1, 8.2 | Anschluss an LangGraph 1.0.6 ohne Modellaufrufe: 1.080 Läufe, Wiedergabe der 100 Blöcke, Muster der Messabnahme | `nachpruefungen-nach-studienabschluss/langgraph-anschluss/` |
+| 7.5, Tabelle 7.3 | Wirtschaftliche Einordnung | `ergebnisse/wirtschaftliche-einordnung/`, `ergebnisse/ergaenzende-vergleiche/` |
 
 ## Kernzahlen nachrechnen
 

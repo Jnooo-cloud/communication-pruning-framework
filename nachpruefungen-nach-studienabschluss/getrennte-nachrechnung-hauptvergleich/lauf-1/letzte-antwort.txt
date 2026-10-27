@@ -1,0 +1,3 @@
+`ausgabe/`: `/private/tmp/n-lauf-qovPQe7t/arbeit/nachrechnung-n/ausgabe/`
+
+SHA-256 von `AUSGABE.sha256`: `1c467a83784cecc738e9e36d107b3853b8999721820cb4d456def9dd31b62b8d`

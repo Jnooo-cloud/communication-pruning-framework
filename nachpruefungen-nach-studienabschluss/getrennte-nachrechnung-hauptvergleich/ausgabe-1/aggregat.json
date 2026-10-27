@@ -1,0 +1,132 @@
+{
+  "schema": "n-nachrechnung-aggregat/v1",
+  "n_paare": 9040,
+  "n_laeufe": 18080,
+  "vollstaendig": true,
+  "nicht_nachrechenbar": {
+    "laeufe": 0,
+    "ausgelassene_paare": 0,
+    "lauf_kennungen": []
+  },
+  "paarzahlen": {
+    "beide_richtig": 2583,
+    "beide_falsch": 5458,
+    "nur_q": 309,
+    "nur_f": 690,
+    "gleich": 8041
+  },
+  "summe_paarwerte": -381,
+  "arme": {
+    "Q": {
+      "anteil_exakt_richtig": 0.3199115044247788,
+      "f1_mittel": 0.4359280383754858,
+      "modellausfaelle": 228,
+      "kosten_summe_usd": "14.43511769",
+      "kosten_mittel_usd": "0.00159680505420353982300884955752212389380530973451327433628319",
+      "gestartete_aufrufe_summe": 53157,
+      "unbekannte_betraege": 0
+    },
+    "F": {
+      "anteil_exakt_richtig": 0.3620575221238938,
+      "f1_mittel": 0.48077504695132584,
+      "modellausfaelle": 224,
+      "kosten_summe_usd": "12.34547314",
+      "kosten_mittel_usd": "0.00136564968362831858407079646017699115044247787610619469026549",
+      "gestartete_aufrufe_summe": 44766,
+      "unbekannte_betraege": 0
+    }
+  },
+  "qualitaetsdifferenz": {
+    "schaetzer": -0.042146017699115045,
+    "se": 0.003468323662608848
+  },
+  "kostenverhaeltnis": {
+    "schaetzer": 1.1692640311394336,
+    "se": 0.003674363475411327,
+    "nenner_mittel": 0.0013656496836283187,
+    "nenner_se": 3.892860068730905e-06,
+    "nenner_quotient": 350.8088293740105
+  },
+  "bootstrap": [
+    {
+      "name": "S1",
+      "seed": "142211229048427227715370149966446052232",
+      "wiederholungen": 19999,
+      "seedregel_reproduziert_s1": true,
+      "differenz": {
+        "untere": -0.048987736975427,
+        "obere": -0.035411008657620445,
+        "status": "ok",
+        "undefinierte_wiederholungen": 0,
+        "grund": null
+      },
+      "verhaeltnis": {
+        "untere": 1.1620463507363719,
+        "obere": 1.1765393418022732,
+        "status": "ok",
+        "undefinierte_wiederholungen": 0,
+        "grund": null
+      },
+      "regel_erfuellt": false,
+      "lesart": {
+        "qualitaet_erhalten_3pp": false,
+        "ersparnis_10pct_belegt": false,
+        "qualitaetsverlust_belegt": true,
+        "verlust_ueber_3pp_belegt": true,
+        "ersparnis_10pct_ausgeschlossen": true,
+        "mehrkosten_belegt": true,
+        "grenze_nicht_berechenbar": false,
+        "offen_ohne_nachteil": false
+      },
+      "zeilen_tabelle_4_5": [
+        "N0560",
+        "N0562",
+        "N0564",
+        "N0566"
+      ]
+    },
+    {
+      "name": "S2",
+      "seed": "25293223086774291045588755186233620233",
+      "wiederholungen": 19999,
+      "seedregel_reproduziert_s1": true,
+      "differenz": {
+        "untere": -0.04892933446821473,
+        "obere": -0.03542418497479423,
+        "status": "ok",
+        "undefinierte_wiederholungen": 0,
+        "grund": null
+      },
+      "verhaeltnis": {
+        "untere": 1.1621153949054066,
+        "obere": 1.1763650321327872,
+        "status": "ok",
+        "undefinierte_wiederholungen": 0,
+        "grund": null
+      },
+      "regel_erfuellt": false,
+      "lesart": {
+        "qualitaet_erhalten_3pp": false,
+        "ersparnis_10pct_belegt": false,
+        "qualitaetsverlust_belegt": true,
+        "verlust_ueber_3pp_belegt": true,
+        "ersparnis_10pct_ausgeschlossen": true,
+        "mehrkosten_belegt": true,
+        "grenze_nicht_berechenbar": false,
+        "offen_ohne_nachteil": false
+      },
+      "zeilen_tabelle_4_5": [
+        "N0560",
+        "N0562",
+        "N0564",
+        "N0566"
+      ]
+    }
+  ],
+  "umgebung": {
+    "python": "3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:11:29) [Clang 20.1.8 ]",
+    "numpy": "1.26.4",
+    "plattform": "macOS-26.3-arm64-arm-64bit-Mach-O"
+  },
+  "festlegungen_ohne_plantext": []
+}

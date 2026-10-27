@@ -1,0 +1,13 @@
+(version 1)
+(allow default)
+; Geschlossen für Nutzerdaten: gesamter Benutzerbereich, alle temporären Bereiche, externe Laufwerke
+(deny file-read* file-write*
+  (subpath "/Users")
+  (subpath "/private/tmp")
+  (subpath "/private/var/folders")
+  (subpath "/Volumes"))
+; Ausnahmen: nur der eigene, frisch angelegte Laufordner (Parameter LAUF), die Laufzeit und die Anmeldedatei (nur lesen)
+(allow file-read* file-write* (subpath (param "LAUF")))
+(allow file-read* (subpath "/Users/jannikhiller/.nvm/versions/node/v25.2.1"))
+(allow file-read* (literal "/Users/jannikhiller/.codex/auth.json"))
+(allow file-read-metadata (literal "/Users") (literal "/Users/jannikhiller") (literal "/Users/jannikhiller/.nvm") (literal "/Users/jannikhiller/.nvm/versions") (literal "/Users/jannikhiller/.nvm/versions/node") (literal "/Users/jannikhiller/.codex") (literal "/private/tmp") (literal "/private/var/folders"))

@@ -1,0 +1,326 @@
+{
+ "schema": "n-vergleich/v1",
+ "zeitpunkt_utc": "2026-10-27T22:36:15Z",
+ "eingaben": {
+  "AUSGABE.sha256": "1c467a83784cecc738e9e36d107b3853b8999721820cb4d456def9dd31b62b8d",
+  "eingang/MANIFEST.sha256": "4a7ef3f82031fc0d04bdb0f80b4cb1ca8ade16b4dfbb8bcb778de83f06b2f19f",
+  "P-ROWS.json": "f22b12017abe4f93a89fcb29dd55728e78c31392bcc8895ebbcf47672c00fcd0",
+  "P-ANALYSIS.json": "fc4be29676749d7611d7c3f0d11e912193e4588609acb5d4734a15c387dcba65",
+  "vergleich.py": "aaeb2cf80b1ff94cbe3255b516b4216925d671d6f022291c8d4dbb151a6a00bf"
+ },
+ "toleranzen": {
+  "f1_abs": 1e-09,
+  "relativ": 1e-09,
+  "grenze_differenz_abs": 0.0005,
+  "grenze_verhaeltnis_abs": 0.001
+ },
+ "meldungen_gesamt": 4,
+ "meldungen_nach_ebene": {
+  "intern": 2,
+  "arbeit": 2
+ },
+ "laeufe_mit_meldung": [],
+ "groesste_grenzabweichung_ueber_seeds": {
+  "differenz.untere": 8.609819988887601e-05,
+  "differenz.obere": 2.643042508580079e-05,
+  "verhaeltnis.untere": 5.6746220173264916e-05,
+  "verhaeltnis.obere": 0.00017913166953253956
+ },
+ "grenzabweichungen": {
+  "differenz.untere": [
+   {
+    "seed": "S1",
+    "n_wert": -0.048987736975427,
+    "soll": -0.049015432668103605,
+    "abstand": 2.7695692676604766e-05
+   },
+   {
+    "seed": "S2",
+    "n_wert": -0.04892933446821473,
+    "soll": -0.049015432668103605,
+    "abstand": 8.609819988887601e-05
+   }
+  ],
+  "differenz.obere": [
+   {
+    "seed": "S1",
+    "n_wert": -0.035411008657620445,
+    "soll": -0.03539775454970843,
+    "abstand": 1.3254107912016866e-05
+   },
+   {
+    "seed": "S2",
+    "n_wert": -0.03542418497479423,
+    "soll": -0.03539775454970843,
+    "abstand": 2.643042508580079e-05
+   }
+  ],
+  "verhaeltnis.untere": [
+   {
+    "seed": "S1",
+    "n_wert": 1.1620463507363719,
+    "soll": 1.1620586486852333,
+    "abstand": 1.2297948861483832e-05
+   },
+   {
+    "seed": "S2",
+    "n_wert": 1.1621153949054066,
+    "soll": 1.1620586486852333,
+    "abstand": 5.6746220173264916e-05
+   }
+  ],
+  "verhaeltnis.obere": [
+   {
+    "seed": "S1",
+    "n_wert": 1.1765393418022732,
+    "soll": 1.1763602101327406,
+    "abstand": 0.00017913166953253956
+   },
+   {
+    "seed": "S2",
+    "n_wert": 1.1763650321327872,
+    "soll": 1.1763602101327406,
+    "abstand": 4.822000046589281e-06
+   }
+  ]
+ },
+ "vergleich_arbeit": [
+  {
+   "groesse": "arme.Q.anteil_exakt_richtig",
+   "quelle": "[N1006]",
+   "soll_gedruckt": "31.99",
+   "nachrechnung_ungerundet": "31.9911504424778800",
+   "nachrechnung_gerundet": "31.99",
+   "stellen": 2,
+   "toleranz_pruefung": "nicht festgelegt",
+   "rundung_pruefung": "bestanden"
+  },
+  {
+   "groesse": "arme.F.anteil_exakt_richtig",
+   "quelle": "[N1006]",
+   "soll_gedruckt": "36.21",
+   "nachrechnung_ungerundet": "36.2057522123893800",
+   "nachrechnung_gerundet": "36.21",
+   "stellen": 2,
+   "toleranz_pruefung": "nicht festgelegt",
+   "rundung_pruefung": "bestanden"
+  },
+  {
+   "groesse": "qualitaetsdifferenz.schaetzer",
+   "quelle": "[N1006], [N1011]",
+   "soll_gedruckt": "-4.21",
+   "nachrechnung_ungerundet": "-4.214601769911504500",
+   "nachrechnung_gerundet": "-4.21",
+   "stellen": 2,
+   "toleranz_pruefung": "nicht festgelegt",
+   "rundung_pruefung": "bestanden"
+  },
+  {
+   "groesse": "kostenverhaeltnis.schaetzer",
+   "quelle": "[N1013]",
+   "soll_gedruckt": "1.169",
+   "nachrechnung_ungerundet": "1.1692640311394336",
+   "nachrechnung_gerundet": "1.169",
+   "stellen": 3,
+   "toleranz_pruefung": "nicht festgelegt",
+   "rundung_pruefung": "bestanden"
+  },
+  {
+   "groesse": "arme.Q.kosten_summe_usd",
+   "quelle": "[N1013]",
+   "soll_gedruckt": "14.44",
+   "nachrechnung_ungerundet": "14.43511769",
+   "nachrechnung_gerundet": "14.44",
+   "stellen": 2,
+   "toleranz_pruefung": "nicht festgelegt",
+   "rundung_pruefung": "bestanden"
+  },
+  {
+   "groesse": "arme.F.kosten_summe_usd",
+   "quelle": "[N1013]",
+   "soll_gedruckt": "12.35",
+   "nachrechnung_ungerundet": "12.34547314",
+   "nachrechnung_gerundet": "12.35",
+   "stellen": 2,
+   "toleranz_pruefung": "nicht festgelegt",
+   "rundung_pruefung": "bestanden"
+  },
+  {
+   "groesse": "arme.Q.f1_mittel",
+   "quelle": "[N1015]",
+   "soll_gedruckt": "0.436",
+   "nachrechnung_ungerundet": "0.4359280383754858",
+   "nachrechnung_gerundet": "0.436",
+   "stellen": 3,
+   "toleranz_pruefung": "nicht festgelegt",
+   "rundung_pruefung": "bestanden"
+  },
+  {
+   "groesse": "arme.F.f1_mittel",
+   "quelle": "[N1015]",
+   "soll_gedruckt": "0.481",
+   "nachrechnung_ungerundet": "0.48077504695132584",
+   "nachrechnung_gerundet": "0.481",
+   "stellen": 3,
+   "toleranz_pruefung": "nicht festgelegt",
+   "rundung_pruefung": "bestanden"
+  },
+  {
+   "groesse": "bootstrap.S1.differenz.untere",
+   "quelle": "[N1011]",
+   "soll_gedruckt": "-4.90",
+   "nachrechnung_ungerundet": "-4.898773697542700",
+   "nachrechnung_gerundet": "-4.90",
+   "stellen": 2,
+   "toleranz": 0.0005,
+   "toleranz_pruefung": "bestanden",
+   "rundung_pruefung": "bestanden"
+  },
+  {
+   "groesse": "bootstrap.S1.differenz.obere",
+   "quelle": "[N1011]",
+   "soll_gedruckt": "-3.54",
+   "nachrechnung_ungerundet": "-3.541100865762044500",
+   "nachrechnung_gerundet": "-3.54",
+   "stellen": 2,
+   "toleranz": 0.0005,
+   "toleranz_pruefung": "bestanden",
+   "rundung_pruefung": "bestanden"
+  },
+  {
+   "groesse": "bootstrap.S1.verhaeltnis.untere",
+   "quelle": "[N1013]",
+   "soll_gedruckt": "1.162",
+   "nachrechnung_ungerundet": "1.1620463507363719",
+   "nachrechnung_gerundet": "1.162",
+   "stellen": 3,
+   "toleranz": 0.001,
+   "toleranz_pruefung": "bestanden",
+   "rundung_pruefung": "bestanden"
+  },
+  {
+   "groesse": "bootstrap.S1.verhaeltnis.obere",
+   "quelle": "[N1013]",
+   "soll_gedruckt": "1.176",
+   "nachrechnung_ungerundet": "1.1765393418022732",
+   "nachrechnung_gerundet": "1.177",
+   "stellen": 3,
+   "toleranz": 0.001,
+   "toleranz_pruefung": "bestanden",
+   "rundung_pruefung": "nicht bestanden"
+  },
+  {
+   "groesse": "bootstrap.S2.differenz.untere",
+   "quelle": "[N1011]",
+   "soll_gedruckt": "-4.90",
+   "nachrechnung_ungerundet": "-4.89293344682147300",
+   "nachrechnung_gerundet": "-4.89",
+   "stellen": 2,
+   "toleranz": 0.0005,
+   "toleranz_pruefung": "bestanden",
+   "rundung_pruefung": "nicht bestanden"
+  },
+  {
+   "groesse": "bootstrap.S2.differenz.obere",
+   "quelle": "[N1011]",
+   "soll_gedruckt": "-3.54",
+   "nachrechnung_ungerundet": "-3.54241849747942300",
+   "nachrechnung_gerundet": "-3.54",
+   "stellen": 2,
+   "toleranz": 0.0005,
+   "toleranz_pruefung": "bestanden",
+   "rundung_pruefung": "bestanden"
+  },
+  {
+   "groesse": "bootstrap.S2.verhaeltnis.untere",
+   "quelle": "[N1013]",
+   "soll_gedruckt": "1.162",
+   "nachrechnung_ungerundet": "1.1621153949054066",
+   "nachrechnung_gerundet": "1.162",
+   "stellen": 3,
+   "toleranz": 0.001,
+   "toleranz_pruefung": "bestanden",
+   "rundung_pruefung": "bestanden"
+  },
+  {
+   "groesse": "bootstrap.S2.verhaeltnis.obere",
+   "quelle": "[N1013]",
+   "soll_gedruckt": "1.176",
+   "nachrechnung_ungerundet": "1.1763650321327872",
+   "nachrechnung_gerundet": "1.176",
+   "stellen": 3,
+   "toleranz": 0.001,
+   "toleranz_pruefung": "bestanden",
+   "rundung_pruefung": "bestanden"
+  }
+ ],
+ "information": [],
+ "meldungen": [
+  {
+   "ebene": "intern",
+   "lauf": null,
+   "groesse": "bootstrap.S1",
+   "feld": "zeilen_tabelle_4_5",
+   "n_wert": [
+    "N0560",
+    "N0562",
+    "N0564",
+    "N0566"
+   ],
+   "soll_wert": [
+    "[N0560]",
+    "[N0562]",
+    "[N0564]",
+    "[N0566]"
+   ],
+   "quelle": "eigene Grenzen, AUFTRAG 4.6",
+   "regel": "identisch"
+  },
+  {
+   "ebene": "intern",
+   "lauf": null,
+   "groesse": "bootstrap.S2",
+   "feld": "zeilen_tabelle_4_5",
+   "n_wert": [
+    "N0560",
+    "N0562",
+    "N0564",
+    "N0566"
+   ],
+   "soll_wert": [
+    "[N0560]",
+    "[N0562]",
+    "[N0564]",
+    "[N0566]"
+   ],
+   "quelle": "eigene Grenzen, AUFTRAG 4.6",
+   "regel": "identisch"
+  },
+  {
+   "ebene": "arbeit",
+   "lauf": null,
+   "groesse": "bootstrap.S1.verhaeltnis.obere",
+   "feld": "rundung",
+   "n_wert": {
+    "ungerundet": "1.1765393418022732",
+    "gerundet": "1.177"
+   },
+   "soll_wert": "1.176",
+   "quelle": "Arbeit rev25, 6.3 [N1013]",
+   "regel": "kaufmännisch auf 3 Stellen gerundet, dann exakt verglichen"
+  },
+  {
+   "ebene": "arbeit",
+   "lauf": null,
+   "groesse": "bootstrap.S2.differenz.untere",
+   "feld": "rundung",
+   "n_wert": {
+    "ungerundet": "-4.89293344682147300",
+    "gerundet": "-4.89"
+   },
+   "soll_wert": "-4.90",
+   "quelle": "Arbeit rev25, 6.3 [N1011]",
+   "regel": "kaufmännisch auf 2 Stellen gerundet, dann exakt verglichen"
+  }
+ ]
+}

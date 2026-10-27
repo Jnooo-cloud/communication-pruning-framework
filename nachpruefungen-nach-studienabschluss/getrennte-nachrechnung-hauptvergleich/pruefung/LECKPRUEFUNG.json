@@ -1,0 +1,288 @@
+{
+ "bestanden": true,
+ "dateien": 18092,
+ "protokolle": 18080,
+ "bytes": 448900017,
+ "gepruefte_ergebniszahlen": 120,
+ "gepruefte_textformen": 2474,
+ "befunde": [],
+ "information": [
+  "daten/musique_ans_v1.0_dev.jsonl: 955 Zahlentreffer in unveränderter Originaldatei (Prüfsumme gleich Original, vor der Studie bzw. extern entstanden)",
+  "plan/PLAN.json: 242 Zahlentreffer in unveränderter Originaldatei (Prüfsumme gleich Original, vor der Studie bzw. extern entstanden)",
+  "plan/METHODEN-UND-INFORMATION.md: 3 Zahlentreffer in unveränderter Originaldatei (Prüfsumme gleich Original, vor der Studie bzw. extern entstanden)",
+  "plan/ANALYSIS-BINDING.json: 1× Textverweis 'study_preparation' (Name bzw. Pfad, keine Datei im Paket)",
+  "plan/ANALYSIS-BINDING.json: 1× Textverweis 'intervals.py' (Name bzw. Pfad, keine Datei im Paket)",
+  "format/contract.md: 2× Textverweis 'communication_pruning' (Name bzw. Pfad, keine Datei im Paket)",
+  "AUFTRAG.md: 1× Textverweis 'communication_pruning' (Name bzw. Pfad, keine Datei im Paket)",
+  "AUFTRAG.md: 1× Textverweis 'study_preparation' (Name bzw. Pfad, keine Datei im Paket)",
+  "AUFTRAG.md: 1× Textverweis 'intervals.py' (Name bzw. Pfad, keine Datei im Paket)",
+  "AUFTRAG.md: 1× Textverweis 'final_analysis.py' (Name bzw. Pfad, keine Datei im Paket)"
+ ],
+ "zahlentreffer_in_originaldateien": {
+  "daten/musique_ans_v1.0_dev.jsonl": [
+   {
+    "wert": "100,000",
+    "ergebniszahl": "1.0",
+    "herkunft": "Arbeit 6.3: 1,0",
+    "kontext": "d into the Bank of Cyprus (including insured deposits under 100,000 Euro) and the 'bad' part or legacy entity holds all the ove"
+   },
+   {
+    "wert": "100,000",
+    "ergebniszahl": "1.0",
+    "herkunft": "Arbeit 6.3: 1,0",
+    "kontext": "the overseas operations as well as uninsured deposits above 100,000 Euro, old shares and bonds. The uninsured depositors were s"
+   },
+   {
+    "wert": "9,000",
+    "ergebniszahl": "-9.0",
+    "herkunft": "Arbeit 6.3: -9,0",
+    "kontext": "3n Deportiva Tarma of the Copa Per\\u00fa. The stadium holds 9,000 spectators.\", \"is_supporting\": false}, {\"idx\": 14, \"title\":"
+   },
+   {
+    "wert": "100,000",
+    "ergebniszahl": "1.0",
+    "herkunft": "Arbeit 6.3: 1,0",
+    "kontext": "among the largest employers in the state, and provide more $100,000+-salaried positions than any other employer in Connecticut."
+   },
+   {
+    "wert": "80,000",
+    "ergebniszahl": "0.80",
+    "herkunft": "Arbeit 6.3: 0,80",
+    "kontext": " cable company formed by the sale of 25 systems that served 80,000 customers in rural areas that Time Warner Cable acquired fr"
+   },
+   {
+    "wert": "100,000",
+    "ergebniszahl": "1.0",
+    "herkunft": "Arbeit 6.3: 1,0",
+    "kontext": "d into the Bank of Cyprus (including insured deposits under 100,000 Euro) and the 'bad' part or legacy entity holds all the ove"
+   },
+   {
+    "wert": "100,000",
+    "ergebniszahl": "1.0",
+    "herkunft": "Arbeit 6.3: 1,0",
+    "kontext": "the overseas operations as well as uninsured deposits above 100,000 Euro, old shares and bonds. The uninsured depositors were s"
+   },
+   {
+    "wert": "100,000",
+    "ergebniszahl": "1.0",
+    "herkunft": "Arbeit 6.3: 1,0",
+    "kontext": "d into the Bank of Cyprus (including insured deposits under 100,000 Euro) and the 'bad' part or legacy entity holds all the ove"
+   },
+   {
+    "wert": "100,000",
+    "ergebniszahl": "1.0",
+    "herkunft": "Arbeit 6.3: 1,0",
+    "kontext": "the overseas operations as well as uninsured deposits above 100,000 Euro, old shares and bonds. The uninsured depositors were s"
+   },
+   {
+    "wert": "100,000",
+    "ergebniszahl": "1.0",
+    "herkunft": "Arbeit 6.3: 1,0",
+    "kontext": "d into the Bank of Cyprus (including insured deposits under 100,000 Euro) and the 'bad' part or legacy entity holds all the ove"
+   },
+   {
+    "wert": "100,000",
+    "ergebniszahl": "1.0",
+    "herkunft": "Arbeit 6.3: 1,0",
+    "kontext": "the overseas operations as well as uninsured deposits above 100,000 Euro, old shares and bonds. The uninsured depositors were s"
+   },
+   {
+    "wert": "100,000",
+    "ergebniszahl": "1.0",
+    "herkunft": "Arbeit 6.3: 1,0",
+    "kontext": "d into the Bank of Cyprus (including insured deposits under 100,000 Euro) and the 'bad' part or legacy entity holds all the ove"
+   },
+   {
+    "wert": "100,000",
+    "ergebniszahl": "1.0",
+    "herkunft": "Arbeit 6.3: 1,0",
+    "kontext": "the overseas operations as well as uninsured deposits above 100,000 Euro, old shares and bonds. The uninsured depositors were s"
+   },
+   {
+    "wert": "100,000",
+    "ergebniszahl": "1.0",
+    "herkunft": "Arbeit 6.3: 1,0",
+    "kontext": "d into the Bank of Cyprus (including insured deposits under 100,000 Euro) and the 'bad' part or legacy entity holds all the ove"
+   },
+   {
+    "wert": "100,000",
+    "ergebniszahl": "1.0",
+    "herkunft": "Arbeit 6.3: 1,0",
+    "kontext": "the overseas operations as well as uninsured deposits above 100,000 Euro, old shares and bonds. The uninsured depositors were s"
+   },
+   {
+    "wert": "100,000",
+    "ergebniszahl": "1.0",
+    "herkunft": "Arbeit 6.3: 1,0",
+    "kontext": "d into the Bank of Cyprus (including insured deposits under 100,000 Euro) and the 'bad' part or legacy entity holds all the ove"
+   },
+   {
+    "wert": "100,000",
+    "ergebniszahl": "1.0",
+    "herkunft": "Arbeit 6.3: 1,0",
+    "kontext": "the overseas operations as well as uninsured deposits above 100,000 Euro, old shares and bonds. The uninsured depositors were s"
+   },
+   {
+    "wert": "100,000",
+    "ergebniszahl": "1.0",
+    "herkunft": "Arbeit 6.3: 1,0",
+    "kontext": "d into the Bank of Cyprus (including insured deposits under 100,000 Euro) and the 'bad' part or legacy entity holds all the ove"
+   },
+   {
+    "wert": "100,000",
+    "ergebniszahl": "1.0",
+    "herkunft": "Arbeit 6.3: 1,0",
+    "kontext": "the overseas operations as well as uninsured deposits above 100,000 Euro, old shares and bonds. The uninsured depositors were s"
+   },
+   {
+    "wert": "100,000",
+    "ergebniszahl": "1.0",
+    "herkunft": "Arbeit 6.3: 1,0",
+    "kontext": "d into the Bank of Cyprus (including insured deposits under 100,000 Euro) and the 'bad' part or legacy entity holds all the ove"
+   }
+  ],
+  "plan/PLAN.json": [
+   {
+    "wert": "309",
+    "ergebniszahl": "309",
+    "herkunft": "Arbeit 6.3: 309",
+    "kontext": "_161450\"}, {\"family_id\": \"family-8020c72a5a4d238c043a875901a309c21fab48cc279179befad72e21a0ac123e\", \"task_id\": \"2hop__13195"
+   },
+   {
+    "wert": "1530",
+    "ergebniszahl": "1530",
+    "herkunft": "Arbeit 6.3: 1.530",
+    "kontext": "task_id\": \"2hop__13731_801817\"}, {\"family_id\": \"family-ae55a1530b26a02a4005de8c82e24ee266be2c40f7085ef5f9c750261a541396\", \"t"
+   },
+   {
+    "wert": "1530",
+    "ergebniszahl": "1530",
+    "herkunft": "Arbeit 6.3: 1.530",
+    "kontext": "task_id\": \"2hop__13986_161674\"}, {\"family_id\": \"family-ae55a1530b26a02a4005de8c82e24ee266be2c40f7085ef5f9c750261a541396\", \"t"
+   },
+   {
+    "wert": "309",
+    "ergebniszahl": "309",
+    "herkunft": "Arbeit 6.3: 309",
+    "kontext": "_156796\"}, {\"family_id\": \"family-8020c72a5a4d238c043a875901a309c21fab48cc279179befad72e21a0ac123e\", \"task_id\": \"2hop__15737"
+   },
+   {
+    "wert": "1530",
+    "ergebniszahl": "1530",
+    "herkunft": "Arbeit 6.3: 1.530",
+    "kontext": "task_id\": \"2hop__159737_27110\"}, {\"family_id\": \"family-ae55a1530b26a02a4005de8c82e24ee266be2c40f7085ef5f9c750261a541396\", \"t"
+   },
+   {
+    "wert": "1530",
+    "ergebniszahl": "1530",
+    "herkunft": "Arbeit 6.3: 1.530",
+    "kontext": "ask_id\": \"2hop__159741_161674\"}, {\"family_id\": \"family-ae55a1530b26a02a4005de8c82e24ee266be2c40f7085ef5f9c750261a541396\", \"t"
+   },
+   {
+    "wert": "228",
+    "ergebniszahl": "228",
+    "herkunft": "report.estimates.Q.model_failures",
+    "kontext": "e4f485cd7c60a3b0456cec0817bcfbe038ccaf5\", \"task_id\": \"2hop__228_90265\"}, {\"family_id\": \"family-c60a1c6146ebeab7acb29b435b48"
+   },
+   {
+    "wert": "228",
+    "ergebniszahl": "228",
+    "herkunft": "report.estimates.Q.model_failures",
+    "kontext": "_id\": \"2hop__258940_135844\"}, {\"family_id\": \"family-dd1e783d228e0cc7c44e20bef5aaf0408717e4f160255efa38fd4f0083761f01\", \"tas"
+   },
+   {
+    "wert": "381",
+    "ergebniszahl": "381",
+    "herkunft": "Arbeit 6.3: 381",
+    "kontext": "cc\", \"task_id\": \"2hop__29349_92763\"}, {\"family_id\": \"family-381fa472680fd9df87e1386965144abf2e305be574e5bad032064e2fad660fc"
+   },
+   {
+    "wert": "381",
+    "ergebniszahl": "381",
+    "herkunft": "Arbeit 6.3: 381",
+    "kontext": "ca\", \"task_id\": \"2hop__29367_29376\"}, {\"family_id\": \"family-381fa472680fd9df87e1386965144abf2e305be574e5bad032064e2fad660fc"
+   },
+   {
+    "wert": "690",
+    "ergebniszahl": "690",
+    "herkunft": "Arbeit 6.3: 690",
+    "kontext": ": \"2hop__45296_83837\"}, {\"family_id\": \"family-5fac8a37f8627c690cfc77008e4dc078aaf8c852b06bc1ac3b524ca2aeeb661b\", \"task_id\":"
+   },
+   {
+    "wert": "5964",
+    "ergebniszahl": "5964",
+    "herkunft": "recovery_cost_caveat.interrupted_block_indices[3]",
+    "kontext": "2hop__46550_85990\"}, {\"family_id\": \"family-fe0aac4fcbd8e0ffe5964b1c56674479b1cd1ebacbceeda4d6016192310e3045\", \"task_id\": \"2h"
+   },
+   {
+    "wert": "108",
+    "ergebniszahl": "108",
+    "herkunft": "Arbeit 6.3: 108",
+    "kontext": "5e107f8a6aed57136326d8bd24e48b7ceccc3e99b229d9e12fe12228a91b108d\", \"task_id\": \"2hop__47071_162399\"}, {\"family_id\": \"family-"
+   },
+   {
+    "wert": "224",
+    "ergebniszahl": "224",
+    "herkunft": "report.estimates.F.model_failures",
+    "kontext": "d\": \"family-25bd6bef1eb8cccd9df8fe57f96354a62d22fe88b8c9f6ed224bbbc817daed7d\", \"task_id\": \"2hop__569582_304416\"}, {\"family_"
+   },
+   {
+    "wert": "108",
+    "ergebniszahl": "108",
+    "herkunft": "Arbeit 6.3: 108",
+    "kontext": "5e107f8a6aed57136326d8bd24e48b7ceccc3e99b229d9e12fe12228a91b108d\", \"task_id\": \"2hop__580231_162399\"}, {\"family_id\": \"family"
+   },
+   {
+    "wert": "528",
+    "ergebniszahl": "528",
+    "herkunft": "Arbeit 6.3: 528",
+    "kontext": "\"2hop__635544_110949\"}, {\"family_id\": \"family-696c39d48c829f528e3214dadd31d907182aaa1f91318e2508bb4cc44e1b3589\", \"task_id\":"
+   },
+   {
+    "wert": "381",
+    "ergebniszahl": "381",
+    "herkunft": "Arbeit 6.3: 381",
+    "kontext": "c\", \"task_id\": \"2hop__85455_158105\"}, {\"family_id\": \"family-381eeb25784dd678250830d6b304d7de94a947a5cf4ca2f06d5a648d8d1f903"
+   },
+   {
+    "wert": "381",
+    "ergebniszahl": "381",
+    "herkunft": "Arbeit 6.3: 381",
+    "kontext": "35\", \"task_id\": \"2hop__85463_33311\"}, {\"family_id\": \"family-381eeb25784dd678250830d6b304d7de94a947a5cf4ca2f06d5a648d8d1f903"
+   },
+   {
+    "wert": "381",
+    "ergebniszahl": "381",
+    "herkunft": "Arbeit 6.3: 381",
+    "kontext": "35\", \"task_id\": \"2hop__85463_50252\"}, {\"family_id\": \"family-381eeb25784dd678250830d6b304d7de94a947a5cf4ca2f06d5a648d8d1f903"
+   },
+   {
+    "wert": "381",
+    "ergebniszahl": "381",
+    "herkunft": "Arbeit 6.3: 381",
+    "kontext": "35\", \"task_id\": \"2hop__85463_54688\"}, {\"family_id\": \"family-381eeb25784dd678250830d6b304d7de94a947a5cf4ca2f06d5a648d8d1f903"
+   }
+  ],
+  "plan/METHODEN-UND-INFORMATION.md": [
+   {
+    "wert": "309",
+    "ergebniszahl": "309",
+    "herkunft": "Arbeit 6.3: 309",
+    "kontext": "026; FF2a–c / RQ-6, gemeinsames Paket `A-20260916T080520Z-ea309d`, Ausgangsrevision `eab751efc932d4218c7a60d9958043787ecd2e"
+   },
+   {
+    "wert": "1,01",
+    "ergebniszahl": "1.010",
+    "herkunft": "Arbeit 6.3: 1,010",
+    "kontext": "t h als Ziel und akzeptiert eine feste Mediantoleranz bis **1,01h**. Anlass aus der Originalplanung, nicht aus neuen Rechene"
+   },
+   {
+    "wert": "1,01",
+    "ergebniszahl": "1.010",
+    "herkunft": "Arbeit 6.3: 1,010",
+    "kontext": " stark variable Referenzkosten | | S5 | Z=0,1/1,9; U_j=0,99/1,01, jeweils gleichwahrscheinlich | starke gemeinsame Schwankun"
+   }
+  ]
+ },
+ "manifest_sha256": "4a7ef3f82031fc0d04bdb0f80b4cb1ca8ade16b4dfbb8bcb778de83f06b2f19f"
+}
