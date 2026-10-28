@@ -26,7 +26,7 @@ ergebnisse/
   messabnahme/                          Verdeckte Messabnahme, festes Prüfskript, rückblickende Abnahme
   gptswarm/                             Künstlicher Anschluss, Demonstration mit echten Aufrufen, Kostenzerlegung
   textueberlappung/                     Absatzüberlappung zwischen Train- und Dev-Teil von MuSiQue
-  wirtschaftliche-einordnung/           Rechnung zu Abschnitt 7.5
+  wirtschaftliche-einordnung/           Rechnung zu Abschnitt 7.5, Tokens pro Arm zu Tabelle 7.3
 nachpruefungen-nach-studienabschluss/   Prüfroutine über alle Laufprotokolle, Anschluss an LangGraph (Code nach ad152f2), getrennte Nachrechnung des Hauptvergleichs
 nachrechnen/nachrechnen.py              Rechnet die Kernzahlen aus den Ergebniszeilen nach
 daten/                                  Liste der verwendeten MuSiQue-Aufgaben, Herkunft und Lizenz der Daten
@@ -89,6 +89,7 @@ Den Zeitpunkt hält ein nicht öffentliches Repository fest (Abschnitt 4.3 der A
 | 7.3, Tabelle 7.1 | Ergänzende Auswertung zu Tarifen und Modellausfällen | `ergebnisse/entwicklung/zusatzrechnungen/REDTEAMFIX-ZAHLEN.md`, `ergebnisse/gptswarm/kostenzerlegung/` |
 | 1.3, 4.3, 7.3, 8.1, 8.2 | Anschluss an LangGraph 1.0.6 ohne Modellaufrufe: 1.080 Läufe, Wiedergabe der 100 Blöcke, Muster der Messabnahme | `nachpruefungen-nach-studienabschluss/langgraph-anschluss/` |
 | 7.5, Tabelle 7.3 | Wirtschaftliche Einordnung | `ergebnisse/wirtschaftliche-einordnung/`, `ergebnisse/ergaenzende-vergleiche/` |
+| Tabelle 7.3, Anmerkung | Mittlere Ein- und Ausgabetokens pro Arm im Referenzvergleich, Eingabe mit und ohne Cache | `ergebnisse/wirtschaftliche-einordnung/tokens/` |
 
 ## Kernzahlen nachrechnen
 

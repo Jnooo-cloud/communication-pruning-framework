@@ -1,0 +1,1108 @@
+{
+  "arms": [
+    {
+      "arm": "S",
+      "cost_control": {
+        "cost_usd_per_1000_from_result_rows": "0.19",
+        "cost_usd_per_1000_from_usage_logs": "0.19",
+        "expected_cost_control_matches": true,
+        "expected_cost_usd_per_1000": "0.19",
+        "rows_different": 0,
+        "rows_equal_exactly": 2952
+      },
+      "coverage": {
+        "attempts_with_matching_prompt_and_completion_tokens": 2952,
+        "attempts_with_raw_completion_tokens": 2952,
+        "attempts_with_raw_prompt_tokens": 2952,
+        "cache_field_attempt_coverage": "1.000000000000",
+        "cache_field_attempts_of_usage_attempts": "2952/2952",
+        "cache_field_input_tokens": 7397278,
+        "input_tokens_cache_unclassified": 0,
+        "logged_input_tokens": 7397278,
+        "logged_input_tokens_cache_field_coverage": "1.000000000000",
+        "logged_output_tokens": 17446,
+        "raw_completion_token_coverage": "1.000000000000",
+        "raw_completion_tokens": 17446,
+        "raw_prompt_token_coverage": "1.000000000000",
+        "raw_prompt_tokens": 7397278,
+        "raw_response_attempt_coverage": "1.000000000000",
+        "raw_response_attempts_of_usage_attempts": "2952/2952"
+      },
+      "denominator_tasks": 2952,
+      "means_per_task": {
+        "attempts": "1.000000000000",
+        "cache_write_tokens_known": "0.000000000000",
+        "cache_write_tokens_known_subset_total_divided_by_2952": "0.000000000000",
+        "input_tokens_cache_unclassified": "0.000000000000",
+        "input_tokens_from_cache": "708.672086720867",
+        "input_tokens_from_cache_known_subset_total_divided_by_2952": "708.672086720867",
+        "input_tokens_total": "2505.852981029810",
+        "input_tokens_without_cache": "1797.180894308943",
+        "input_tokens_without_cache_known_subset_total_divided_by_2952": "1797.180894308943",
+        "output_tokens": "5.909891598916",
+        "reasoning_tokens_known": "0.000000000000",
+        "reasoning_tokens_known_subset_total_divided_by_2952": "0.000000000000"
+      },
+      "price_control": {
+        "calculable_attempts": 2952,
+        "exact_matches": 2952,
+        "largest_absolute_difference_usd": "0.0000000",
+        "nonexact_within_1e_9_usd": 0,
+        "outside_1e_9_usd": 0
+      },
+      "rows": 2952,
+      "source_version": "haupt",
+      "totals": {
+        "attempts": 2952,
+        "attempts_with_cache_field": 2952,
+        "attempts_with_raw_response": 2952,
+        "attempts_with_usage": 2952,
+        "attempts_with_usage_missing_cost": 0,
+        "attempts_with_usage_missing_token_fields": 0,
+        "attempts_without_raw_response": 0,
+        "cache_write_tokens_known": 0,
+        "cache_write_tokens_unknown_attempts": 0,
+        "input_tokens_cache_field_covered": 7397278,
+        "input_tokens_cache_unclassified": 0,
+        "input_tokens_from_cache_known": 2092000,
+        "input_tokens_total": 7397278,
+        "input_tokens_without_cache_known": 5305278,
+        "known_cost_usd": "0.55842620",
+        "output_tokens": 17446,
+        "reasoning_tokens_known": 0,
+        "reasoning_tokens_unknown_attempts": 0,
+        "result_cost_usd": "0.55842620"
+      }
+    },
+    {
+      "arm": "F",
+      "cost_control": {
+        "cost_usd_per_1000_from_result_rows": "1.26",
+        "cost_usd_per_1000_from_usage_logs": "1.26",
+        "expected_cost_control_matches": true,
+        "expected_cost_usd_per_1000": "1.26",
+        "rows_different": 0,
+        "rows_equal_exactly": 2952
+      },
+      "coverage": {
+        "attempts_with_matching_prompt_and_completion_tokens": 14594,
+        "attempts_with_raw_completion_tokens": 14594,
+        "attempts_with_raw_prompt_tokens": 14594,
+        "cache_field_attempt_coverage": "1.000000000000",
+        "cache_field_attempts_of_usage_attempts": "14594/14594",
+        "cache_field_input_tokens": 38482689,
+        "input_tokens_cache_unclassified": 0,
+        "logged_input_tokens": 38482689,
+        "logged_input_tokens_cache_field_coverage": "1.000000000000",
+        "logged_output_tokens": 1173460,
+        "raw_completion_token_coverage": "1.000000000000",
+        "raw_completion_tokens": 1173460,
+        "raw_prompt_token_coverage": "1.000000000000",
+        "raw_prompt_tokens": 38482689,
+        "raw_response_attempt_coverage": "1.000000000000",
+        "raw_response_attempts_of_usage_attempts": "14594/14594"
+      },
+      "denominator_tasks": 2952,
+      "means_per_task": {
+        "attempts": "4.943766937669",
+        "cache_write_tokens_known": "0.000000000000",
+        "cache_write_tokens_known_subset_total_divided_by_2952": "0.000000000000",
+        "input_tokens_cache_unclassified": "0.000000000000",
+        "input_tokens_from_cache": "2256.937330623306",
+        "input_tokens_from_cache_known_subset_total_divided_by_2952": "2256.937330623306",
+        "input_tokens_total": "13036.141260162602",
+        "input_tokens_without_cache": "10779.203929539295",
+        "input_tokens_without_cache_known_subset_total_divided_by_2952": "10779.203929539295",
+        "output_tokens": "397.513550135501",
+        "reasoning_tokens_known": "0.000000000000",
+        "reasoning_tokens_known_subset_total_divided_by_2952": "0.000000000000"
+      },
+      "price_control": {
+        "calculable_attempts": 14594,
+        "exact_matches": 14594,
+        "largest_absolute_difference_usd": "0.0000000",
+        "nonexact_within_1e_9_usd": 0,
+        "outside_1e_9_usd": 0
+      },
+      "rows": 2952,
+      "source_version": "haupt",
+      "totals": {
+        "attempts": 14594,
+        "attempts_with_cache_field": 14594,
+        "attempts_with_raw_response": 14594,
+        "attempts_with_usage": 14594,
+        "attempts_with_usage_missing_cost": 0,
+        "attempts_with_usage_missing_token_fields": 0,
+        "attempts_without_raw_response": 0,
+        "cache_write_tokens_known": 0,
+        "cache_write_tokens_unknown_attempts": 0,
+        "input_tokens_cache_field_covered": 38482689,
+        "input_tokens_cache_unclassified": 0,
+        "input_tokens_from_cache_known": 6662479,
+        "input_tokens_total": 38482689,
+        "input_tokens_without_cache_known": 31820210,
+        "known_cost_usd": "3.71802979",
+        "output_tokens": 1173460,
+        "reasoning_tokens_known": 0,
+        "reasoning_tokens_unknown_attempts": 0,
+        "result_cost_usd": "3.71802979"
+      }
+    },
+    {
+      "arm": "Q",
+      "cost_control": {
+        "cost_usd_per_1000_from_result_rows": "1.46",
+        "cost_usd_per_1000_from_usage_logs": "1.46",
+        "expected_cost_control_matches": true,
+        "expected_cost_usd_per_1000": "1.46",
+        "rows_different": 0,
+        "rows_equal_exactly": 2952
+      },
+      "coverage": {
+        "attempts_with_matching_prompt_and_completion_tokens": 17386,
+        "attempts_with_raw_completion_tokens": 17386,
+        "attempts_with_raw_prompt_tokens": 17386,
+        "cache_field_attempt_coverage": "1.000000000000",
+        "cache_field_attempts_of_usage_attempts": "17386/17386",
+        "cache_field_input_tokens": 45488707,
+        "input_tokens_cache_unclassified": 0,
+        "logged_input_tokens": 45488707,
+        "logged_input_tokens_cache_field_coverage": "1.000000000000",
+        "logged_output_tokens": 1147758,
+        "raw_completion_token_coverage": "1.000000000000",
+        "raw_completion_tokens": 1147758,
+        "raw_prompt_token_coverage": "1.000000000000",
+        "raw_prompt_tokens": 45488707,
+        "raw_response_attempt_coverage": "1.000000000000",
+        "raw_response_attempts_of_usage_attempts": "17386/17386"
+      },
+      "denominator_tasks": 2952,
+      "means_per_task": {
+        "attempts": "5.889566395664",
+        "cache_write_tokens_known": "0.000000000000",
+        "cache_write_tokens_known_subset_total_divided_by_2952": "0.000000000000",
+        "input_tokens_cache_unclassified": "0.000000000000",
+        "input_tokens_from_cache": "2577.438346883469",
+        "input_tokens_from_cache_known_subset_total_divided_by_2952": "2577.438346883469",
+        "input_tokens_total": "15409.453590785908",
+        "input_tokens_without_cache": "12832.015243902439",
+        "input_tokens_without_cache_known_subset_total_divided_by_2952": "12832.015243902439",
+        "output_tokens": "388.806910569106",
+        "reasoning_tokens_known": "0.000000000000",
+        "reasoning_tokens_known_subset_total_divided_by_2952": "0.000000000000"
+      },
+      "price_control": {
+        "calculable_attempts": 17386,
+        "exact_matches": 17386,
+        "largest_absolute_difference_usd": "0.0000000",
+        "nonexact_within_1e_9_usd": 0,
+        "outside_1e_9_usd": 0
+      },
+      "rows": 2952,
+      "source_version": "haupt",
+      "totals": {
+        "attempts": 17386,
+        "attempts_with_cache_field": 17386,
+        "attempts_with_raw_response": 17386,
+        "attempts_with_usage": 17386,
+        "attempts_with_usage_missing_cost": 0,
+        "attempts_with_usage_missing_token_fields": 0,
+        "attempts_without_raw_response": 0,
+        "cache_write_tokens_known": 0,
+        "cache_write_tokens_unknown_attempts": 0,
+        "input_tokens_cache_field_covered": 45488707,
+        "input_tokens_cache_unclassified": 0,
+        "input_tokens_from_cache_known": 7608598,
+        "input_tokens_total": 45488707,
+        "input_tokens_without_cache_known": 37880109,
+        "known_cost_usd": "4.32320008",
+        "output_tokens": 1147758,
+        "reasoning_tokens_known": 0,
+        "reasoning_tokens_unknown_attempts": 0,
+        "result_cost_usd": "4.32320008"
+      }
+    },
+    {
+      "arm": "Z",
+      "cost_control": {
+        "cost_usd_per_1000_from_result_rows": "1.53",
+        "cost_usd_per_1000_from_usage_logs": "1.53",
+        "expected_cost_control_matches": true,
+        "expected_cost_usd_per_1000": "1.53",
+        "rows_different": 0,
+        "rows_equal_exactly": 2952
+      },
+      "coverage": {
+        "attempts_with_matching_prompt_and_completion_tokens": 17865,
+        "attempts_with_raw_completion_tokens": 17865,
+        "attempts_with_raw_prompt_tokens": 17865,
+        "cache_field_attempt_coverage": "1.000000000000",
+        "cache_field_attempts_of_usage_attempts": "17865/17865",
+        "cache_field_input_tokens": 46908040,
+        "input_tokens_cache_unclassified": 0,
+        "logged_input_tokens": 46908040,
+        "logged_input_tokens_cache_field_coverage": "1.000000000000",
+        "logged_output_tokens": 1193869,
+        "raw_completion_token_coverage": "1.000000000000",
+        "raw_completion_tokens": 1193869,
+        "raw_prompt_token_coverage": "1.000000000000",
+        "raw_prompt_tokens": 46908040,
+        "raw_response_attempt_coverage": "1.000000000000",
+        "raw_response_attempts_of_usage_attempts": "17865/17865"
+      },
+      "denominator_tasks": 2952,
+      "means_per_task": {
+        "attempts": "6.051829268293",
+        "cache_write_tokens_known": "0.000000000000",
+        "cache_write_tokens_known_subset_total_divided_by_2952": "0.000000000000",
+        "input_tokens_cache_unclassified": "0.000000000000",
+        "input_tokens_from_cache": "2403.548441734417",
+        "input_tokens_from_cache_known_subset_total_divided_by_2952": "2403.548441734417",
+        "input_tokens_total": "15890.257452574526",
+        "input_tokens_without_cache": "13486.709010840108",
+        "input_tokens_without_cache_known_subset_total_divided_by_2952": "13486.709010840108",
+        "output_tokens": "404.427168021680",
+        "reasoning_tokens_known": "0.000000000000",
+        "reasoning_tokens_known_subset_total_divided_by_2952": "0.000000000000"
+      },
+      "price_control": {
+        "calculable_attempts": 17865,
+        "exact_matches": 17865,
+        "largest_absolute_difference_usd": "0.0000000",
+        "nonexact_within_1e_9_usd": 0,
+        "outside_1e_9_usd": 0
+      },
+      "rows": 2952,
+      "source_version": "haupt",
+      "totals": {
+        "attempts": 17865,
+        "attempts_with_cache_field": 17865,
+        "attempts_with_raw_response": 17865,
+        "attempts_with_usage": 17865,
+        "attempts_with_usage_missing_cost": 0,
+        "attempts_with_usage_missing_token_fields": 0,
+        "attempts_without_raw_response": 0,
+        "cache_write_tokens_known": 0,
+        "cache_write_tokens_unknown_attempts": 0,
+        "input_tokens_cache_field_covered": 46908040,
+        "input_tokens_cache_unclassified": 0,
+        "input_tokens_from_cache_known": 7095275,
+        "input_tokens_total": 46908040,
+        "input_tokens_without_cache_known": 39812765,
+        "known_cost_usd": "4.52977685",
+        "output_tokens": 1193869,
+        "reasoning_tokens_known": 0,
+        "reasoning_tokens_unknown_attempts": 0,
+        "result_cost_usd": "4.52977685"
+      }
+    },
+    {
+      "arm": "D",
+      "cost_control": {
+        "cost_usd_per_1000_from_result_rows": "2.36",
+        "cost_usd_per_1000_from_usage_logs": "2.36",
+        "expected_cost_control_matches": true,
+        "expected_cost_usd_per_1000": "2.36",
+        "rows_different": 0,
+        "rows_equal_exactly": 2952
+      },
+      "coverage": {
+        "attempts_with_matching_prompt_and_completion_tokens": 25980,
+        "attempts_with_raw_completion_tokens": 25980,
+        "attempts_with_raw_prompt_tokens": 25980,
+        "cache_field_attempt_coverage": "0.999961510334",
+        "cache_field_attempts_of_usage_attempts": "25980/25981",
+        "cache_field_input_tokens": 70122556,
+        "input_tokens_cache_unclassified": 3470,
+        "logged_input_tokens": 70126026,
+        "logged_input_tokens_cache_field_coverage": "0.999950517658",
+        "logged_output_tokens": 1788441,
+        "raw_completion_token_coverage": "0.999817718337",
+        "raw_completion_tokens": 1788115,
+        "raw_prompt_token_coverage": "0.999950517658",
+        "raw_prompt_tokens": 70122556,
+        "raw_response_attempt_coverage": "0.999961510334",
+        "raw_response_attempts_of_usage_attempts": "25980/25981"
+      },
+      "denominator_tasks": 2952,
+      "means_per_task": {
+        "attempts": "8.801151761518",
+        "cache_write_tokens_known": null,
+        "cache_write_tokens_known_subset_total_divided_by_2952": "0.000000000000",
+        "input_tokens_cache_unclassified": "1.175474254743",
+        "input_tokens_from_cache": null,
+        "input_tokens_from_cache_known_subset_total_divided_by_2952": "2816.816395663957",
+        "input_tokens_total": "23755.428861788618",
+        "input_tokens_without_cache": null,
+        "input_tokens_without_cache_known_subset_total_divided_by_2952": "20937.436991869919",
+        "output_tokens": "605.840447154472",
+        "reasoning_tokens_known": null,
+        "reasoning_tokens_known_subset_total_divided_by_2952": "0.000000000000"
+      },
+      "price_control": {
+        "calculable_attempts": 25980,
+        "exact_matches": 25980,
+        "largest_absolute_difference_usd": "0.00000000",
+        "nonexact_within_1e_9_usd": 0,
+        "outside_1e_9_usd": 0
+      },
+      "rows": 2952,
+      "source_version": "haupt",
+      "totals": {
+        "attempts": 25981,
+        "attempts_with_cache_field": 25980,
+        "attempts_with_raw_response": 25980,
+        "attempts_with_usage": 25981,
+        "attempts_with_usage_missing_cost": 0,
+        "attempts_with_usage_missing_token_fields": 0,
+        "attempts_without_raw_response": 1,
+        "cache_write_tokens_known": 0,
+        "cache_write_tokens_unknown_attempts": 1,
+        "input_tokens_cache_field_covered": 70122556,
+        "input_tokens_cache_unclassified": 3470,
+        "input_tokens_from_cache_known": 8315242,
+        "input_tokens_total": 70126026,
+        "input_tokens_without_cache_known": 61807314,
+        "known_cost_usd": "6.97960722",
+        "output_tokens": 1788441,
+        "reasoning_tokens_known": 0,
+        "reasoning_tokens_unknown_attempts": 1,
+        "result_cost_usd": "6.97960722"
+      }
+    },
+    {
+      "arm": "S-k",
+      "cost_control": {
+        "cost_usd_per_1000_from_result_rows": "0.74",
+        "cost_usd_per_1000_from_usage_logs": "0.74",
+        "expected_cost_control_matches": null,
+        "expected_cost_usd_per_1000": null,
+        "rows_different": 0,
+        "rows_equal_exactly": 2952
+      },
+      "coverage": {
+        "attempts_with_matching_prompt_and_completion_tokens": 14760,
+        "attempts_with_raw_completion_tokens": 14760,
+        "attempts_with_raw_prompt_tokens": 14760,
+        "cache_field_attempt_coverage": "1.000000000000",
+        "cache_field_attempts_of_usage_attempts": "14760/14760",
+        "cache_field_input_tokens": 36986390,
+        "input_tokens_cache_unclassified": 0,
+        "logged_input_tokens": 36986390,
+        "logged_input_tokens_cache_field_coverage": "1.000000000000",
+        "logged_output_tokens": 87233,
+        "raw_completion_token_coverage": "1.000000000000",
+        "raw_completion_tokens": 87233,
+        "raw_prompt_token_coverage": "1.000000000000",
+        "raw_prompt_tokens": 36986390,
+        "raw_response_attempt_coverage": "1.000000000000",
+        "raw_response_attempts_of_usage_attempts": "14760/14760"
+      },
+      "denominator_tasks": 2952,
+      "means_per_task": {
+        "attempts": "5.000000000000",
+        "cache_write_tokens_known": "0.000000000000",
+        "cache_write_tokens_known_subset_total_divided_by_2952": "0.000000000000",
+        "input_tokens_cache_unclassified": "0.000000000000",
+        "input_tokens_from_cache": "5835.382113821138",
+        "input_tokens_from_cache_known_subset_total_divided_by_2952": "5835.382113821138",
+        "input_tokens_total": "12529.264905149051",
+        "input_tokens_without_cache": "6693.882791327913",
+        "input_tokens_without_cache_known_subset_total_divided_by_2952": "6693.882791327913",
+        "output_tokens": "29.550474254743",
+        "reasoning_tokens_known": "0.000000000000",
+        "reasoning_tokens_known_subset_total_divided_by_2952": "0.000000000000"
+      },
+      "price_control": {
+        "calculable_attempts": 14760,
+        "exact_matches": 14760,
+        "largest_absolute_difference_usd": "0.00000000",
+        "nonexact_within_1e_9_usd": 0,
+        "outside_1e_9_usd": 0
+      },
+      "rows": 2952,
+      "source_version": "alt",
+      "totals": {
+        "attempts": 14760,
+        "attempts_with_cache_field": 14760,
+        "attempts_with_raw_response": 14760,
+        "attempts_with_usage": 14760,
+        "attempts_with_usage_missing_cost": 0,
+        "attempts_with_usage_missing_token_fields": 0,
+        "attempts_without_raw_response": 0,
+        "cache_write_tokens_known": 0,
+        "cache_write_tokens_unknown_attempts": 0,
+        "input_tokens_cache_field_covered": 36986390,
+        "input_tokens_cache_unclassified": 0,
+        "input_tokens_from_cache_known": 17226048,
+        "input_tokens_total": 36986390,
+        "input_tokens_without_cache_known": 19760342,
+        "known_cost_usd": "2.18318788",
+        "output_tokens": 87233,
+        "reasoning_tokens_known": 0,
+        "reasoning_tokens_unknown_attempts": 0,
+        "result_cost_usd": "2.18318788"
+      }
+    },
+    {
+      "arm": "S-k",
+      "cost_control": {
+        "cost_usd_per_1000_from_result_rows": "0.79",
+        "cost_usd_per_1000_from_usage_logs": "0.79",
+        "expected_cost_control_matches": true,
+        "expected_cost_usd_per_1000": "0.79",
+        "rows_different": 0,
+        "rows_equal_exactly": 2952
+      },
+      "coverage": {
+        "attempts_with_matching_prompt_and_completion_tokens": 14759,
+        "attempts_with_raw_completion_tokens": 14759,
+        "attempts_with_raw_prompt_tokens": 14759,
+        "cache_field_attempt_coverage": "1.000000000000",
+        "cache_field_attempts_of_usage_attempts": "14759/14759",
+        "cache_field_input_tokens": 36983865,
+        "input_tokens_cache_unclassified": 0,
+        "logged_input_tokens": 36983865,
+        "logged_input_tokens_cache_field_coverage": "1.000000000000",
+        "logged_output_tokens": 90249,
+        "raw_completion_token_coverage": "1.000000000000",
+        "raw_completion_tokens": 90249,
+        "raw_prompt_token_coverage": "1.000000000000",
+        "raw_prompt_tokens": 36983865,
+        "raw_response_attempt_coverage": "1.000000000000",
+        "raw_response_attempts_of_usage_attempts": "14759/14759"
+      },
+      "denominator_tasks": 2952,
+      "means_per_task": {
+        "attempts": "4.999661246612",
+        "cache_write_tokens_known": "0.000000000000",
+        "cache_write_tokens_known_subset_total_divided_by_2952": "0.000000000000",
+        "input_tokens_cache_unclassified": "0.000000000000",
+        "input_tokens_from_cache": "5280.342479674797",
+        "input_tokens_from_cache_known_subset_total_divided_by_2952": "5280.342479674797",
+        "input_tokens_total": "12528.409552845528",
+        "input_tokens_without_cache": "7248.067073170732",
+        "input_tokens_without_cache_known_subset_total_divided_by_2952": "7248.067073170732",
+        "output_tokens": "30.572154471545",
+        "reasoning_tokens_known": "0.000000000000",
+        "reasoning_tokens_known_subset_total_divided_by_2952": "0.000000000000"
+      },
+      "price_control": {
+        "calculable_attempts": 14759,
+        "exact_matches": 14759,
+        "largest_absolute_difference_usd": "0.0000000",
+        "nonexact_within_1e_9_usd": 0,
+        "outside_1e_9_usd": 0
+      },
+      "rows": 2952,
+      "source_version": "neu",
+      "totals": {
+        "attempts": 14759,
+        "attempts_with_cache_field": 14759,
+        "attempts_with_raw_response": 14759,
+        "attempts_with_usage": 14759,
+        "attempts_with_usage_missing_cost": 0,
+        "attempts_with_usage_missing_token_fields": 0,
+        "attempts_without_raw_response": 0,
+        "cache_write_tokens_known": 0,
+        "cache_write_tokens_unknown_attempts": 0,
+        "input_tokens_cache_field_covered": 36983865,
+        "input_tokens_cache_unclassified": 0,
+        "input_tokens_from_cache_known": 15587571,
+        "input_tokens_total": 36983865,
+        "input_tokens_without_cache_known": 21396294,
+        "known_cost_usd": "2.33160471",
+        "output_tokens": 90249,
+        "reasoning_tokens_known": 0,
+        "reasoning_tokens_unknown_attempts": 0,
+        "result_cost_usd": "2.33160471"
+      }
+    }
+  ],
+  "control_checks": {
+    "attempt_id_double_count_check": {
+      "conflicting_provider_copies": [],
+      "conflicting_usage_duplicates": [],
+      "duplicate_usage_records_ignored": {
+        "alt": 260,
+        "haupt": 1401
+      },
+      "note": "Versuche werden je Quellstand und attempt_id einmal gezählt. Mehrere gebundene Rohantworten werden ohne Rückgriff auf Lauf-Tokens oder Laufkosten nach Anbieterzeitstempel, Antwortteilfolge und Feldvollständigkeit aufgelöst; gleichrangige widersprüchliche Antworten bleiben als Mehrdeutigkeit offen.",
+      "provider_conflicts_resolved_by_latest_provider_timestamp": {
+        "haupt": 41
+      },
+      "status": "bestanden"
+    },
+    "attempt_to_row_mapping": {
+      "attempt_ids_assigned_to_multiple_rows": 0,
+      "attempt_row_mapping_conflicts": [],
+      "attempts_with_raw_response": 108296,
+      "attempts_with_usage": 108297,
+      "attempts_without_raw_response": 1,
+      "attempts_without_usage": 0,
+      "journal_result_run_id_disagreements": 0,
+      "rows_without_attempt_records": 0,
+      "status": "bestanden",
+      "unique_attempts": 108297,
+      "unmapped_source_result_records": 0
+    },
+    "cost_per_1000_tasks": {
+      "status": "bestanden",
+      "table_arms": {
+        "D": {
+          "calculated_usd_per_1000": "2.36",
+          "expected_usd_per_1000": "2.36",
+          "matches": true,
+          "result_rows_usd_per_1000": "2.36"
+        },
+        "F": {
+          "calculated_usd_per_1000": "1.26",
+          "expected_usd_per_1000": "1.26",
+          "matches": true,
+          "result_rows_usd_per_1000": "1.26"
+        },
+        "Q": {
+          "calculated_usd_per_1000": "1.46",
+          "expected_usd_per_1000": "1.46",
+          "matches": true,
+          "result_rows_usd_per_1000": "1.46"
+        },
+        "S": {
+          "calculated_usd_per_1000": "0.19",
+          "expected_usd_per_1000": "0.19",
+          "matches": true,
+          "result_rows_usd_per_1000": "0.19"
+        },
+        "S-k": {
+          "calculated_usd_per_1000": "0.79",
+          "expected_usd_per_1000": "0.79",
+          "matches": true,
+          "result_rows_usd_per_1000": "0.79"
+        },
+        "Z": {
+          "calculated_usd_per_1000": "1.53",
+          "expected_usd_per_1000": "1.53",
+          "matches": true,
+          "result_rows_usd_per_1000": "1.53"
+        }
+      }
+    },
+    "price_formula": {
+      "calculable_attempts": 108296,
+      "exact_matches": 108296,
+      "formula": "((prompt_tokens - cached_tokens) * 0.10 + cached_tokens * 0.01 + completion_tokens * 0.40) / 1,000,000 USD",
+      "largest_absolute_deviations": [
+        {
+          "arm": "Z",
+          "attempt_id": "50d4c906a74daf48:Z50-STUDY-v1:R:02951:Z:3:aggregator:1",
+          "block_id": "Z50-STUDY-v1:R:02951",
+          "calculated_cost_usd": "0.0002979",
+          "difference_usd": "0.0000000",
+          "reported_cost_usd": "0.0002979",
+          "usage_log_cost_usd": "0.0002979"
+        },
+        {
+          "arm": "Z",
+          "attempt_id": "50d4c906a74daf48:Z50-STUDY-v1:R:02951:Z:2:linking:1",
+          "block_id": "Z50-STUDY-v1:R:02951",
+          "calculated_cost_usd": "0.0003451",
+          "difference_usd": "0.0000000",
+          "reported_cost_usd": "0.0003451",
+          "usage_log_cost_usd": "0.0003451"
+        },
+        {
+          "arm": "Z",
+          "attempt_id": "50d4c906a74daf48:Z50-STUDY-v1:R:02951:Z:2:evidence:1",
+          "block_id": "Z50-STUDY-v1:R:02951",
+          "calculated_cost_usd": "0.0003437",
+          "difference_usd": "0.0000000",
+          "reported_cost_usd": "0.0003437",
+          "usage_log_cost_usd": "0.0003437"
+        },
+        {
+          "arm": "Z",
+          "attempt_id": "50d4c906a74daf48:Z50-STUDY-v1:R:02951:Z:2:checking:1",
+          "block_id": "Z50-STUDY-v1:R:02951",
+          "calculated_cost_usd": "0.00016358",
+          "difference_usd": "0.00000000",
+          "reported_cost_usd": "0.00016358",
+          "usage_log_cost_usd": "0.00016358"
+        },
+        {
+          "arm": "Z",
+          "attempt_id": "50d4c906a74daf48:Z50-STUDY-v1:R:02951:Z:1:linking:1",
+          "block_id": "Z50-STUDY-v1:R:02951",
+          "calculated_cost_usd": "0.00020667",
+          "difference_usd": "0.00000000",
+          "reported_cost_usd": "0.00020667",
+          "usage_log_cost_usd": "0.00020667"
+        },
+        {
+          "arm": "Z",
+          "attempt_id": "50d4c906a74daf48:Z50-STUDY-v1:R:02951:Z:1:evidence:1",
+          "block_id": "Z50-STUDY-v1:R:02951",
+          "calculated_cost_usd": "0.00010727",
+          "difference_usd": "0.00000000",
+          "reported_cost_usd": "0.00010727",
+          "usage_log_cost_usd": "0.00010727"
+        },
+        {
+          "arm": "Z",
+          "attempt_id": "50d4c906a74daf48:Z50-STUDY-v1:R:02951:Z:1:checking:1",
+          "block_id": "Z50-STUDY-v1:R:02951",
+          "calculated_cost_usd": "0.0002859",
+          "difference_usd": "0.0000000",
+          "reported_cost_usd": "0.0002859",
+          "usage_log_cost_usd": "0.0002859"
+        },
+        {
+          "arm": "Z",
+          "attempt_id": "50d4c906a74daf48:Z50-STUDY-v1:R:02950:Z:3:aggregator:1",
+          "block_id": "Z50-STUDY-v1:R:02950",
+          "calculated_cost_usd": "0.0003109",
+          "difference_usd": "0.0000000",
+          "reported_cost_usd": "0.0003109",
+          "usage_log_cost_usd": "0.0003109"
+        },
+        {
+          "arm": "Z",
+          "attempt_id": "50d4c906a74daf48:Z50-STUDY-v1:R:02950:Z:2:evidence:1",
+          "block_id": "Z50-STUDY-v1:R:02950",
+          "calculated_cost_usd": "0.0002777",
+          "difference_usd": "0.0000000",
+          "reported_cost_usd": "0.0002777",
+          "usage_log_cost_usd": "0.0002777"
+        },
+        {
+          "arm": "Z",
+          "attempt_id": "50d4c906a74daf48:Z50-STUDY-v1:R:02950:Z:2:checking:1",
+          "block_id": "Z50-STUDY-v1:R:02950",
+          "calculated_cost_usd": "0.0003182",
+          "difference_usd": "0.0000000",
+          "reported_cost_usd": "0.0003182",
+          "usage_log_cost_usd": "0.0003182"
+        },
+        {
+          "arm": "Z",
+          "attempt_id": "50d4c906a74daf48:Z50-STUDY-v1:R:02950:Z:1:evidence:1",
+          "block_id": "Z50-STUDY-v1:R:02950",
+          "calculated_cost_usd": "0.0002711",
+          "difference_usd": "0.0000000",
+          "reported_cost_usd": "0.0002711",
+          "usage_log_cost_usd": "0.0002711"
+        },
+        {
+          "arm": "Z",
+          "attempt_id": "50d4c906a74daf48:Z50-STUDY-v1:R:02950:Z:1:checking:1",
+          "block_id": "Z50-STUDY-v1:R:02950",
+          "calculated_cost_usd": "0.0003052",
+          "difference_usd": "0.0000000",
+          "reported_cost_usd": "0.0003052",
+          "usage_log_cost_usd": "0.0003052"
+        },
+        {
+          "arm": "Z",
+          "attempt_id": "50d4c906a74daf48:Z50-STUDY-v1:R:02949:Z:3:aggregator:1",
+          "block_id": "Z50-STUDY-v1:R:02949",
+          "calculated_cost_usd": "0.0003203",
+          "difference_usd": "0.0000000",
+          "reported_cost_usd": "0.0003203",
+          "usage_log_cost_usd": "0.0003203"
+        },
+        {
+          "arm": "Z",
+          "attempt_id": "50d4c906a74daf48:Z50-STUDY-v1:R:02949:Z:2:linking:1",
+          "block_id": "Z50-STUDY-v1:R:02949",
+          "calculated_cost_usd": "0.0003179",
+          "difference_usd": "0.0000000",
+          "reported_cost_usd": "0.0003179",
+          "usage_log_cost_usd": "0.0003179"
+        },
+        {
+          "arm": "Z",
+          "attempt_id": "50d4c906a74daf48:Z50-STUDY-v1:R:02949:Z:2:draft:1",
+          "block_id": "Z50-STUDY-v1:R:02949",
+          "calculated_cost_usd": "0.0003072",
+          "difference_usd": "0.0000000",
+          "reported_cost_usd": "0.0003072",
+          "usage_log_cost_usd": "0.0003072"
+        },
+        {
+          "arm": "Z",
+          "attempt_id": "50d4c906a74daf48:Z50-STUDY-v1:R:02949:Z:2:checking:1",
+          "block_id": "Z50-STUDY-v1:R:02949",
+          "calculated_cost_usd": "0.0003146",
+          "difference_usd": "0.0000000",
+          "reported_cost_usd": "0.0003146",
+          "usage_log_cost_usd": "0.0003146"
+        },
+        {
+          "arm": "Z",
+          "attempt_id": "50d4c906a74daf48:Z50-STUDY-v1:R:02949:Z:1:linking:1",
+          "block_id": "Z50-STUDY-v1:R:02949",
+          "calculated_cost_usd": "0.00011487",
+          "difference_usd": "0.00000000",
+          "reported_cost_usd": "0.00011487",
+          "usage_log_cost_usd": "0.00011487"
+        },
+        {
+          "arm": "Z",
+          "attempt_id": "50d4c906a74daf48:Z50-STUDY-v1:R:02949:Z:1:draft:1",
+          "block_id": "Z50-STUDY-v1:R:02949",
+          "calculated_cost_usd": "0.0002907",
+          "difference_usd": "0.0000000",
+          "reported_cost_usd": "0.0002907",
+          "usage_log_cost_usd": "0.0002907"
+        },
+        {
+          "arm": "Z",
+          "attempt_id": "50d4c906a74daf48:Z50-STUDY-v1:R:02949:Z:1:checking:1",
+          "block_id": "Z50-STUDY-v1:R:02949",
+          "calculated_cost_usd": "0.00010957",
+          "difference_usd": "0.00000000",
+          "reported_cost_usd": "0.00010957",
+          "usage_log_cost_usd": "0.00010957"
+        },
+        {
+          "arm": "Z",
+          "attempt_id": "50d4c906a74daf48:Z50-STUDY-v1:R:02948:Z:3:aggregator:1",
+          "block_id": "Z50-STUDY-v1:R:02948",
+          "calculated_cost_usd": "0.0005097",
+          "difference_usd": "0.0000000",
+          "reported_cost_usd": "0.0005097",
+          "usage_log_cost_usd": "0.0005097"
+        }
+      ],
+      "nonexact_within_1e_9_usd": 0,
+      "not_calculable_missing_provider_cost_or_response_or_cache": 1,
+      "outside_1e_9_usd": 0,
+      "status": "bestanden",
+      "tolerance_usd": "0.000000001"
+    },
+    "provider_reported_cost_vs_usage_logs": {
+      "deviations": [],
+      "mismatches": 0,
+      "status": "bestanden"
+    },
+    "provider_response_coverage": {
+      "attempts_with_any_raw_response": 108296,
+      "attempts_with_cache_field": 108296,
+      "attempts_with_raw_response": 108296,
+      "by_arm": [
+        {
+          "arm": "S",
+          "attempts_with_matching_prompt_and_completion_tokens": 2952,
+          "attempts_with_raw_completion_tokens": 2952,
+          "attempts_with_raw_prompt_tokens": 2952,
+          "cache_field_attempt_coverage": "1.000000000000",
+          "cache_field_attempts_of_usage_attempts": "2952/2952",
+          "cache_field_input_tokens": 7397278,
+          "input_tokens_cache_unclassified": 0,
+          "logged_input_tokens": 7397278,
+          "logged_input_tokens_cache_field_coverage": "1.000000000000",
+          "logged_output_tokens": 17446,
+          "raw_completion_token_coverage": "1.000000000000",
+          "raw_completion_tokens": 17446,
+          "raw_prompt_token_coverage": "1.000000000000",
+          "raw_prompt_tokens": 7397278,
+          "raw_response_attempt_coverage": "1.000000000000",
+          "raw_response_attempts_of_usage_attempts": "2952/2952",
+          "source_version": "haupt"
+        },
+        {
+          "arm": "F",
+          "attempts_with_matching_prompt_and_completion_tokens": 14594,
+          "attempts_with_raw_completion_tokens": 14594,
+          "attempts_with_raw_prompt_tokens": 14594,
+          "cache_field_attempt_coverage": "1.000000000000",
+          "cache_field_attempts_of_usage_attempts": "14594/14594",
+          "cache_field_input_tokens": 38482689,
+          "input_tokens_cache_unclassified": 0,
+          "logged_input_tokens": 38482689,
+          "logged_input_tokens_cache_field_coverage": "1.000000000000",
+          "logged_output_tokens": 1173460,
+          "raw_completion_token_coverage": "1.000000000000",
+          "raw_completion_tokens": 1173460,
+          "raw_prompt_token_coverage": "1.000000000000",
+          "raw_prompt_tokens": 38482689,
+          "raw_response_attempt_coverage": "1.000000000000",
+          "raw_response_attempts_of_usage_attempts": "14594/14594",
+          "source_version": "haupt"
+        },
+        {
+          "arm": "Q",
+          "attempts_with_matching_prompt_and_completion_tokens": 17386,
+          "attempts_with_raw_completion_tokens": 17386,
+          "attempts_with_raw_prompt_tokens": 17386,
+          "cache_field_attempt_coverage": "1.000000000000",
+          "cache_field_attempts_of_usage_attempts": "17386/17386",
+          "cache_field_input_tokens": 45488707,
+          "input_tokens_cache_unclassified": 0,
+          "logged_input_tokens": 45488707,
+          "logged_input_tokens_cache_field_coverage": "1.000000000000",
+          "logged_output_tokens": 1147758,
+          "raw_completion_token_coverage": "1.000000000000",
+          "raw_completion_tokens": 1147758,
+          "raw_prompt_token_coverage": "1.000000000000",
+          "raw_prompt_tokens": 45488707,
+          "raw_response_attempt_coverage": "1.000000000000",
+          "raw_response_attempts_of_usage_attempts": "17386/17386",
+          "source_version": "haupt"
+        },
+        {
+          "arm": "Z",
+          "attempts_with_matching_prompt_and_completion_tokens": 17865,
+          "attempts_with_raw_completion_tokens": 17865,
+          "attempts_with_raw_prompt_tokens": 17865,
+          "cache_field_attempt_coverage": "1.000000000000",
+          "cache_field_attempts_of_usage_attempts": "17865/17865",
+          "cache_field_input_tokens": 46908040,
+          "input_tokens_cache_unclassified": 0,
+          "logged_input_tokens": 46908040,
+          "logged_input_tokens_cache_field_coverage": "1.000000000000",
+          "logged_output_tokens": 1193869,
+          "raw_completion_token_coverage": "1.000000000000",
+          "raw_completion_tokens": 1193869,
+          "raw_prompt_token_coverage": "1.000000000000",
+          "raw_prompt_tokens": 46908040,
+          "raw_response_attempt_coverage": "1.000000000000",
+          "raw_response_attempts_of_usage_attempts": "17865/17865",
+          "source_version": "haupt"
+        },
+        {
+          "arm": "D",
+          "attempts_with_matching_prompt_and_completion_tokens": 25980,
+          "attempts_with_raw_completion_tokens": 25980,
+          "attempts_with_raw_prompt_tokens": 25980,
+          "cache_field_attempt_coverage": "0.999961510334",
+          "cache_field_attempts_of_usage_attempts": "25980/25981",
+          "cache_field_input_tokens": 70122556,
+          "input_tokens_cache_unclassified": 3470,
+          "logged_input_tokens": 70126026,
+          "logged_input_tokens_cache_field_coverage": "0.999950517658",
+          "logged_output_tokens": 1788441,
+          "raw_completion_token_coverage": "0.999817718337",
+          "raw_completion_tokens": 1788115,
+          "raw_prompt_token_coverage": "0.999950517658",
+          "raw_prompt_tokens": 70122556,
+          "raw_response_attempt_coverage": "0.999961510334",
+          "raw_response_attempts_of_usage_attempts": "25980/25981",
+          "source_version": "haupt"
+        },
+        {
+          "arm": "S-k",
+          "attempts_with_matching_prompt_and_completion_tokens": 14760,
+          "attempts_with_raw_completion_tokens": 14760,
+          "attempts_with_raw_prompt_tokens": 14760,
+          "cache_field_attempt_coverage": "1.000000000000",
+          "cache_field_attempts_of_usage_attempts": "14760/14760",
+          "cache_field_input_tokens": 36986390,
+          "input_tokens_cache_unclassified": 0,
+          "logged_input_tokens": 36986390,
+          "logged_input_tokens_cache_field_coverage": "1.000000000000",
+          "logged_output_tokens": 87233,
+          "raw_completion_token_coverage": "1.000000000000",
+          "raw_completion_tokens": 87233,
+          "raw_prompt_token_coverage": "1.000000000000",
+          "raw_prompt_tokens": 36986390,
+          "raw_response_attempt_coverage": "1.000000000000",
+          "raw_response_attempts_of_usage_attempts": "14760/14760",
+          "source_version": "alt"
+        },
+        {
+          "arm": "S-k",
+          "attempts_with_matching_prompt_and_completion_tokens": 14759,
+          "attempts_with_raw_completion_tokens": 14759,
+          "attempts_with_raw_prompt_tokens": 14759,
+          "cache_field_attempt_coverage": "1.000000000000",
+          "cache_field_attempts_of_usage_attempts": "14759/14759",
+          "cache_field_input_tokens": 36983865,
+          "input_tokens_cache_unclassified": 0,
+          "logged_input_tokens": 36983865,
+          "logged_input_tokens_cache_field_coverage": "1.000000000000",
+          "logged_output_tokens": 90249,
+          "raw_completion_token_coverage": "1.000000000000",
+          "raw_completion_tokens": 90249,
+          "raw_prompt_token_coverage": "1.000000000000",
+          "raw_prompt_tokens": 36983865,
+          "raw_response_attempt_coverage": "1.000000000000",
+          "raw_response_attempts_of_usage_attempts": "14759/14759",
+          "source_version": "neu"
+        }
+      ],
+      "cache_field_attempt_coverage": "0.999990766134",
+      "raw_provider_file_counts": {
+        "attempts_with_multiple_response_candidates:alt": 250,
+        "attempts_with_multiple_response_candidates:haupt": 1405,
+        "binding_files:z52": 5583,
+        "binding_files:z53": 100295,
+        "binding_files:z54_sk": 14759,
+        "bindings_without_response:z52": 1,
+        "dispatch_binding_files:z52": 65277,
+        "dispatch_response_files:z52": 65276,
+        "dispatch_responses_bound:z52": 65276,
+        "response_files:z52": 5582,
+        "response_files:z53": 100508,
+        "response_files:z54_sk": 14759,
+        "responses_for_unselected_attempts:z52": 2,
+        "responses_for_unselected_attempts:z53": 76162
+      },
+      "raw_response_attempt_coverage": "0.999990766134",
+      "status": "teilweise",
+      "usage_attempts": 108297
+    },
+    "raw_response_tokens_vs_logs": {
+      "mismatches": [],
+      "status": "bestanden",
+      "token_mismatches": 0
+    },
+    "reasoning_tokens": {
+      "interpretation": "reasoning_tokens werden als Detailmenge innerhalb completion_tokens behandelt und nicht zusätzlich zu den Ausgabetokens addiert.",
+      "status": "bestanden",
+      "summed_separately": true,
+      "usage_field": "completion_tokens_details.reasoning_tokens"
+    },
+    "result_row_counts": {
+      "duplicate_keys_z53": 0,
+      "duplicate_keys_z54": 0,
+      "status": "bestanden",
+      "z53_by_arm": {
+        "D": 2952,
+        "F": 2952,
+        "Q": 2952,
+        "S": 2952,
+        "S-k": 2952,
+        "Z": 2952
+      },
+      "z53_rows": 17712,
+      "z54_by_arm": {
+        "D": 2952,
+        "F": 2952,
+        "Q": 2952,
+        "S": 2952,
+        "S-k": 2952,
+        "Z": 2952
+      },
+      "z54_rows": 17712
+    },
+    "row_cost_sums": {
+      "attempts_with_usage_but_missing_cost": 0,
+      "deviations": [],
+      "missing_result_cost_rows": [],
+      "rows_different": 0,
+      "rows_equal_exactly": 20664,
+      "rows_missing_result_cost": 0,
+      "status": "bestanden"
+    },
+    "z54_non_sk_rows_copied_exactly": {
+      "exact_multiset_match": true,
+      "new_sk_rows": 2952,
+      "new_sk_rows_different_from_old": 2210,
+      "status": "bestanden",
+      "z53_non_sk_rows": 14760,
+      "z54_non_sk_rows": 14760
+    }
+  },
+  "denominator_tasks_per_arm": 2952,
+  "input_result_files": [
+    {
+      "path": "eval-harness/eval/runs/Z53-SCHNELLFORTSETZUNG-001/live/collected/rows-R.json",
+      "rows": 17712,
+      "sha256": "7f836d8bf04fae7d1fd0f1e616ba39c314ebc357fc2e5c1bbcfb5d73aa83d3b0"
+    },
+    {
+      "path": "eval-harness/eval/runs/Z54-SK-KORREKTUR-001/live/collected/rows-R-SK.json",
+      "rows": 17712,
+      "sha256": "c2ffe7c30066b5ebbf9596ff96b8280152f8f7fb309c004a842bb290dcc58dd3"
+    }
+  ],
+  "open_points": [
+    "haupt D: Cache-Aufteilung für 3470 Eingabetokens nicht belegt.",
+    "haupt D: 1 Versuche ohne Rohantwort."
+  ],
+  "purpose": "Tokens per task for the reference-comparison R panel; no answers, prompts, or external file paths stored.",
+  "row_selection": {
+    "z53": "All six arms from rows-R.json; S-k is the old arm and is reported separately.",
+    "z54": "S-k only for the new arm. The other 14,760 rows are checked as exact copies of Z53 rows and excluded from aggregation.",
+    "z54_s_k_same_ids": "Z54 reuses the old run_id/slot_id values; the new arm is distinguished by its Z54 source root."
+  },
+  "schema_version": 1,
+  "source_inventory_counts": {
+    "arm_dirs_without_result:z52": 6,
+    "block_dirs:z52": 2238,
+    "block_dirs:z53": 6673,
+    "block_dirs:z54_sk": 2952,
+    "direct_attempts:z52": 13409,
+    "direct_attempts:z53": 4614,
+    "direct_attempts:z54_sk": 14759,
+    "direct_files:z52": 13409,
+    "direct_files:z53": 4614,
+    "direct_files:z54_sk": 14759,
+    "direct_usage_events:z52": 13409,
+    "direct_usage_events:z53": 4614,
+    "direct_usage_events:z54_sk": 14759,
+    "journal_attempt_events:z52": 115039,
+    "journal_attempt_events:z53": 39312,
+    "journal_files:z52": 8937,
+    "journal_files:z53": 3076,
+    "journal_usage_events:z52": 57519,
+    "journal_usage_events:z53": 19656,
+    "live_roots:z52": 8,
+    "live_roots:z53": 1,
+    "live_roots:z54_sk": 1,
+    "terminal_overlimit_files:z52": 1,
+    "terminal_overlimit_usage_events:z52": 1
+  },
+  "source_roots": [
+    {
+      "kind": "z52",
+      "label": "Z52-01",
+      "path": "eval-harness/eval/runs/Z52-NEBENPANEL-ANSCHLUSS-001/live"
+    },
+    {
+      "kind": "z52",
+      "label": "Z52-02",
+      "path": "eval-harness/eval/runs/Z52-NEBENPANEL-ANSCHLUSS-001/recovery-R00038/live"
+    },
+    {
+      "kind": "z52",
+      "label": "Z52-03",
+      "path": "eval-harness/eval/runs/Z52-NEBENPANEL-ANSCHLUSS-001/recovery-R00038/continuation-R00087/live"
+    },
+    {
+      "kind": "z52",
+      "label": "Z52-04",
+      "path": "eval-harness/eval/runs/Z52-NEBENPANEL-ANSCHLUSS-001/recovery-R00038/continuation-R00087/recovery-R00125/live"
+    },
+    {
+      "kind": "z52",
+      "label": "Z52-05",
+      "path": "eval-harness/eval/runs/Z52-NEBENPANEL-ANSCHLUSS-001/recovery-R00038/continuation-R00087/recovery-R00125/technical-R00203/live"
+    },
+    {
+      "kind": "z52",
+      "label": "Z52-06",
+      "path": "eval-harness/eval/runs/Z52-NEBENPANEL-ANSCHLUSS-001/recovery-R00038/continuation-R00087/recovery-R00125/technical-R00203/coverage-R01462/live"
+    },
+    {
+      "kind": "z52",
+      "label": "Z52-07",
+      "path": "eval-harness/eval/runs/Z52-NEBENPANEL-ANSCHLUSS-001/recovery-R00038/continuation-R00087/recovery-R00125/technical-R00203/coverage-R01462/rate-stop-R01589/live"
+    },
+    {
+      "kind": "z52",
+      "label": "Z52-08",
+      "path": "eval-harness/eval/runs/Z52-NEBENPANEL-ANSCHLUSS-001/recovery-R00038/continuation-R00087/recovery-R00125/technical-R00203/coverage-R01462/rate-stop-R01589/r2183-overlimit/live"
+    },
+    {
+      "kind": "z53",
+      "label": "Z53",
+      "path": "eval-harness/eval/runs/Z53-SCHNELLFORTSETZUNG-001/live"
+    },
+    {
+      "kind": "z54_sk",
+      "label": "Z54-S-k",
+      "path": "eval-harness/eval/runs/Z54-SK-KORREKTUR-001/live"
+    }
+  ]
+}
